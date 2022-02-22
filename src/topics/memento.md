@@ -12,3 +12,5 @@ http://mementoweb.org/tools/validator/
 http://timetravel.mementoweb.org/ 
 https://github.com/palewire/django-memento-framework
 https://github.com/palewire/wordpress-memento-plugin
+https://mementoweb.org/guide/quick-intro/
+https://mementoweb.org/guide/rfc/
