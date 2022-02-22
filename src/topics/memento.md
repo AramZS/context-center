@@ -11,3 +11,4 @@ http://mementoweb.org/depot/native/ia/
 http://mementoweb.org/tools/validator/
 http://timetravel.mementoweb.org/ 
 https://github.com/palewire/django-memento-framework
+https://github.com/palewire/wordpress-memento-plugin
