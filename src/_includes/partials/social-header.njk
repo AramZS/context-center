@@ -1,0 +1,77 @@
+<!-- The Author meta propagates the byline in a number of social networks -->
+<meta name="author" content="{{ site.author }}" />
+
+<meta property="og:title"
+    content="{% if title %}{{ title | striptags(false) | safe | truncate(160) }}{% else %}{{ site.site_name }}{% endif %}">
+
+<meta property="og:description"
+    content="{% if description %}{{ description | striptags(false) | truncate(160) }}{% else %}{{ site.description }}{% endif %}">
+
+
+<meta property="og:url"
+    content="{{site.site_url}}{{ page.url }}" />
+
+<meta property="og:site_name" content="{{ site.site_name }}" />
+
+<meta property="og:locale" content="en_US" />
+
+<meta name="twitter:site" content="@chronotope" />
+
+<meta name="twitter:description" content="{% if description %}{{ description | striptags(false) | truncate(160) }}{% else %}{{ site.description }}{% endif %}" />
+
+<meta name="description" content="{% if description %}{{ description | striptags(false) | truncate(160) }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- I prefer the summary_large_image Twitter card for posts. -->
+<meta name="twitter:card" content="summary_large_image" />
+<!-- You, you're the creator. -->
+<meta name="twitter:creator" content="@chronotope" />
+<!-- This property is for the article title, not site title. -->
+<meta name="twitter:title" content="{% if title %}{{ title | striptags(false) | safe | truncate(160) }}{% else %}{{ site.site_name }}{% endif %}" />
+
+{% if featuredImage %}
+
+<meta property="og:image" content="{{site.site_url}}/img/{{featuredImage}}" />
+<meta name="twitter:image" content="{{site.site_url}}/img/{{featuredImage}}" />
+
+{% elif site.featuredImage %}
+
+<meta property="og:image" content="{{site.site_url}}/img/{{site.featuredImage}}" />
+<meta name="twitter:image" content="{{site.site_url}}/img/{{site.featuredImage}}" />
+
+{% endif %}
+
+{% if '/posts' in page.url %}
+    <!-- Article specific OG data -->
+    <!-- The OG:Type dictates a number of other tags on posts. -->
+    <meta property="og:type" content="article" />
+    <meta property="article:published_time" content="{{ page.date.toUTCString() }}" />
+
+    <!-- page.modified isn't a natural Jekyll property, but it can be added. -->
+    {% if modified %}
+    <meta property="article:modified_time" content="{{modified}}" />
+    {% endif %}
+
+    <!-- Here my author and publisher tags are the same (yay self-publishing) -->
+    <meta property="article:author" content="http://facebook.com/aramzs" />
+    <!-- But if your site has its own page, this is where to put it. -->
+    <meta property="article:publisher" content="https://www.facebook.com/aramzs" />
+
+    {% if section %}
+    <!-- Article section isn't a required property, but it can be good to have -->
+    <meta property="article:section" content="{{section}}" />
+    {% endif %}
+
+    {% if tags %}
+        <!-- I use the page.categories property for OG tags. -->
+        {% for tag in tags %}
+        <meta property="article:tag" content="{{tag}}" />
+        {% endfor %}
+        <meta name="keywords" content="{{ tags | join(', ') }}">
+    {% endif %}
+
+
+{% else %}
+
+<meta property="og:type" content="website" />
+
+{% endif %}

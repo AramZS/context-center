@@ -102,3 +102,11 @@ dist
 
 # TernJS port file
 .tern-port
+docs/*
+
+node_modules
+.env
+gh-pages
+gh-pages.pub
+!docs/.gitignore
+.DS_Store

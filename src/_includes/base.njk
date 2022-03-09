@@ -1,0 +1,68 @@
+<!doctype html>
+    <html lang="{{ site.lang }}" id="{% if templateName %}template-{{ templateName }}{% else %}template-base{% endif %}" class="base">
+        <head>
+        {% include "partials/head-block.njk" %}
+        {% if templateName %}
+            <!-- Sub Template: {{ templateName }} -->
+        {% else %}
+            {% set templateName = "base" %}
+        {% endif %}
+        {% block metahead %}
+            <title>{{ title }}</title>
+            <!-- <link rel="stylesheet" href="{{site.site_url}}/assets/css/style.css?v={{ site.github.build_revision}}" /> -->
+            {% sassFile false, "?v=" + site.github.build_revision %}
+            {% if templateName %}
+                <!-- <link rel="stylesheet" href="{{site.site_url}}/assets/css/template-{{ templateName }}.css?v={{ site.github.build_revision}}" /> -->
+                {% sassFile templateName, "?v=" + site.github.build_revision %}
+            {% endif %}
+            <!-- Build Revision: {{ site.github.build_revision }} & Sha: {{ site.github.build_sha }} -->
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <!--[if lt IE 9]>
+                <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+        {% endblock %}
+        {% block basesocialhead %}
+            {% include "partials/social-header.njk" %}
+            {% include "partials/json-ld-header.njk" %}
+        {% endblock %}
+        {% block socialhead %}
+
+        {% endblock %}
+        {% block stylehead %}{% endblock %}
+        </head>
+        <body {% block bodytags %}{% endblock %}>
+            <div class="wrapper">
+                <header>
+                    {% block header %}
+                        <h1 class="header">
+                            {{ title }}
+                        </h1>
+                    {% endblock %}
+                    {% block header_bottom %}
+                    {% endblock %}
+                </header>
+                <main>
+                    {% block precontent %}{% endblock %}
+                    <section id="maincontent" class="maincontent">
+                    {% block maincontent %}
+                        {{ content | safe }}
+                    {% endblock %}
+                    </section>
+                    <section id="postcontent">
+                    {% block postcontent %}
+                    {% endblock %}
+                    </section>
+                </main>
+                <footer>
+                    {% block prefooter %}{% endblock %}
+                    {% block footer %}
+                        <p>
+                            <small>Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.</small>
+                        </p>
+                    {% endblock %}
+                    {% block postfooter %}{% endblock %}
+                </footer>
+            </div>
+            <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+        </body>
+    </html>

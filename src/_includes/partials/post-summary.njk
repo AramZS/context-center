@@ -1,0 +1,19 @@
+<div class="post-summary">
+    <div class="post-summary__image">
+        {% set featuredImageAlt = post.data.featuredImageAlt %}
+        {% set featuredImage = post.data.featuredImage %}
+        {% set featuredImageCaption = post.data.featuredImageCaption %}
+        {% set featuredImageCredit = post.data.featuredImageCredit %}
+        {% set featuredImageLink = post.data.featuredImageLink %}
+        {% include "partials/post-image.njk" %}
+    </div>
+    <h3>
+        <a href="{{ post.url }}">{{post.data.title | safe}}</a>
+    </h3>
+    <p>
+        {{ post.data.description | safe }}
+    </p>
+    <p>
+        <a href="{{ post.url }}">Read more...</a>
+    </p>
+</div>

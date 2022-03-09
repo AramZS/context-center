@@ -1,0 +1,24 @@
+<div class="social-icons-block">
+    <div class="a-social-icon">
+        <a href="https://github.com/AramZS/" target="_blank">
+            {% include "partials/social-icons/github.njk" %}
+        </a>
+    </div>
+    <div class="a-social-icon">
+        <a href="https://bit.ly/aramzs" target="_blank">
+            {% include "partials/social-icons/linkedin.njk" %}
+        </a>
+    </div>
+    <div class="a-social-icon">
+        <a href="https://twitter.com/Chronotope" target="_blank">
+            {% include "partials/social-icons/twitter.njk" %}
+        </a>
+    </div>
+    {% if templateName and templateName == "index" %}
+    <div class="a-social-icon">
+        <a href="{{ site.site_url }}/rss/index.xml" target="_blank">
+            {% include "partials/social-icons/rss.njk" %}
+        </a>
+    </div>
+    {% endif %}
+</div>

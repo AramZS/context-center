@@ -1,0 +1,18 @@
+                        <!-- In reply to {% if tweetObj.data.in_reply_to_user_data and tweetObj.data.in_reply_to_user_data.username %}{{tweetObj.data.in_reply_to_user_data.username}} {% endif %} -->
+                        <p>{% if tweetObj.data.author_data and tweetObj.data.author_data.name %}{{tweetObj.data.author_data.name}} {% endif %}
+                        {% if tweetObj.data.author_data and
+                        tweetObj.data.author_data.username %}
+                        ({{tweetObj.data.author_data.username}}): {% endif %}
+                        {{ tweetObj.data.text }}</p>
+                        {% if tweetObj.data.entities and tweetObj.data.entities.urls %}
+                            {% for linkObj in tweetObj.data.entities.urls %}
+                            <blockquote>Link: {{ linkObj.expanded_url }}</blockquote>
+                            {% endfor %}
+                            {% if tweetObj.data and tweetObj.data.attachments and tweetObj.data.attachments.media_keys %}
+                                    {% for linkObj in tweetObj.data.attachments.media_keys %}
+                                    {% if linkObj.url %}
+                                    <img src={{ linkObj.url }} />
+                                    {% endif %}
+                                    {% endfor %}
+                                {% endif %}
+                        {% endif %}

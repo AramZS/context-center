@@ -1,0 +1,81 @@
+#template-archives
+    body
+        padding: 0
+        margin: 0
+    header
+        background: lightgrey
+        padding: 10px 20px
+        display: grid
+        position: relative
+        min-height: 16px
+        grid-template-columns: repeat(4, 1fr)
+        gap: 10px
+        grid-auto-rows: minmax(100px, auto)
+    .left
+        display: block
+        float: left
+        grid-column: 1/3
+        align-self: center
+        justify-self: flex-start
+        grid-row: 1
+    .contexter-box
+        float: right
+        display: block
+        grid-column: 4
+        transform: scale(0.6)
+        align-self: end
+        justify-self: end
+        grid-row: 1
+        width: fit-content
+    #share-embed
+        display: block
+        float: left
+        margin: 10px
+        padding: 2px
+        align-self: center
+        width: min-content
+        grid-column: 3
+        grid-row: 1
+        button
+            width: 90%
+    header > div
+        grid-row: 1
+        padding: 10px 18px
+        width: 90%
+    main
+        display: block
+        margin: 10px 16px
+        max-width: calc(100vw - 32px)
+        word-wrap: break-word
+        font-size: 16px
+    pre
+        max-width: calc(100vw - 42px)
+        margin-top: 10px
+        margin-bottom: 10px
+        scrollbar-color: black white
+        scrollbar-width: thin
+        scrollbar-gutter: stable
+        overflow-wrap: break-word
+        overflow-x: auto
+        &::-webkit-scrollbar
+            width: 5px
+            height: 8px
+            background-color: #aaa
+        &::-webkit-scrollbar:vertical
+            width: 11px
+        &::-webkit-scrollbar:horizontal
+            height: 11px
+        &::-webkit-scrollbar-thumb
+            border-radius: 8px
+            border: 2px solid white
+            background-color: rgba(0, 0, 0, .5)
+
+    @media (max-width: 800px)
+        header
+            grid-template-columns: repeat(2, 1fr)
+        .contexter-box
+            grid-column: 2
+            grid-row: 2
+        #share-embed
+            grid-column: 1
+            grid-row: 2

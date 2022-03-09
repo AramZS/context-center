@@ -1,0 +1,6 @@
+
+<div class="pagination">
+    <a href="{% if not paged.first %}{{ pagination.href.previous | url }}{% else %}javascript:void(0){% endif %}" class="pagination-link {% if not paged.first %}cursor-pointer {% else %} cursor-default disabled-link{% endif %}">Previous</a>
+
+    <a href="{% if not paged.last %}{{ pagination.href.next | url }}{% else %}javascript:void(0){% endif %}" class="pagination-link {% if not paged.last %}cursor-pointer {% else %} disabled-link cursor-default{% endif %}">Next</a>
+</div>

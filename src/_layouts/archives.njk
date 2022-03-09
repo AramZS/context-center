@@ -1,0 +1,143 @@
+{% set templateName = "archives" %}
+
+<!doctype html>
+    <html lang="{{ site.lang }}" id="{% if templateName %}template-{{ templateName }}{% else %}template-base{% endif %}" class="base">
+        <head>
+        {% include "partials/head-block.njk" %}
+        <link rel="original" http-equiv href="{{ archive.sanitizedLink }}" />
+        {% block metahead %}
+            {% if templateName %}
+                <!-- <link rel="stylesheet" href="{{site.site_url}}/assets/css/template-{{ templateName }}.css?v={{ site.github.build_revision}}" /> -->
+                {% sassFile templateName, "?v=" + site.github.build_revision %}
+            {% endif %}
+        {% endblock %}
+        {% block socialhead %}
+            <link rel="canonical" href="{{ archive.sanitizedLink }}" />
+            {% if author %}
+            <!-- The Author meta propagates the byline in a number of social networks -->
+            <meta name="author" content="{{ archive.data.finalizedMeta.author }}" />
+            {% endif %}
+
+            <meta property="og:title"
+                content="{% if title %}{{ title | striptags(false) | safe | truncate(160) }}{% else %}{{ site.site_name }}{% endif %}">
+
+            <meta property="og:description"
+                content="{% if description %}{{ description | striptags(false) | truncate(160) }}{% else %}{{ site.description }}{% endif %}">
+
+
+            <meta property="og:url"
+                content="{{ archive.sanitizedLink }}" />
+
+            <meta property="og:site_name" content="{{ site.site_name }}" />
+
+            <meta property="og:locale" content="en_US" />
+
+            <meta name="twitter:site" content="@chronotope" />
+
+            <meta name="twitter:description" content="{% if description %}{{ description | striptags(false) | truncate(160) }}{% else %}{{ site.description }}{% endif %}" />
+
+            <!-- I prefer the summary_large_image Twitter card for posts. -->
+            <meta name="twitter:card" content="summary_large_image" />
+            <!-- You, you're the creator. -->
+            <meta name="twitter:creator" content="@chronotope" />
+            <!-- This property is for the article title, not site title. -->
+            <meta name="twitter:title" content="{% if title %}{{ title | striptags(false) | safe | truncate(160) }}{% else %}{{ site.site_name }}{% endif %}" />
+
+            {% if archive.localImage %}
+
+            <meta property="og:image" content="{{site.site_url}}{{ archive.localImage}}" />
+            <meta name="twitter:image" content="{{site.site_url}}{{ archive.localImage}}" />
+
+            {% endif %}
+
+            <meta property="og:type" content="website" />
+
+            <script type="application/ld+json">
+                {
+                    "@context": "http://schema.org",
+                    "@type": "WebPage",
+                    "url": "{{ archive.sanitizedLink }}",
+                    "headline": "{{ title or site.site_name }}",
+                    "about": "{{ description or site.description }}",
+
+                    "image": [
+                        {% if archive.data.finalizedMeta.image %}
+                        "{{ archive.data.finalizedMeta.image }}"
+                        {% endif %}
+                        {% if archive.localImage %}
+                        "{{site.site_url}}{{ archive.localImage }}"
+                        {% endif %}
+                    ],
+                    "isAccessibleForFree": "True",
+                    "isPartOf": {
+                        "@type": ["CreativeWork", "Product"],
+                        "name": "Fight With Tools",
+                        "productID": "fightwithtools.dev"
+                    },
+                    "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+                    "archivedAt": "{{site.site_url}}{{ page.url }}",
+                    "sameAs": "{{ archive.sanitizedLink }}",
+                }
+            </script>
+
+
+        {% endblock %}
+        {% block stylehead %}{% endblock %}
+        </head>
+        <body {% block bodytags %}{% endblock %}>
+            <div class="wrapper">
+                <header>
+                    <div class="left">
+                        <h1>Archived: {{ title }}</h1>
+                        <p>This is a simplified archive of the page at <a href="{{ archive.sanitizedLink }}" target="_blank">{{ archive.sanitizedLink }}</a></p>
+                    </div>
+
+                            <div id="share-embed">
+                                <span>Use this page embed on your own site:</span>
+                                <textarea id="html-embed" name="story" rows="8" cols="40">
+                                    {{ archive.htmlEmbed }}
+                                </textarea><br />
+                                <button onclick="(function(e){ navigator.clipboard.writeText(document.getElementById('html-embed').value); })()">Copy</button>
+                            </div>
+                            {% if not archive.data.twitterObj %}
+                            {{ archive.htmlEmbed }}
+                            {% endif %}
+
+
+                </header>
+                <main>
+                {% if archive.data.twitterObj %}
+                    <!-- Twitter Mode -->
+                    {% for tweetObj in archive.data.twitterObj %}
+                        {% include "partials/tweetObj.njk" %}
+                        {% if tweetObj.quotedTweet %}
+                            <!-- In reply to {% if tweetObj.data.in_reply_to_user_data and tweetObj.data.in_reply_to_user_data.username %}{{tweetObj.data.in_reply_to_user_data.username}} {% endif %} -->
+                            <blockquote>
+                            {% if tweetObj.quotedTweetData.quotedTweet.data.author_data and tweetObj.quotedTweetData.quotedTweet.data.author_data.name %}
+                            {{tweetObj.quotedTweetData.quotedTweet.data.author_data.name}}
+                            {% endif %}
+                            {% if tweetObj.quotedTweetData.quotedTweet.data.author_data and tweetObj.quotedTweetData.quotedTweet.data.author_data.username %}
+                            ({{tweetObj.quotedTweetData.quotedTweet.data.author_data.username}}): {% endif %}
+                            {{ tweetObj.quotedTweetData.quotedTweet.data.text }}
+                                {% for linkObj in tweetObj.quotedTweetData.quotedTweet.data.entities.urls %}
+                                <blockquote>Link: {{ linkObj.expanded_url }}</blockquote>
+                                {% endfor %}
+                                {% if tweetObj.quotedTweetData.quotedTweet.includes and tweetObj.quotedTweetData.quotedTweet.includes.media %}
+                                    {% for linkObj in tweetObj.quotedTweetData.quotedTweet.includes.media %}
+                                    <img src={{ linkObj.url }} />
+                                    {% endfor %}
+                                {% endif %}
+                            </blockquote>
+                        {% endif %}
+                    {% endfor %}
+                {% elif archive.data.readabilityObject.content %}
+                    {{ archive.data.readabilityObject.content | safe }}
+                {% endif %}
+                </main>
+                <footer>
+
+                </footer>
+            </div>
+            <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+        </body>
+    </html>
