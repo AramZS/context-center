@@ -1,9 +1,11 @@
 ---
-title: Site Coming Soon
-description: "The site is coming soon"
+title: "Context Check: Crypto Currency and Web3"
+description: "Let's look at all the useful things there are to read about Web3"
 date: 2021-12-30 22:59:43.10 -4
 tags:
-  - Hello World
+  - Crypto Currency
+  - Web3
+  - Tech
 featuredImage: "nyc_noir.jpg"
 featuredImageCredit: "Aram Zucker-Scharff"
 featuredImageLink: "https://context.center"
@@ -20,7 +22,7 @@ https://galley.cjr.org/public/conversations/-MXXciAXvENxbhu1skTX
 https://www.seanblanda.com/nft-for-writers/
 https://snax.mirror.xyz/DZTc7VT2zWHbbpd1AIVPMPXf-6k01dj8s_D_DfUf2oE
 https://darkstar.mirror.xyz/
-https://twitter.com/rex_woodbury/status/1472626994466590721
+https://twitter.com/rex_woodbury/status/1472627023881199632
 https://www.drorpoleg.com/in-praise-of-ponzis/
 https://continuations.com/post/671863718643105792/web3crypto-why-bother
 https://avc.com/2021/12/why-web3/
@@ -63,12 +65,12 @@ https://www.nytimes.com/2021/12/16/opinion/web3-big-tech.html
 https://society.robinsloan.com/archive/notes-on-web3/
 https://www.bloomberg.com/opinion/articles/2021-12-21/there-s-inside-information-in-sec-filings
 https://gizmodo.com/wait-are-nfts-the-new-creative-commons-1848234720
-https://twitter.com/aripap/status/1474039478671003652
+https://twitter.com/aripap/status/1474040851890327566
 https://nivenly.com/lib/2021-12-22-nft/
 https://www.theterminal.info/p/seeing-the-god-pan
 https://www.npr.org/2021/03/12/976513031/the-69-million-jpeg
 https://www.artnews.com/art-news/news/todd-kramer-nft-theft-1234614874/
-https://twitter.com/pfrazee/status/1479498685646094339
+https://twitter.com/pfrazee/status/1479498725047291913
 https://www.lynalden.com/proof-of-stake/
 https://moxie.org/2022/01/07/web3-first-impressions.html
 https://buzzmachine.com/2022/01/09/web-0000012/
@@ -85,12 +87,13 @@ https://www.nytimes.com/2022/01/24/opinion/crypto-blockchain-nfts.html?action=cl
 https://www.nytimes.com/2022/02/07/opinion/crypto-nfts-folk-economics.html
 https://www.platformer.news/p/the-man-who-got-fired-by-his-dao
 https://www.bloomberg.com/news/articles/2022-02-12/andreessen-horowitz-a16z-s-chris-dixon-sees-web3-riches-others-see-rubbish
-https://www.vice.com/en/article/akvn5a/bored-apes-buzzfeed-and-the-battle-for-the-future-of-the-internet?utm_source=pocket-newtab
+https://www.vice.com/en/article/akvn5a/bored-apes-buzzfeed-and-the-battle-for-the-future-of-the-internet
 https://www.theverge.com/22939290/web3-coinbase-apple-moderation-nfts
 https://www.thestar.com/business/2022/02/22/crypto-group-protests-court-order-to-freeze-trucker-convoy-accounts-says-it-cannot-freeze-money-or-prevent-it-from-being-moved.html
 https://www.washingtonpost.com/politics/2022/02/22/why-andy-parker-created-an-nft-his-daughters-murder-footage/
 https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/
 https://www.theblockcrypto.com/post/120372/us-lead-bitcoin-hash-rate-cambridge
+https://www.wired.co.uk/article/crypto-russia-ukraine-sanctions
 
 ### Is it Art?
 

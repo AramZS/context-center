@@ -1,0 +1,30 @@
+{% extends "default.njk" %}
+
+{% set templateName = "topic" %}
+{% block socialhead %}
+<script type="application/javascript">
+
+function resizeIFrameToFitContent( iFrame ) {
+
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+    // or, to resize all iframes:
+    var iframes = document.querySelectorAll("iframe");
+    for( var i = 0; i < iframes.length; i++) {
+        resizeIFrameToFitContent( iframes[i] );
+    }
+} );
+
+</script>
+{% endblock %}
+
+{% block header %}
+    <h1 class="header">
+        {{title}}
+    </h1>
+    <div id="header__social-icons">
+    </div>
+{% endblock %}
