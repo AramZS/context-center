@@ -31,6 +31,9 @@
         {% block stylehead %}{% endblock %}
         </head>
         <body {% block bodytags %}{% endblock %}>
+            {% block nav %}
+                {% include "partials/nav.njk" %}
+            {% endblock %}
             <div class="wrapper">
                 <header>
                     {% block header %}

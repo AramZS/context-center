@@ -1,1 +1,26 @@
 @use 'variables'
+
+:root
+    --border-base: DarkGoldenRod
+
+.wrapper
+    padding: 10px
+
+nav, nav h1
+    font-size: 16px
+    display: inline-block
+nav h1
+    text-decoration: underline
+
+nav
+    border-bottom: 3px solid var(--border-base)
+    padding: 0 10px
+    width: 100%
+    li
+        display: inline-block
+        padding: 0 18px
+        &:not(:last-of-type)::after
+            content: " | "
+            text-decoration: none
+            color: var(--c4)
+            display: inline-block

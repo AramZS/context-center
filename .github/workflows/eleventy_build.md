@@ -16,6 +16,6 @@ Set the pub key into https://github.com/YourGithubUN/YourSite/settings/keys/new
 
 And then set the private key in https://github.com/YourGithubUN/YourSite/settings/environments
 
-You'll need to name your environment. I recomment `github-pages`. This repo assumes you'll name your secret key (the one without the `.pub` at the end) `ACTIONS_DEPLOY_KEY`.
+This repo assumes you'll name your secret key (the one without the `.pub` at the end) `ACTIONS_DEPLOY_KEY`.
 
 Once your first build is complete, you'll need to go to https://github.com/YourGithubUN/YourSite/settings/pages and set the `gh-pages` branch up as your site source, along with the custom domain you want to use and have filled into the CNAME file.

@@ -286,6 +286,10 @@ module.exports = function (eleventyConfig) {
 		return getPostClusters(collection.getFilteredByTag("posts"), "Posts");
 	});
 
+	eleventyConfig.addCollection("topicsPages", (collection) => {
+		return getPostClusters(collection.getFilteredByTag("topics"), "Topics");
+	});
+
 	// Create an array of all tags
 	eleventyConfig.addCollection("tagList", (collection) => {
 		return getAllTags(collection.getAll());
