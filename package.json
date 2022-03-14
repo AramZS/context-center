@@ -1,7 +1,7 @@
 {
-	"name": "Hazardpodcast",
+	"name": "Context Center",
 	"version": "1.0.0",
-	"description": "Hazard Podcast Website.",
+	"description": "A center for context.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
