@@ -172,7 +172,6 @@ https://www.nytimes.com/2022/01/15/technology/cryptocurrency-nft-gamers.html
 https://www.techrepublic.com/article/mozilla-stops-accepting-cryptocurrency-wikipedia-may-be-next-are-dominos-falling/
 https://www.youtube.com/watch?v=YQ_xWvX1n9g&t=773s
 https://decrypt.co/90590/crypto-com-suffers-hack-at-least-15m-ethereum
-https://www.techrepublic.com/article/mozilla-stops-accepting-cryptocurrency-wikipedia-may-be-next-are-dominos-falling/
 http://news.trust.org/item/20220118122426-mv9tu/
 https://www.youtube.com/watch?v=AxaHugHihh0
 https://www.salon.com/2022/01/26/the-crytpo-crash-isnt-just-tulip-trading--its-a-result-of-the-entitlement-that-led-to/

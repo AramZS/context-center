@@ -114,6 +114,11 @@ module.exports = (eleventyConfig, userOptions) => {
 							`</contexter-box>`,
 							`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" rel="timemap" slot="archive-link">Archived</a></contexter-box>`
 						);
+					} else if (contextData.data.twitterObj) {
+						htmlEmbed = htmlEmbed.replace(
+							`<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n`,
+							""
+						);
 					}
 					// console.log("contextData", contextData);
 					// const contextData = JSON.parse(contextString);
@@ -131,46 +136,53 @@ module.exports = (eleventyConfig, userOptions) => {
 					console.log(
 						"Cached link " + cacheFile + " to repo not ready"
 					);
-					pContext.then((r) => {
-						const fileWritePromise = new Promise(
-							(resolve, reject) => {
-								console.log("Context ready", r.linkId);
-								// No file yet
-								console.log(
-									"Cached link for " +
-										cacheFile +
-										" ready to write."
-								);
-								try {
-									console.log("Writing data for: ", link);
-									fs.mkdirSync(cacheFolder, {
-										recursive: true,
-									});
-									imageHandler
-										.handleImageFromObject(
-											r,
-											fileName,
-											cacheFilePath
-										)
-										.then((localImageFileName) => {
-											if (localImageFileName) {
-												r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
-												// console.log('write data to file', cacheFile)
-											}
-											fs.writeFileSync(
-												cacheFile,
-												JSON.stringify(r)
-											);
-											resolve(cacheFile);
+					pContext
+						.then((r) => {
+							const fileWritePromise = new Promise(
+								(resolve, reject) => {
+									console.log("Context ready", r.linkId);
+									// No file yet
+									console.log(
+										"Cached link for " +
+											cacheFile +
+											" ready to write."
+									);
+									try {
+										console.log("Writing data for: ", link);
+										fs.mkdirSync(cacheFolder, {
+											recursive: true,
 										});
-								} catch (e) {
-									console.log("writing to cache failed:", e);
-									reject(e);
+										imageHandler
+											.handleImageFromObject(
+												r,
+												fileName,
+												cacheFilePath
+											)
+											.then((localImageFileName) => {
+												if (localImageFileName) {
+													r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
+													// console.log('write data to file', cacheFile)
+												}
+												fs.writeFileSync(
+													cacheFile,
+													JSON.stringify(r)
+												);
+												resolve(cacheFile);
+											});
+									} catch (e) {
+										console.log(
+											"writing to cache failed:",
+											e
+										);
+										reject(e);
+									}
 								}
-							}
-						);
-						completeAllPromiseArray.push(fileWritePromise);
-					});
+							);
+							completeAllPromiseArray.push(fileWritePromise);
+						})
+						.catch((e) => {
+							console.log("Context adding promise failed", e);
+						});
 				}
 			});
 		}
