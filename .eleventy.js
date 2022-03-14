@@ -6,6 +6,7 @@ const del = require("del");
 var mdProcessor = require("markdown-it");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+const pluginTOC = require("eleventy-plugin-toc");
 
 let Nunjucks = require("nunjucks");
 const normalize = require("normalize-path");
@@ -326,6 +327,14 @@ module.exports = function (eleventyConfig) {
 		});
 		// console.log("pagedPosts", pagedPosts[0].tagName);
 		return pagedPosts;
+	});
+
+	eleventyConfig.addPlugin(pluginTOC, {
+		tags: ["h1", "h2", "h3", "h4"], // which heading tags are selected headings must each have an ID attribute
+		wrapper: "", // element to put around the root `ol`/`ul`
+		wrapperClass: "toc", // class for the element around the root `ol`/`ul`
+		ul: true, // if to use `ul` instead of `ol`
+		flat: true, // if subheadings should appear as child of parent or as a sibling
 	});
 
 	eleventyConfig.addFilter("console", function (value) {

@@ -11,3 +11,10 @@
         </li>
     </ul>
 </nav>
+{% if templateName and templateName == "topic" %}
+    {% if content | toc %}
+    <aside class="toc">
+        {{ content | toc }}
+    </aside>
+    {% endif %}
+{% endif %}

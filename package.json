@@ -24,6 +24,7 @@
 		"@11ty/eleventy-upgrade-help": "^1.0.1",
 		"dotenv": "^10.0.0",
 		"eleventy-plugin-dart-sass": "^1.0.3",
+		"eleventy-plugin-toc": "^1.1.5",
 		"gray-matter": "^4.0.3",
 		"link-contexter": "^0.5.0",
 		"markdown-it-anchor": "^8.1.2",

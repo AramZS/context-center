@@ -4,6 +4,12 @@
         height: auto
         display: block
         margin: 10px auto
+        h1, h2, h3, h4, h5, h6
+            margin-top: 40px
+            margin-bottom: 24px
+            padding-bottom: 10px
+            border-bottom: 2px solid grey
+            text-align: center
     .contexter-box, iframe, embed
         margin: 10px auto
     .twitter-tweet
@@ -14,3 +20,32 @@
         display: block
         margin: 10px auto
         text-align: center
+    aside.toc
+        display: block
+        margin: 0
+        border-bottom: 3px solid var(--border-base)
+        padding: 4px 10px 6px
+        width: 100%
+        position: fixed
+        background-color: var(--background-color)
+        top: 40px
+        left: 0
+        overflow-y: auto
+        overflow-x: hidden
+        max-height: 64px
+        z-index: 100
+        li
+            display: inline-block
+            &:not(:last-of-type)::after
+                content: "|"
+                padding: 0 12px
+                text-decoration: none
+                color: var(--c4)
+                display: inline-block
+    .wrapper
+        padding-top: calc( var(--header-buffer) + 64px )
+        header
+            width: 100%
+            text-align: center
+            h1
+                margin: 10px auto 0
