@@ -151,7 +151,7 @@ https://theoutline.com/post/3074/inside-the-group-chats-where-people-pump-and-du
 https://www.ibtimes.co.uk/nothing-free-starbucks-wifi-hijacked-customers-laptops-secretly-mine-cryptocurrency-1651264
 https://www.stephendiehl.com/blog/disconnect.html
 https://www.splcenter.org/hatewatch/2021/12/09/how-cryptocurrency-revolutionized-white-supremacist-movement
-https://twitter.com/FoldableHuman/status/1445986978189639680
+https://twitter.com/FoldableHuman/status/1468268182842449923
 https://discontents.substack.com/p/what-if-we-made-the-internet-a-pyramid
 https://www.oreilly.com/radar/why-its-too-early-to-get-excited-about-web3/
 https://web3isgoinggreat.com/

@@ -1,3 +1,5 @@
+@use 'variables'
+
 #template-topic
     #maincontent
         width: 80%
@@ -10,16 +12,34 @@
             padding-bottom: 10px
             border-bottom: 2px solid grey
             text-align: center
+        & > p > a
+            display: block
+            margin: 10px auto
+            text-align: center
+            width: 600px
+            display: block
+            min-height: 80px
+            background-color: gray
+            padding: 10px
+            background-color: #f5f6f7
+            @media (prefers-color-scheme: dark)
+                background-color: #354150
+            @media (max-width: variables.$mobile-width)
+                width: 300px
+        & > iframe
+            width: 600px
+            height: 400px
+            margin: 8px auto
+            display: block
+            @media (max-width: variables.$mobile-width)
+                width: 300px
+                height: 200px
     .contexter-box, iframe, embed
         margin: 10px auto
     .twitter-tweet
         margin: 0px auto
     blockquote
         max-width: 600px
-    p > a
-        display: block
-        margin: 10px auto
-        text-align: center
     aside.toc
         display: block
         margin: 0
