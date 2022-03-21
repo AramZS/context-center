@@ -96,6 +96,10 @@ https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/
 https://www.theblockcrypto.com/post/120372/us-lead-bitcoin-hash-rate-cambridge
 https://www.wired.co.uk/article/crypto-russia-ukraine-sanctions
 https://time.com/6158182/vitalik-buterin-ethereum-profile/
+https://ssir.org/articles/entry/web3_and_the_trap_of_for_good
+https://www.wired.com/story/nfts-dont-work-the-way-you-think-they-do/
+https://www.newscientist.com/article/mg25333760-200-web3-is-an-empty-buzzword-but-beware-it-can-still-hurt-you/
+https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.html
 
 ### Is it Art?
 
@@ -202,6 +206,9 @@ https://ez.substack.com/p/solutions-that-create-problems?utm_source=url
 https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
 https://www.salon.com/2022/02/16/nfts-arent-art--theyre-just-the-of-cryptos-latest-scam/
 https://www.vice.com/en/article/88gb75/at-sxsw-a-pathetic-tech-future-struggles-to-be-born
+https://www.platformer.news/p/why-you-cant-rebuild-wikipedia-with
+https://www.youtube.com/watch?v=hXBZ-BXfCSY
+https://www.youtube.com/watch?v=u-sNSjS8cq0
 
 ### CryptoBros
 
