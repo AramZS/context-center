@@ -114,24 +114,31 @@ module.exports = (eleventyConfig, userOptions) => {
 							`</contexter-box>`,
 							`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" rel="timemap" slot="archive-link">Archived</a></contexter-box>`
 						);
-					} else if (contextData.data.twitterObj) {
+					}
+					if (contextData.data.twitterObj) {
 						htmlEmbed = htmlEmbed.replace(
-							`<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n`,
+							/<script async src"https:\/\/platform\.twitter\.com\/widgets\.js" charset="utf-8"><\/script>/g,
 							""
 						);
 					}
 					// console.log("contextData", contextData);
 					// const contextData = JSON.parse(contextString);
-					inputContent = inputContent.replace(
-						urlObj.replace,
-						htmlEmbed
-					);
+					if (htmlEmbed) {
+						inputContent = inputContent.replace(
+							urlObj.replace,
+							htmlEmbed
+						);
+					}
 				} catch (e) {
 					if (imageCheck) {
 						console.log("Image issue possibly", e);
 					}
 					let pContext = contexter.context(link);
 					completeAllPromiseArray.push(pContext);
+					inputContent = inputContent.replace(
+						urlObj.replace,
+						`<p><a target="_blank" href="${link}">${link}</a></p>`
+					);
 					// No file yet
 					console.log(
 						"Cached link " + cacheFile + " to repo not ready"
@@ -247,7 +254,14 @@ module.exports = (eleventyConfig, userOptions) => {
 	let archiveFilesList = [];
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
-			await Promise.all(completeAllPromiseArray);
+			try {
+				await Promise.all(completeAllPromiseArray);
+			} catch (e) {
+				console.log(
+					"Could not complete all promises from Contexter",
+					e
+				);
+			}
 			console.log("Archives Collection ");
 			archiveFilesList = buildArchiveFileList();
 			const archives = [];

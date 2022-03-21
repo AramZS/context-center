@@ -16,6 +16,9 @@ featuredImageAlt: "Photo by Aram Zucker-Scharff"
 
 ### Positive
 
+https://future.a16z.com/crypto-and-community-owned-characters/
+https://avc.com/2021/12/why-web3/
+https://www.drorpoleg.com/in-praise-of-ponzis/
 https://vv.mirror.xyz/bE9MJMwZ3qimMP0NzUyS9qBdl9NmkhIrGkHQPS5wlag
 https://www.cjr.org/the_media_today/could-nfts-help-the-media-or-are-they-just-a-sideshow.php
 https://galley.cjr.org/public/conversations/-MXXciAXvENxbhu1skTX
@@ -23,16 +26,13 @@ https://www.seanblanda.com/nft-for-writers/
 https://snax.mirror.xyz/DZTc7VT2zWHbbpd1AIVPMPXf-6k01dj8s_D_DfUf2oE
 https://darkstar.mirror.xyz/
 https://twitter.com/rex_woodbury/status/1472627023881199632
-https://www.drorpoleg.com/in-praise-of-ponzis/
 https://continuations.com/post/671863718643105792/web3crypto-why-bother
-https://avc.com/2021/12/why-web3/
 https://www.espn.com/nba/insider/story/_/id/30906788/this-future-nba-top-shot-dizzying-world-digital-collectibles
 https://blogmaverick.com/2021/01/31/the-store-of-value-generation-is-kicking-your-ass-and-you-dont-even-know-it/
 https://darkstar.mirror.xyz/aXm3OTVTK26hN2QKu82s8NjLQYPKCOMiVD2zIioCOVU
 https://medium.com/@cdixon/crypto-tokens-a-breakthrough-in-open-network-design-e600975be2ef
 https://vitalik.eth.limo/general/2022/01/26/soulbound.html
 https://djmag.com/features/plasticians-guide-web3-and-re-writing-rule-book-artists-online
-https://future.a16z.com/crypto-and-community-owned-characters/
 https://cnnpressroom.blogs.cnn.com/2021/06/16/cnn-makes-moments-from-history-available-for-purchase-with-nfts/
 https://www.leafscore.com/blog/the-9-most-sustainable-cryptocurrencies-for-2021/
 https://www.guardianlink.io/about-us
@@ -42,6 +42,7 @@ https://www.cnbc.com/2021/10/09/war-to-attract-bitcoin-miners-pits-texas-against
 
 ### Middle of the Road
 
+https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
 https://www.technologyreview.com/2019/02/19/239592/once-hailed-as-unhackable-blockchains-are-now-getting-hacked/
 https://www.cnbc.com/2019/02/13/jp-morgan-is-rolling-out-the-first-us-bank-backed-cryptocurrency-to-transform-payments--.html
 https://qz.com/1355945/why-have-cryptocurrencies-like-bitcoin-and-ethereum-fallen-so-much/
@@ -94,6 +95,7 @@ https://www.washingtonpost.com/politics/2022/02/22/why-andy-parker-created-an-nf
 https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/
 https://www.theblockcrypto.com/post/120372/us-lead-bitcoin-hash-rate-cambridge
 https://www.wired.co.uk/article/crypto-russia-ukraine-sanctions
+https://time.com/6158182/vitalik-buterin-ethereum-profile/
 
 ### Is it Art?
 
@@ -127,7 +129,6 @@ https://flash---art.com/2021/02/episode-v-towards-a-new-ecology-of-crypto-art/
 https://fortune.com/2021/04/20/bitcoin-mining-coal-china-environment-pollution/amp/
 https://time.com/6120237/nfts-environmental-impact/
 https://branch.climateaction.tech/issues/issue-2/a-guide-to-ecofriendly-cryptoart-nfts/
-https://time.com/6120237/nfts-environmental-impact/
 https://gizmodo.com/mining-bitcoin-can-be-more-of-an-energy-drain-than-actu-1830217426
 https://www.coindesk.com/policy/2021/01/19/the-us-can-make-bitcoin-mining-greener/
 https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
@@ -200,6 +201,7 @@ https://kotaku.com/hacker-steals-nfts-worth-millions-from-opensea-marketpl-18485
 https://ez.substack.com/p/solutions-that-create-problems?utm_source=url
 https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
 https://www.salon.com/2022/02/16/nfts-arent-art--theyre-just-the-of-cryptos-latest-scam/
+https://www.vice.com/en/article/88gb75/at-sxsw-a-pathetic-tech-future-struggles-to-be-born
 
 ### CryptoBros
 
@@ -212,6 +214,7 @@ https://www.washingtonpost.com/food/2022/01/15/nft-restaurant-flyfish-new-york/
 https://www.themarysue.com/dune-book-crypto/
 https://www.buzzfeednews.com/article/katienotopoulos/bored-ape-nft-founder-identity
 https://thewalrus.ca/bitcoin-widow/
+https://www.vice.com/en/article/5dgw9a/racist-meta-slave-nft-project-rebrands-after-being-called-racist
 
 
 ### Crash and Burns by Big Entities
