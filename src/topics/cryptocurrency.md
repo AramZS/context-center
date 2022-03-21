@@ -100,6 +100,7 @@ https://ssir.org/articles/entry/web3_and_the_trap_of_for_good
 https://www.wired.com/story/nfts-dont-work-the-way-you-think-they-do/
 https://www.newscientist.com/article/mg25333760-200-web3-is-an-empty-buzzword-but-beware-it-can-still-hurt-you/
 https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.html
+https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-of-the-gains-on-nfts-study-shows
 
 ### Is it Art?
 
