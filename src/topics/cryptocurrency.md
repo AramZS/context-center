@@ -161,7 +161,7 @@ https://the-crypto-syllabus.com/brian-eno-on-nfts-and-automatism/
 https://www.gawker.com/culture/the-future-is-useless-expensive
 https://www.ft.com/content/83a14261-598d-4601-87fc-5dde528b33d0
 https://the-crypto-syllabus.com/geraldine-juarez-on-nfts-ghosts/
-https://twitter.com/davetroy/status/1478017698676228099
+https://twitter.com/davetroy/status/1478017765927788555
 https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
 https://inthesetimes.com/article/the-ticking-bomb-of-crypto-fascism
 https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021-chainalysis.html
