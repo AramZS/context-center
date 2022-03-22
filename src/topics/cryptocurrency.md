@@ -6,10 +6,11 @@ tags:
   - Crypto Currency
   - Web3
   - Tech
-featuredImage: "nyc_noir.jpg"
-featuredImageCredit: "Aram Zucker-Scharff"
-featuredImageLink: "https://context.center"
-featuredImageAlt: "Photo by Aram Zucker-Scharff"
+featuredImage: "alligator-eats-moneybags.jpg"
+featuredImageCredit: '"Alligator Eats Moneybags" by edenpictures is marked with CC BY 2.0. Sculpture by Tom Otterness'
+featuredImageLink: "https://www.flickr.com/photos/10485077@N06/19735251466"
+featuredImageAlt: "Alligator Eats Moneybags by edenpictures portrays a NYC subway alligator sculpture popping out of a manhole in order to eat a sculpture of a person with a money bag as a head"
+featuredImageCaption: "Yum, capital"
 ---
 
 ## Links

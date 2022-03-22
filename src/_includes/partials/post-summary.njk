@@ -1,4 +1,4 @@
-<div class="post-summary">
+<article class="post-summary">
     <div class="post-summary__image">
         {% set featuredImageAlt = post.data.featuredImageAlt %}
         {% set featuredImage = post.data.featuredImage %}
@@ -14,6 +14,6 @@
         {{ post.data.description | safe }}
     </p>
     <p>
-        <a href="{{ post.url }}">Read more...</a>
+        <a href="{{ post.url }}"><button>Read more...</button></a>
     </p>
-</div>
+</article>

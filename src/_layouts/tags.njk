@@ -1,6 +1,8 @@
 {% extends "base.njk" %}
 
-{% block maincontent %}
+{% set templateName = "tag" %}
+
+{% block header_bottom %}
     <h2>
         {% if paged.tagName == "Posts" %}
         Posts
@@ -8,7 +10,11 @@
         Posts tagged: {{paged.tagName}}
         {% endif %}
     </h2>
-    <div id="post-summary-list">
+{% endblock %}
+
+{% block maincontent %}
+<section>
+    <section id="post-summary-list">
         <ul>
             {%- for post in paged.posts %}
                 <li>
@@ -16,7 +22,8 @@
                 </li>
             {% endfor %}
         </ul>
-    </div>
+    </section>
+</section>
 {% endblock %}
 
 {% block postcontent %}

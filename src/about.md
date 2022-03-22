@@ -1,8 +1,8 @@
 ---
-title: "Context Center"
+title: "About Context Center"
 layout: index
 eleventyExcludeFromCollections: true
-internalPageTypes: [ 'home' ]
+internalPageTypes: [ 'about' ]
 ---
 
 # Hello World
