@@ -1,6 +1,7 @@
 ---
 title: "Context Center"
 layout: index
+description: Creating lists of links about topics that will hopefully be useful to someone other than me
 eleventyExcludeFromCollections: true
 internalPageTypes: [ 'home' ]
 ---
