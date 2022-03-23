@@ -8,13 +8,13 @@ tags:
   - IndieWeb
 ---
 
-## Indie Search Engines 
+## Indie Search Engines
 
 http://teclis.com
 https://search.marginala.nu/
 https://kagi.com/
 
-## Tools 
+## Tools
 
 https://github.com/adbar/trafilatura
 https://github.com/puppeteer/puppeteer
@@ -33,7 +33,10 @@ https://tinygem.org/
 ## Talking About Search
 
 https://twitter.com/Chronotope/status/1506745918464405507
+
 ---
 https://twitter.com/Chronotope/status/1505204194524995585
+
 ---
-https://twitter.com/robinberjon/status/1505014770080096256 
+
+https://twitter.com/robinberjon/status/1505014770080096256
