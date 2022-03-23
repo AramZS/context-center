@@ -87,12 +87,16 @@
             background-repeat: no-repeat
             background-attachment: fixed
             background-position: center
+            line-height: 1em
+            font-size: 30px
             .header-inner
                 background-color: rgba(255, 255, 255, .60)
                 padding: 100px 20vw
                 width: 100%
                 height: 100%
                 display: block
+                @media (max-width: variables.$mobile-width)
+                    padding: 100px 8vw
             .header
                 margin: .6em 0
                 font-weight: normal
@@ -100,6 +104,8 @@
                 background-color: var(--dark-highlight)
                 color: var(--dark-highlight-overlap)
                 clip-path: polygon(0 10%, 10% 0, 90% 0, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10% )
+                @media (max-width: variables.$mobile-width)
+                    font-size: 28px
             & > *
                 width: fit-content
             & > h1

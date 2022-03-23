@@ -8,6 +8,13 @@ body
     width: 80%
     margin: 0 auto
 .wrapper
+    header
+        @media (max-width: variables.$mobile-width)
+            padding-right: 0
+            padding-left: 0
+        h1
+            width: 90%
+            line-height: 1em
     h1
         font-size: 60px
         line-height: 16px
@@ -15,6 +22,7 @@ body
         margin: 22px 10px
         display: block
         width: 100%
+        line-height: 1em
     h2,h3,h4,h5,h6
         padding: 18px
         background-color: var(--light-highlight)
