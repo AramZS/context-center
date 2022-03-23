@@ -5,6 +5,4 @@ eleventyExcludeFromCollections: true
 internalPageTypes: [ 'about' ]
 ---
 
-# Hello World
-
-## Coming Soon!
+This is a project of [Aram Zucker-Scharff](https://aramzs.github.io/aramzs/).

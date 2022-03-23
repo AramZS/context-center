@@ -1,16 +1,44 @@
+@use 'variables'
+
 #template-tag
     header
         border: 1px yellow solid
-        clip-path: polygon(10% 0%, 80% 0%, 70% 100%, 0% 100%)
+        clip-path: polygon(0% 0%, 80% 0%, 70% 100%, 0% 100%)
         background: var(--border-base)
+        margin-left: -15px
         & > *
-            color: black
+            color: var(--border-overlap)
+            width: fit-content
+            @media (max-width: variables.$mobile-width)
+                width: 100%
         h2
             padding: 10px 10px
     #maincontent
         .post-summary
             margin-top: 20px
+            a
+                color: #0700d9
+                &:hover
+                    text-decoration: none
+                @media (prefers-color-scheme: dark)
+                    color: var(--base-font-color)
             img
                 margin: 5px auto
             button
+                background-color: var(--light-highlight)
+                color: var(--light-highlight-overlap)
                 margin-top: 18px
+        figcaption
+            max-width: 90%
+            color: var(--base-font-color)
+            text-decoration: none
+            font-size: x-small
+            margin-left: 10px
+            &:hover
+                text-decoration: none
+            & > *
+                text-decoration: none
+            em
+                font-size: 9px
+                font-style: italic
+                margin-top: -5px

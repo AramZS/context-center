@@ -8,10 +8,17 @@
 
 
 
-{% block header %}
-    <h1 class="header">
-        {{title}}
-    </h1>
-    <div id="header__social-icons">
+{% block headerblock %}
+<header style="{% if featuredImage %}background-image: url({{site.site_url}}/img/{{featuredImage}}){% endif %}">
+    <div class="header-inner">
+        <h1 class="header" >
+            {{title}}
+        </h1>
+        <div id="header__social-icons">
+        </div>
     </div>
+</header>
+{% endblock %}
+{% block prefooter %}
+    {% if featuredImageCredit %}<p><em>Image credit: <a href="{{ featuredImageLink }}" target="_blank">{{featuredImageCredit}}</a></em></p>{% endif %}
 {% endblock %}

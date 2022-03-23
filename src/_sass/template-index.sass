@@ -1,15 +1,35 @@
 @use 'variables'
 
-body, wrapper
+body
     max-width: 100%
     display: block
     text-align: center
+.wrapper > *
+    width: 80%
+    margin: 0 auto
+.wrapper
+    h1
+        font-size: 60px
+        line-height: 16px
+    h1,h2,h3,h4,h5,h6
+        margin: 22px 10px
+        display: block
+        width: 100%
+    h2,h3,h4,h5,h6
+        padding: 18px
+        background-color: var(--light-highlight)
+        color: var(--light-highlight-overlap)
+    footer
+        margin-top: 60px
+    p
+        display: block
+        margin-bottom: 1em
+        max-width: 700px
+main
+    text-align: left
 img
     max-width: 100%
     max-height: 85vh
-h1
-    font-size: 60px
-    line-height: 16px
 p:first-of-type
     margin-top: 0
     padding-top: 0

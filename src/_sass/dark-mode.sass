@@ -1,11 +1,22 @@
 @media (prefers-color-scheme: dark)
     :root
-        --border-base: yellow
         --background-color: #121212
+        --base-font-color: var(--c4)
+        --border-base: #FFFF00
+        --border-overlap: #040403
+        --back-fill: #E6E64C
+        --back-fill-overlap: #040403
+        --light-highlight: #63AEE6
+        --light-highlight-overlap: #000000
+        --accent: #E67C7A
+        --accent-overlap: #120B01
+        --dark-highlight: #326E99
+        --dark-highlight-overlap: #FFFFFF
+        --link-color: var(--light-highlight)
     body
         color: #eee
         background: var(--background-color)
     body a
-        color: #809fff
+        color: var(--link-color)
     h1, h2, h3, h4, h5, h6
         color: #dcdcdc

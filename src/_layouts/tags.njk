@@ -6,6 +6,8 @@
     <h2>
         {% if paged.tagName == "Posts" %}
         Posts
+        {% elif paged.tagName == "Topics" %}
+
         {% else %}
         Posts tagged: {{paged.tagName}}
         {% endif %}
