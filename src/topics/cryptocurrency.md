@@ -40,6 +40,7 @@ https://www.guardianlink.io/about-us
 https://steem.com/
 https://www.bloomberg.com/news/newsletters/2022-02-01/crypto-s-next-big-thing-mastering-your-domain
 https://www.cnbc.com/2021/10/09/war-to-attract-bitcoin-miners-pits-texas-against-new-york-kentucky.html
+https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bundling
 
 ### Middle of the Road
 
@@ -146,6 +147,7 @@ https://forkast.news/chinas-crypto-miners-climate/
 https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
 https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
 https://cryptoclimate.org/accord/
+https://www.nytimes.com/2022/03/22/technology/bitcoin-miners-environment-crypto.html
 
 ### Negative
 
