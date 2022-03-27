@@ -41,6 +41,7 @@ https://steem.com/
 https://www.bloomberg.com/news/newsletters/2022-02-01/crypto-s-next-big-thing-mastering-your-domain
 https://www.cnbc.com/2021/10/09/war-to-attract-bitcoin-miners-pits-texas-against-new-york-kentucky.html
 https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bundling
+https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 
 ### Middle of the Road
 
@@ -119,6 +120,7 @@ https://twitter.com/NFTtheft/status/1491210233104187392
 https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
 https://carbon.fyi/
 https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
+https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/
 
 #### Bad for the environment
 
