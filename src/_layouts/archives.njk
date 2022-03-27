@@ -113,7 +113,7 @@
                         {% if tweetObj.quotedTweet %}
                             <!-- In reply to {% if tweetObj.data.in_reply_to_user_data and tweetObj.data.in_reply_to_user_data.username %}{{tweetObj.data.in_reply_to_user_data.username}} {% endif %} -->
                             <blockquote>
-                            {% if tweetObj.quotedTweetData.quotedTweet.data.author_data and tweetObj.quotedTweetData.quotedTweet.data.author_data.name %}
+                            {% if tweetObj.quotedTweetData and tweetObj.quotedTweetData.quotedTweet.data and tweetObj.quotedTweetData.quotedTweet.data.author_data and tweetObj.quotedTweetData.quotedTweet.data.author_data.name %}
                             {{tweetObj.quotedTweetData.quotedTweet.data.author_data.name}}
                             {% endif %}
                             {% if tweetObj.quotedTweetData.quotedTweet.data.author_data and tweetObj.quotedTweetData.quotedTweet.data.author_data.username %}
@@ -122,9 +122,11 @@
                                 {% for linkObj in tweetObj.quotedTweetData.quotedTweet.data.entities.urls %}
                                 <blockquote>Link: {{ linkObj.expanded_url }}</blockquote>
                                 {% endfor %}
-                                {% if tweetObj.quotedTweetData.quotedTweet.includes and tweetObj.quotedTweetData.quotedTweet.includes.media %}
+                                {% if tweetObj.quotedTweetData.quotedTweet and tweetObj.quotedTweetData.quotedTweet.includes and tweetObj.quotedTweetData.quotedTweet.includes.media %}
                                     {% for linkObj in tweetObj.quotedTweetData.quotedTweet.includes.media %}
+                                        {% if linkObj.url %}
                                     <img src={{ linkObj.url }} />
+                                        {% endif %}
                                     {% endfor %}
                                 {% endif %}
                             </blockquote>

@@ -163,11 +163,15 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 				});
 				console.log("Writing Image to ", imageCacheFile);
 				console.log("Image file being written: ", image);
-				const imageFile = await getImageAndWriteLocally(
-					image,
-					imageCacheFile
-				);
-				return imageFile;
+				try {
+					const imageFile = await getImageAndWriteLocally(
+						image,
+						imageCacheFile
+					);
+					return imageFile;
+				} catch (e) {
+					return false;
+				}
 			}
 		} else {
 			return false;
@@ -177,9 +181,13 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 
 const getImageAndWriteLocally = async (url, imageCacheFile) => {
 	const responseImage = await fetchUrl(url);
-	const buffer = await responseImage.buffer();
-	fs.writeFileSync(imageCacheFile, buffer);
-	return imageCacheFile;
+	if (responseImage) {
+		const buffer = await responseImage.buffer();
+		fs.writeFileSync(imageCacheFile, buffer);
+		return imageCacheFile;
+	} else {
+		return false;
+	}
 };
 
 module.exports = { imageCheck, handleImageFromObject };

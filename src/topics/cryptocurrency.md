@@ -103,7 +103,6 @@ https://www.wired.com/story/nfts-dont-work-the-way-you-think-they-do/
 https://www.newscientist.com/article/mg25333760-200-web3-is-an-empty-buzzword-but-beware-it-can-still-hurt-you/
 https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.html
 https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-of-the-gains-on-nfts-study-shows
-https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
 
 ### Is it Art?
 
@@ -117,6 +116,12 @@ https://twitter.com/NFTtheft/status/1491210233104187392
 
 ### What is its environmental impact?
 
+https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
+https://carbon.fyi/
+https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
+
+#### Bad for the environment
+
 https://digiconomist.net/bitcoin-energy-consumption/
 https://www.bbc.com/news/av/technology-58020010
 https://apnews.com/article/bitcoin-mining-new-york-power-plant-climate-change-516dbd319394a6a30f83d94947abad20
@@ -129,26 +134,32 @@ https://www.tomshardware.com/news/hard-drive-ssd-shortages-imminent-if-new-crypt
 https://www.msnbc.com/opinion/bitcoin-nfts-other-crypto-fads-are-destroying-our-planet-n1261139
 https://gizmodo.com/this-solar-crypto-mine-plan-is-stranger-than-fiction-1846966085
 https://www.euronews.com/next/2021/11/12/europe-must-ban-bitcoin-mining-to-hit-the-1-5c-paris-climate-goal-say-swedish-regulators
-https://carbon.fyi/
 https://www.ofnumbers.com/2021/02/14/bitcoin-and-other-pow-coins-are-an-esg-nightmare/
 https://github.com/kylemcdonald/ethereum-nft-activity
-https://github.com/memo/eco-nft
-https://flash---art.com/2021/02/episode-v-towards-a-new-ecology-of-crypto-art/
 https://fortune.com/2021/04/20/bitcoin-mining-coal-china-environment-pollution/amp/
-https://time.com/6120237/nfts-environmental-impact/
-https://branch.climateaction.tech/issues/issue-2/a-guide-to-ecofriendly-cryptoart-nfts/
 https://gizmodo.com/mining-bitcoin-can-be-more-of-an-energy-drain-than-actu-1830217426
-https://www.coindesk.com/policy/2021/01/19/the-us-can-make-bitcoin-mining-greener/
-https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
 https://frontiergroup.org/blogs/blog/fg/nfts-hot-new-fad-massive-environmental-cost
 https://gizmodo.com/bitcoin-worse-for-climate-1848593882
 https://abcnews.go.com/US/wireStory/bitcoin-mining-power-plant-raises-ire-environmentalists-80618790
-https://bitcoinmagazine.com/business/op-ed-bitcoin-miners-consume-reasonable-amount-energy-and-its-all-worth-it
 https://forkast.news/chinas-crypto-miners-climate/
 https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
 https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
+https://twitter.com/Chronotope/status/1300906427515645952
+
+#### Neutral or good for the environment
+
+https://time.com/6120237/nfts-environmental-impact/
 https://cryptoclimate.org/accord/
 https://www.nytimes.com/2022/03/22/technology/bitcoin-miners-environment-crypto.html
+https://www.coindesk.com/policy/2021/01/19/the-us-can-make-bitcoin-mining-greener/
+https://bitcoinmagazine.com/business/op-ed-bitcoin-miners-consume-reasonable-amount-energy-and-its-all-worth-it
+https://branch.climateaction.tech/issues/issue-2/a-guide-to-ecofriendly-cryptoart-nfts/
+https://bitcoinmagazine.com/culture/bitcoin-mining-and-the-case-for-more-energy
+https://flash---art.com/2021/02/episode-v-towards-a-new-ecology-of-crypto-art/
+https://github.com/memo/eco-nft
+https://bitcoinmagazine.com/culture/how-bitcoin-mining-strengthens-electricity-grids
+https://bullishthoughts.substack.com/p/the-elephants-in-the-grid
+https://www.citadel21.com/bitcoin-is-the-first-global-market-for-electricity-and-will-unleash-renewables
 
 ### Negative
 
@@ -161,7 +172,7 @@ https://theoutline.com/post/3074/inside-the-group-chats-where-people-pump-and-du
 https://www.ibtimes.co.uk/nothing-free-starbucks-wifi-hijacked-customers-laptops-secretly-mine-cryptocurrency-1651264
 https://www.stephendiehl.com/blog/disconnect.html
 https://www.splcenter.org/hatewatch/2021/12/09/how-cryptocurrency-revolutionized-white-supremacist-movement
-https://twitter.com/FoldableHuman/status/1468268182842449923
+https://twitter.com/FoldableHuman/status/1464821797392551945
 https://discontents.substack.com/p/what-if-we-made-the-internet-a-pyramid
 https://www.oreilly.com/radar/why-its-too-early-to-get-excited-about-web3/
 https://web3isgoinggreat.com/
