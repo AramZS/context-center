@@ -214,6 +214,7 @@ https://www.vice.com/en/article/88gb75/at-sxsw-a-pathetic-tech-future-struggles-
 https://www.platformer.news/p/why-you-cant-rebuild-wikipedia-with
 https://www.youtube.com/watch?v=hXBZ-BXfCSY
 https://www.youtube.com/watch?v=u-sNSjS8cq0
+https://ez.substack.com/p/the-emperors-new-blockchain
 
 ### CryptoBros
 
