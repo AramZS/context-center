@@ -104,6 +104,7 @@ https://www.wired.com/story/nfts-dont-work-the-way-you-think-they-do/
 https://www.newscientist.com/article/mg25333760-200-web3-is-an-empty-buzzword-but-beware-it-can-still-hurt-you/
 https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.html
 https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-of-the-gains-on-nfts-study-shows
+https://www.platformer.news/p/theres-something-off-about-apecoin?s=r
 
 ### Is it Art?
 
@@ -147,6 +148,7 @@ https://forkast.news/chinas-crypto-miners-climate/
 https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
 https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
 https://twitter.com/Chronotope/status/1300906427515645952
+https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848721019
 
 #### Neutral or good for the environment
 
@@ -196,6 +198,7 @@ https://www.techrepublic.com/article/mozilla-stops-accepting-cryptocurrency-wiki
 https://www.youtube.com/watch?v=YQ_xWvX1n9g&t=773s
 https://decrypt.co/90590/crypto-com-suffers-hack-at-least-15m-ethereum
 http://news.trust.org/item/20220118122426-mv9tu/
+https://www.bloomberg.com/news/features/2021-10-07/crypto-mystery-where-s-the-69-billion-backing-the-stablecoin-tether
 https://www.youtube.com/watch?v=AxaHugHihh0
 https://www.salon.com/2022/01/26/the-crytpo-crash-isnt-just-tulip-trading--its-a-result-of-the-entitlement-that-led-to/
 https://www.bloomberg.com/news/articles/2022-01-12/bitcoin-trading-president-likely-loses-money-for-el-salvadorans
