@@ -104,7 +104,8 @@ https://www.wired.com/story/nfts-dont-work-the-way-you-think-they-do/
 https://www.newscientist.com/article/mg25333760-200-web3-is-an-empty-buzzword-but-beware-it-can-still-hurt-you/
 https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.html
 https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-of-the-gains-on-nfts-study-shows
-https://www.platformer.news/p/theres-something-off-about-apecoin?s=r
+https://www.platformer.news/p/theres-something-off-about-apecoin
+https://blog.mollywhite.net/axie-hack/
 
 ### Is it Art?
 
@@ -231,6 +232,8 @@ https://www.platformer.news/p/why-you-cant-rebuild-wikipedia-with
 https://www.youtube.com/watch?v=hXBZ-BXfCSY
 https://www.youtube.com/watch?v=u-sNSjS8cq0
 https://ez.substack.com/p/the-emperors-new-blockchain
+https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
+https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
 
 ### CryptoBros
 
