@@ -5,4 +5,4 @@ eleventyExcludeFromCollections: true
 internalPageTypes: [ 'about' ]
 ---
 
-This is a project of [Aram Zucker-Scharff](https://aramzs.github.io/aramzs/).
+This is an [open source project](https://github.com/AramZS/context-center) of [Aram Zucker-Scharff](https://aramzs.github.io/aramzs/).
