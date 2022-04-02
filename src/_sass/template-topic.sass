@@ -8,6 +8,8 @@
         height: auto
         display: block
         margin: 10px auto
+        @media (max-width: variables.$mobile-width)
+            width: 100%
         h1, h2, h3, h4, h5, h6
             margin-top: 70px
             margin-bottom: 62px
@@ -34,17 +36,19 @@
             background-color: gray
             padding: 10px
             background-color: #f5f6f7
+            overflow: hidden
+            word-break: break-all
             @media (prefers-color-scheme: dark)
                 background-color: #354150
             @media (max-width: variables.$mobile-width)
-                width: 300px
+                width: 310px
         & > iframe
             width: 600px
             height: 400px
             margin: 8px auto
             display: block
             @media (max-width: variables.$mobile-width)
-                width: 300px
+                width: 310px
                 height: 200px
     .contexter-box, iframe, embed
         margin: 10px auto
