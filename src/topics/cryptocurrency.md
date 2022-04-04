@@ -106,6 +106,7 @@ https://www.infoworld.com/article/3648071/so-you-want-to-be-a-web3-developer.htm
 https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-of-the-gains-on-nfts-study-shows
 https://www.platformer.news/p/theres-something-off-about-apecoin
 https://blog.mollywhite.net/axie-hack/
+https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-managers-of-axie-infinity
 
 ### Is it Art?
 

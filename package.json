@@ -22,6 +22,7 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy-upgrade-help": "^1.0.1",
+		"cross-spawn": "^7.0.3",
 		"dotenv": "^10.0.0",
 		"eleventy-plugin-dart-sass": "^1.0.3",
 		"eleventy-plugin-toc": "^1.1.5",

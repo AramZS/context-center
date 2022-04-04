@@ -19,6 +19,11 @@
     </div>
 </header>
 {% endblock %}
+{% block precontent %}
+<aside class="pre-content-last-update">
+    Page last updated: <time class="last-updated" datetime="{% gitLastModifiedCode "iso" %}">{% gitLastModifiedCode %}</time>
+</aside>
+{% endblock %}
 {% block prefooter %}
     {% if featuredImageCredit %}<p><em>Image credit: <a href="{{ featuredImageLink }}" target="_blank">{{featuredImageCredit}}</a></em></p>{% endif %}
 {% endblock %}

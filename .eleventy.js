@@ -349,6 +349,51 @@ module.exports = function (eleventyConfig) {
 		return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`;
 	});
 
+	const spawn = require("cross-spawn");
+
+	/* Thank you to Vuepress!
+	 * via https://github.com/11ty/eleventy/blob/master/src/Util/DateGitLastUpdated.js
+	 */
+	function getGitLastUpdatedTimeStamp(filePath) {
+		return (
+			parseInt(
+				spawn
+					.sync(
+						"git",
+						// Formats https://www.git-scm.com/docs/git-log#_pretty_formats
+						// %at author date, UNIX timestamp
+						["log", "-1", "--format=%at", filePath]
+					)
+					.stdout.toString("utf-8")
+			) * 1000
+		);
+	}
+	// via https://github.com/11ty/eleventy/issues/869#issuecomment-768119046
+	eleventyConfig.addNunjucksAsyncShortcode(
+		"gitLastModifiedCode",
+		async function (format = "local") {
+			const inputPath = this.page?.inputPath;
+			if (!inputPath) {
+				return "";
+			}
+			const timestamp = getGitLastUpdatedTimeStamp(inputPath);
+			const date = new Date(timestamp);
+			let stringOutput = "";
+			switch (format) {
+				case "iso":
+					const isoString = date.toISOString();
+					stringOutput = `${isoString}`;
+					break;
+				case "local":
+				default:
+					const localDateString = date?.toLocaleDateString();
+					stringOutput = `${localDateString}`;
+					break;
+			}
+			return stringOutput.trim();
+		}
+	);
+
 	let options = {
 		html: true,
 		breaks: true,
