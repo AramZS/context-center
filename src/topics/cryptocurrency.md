@@ -108,65 +108,6 @@ https://www.platformer.news/p/theres-something-off-about-apecoin
 https://blog.mollywhite.net/axie-hack/
 https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-managers-of-axie-infinity
 
-### Is it Art?
-
-https://news.artnet.com/opinion/beeple-everydays-review-1951656
-https://defector.com/a-cryptocurrency-expert-introduces-me-to-the-dystopian-nightmare-of-art-as-a-financial-instrument/
-https://direct.mit.edu/octo/article/doi/10.1162/octo_a_00419/99143/NFTs-or-The-Readymade-Reversed
-https://kotaku.com/crypto-art-belongs-in-the-trash-1846444119?_ga=2.226614303.305582756.1640722235-794911656.1631742145
-https://www.deviantart.com/team/journal/DeviantArt-Protect-80-000-NFT-Alerts-Sent-902819882
-https://amycastor.com/2021/03/14/metakovan-the-mystery-beeple-art-buyer-and-his-nft-defi-scheme/
-https://twitter.com/NFTtheft/status/1491210233104187392
-
-### What is its environmental impact?
-
-https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
-https://carbon.fyi/
-https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
-https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/
-
-#### Bad for the environment
-
-https://digiconomist.net/bitcoin-energy-consumption/
-https://www.bbc.com/news/av/technology-58020010
-https://apnews.com/article/bitcoin-mining-new-york-power-plant-climate-change-516dbd319394a6a30f83d94947abad20
-https://gizmodo.com/iran-bans-crypto-mining-after-months-of-blackouts-1846991039
-https://arstechnica.com/tech-policy/2021/07/bitcoin-power-plant-is-turning-a-12000-year-old-glacial-lake-into-a-hot-tub/
-https://ketanjoshi.co/2021/03/11/bitcoin-is-a-mouth-hungry-for-fossil-fuels/
-https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html
-https://www.sciencedirect.com/science/article/abs/pii/S0921344921005103?dgcid=author
-https://www.tomshardware.com/news/hard-drive-ssd-shortages-imminent-if-new-cryptocurrency-blooms
-https://www.msnbc.com/opinion/bitcoin-nfts-other-crypto-fads-are-destroying-our-planet-n1261139
-https://gizmodo.com/this-solar-crypto-mine-plan-is-stranger-than-fiction-1846966085
-https://www.euronews.com/next/2021/11/12/europe-must-ban-bitcoin-mining-to-hit-the-1-5c-paris-climate-goal-say-swedish-regulators
-https://www.ofnumbers.com/2021/02/14/bitcoin-and-other-pow-coins-are-an-esg-nightmare/
-https://github.com/kylemcdonald/ethereum-nft-activity
-https://fortune.com/2021/04/20/bitcoin-mining-coal-china-environment-pollution/amp/
-https://gizmodo.com/mining-bitcoin-can-be-more-of-an-energy-drain-than-actu-1830217426
-https://frontiergroup.org/blogs/blog/fg/nfts-hot-new-fad-massive-environmental-cost
-https://gizmodo.com/bitcoin-worse-for-climate-1848593882
-https://abcnews.go.com/US/wireStory/bitcoin-mining-power-plant-raises-ire-environmentalists-80618790
-https://forkast.news/chinas-crypto-miners-climate/
-https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
-https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
-https://twitter.com/Chronotope/status/1300906427515645952
-https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848721019
-
-#### Neutral or good for the environment
-
-https://time.com/6120237/nfts-environmental-impact/
-https://cryptoclimate.org/accord/
-https://www.nytimes.com/2022/03/22/technology/bitcoin-miners-environment-crypto.html
-https://www.coindesk.com/policy/2021/01/19/the-us-can-make-bitcoin-mining-greener/
-https://bitcoinmagazine.com/business/op-ed-bitcoin-miners-consume-reasonable-amount-energy-and-its-all-worth-it
-https://branch.climateaction.tech/issues/issue-2/a-guide-to-ecofriendly-cryptoart-nfts/
-https://bitcoinmagazine.com/culture/bitcoin-mining-and-the-case-for-more-energy
-https://flash---art.com/2021/02/episode-v-towards-a-new-ecology-of-crypto-art/
-https://github.com/memo/eco-nft
-https://bitcoinmagazine.com/culture/how-bitcoin-mining-strengthens-electricity-grids
-https://bullishthoughts.substack.com/p/the-elephants-in-the-grid
-https://www.citadel21.com/bitcoin-is-the-first-global-market-for-electricity-and-will-unleash-renewables
-
 ### Negative
 
 https://www.bloomberg.com/opinion/articles/2020-12-01/bitcoin-is-the-tulipmania-that-refuses-to-die
@@ -235,6 +176,65 @@ https://www.youtube.com/watch?v=u-sNSjS8cq0
 https://ez.substack.com/p/the-emperors-new-blockchain
 https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
 https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
+
+### Is it Art?
+
+https://news.artnet.com/opinion/beeple-everydays-review-1951656
+https://defector.com/a-cryptocurrency-expert-introduces-me-to-the-dystopian-nightmare-of-art-as-a-financial-instrument/
+https://direct.mit.edu/octo/article/doi/10.1162/octo_a_00419/99143/NFTs-or-The-Readymade-Reversed
+https://kotaku.com/crypto-art-belongs-in-the-trash-1846444119?_ga=2.226614303.305582756.1640722235-794911656.1631742145
+https://www.deviantart.com/team/journal/DeviantArt-Protect-80-000-NFT-Alerts-Sent-902819882
+https://amycastor.com/2021/03/14/metakovan-the-mystery-beeple-art-buyer-and-his-nft-defi-scheme/
+https://twitter.com/NFTtheft/status/1491210233104187392
+
+### What is its environmental impact?
+
+https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
+https://carbon.fyi/
+https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
+https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/
+
+#### Bad for the environment
+
+https://digiconomist.net/bitcoin-energy-consumption/
+https://www.bbc.com/news/av/technology-58020010
+https://apnews.com/article/bitcoin-mining-new-york-power-plant-climate-change-516dbd319394a6a30f83d94947abad20
+https://gizmodo.com/iran-bans-crypto-mining-after-months-of-blackouts-1846991039
+https://arstechnica.com/tech-policy/2021/07/bitcoin-power-plant-is-turning-a-12000-year-old-glacial-lake-into-a-hot-tub/
+https://ketanjoshi.co/2021/03/11/bitcoin-is-a-mouth-hungry-for-fossil-fuels/
+https://www.nytimes.com/interactive/2021/09/03/climate/bitcoin-carbon-footprint-electricity.html
+https://www.sciencedirect.com/science/article/abs/pii/S0921344921005103?dgcid=author
+https://www.tomshardware.com/news/hard-drive-ssd-shortages-imminent-if-new-cryptocurrency-blooms
+https://www.msnbc.com/opinion/bitcoin-nfts-other-crypto-fads-are-destroying-our-planet-n1261139
+https://gizmodo.com/this-solar-crypto-mine-plan-is-stranger-than-fiction-1846966085
+https://www.euronews.com/next/2021/11/12/europe-must-ban-bitcoin-mining-to-hit-the-1-5c-paris-climate-goal-say-swedish-regulators
+https://www.ofnumbers.com/2021/02/14/bitcoin-and-other-pow-coins-are-an-esg-nightmare/
+https://github.com/kylemcdonald/ethereum-nft-activity
+https://fortune.com/2021/04/20/bitcoin-mining-coal-china-environment-pollution/amp/
+https://gizmodo.com/mining-bitcoin-can-be-more-of-an-energy-drain-than-actu-1830217426
+https://frontiergroup.org/blogs/blog/fg/nfts-hot-new-fad-massive-environmental-cost
+https://gizmodo.com/bitcoin-worse-for-climate-1848593882
+https://abcnews.go.com/US/wireStory/bitcoin-mining-power-plant-raises-ire-environmentalists-80618790
+https://forkast.news/chinas-crypto-miners-climate/
+https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
+https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
+https://twitter.com/Chronotope/status/1300906427515645952
+https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848721019
+
+#### Neutral or good for the environment
+
+https://time.com/6120237/nfts-environmental-impact/
+https://cryptoclimate.org/accord/
+https://www.nytimes.com/2022/03/22/technology/bitcoin-miners-environment-crypto.html
+https://www.coindesk.com/policy/2021/01/19/the-us-can-make-bitcoin-mining-greener/
+https://bitcoinmagazine.com/business/op-ed-bitcoin-miners-consume-reasonable-amount-energy-and-its-all-worth-it
+https://branch.climateaction.tech/issues/issue-2/a-guide-to-ecofriendly-cryptoart-nfts/
+https://bitcoinmagazine.com/culture/bitcoin-mining-and-the-case-for-more-energy
+https://flash---art.com/2021/02/episode-v-towards-a-new-ecology-of-crypto-art/
+https://github.com/memo/eco-nft
+https://bitcoinmagazine.com/culture/how-bitcoin-mining-strengthens-electricity-grids
+https://bullishthoughts.substack.com/p/the-elephants-in-the-grid
+https://www.citadel21.com/bitcoin-is-the-first-global-market-for-electricity-and-will-unleash-renewables
 
 ### CryptoBros
 
