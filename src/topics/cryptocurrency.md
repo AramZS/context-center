@@ -177,6 +177,7 @@ https://ez.substack.com/p/the-emperors-new-blockchain
 https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
 https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
 https://www.stephendiehl.com/blog/simple.html
+https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
 
 ### Is it Art?
 
@@ -194,6 +195,7 @@ https://revealnews.org/podcast/can-our-climate-survive-bitcoin/
 https://carbon.fyi/
 https://gizmodo.com/how-to-fix-crypto-art-nfts-carbon-pollution-problem-1846440312
 https://www.utilitydive.com/news/bitcoin-mining-as-a-grid-resource-its-complicated/617896/
+https://www.theguardian.com/technology/2022/jan/30/how-do-we-solve-bitcoins-carbon-problem
 
 #### Bad for the environment
 
@@ -221,6 +223,7 @@ https://www.cell.com/joule/fulltext/S2542-4351(20)30331-7
 https://www.reuters.com/article/us-crypto-currency-tesla-climate-insight/elon-musk-wants-clean-power-but-teslas-carrying-bitcoins-dirty-baggage-idUSKBN2AA193
 https://twitter.com/Chronotope/status/1300906427515645952
 https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848721019
+https://www.newyorker.com/news/daily-comment/why-bitcoin-is-bad-for-the-environment
 
 #### Neutral or good for the environment
 
@@ -265,6 +268,7 @@ https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
 
 https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/
 https://tinysubversions.com/notes/reading-activitypub/
+https://runyourown.social/
 
 #### Interledger
 

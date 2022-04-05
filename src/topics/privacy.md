@@ -106,9 +106,9 @@ https://docs.google.com/document/d/1InSaFhB7teb7dRRTqwu4iV2AI282vMAnsZfjad8u5P4/
 https://developer.chrome.com/origintrials/#/view_trial/2479231594867458049
 https://mikewest.github.io/http-state-tokens/draft-west-http-state-tokens.html
 
-### WebID
+### WebID / FedID
 
-https://wicg.github.io/WebID/README.html
+https://github.com/fedidcg/FedCM
 https://docs.google.com/presentation/d/1Kk4WQIAAbkmzzzMGd5LoDnGq9kfpAxE8SNl4guUrUgw/edit
 
 ### DID
