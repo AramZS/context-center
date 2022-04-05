@@ -8,17 +8,10 @@ const generateImageFilename = function (imageUrl, cacheFile, cacheFilePath) {
 	const imageFileNameArray = imageUrl.split("/");
 	const imageFileName = imageFileNameArray[imageFileNameArray.length - 1];
 	const imageFile = imageFileName.split("?")[0];
-	console.log(
-		"Image file pieces",
-		imageFileNameArray,
-		imageFileName,
-		imageFile
-	);
 	const fileObj = cacheFilePath("images/" + cacheFile + "/", imageFile, true);
 	const imageCacheFolder = fileObj.cacheFolder;
 	const imageCacheFile = fileObj.cacheFile;
 	fileObj.imageFileName = imageFile;
-	console.log("File Path Generation", imageCacheFolder, imageCacheFile);
 	return fileObj;
 };
 
@@ -78,12 +71,6 @@ const imageCheck = (response, cacheFile, cacheFilePath, promiseArray) => {
 		const fileObj = generateImageFilename(image, cacheFile, cacheFilePath);
 		const imageCacheFolder = fileObj.cacheFolder;
 		const imageCacheFile = fileObj.cacheFile;
-		console.log(
-			"File Path Generation",
-			imageCacheFolder,
-			imageCacheFile,
-			fileObj.imageFileName
-		);
 		try {
 			fs.accessSync(imageCacheFile, fs.constants.F_OK);
 			return {
@@ -131,17 +118,10 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 			} else {
 				image = r.finalizedMeta.image;
 			}
-			console.log("Image found ", image);
 			const imageFileNameArray = image.split("/");
 			const imageFileName =
 				imageFileNameArray[imageFileNameArray.length - 1];
 			const imageFile = imageFileName.split("?")[0];
-			console.log(
-				"Image file pieces",
-				imageFileNameArray,
-				imageFileName,
-				imageFile
-			);
 			const fileObj = cacheFilePath(
 				"images/" + cacheFile + "/",
 				imageFile,
@@ -149,11 +129,6 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 			);
 			const imageCacheFolder = fileObj.cacheFolder;
 			const imageCacheFile = fileObj.cacheFile;
-			console.log(
-				"File Path Generation",
-				imageCacheFolder,
-				imageCacheFile
-			);
 			try {
 				fs.accessSync(imageCacheFile, fs.constants.F_OK);
 				return imageFile;
@@ -161,8 +136,8 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 				fs.mkdirSync(imageCacheFolder, {
 					recursive: true,
 				});
-				console.log("Writing Image to ", imageCacheFile);
-				console.log("Image file being written: ", image);
+				// console.log("Writing Image to ", imageCacheFile);
+				// console.log("Image file being written: ", image);
 				try {
 					const imageFile = await getImageAndWriteLocally(
 						image,

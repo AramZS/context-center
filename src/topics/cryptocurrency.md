@@ -176,6 +176,7 @@ https://www.youtube.com/watch?v=u-sNSjS8cq0
 https://ez.substack.com/p/the-emperors-new-blockchain
 https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
 https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
+https://www.stephendiehl.com/blog/simple.html
 
 ### Is it Art?
 

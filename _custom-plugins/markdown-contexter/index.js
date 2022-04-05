@@ -95,10 +95,10 @@ module.exports = (eleventyConfig, userOptions) => {
 						const { localImageName, originalImage, imageName } =
 							localImageObj;
 						imageCheck = true;
-						console.log(
-							"Local Cached Image",
-							`${options.domain}/${options.publicImagePath}/${fileName}/${imageName}`
-						);
+						//console.log(
+						//	"Local Cached Image",
+						//	`${options.domain}/${options.publicImagePath}/${fileName}/${imageName}`
+						// );
 						let image = originalImage;
 						htmlEmbed = htmlEmbed.replace(
 							image,
@@ -133,6 +133,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					if (imageCheck) {
 						console.log("Image issue possibly", e);
 					}
+					console.log("Contextualizing link: ", link);
 					let pContext = contexter.context(link);
 					completeAllPromiseArray.push(pContext);
 					inputContent = inputContent.replace(
@@ -175,6 +176,12 @@ module.exports = (eleventyConfig, userOptions) => {
 													JSON.stringify(r)
 												);
 												resolve(cacheFile);
+											})
+											.catch((e) => {
+												console.log(
+													"Image handling failed",
+													e
+												);
 											});
 									} catch (e) {
 										console.log(
@@ -255,7 +262,7 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				await Promise.all(completeAllPromiseArray);
+				// await Promise.all(completeAllPromiseArray);
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",
