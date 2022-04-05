@@ -376,21 +376,25 @@ module.exports = function (eleventyConfig) {
 			if (!inputPath) {
 				return "";
 			}
-			const timestamp = getGitLastUpdatedTimeStamp(inputPath);
-			const date = new Date(timestamp);
-			let stringOutput = "";
-			switch (format) {
-				case "iso":
-					const isoString = date.toISOString();
-					stringOutput = `${isoString}`;
-					break;
-				case "local":
-				default:
-					const localDateString = date?.toLocaleDateString();
-					stringOutput = `${localDateString}`;
-					break;
+			try {
+				const timestamp = getGitLastUpdatedTimeStamp(inputPath);
+				const date = new Date(timestamp);
+				let stringOutput = "";
+				switch (format) {
+					case "iso":
+						const isoString = date.toISOString();
+						stringOutput = `${isoString}`;
+						break;
+					case "local":
+					default:
+						const localDateString = date?.toLocaleDateString();
+						stringOutput = `${localDateString}`;
+						break;
+				}
+				return stringOutput.trim();
+			} catch (e) {
+				return "";
 			}
-			return stringOutput.trim();
 		}
 	);
 

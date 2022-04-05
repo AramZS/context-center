@@ -11,7 +11,8 @@ tags:
 ## Indie Search Engines
 
 http://teclis.com
-https://search.marginala.nu/
+[Marginala](https://search.marginala.nu/)
+
 https://kagi.com/
 
 ## Tools
@@ -35,6 +36,7 @@ https://tinygem.org/
 https://twitter.com/Chronotope/status/1506745918464405507
 
 ---
+
 https://twitter.com/Chronotope/status/1505204194524995585
 
 ---
