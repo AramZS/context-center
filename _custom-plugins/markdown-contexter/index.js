@@ -192,7 +192,11 @@ module.exports = (eleventyConfig, userOptions) => {
 							completeAllPromiseArray.push(fileWritePromise);
 						})
 						.catch((e) => {
-							console.log("Context adding promise failed", e);
+							console.log(
+								"Context adding promise failed on ",
+								link,
+								e
+							);
 						});
 				}
 			});
@@ -259,7 +263,7 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				// await Promise.all(completeAllPromiseArray);
+				await Promise.all(completeAllPromiseArray);
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",

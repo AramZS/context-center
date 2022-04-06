@@ -86,8 +86,8 @@ https://privacycg.github.io/private-click-measurement/
 https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-migration/
 https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-event-introduction/
 https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-event-guide/
-https://github.com/WICG/conversion-measurement-api/blob/main/event_attribution_reporting_clicks.md
-https://github.com/WICG/conversion-measurement-api/blob/main/event_attribution_reporting_views.md
+https://github.com/WICG/conversion-measurement-api/blob/main/EVENT.md
+https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-experiment/
 
 #### Mozilla / Facebook proposal
 
