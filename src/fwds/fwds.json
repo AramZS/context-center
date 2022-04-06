@@ -1,0 +1,7 @@
+{
+	"layout": "fwd.njk",
+	"description": "Context Center",
+	"date": "Last Modified",
+	"eleventyExcludeFromCollections": true,
+	"dynamicPermalink": false
+}
