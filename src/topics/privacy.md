@@ -187,6 +187,12 @@ https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
 https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64
 [Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
 
+[Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
+
+### User Perception
+
+["I need a better description": An Investigation Into User Expectations For Differential Privacy](https://arxiv.org/abs/2110.06452)
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
