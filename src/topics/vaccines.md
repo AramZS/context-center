@@ -82,6 +82,8 @@ https://www.youtube.com/watch?v=Va0RCgbywGc
 
 [How Culture Wars Delay Herd Immunity: Christian Nationalism and Anti-vaccine Attitudes](https://journals.sagepub.com/doi/full/10.1177/2378023120977727)
 
+https://jezebel.com/everything-i-learned-while-getting-kicked-out-of-americ-1834992879
+
 ### Vaccines and COVID
 
 https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html

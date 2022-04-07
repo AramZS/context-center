@@ -193,6 +193,8 @@ https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d3962
 
 ["I need a better description": An Investigation Into User Expectations For Differential Privacy](https://arxiv.org/abs/2110.06452)
 
+https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-1843908029
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
@@ -204,6 +206,8 @@ https://themarkup.org/google-the-giant/2020/07/23/google-advertising-keywords-bl
 https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it
 https://gizmodo.com/it-doesn-t-matter-who-owns-tiktok-1844595163
 https://gizmodo.com/facebook-says-china-is-its-biggest-enemy-but-it-s-also-1844526005
+https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html
+https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-collection-candy-crush/
 https://gizmodo.com/the-stop-hate-for-profit-movement-isnt-going-to-stop-1844147197
 https://gizmodo.com/goodrx-shares-my-prescriptions-with-third-parties-and-i-1841772965
 https://www.propublica.org/article/trumpcare-does-not-exist-nevertheless-facebook-and-google-cash-in-on-misleading-ads-for-garbage-health-insurance
@@ -215,8 +219,11 @@ https://www.niemanlab.org/2021/10/the-rise-of-dark-web-design-how-sites-manipula
 https://gizmodo.com/this-devious-and-mostly-legal-ad-scam-is-bleeding-small-1844633313
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
 https://theconversation.com/targeted-ads-isolate-and-divide-us-even-when-theyre-not-political-new-research-163669
+https://qz.com/guide/the-end-of-third-party-cookies/?utm_source=email&utm_medium=quartz-obsession&utm_content=e80b166a-c357-11eb-b8e8-7e154f33a947
 https://www.adweek.com/programmatic/investors-want-proof-digital-ads-funding-misinformation/
 https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-privacy-bill/
+https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-brokers-have-over-location-data
+https://www.admonsters.com/ad-targeting-bias/
 
 ## Books
 
