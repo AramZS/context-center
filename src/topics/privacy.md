@@ -84,14 +84,17 @@ https://privacycg.github.io/private-click-measurement/
 #### Chrome proposal
 
 https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-migration/
-https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-event-introduction/
-https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-event-guide/
 https://github.com/WICG/conversion-measurement-api/blob/main/EVENT.md
 https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-experiment/
+https://docs.google.com/document/d/1BXchEk-UMgcr2fpjfXrQ3D8VhTR-COGYS1cwK_nyLfg/edit
 
 #### Mozilla / Facebook proposal
 
 https://docs.google.com/document/d/1KpdSKD8-Rn0bWPTu4UtK54ks0yv2j22pA5SrAD9av4s/edit#heading=h.f4x9f0nqv28x
+
+#### Android Proposal
+
+https://developer.android.com/design-for-safety/ads/attribution
 
 ### Storage Partitioning
 
@@ -128,6 +131,14 @@ https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summar
 ### CCPA
 
 https://oag.ca.gov/privacy/ccpa
+
+### Colorado
+
+https://iapp.org/news/a/colorado-privacy-act-becomes-law/
+
+### Japan
+
+https://auth0.com/blog/the-new-japanese-privacy-law-what-businesses-need-to-know/
 
 ## White Papers and Non-technical Standards
 
@@ -174,6 +185,7 @@ https://aws.amazon.com/blogs/industries/how-to-create-a-modern-cpg-data-architec
 https://web.dev/same-site-same-origin/
 https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
 https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64
+[Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
 
 ## Journalism
 
@@ -204,4 +216,4 @@ https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-p
 
 https://www.goodreads.com/book/show/7677574-privacy-in-context?from_search=true&from_srp=true&qid=TofpBL4GQZ&rank=1
 https://www.goodreads.com/book/show/50403486-subprime-attention-crisis?from_search=true&from_srp=true&qid=DM1cXHJ0Fk&rank=1
-https://www.penguin.co.uk/authors/1086495/carissa-veliz.html
+https://www.penguin.co.uk/books/1120394/privacy-is-power/9780552177719.html
