@@ -38,9 +38,11 @@ https://www.youtube.com/watch?v=qWG5dou7vW4
 
 ### Resource Megasites
 
+https://shareverified.com/topics/covid-19-vaccines/
 https://vk.ovg.ox.ac.uk/vk/covid-19-vaccines
 https://vaxopedia.org/tag/covid-19-vaccine/
 https://www.cms.gov/About-CMS/Agency-Information/OMH/resource-center/COVID-19-Vaccine-Resources
+https://thisisourshot.info/resources/answers-to-common-covid-questions/
 
 ### Reading Vaccine Information
 
@@ -83,12 +85,14 @@ https://www.youtube.com/watch?v=Va0RCgbywGc
 [How Culture Wars Delay Herd Immunity: Christian Nationalism and Anti-vaccine Attitudes](https://journals.sagepub.com/doi/full/10.1177/2378023120977727)
 
 https://jezebel.com/everything-i-learned-while-getting-kicked-out-of-americ-1834992879
+https://www.newyorker.com/news/letter-from-the-uk/the-fight-against-vaccine-misinformation
 
 ### Vaccines and COVID
 
 https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html
 https://www.vcuhealth.org/news/covid-19/breakthrough-infections-viral-load-what-does-this-mean-to-you
 https://www.nytimes.com/2021/08/03/well/live/covid-delta-variant-vaccine-symptoms.html
+https://news.un.org/en/story/2021/04/1089192
 
 ### Ivermectin
 
