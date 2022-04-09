@@ -2,6 +2,16 @@
 title: Misinformation
 description: "Understanding misinformation and how to counter it"
 date: 2022-04-09 22:59:43.10 -4
+tags:
+  - Data
+  - Reading
+  - Journalism
+  - COVID
+  - Vaccines
+featuredImage: "danger-misinfo.jpg"
+featuredImageCredit: '"Misinformation" by 3dpete is marked with CC BY-ND 2.0.'
+featuredImageLink: "https://www.flickr.com/photos/26867441@N07/6072467398"
+featuredImageAlt: "Misinformation by 3dpete is a photo of a construction site with a wood-backed danger sign in red stating 'Danger due to Misinformation'"
 ---
 
 ## Links
