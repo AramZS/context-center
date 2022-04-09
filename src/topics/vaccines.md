@@ -86,6 +86,7 @@ https://www.youtube.com/watch?v=Va0RCgbywGc
 
 https://jezebel.com/everything-i-learned-while-getting-kicked-out-of-americ-1834992879
 https://www.newyorker.com/news/letter-from-the-uk/the-fight-against-vaccine-misinformation
+https://covid19misinfo.org
 
 ### Vaccines and COVID
 
