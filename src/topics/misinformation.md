@@ -56,6 +56,9 @@ https://datajournalism.com/read/handbook/verification-3/
 https://firstdraftnews.org/latest/tips-for-reporting-on-covid-19-coronavirus-and-slowing-the-spread-of-misinformation/
 [Building trust: what works for news organizations](https://mediaengagement.org/wp-content/uploads/2019/02/CME-Report-Building-Trust.pdf)
 
+https://www.cjr.org/tow_center_reports/craig_silverman_lies_damn_lies_viral_content.php
+https://hoaxy.osome.iu.edu/
+
 ### Identifying Misinformation
 
 https://firstdraftnews.org/latest/how-to-analyze-facebook-data-for-misinformation-trends-and-narratives/
@@ -86,3 +89,9 @@ https://www.who.int/teams/risk-communication/infodemic-management/1st-who-infode
 https://firstdraftnews.org/articles/the-psychology-of-misinformation-why-were-vulnerable/
 https://www.npr.org/2019/07/18/743195213/facts-arent-enough-the-psychology-of-false-beliefs
 https://knowledge.wharton.upenn.edu/article/build-fake-news-campaign/
+
+### Misinformation Studies
+
+https://misinforeview.hks.harvard.edu/
+https://mediamanipulation.org/research
+https://checkmyads.org/branded/
