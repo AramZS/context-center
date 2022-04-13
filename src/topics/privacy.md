@@ -183,7 +183,7 @@ https://www.nytimes.com/privacy
 https://aws.amazon.com/solutions/case-studies/merkle/
 https://aws.amazon.com/blogs/industries/how-to-create-a-modern-cpg-data-architecture-with-data-mesh/
 https://web.dev/same-site-same-origin/
-https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
+https://web.archive.org/web/20210828232159/https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
 https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64
 [Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
 
