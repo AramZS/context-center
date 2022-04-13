@@ -225,6 +225,10 @@ https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-p
 https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-brokers-have-over-location-data
 https://www.admonsters.com/ad-targeting-bias/
 
+## Papers
+
+https://cyberdefensereview.army.mil/CDR-Content/Articles/Article-View/Article/2537110/microtargeting-as-information-warfare/
+
 ## Books
 
 https://www.goodreads.com/book/show/7677574-privacy-in-context?from_search=true&from_srp=true&qid=TofpBL4GQZ&rank=1
