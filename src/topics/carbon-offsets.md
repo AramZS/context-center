@@ -39,6 +39,7 @@ featuredImageCaption: "Will the trees save us?"
 - https://gizmodo.com/carbon-offsets-for-nfts-dont-address-the-deeper-problem-1846520183
 - https://features.propublica.org/brazil-carbon-offsets/inconvenient-truth-carbon-credits-dont-work-deforestation-redd-acre-cambodia/
 - https://revealnews.org/article/why-trees-wont-save-us-from-climate-change/
+- https://climateer.substack.com/p/avoided-emissions
 
 ### Carbon Footprints
 
