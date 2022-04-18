@@ -134,9 +134,12 @@ module.exports = (eleventyConfig, userOptions) => {
 						console.log("Image issue possibly", e);
 					}
 					console.log("Contextualizing link: ", link);
+					inputContent = inputContent.replace(
+						urlObj.replace,
+						`<p><a href="${link}" target="_blank">${link}</a></p>`
+					);
 					let pContext = contexter.context(link);
 					completeAllPromiseArray.push(pContext);
-
 					// No file yet
 					console.log(
 						"Cached link " + cacheFile + " to repo not ready"
