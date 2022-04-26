@@ -281,6 +281,7 @@ https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
 https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/
 https://tinysubversions.com/notes/reading-activitypub/
 https://runyourown.social/
+https://queer.party/@cassolotl/108195007013414698
 
 #### Interledger
 
