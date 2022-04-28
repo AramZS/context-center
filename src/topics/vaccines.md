@@ -133,6 +133,6 @@ https://www.latimes.com/california/story/2021-12-28/omicron-surge-means-its-time
 https://www.nytimes.com/article/covid-masks.html
 https://www.cnn.com/2021/01/22/health/face-mask-n95-coronavirus-transmission/index.html
 
-https://www.youtube.com/watch?v=T6MjnmkdV5E
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T6MjnmkdV5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 https://www.npr.org/sections/health-shots/2020/11/23/937173060/mask-mandates-work-to-slow-spread-of-coronavirus-kansas-study-finds

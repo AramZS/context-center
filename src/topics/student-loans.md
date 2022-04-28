@@ -28,7 +28,9 @@ https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they
 https://highline.huffingtonpost.com/articles/en/poor-millennials/
 https://www.huffpost.com/entry/student-loan-debt-suicides_b_1638972
 https://www.theatlantic.com/magazine/archive/2015/12/the-silicon-valley-suicides/413140/
-https://www.usnews.com/education/blogs/student-loan-ranger/articles/how-student-loan-debt-affects-women
+
+<p><a href="https://www.usnews.com/education/blogs/student-loan-ranger/articles/how-student-loan-debt-affects-women" target="_blank">https://www.usnews.com/education/blogs/student-loan-ranger/articles/how-student-loan-debt-affects-women</a></p>
+
 https://www.vice.com/en/article/5gjy9z/a-millennials-guide-to-planning-for-retirement-815
 https://www.nytimes.com/2015/06/24/business/economy/more-americans-are-renting-and-paying-more-as-homeownership-falls.html
 https://www.bloomberg.com/news/articles/2016-05-25/these-are-the-countries-where-millennials-will-work-themselves-to-death
@@ -40,7 +42,6 @@ https://www.washingtonpost.com/news/grade-point/wp/2016/06/17/the-government-off
 https://www.wsj.com/articles/student-debt-payback-lags-1442189980?mod=e2fb
 https://www.theguardian.com/education/2015/feb/23/student-debt-for-profit-colleges
 https://www.cnbc.com/2015/06/15/the-high-economic-and-social-costs-of-student-loan-debt.html
-
 
 ### Repayment Approaches
 
