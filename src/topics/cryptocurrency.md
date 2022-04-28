@@ -45,7 +45,6 @@ https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 
 ### Middle of the Road
 
-https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
 https://www.technologyreview.com/2019/02/19/239592/once-hailed-as-unhackable-blockchains-are-now-getting-hacked/
 https://www.cnbc.com/2019/02/13/jp-morgan-is-rolling-out-the-first-us-bank-backed-cryptocurrency-to-transform-payments--.html
 https://qz.com/1355945/why-have-cryptocurrencies-like-bitcoin-and-ethereum-fallen-so-much/
@@ -106,6 +105,8 @@ https://www.bloomberg.com/news/articles/2021-12-06/small-group-is-reaping-most-o
 https://www.platformer.news/p/theres-something-off-about-apecoin
 https://blog.mollywhite.net/axie-hack/
 https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-managers-of-axie-infinity
+https://www.youtube.com/watch?v=IZaTd0hDtkI
+https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
 
 ### Negative
 
@@ -164,6 +165,7 @@ https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
 https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
 https://www.stephendiehl.com/blog/simple.html
 https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
+https://www.youtube.com/watch?v=C6aeL83z_9Y
 
 #### Economics
 
@@ -282,6 +284,8 @@ https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/
 https://tinysubversions.com/notes/reading-activitypub/
 https://runyourown.social/
 https://queer.party/@cassolotl/108195007013414698
+https://activitystrea.ms/
+https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
 
 #### Interledger
 
@@ -307,3 +311,5 @@ https://pluriverse.world/
 https://www.ietf.org/archive/id/draft-nottingham-avoiding-internet-centralization-02.html
 https://werd.io/2022/the-web-is-a-miracle
 https://tedium.co/2022/04/06/centralization-decentralization-social-networking-faq/
+https://indieweb.org/POSSE
+

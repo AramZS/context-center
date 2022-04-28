@@ -13,3 +13,13 @@ Welcome to Context Center.
 This site is set up to provide deep lists of links about any topic, providing useful resources to understand that topic along with timelines and useful notes.
 
 Do you want to understand something? Check our <a href="/topics">topics</a> page!
+
+## Highlighted Topics
+
+<p>
+<ul>
+<li><a href="/topics/vaccines/">Vaccines</a></li>
+<li><a href="/topics/cryptocurrency/">Crypto Currency</a></li>
+<li><a href="/topics/climate-change/">Climate Change</a></li>
+</ul>
+</p>
