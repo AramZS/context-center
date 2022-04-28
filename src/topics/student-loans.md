@@ -2,12 +2,21 @@
 title: Student Loans
 description: "Understanding student loans and their impact on people"
 date: 2022-04-27 22:59:43.10 -4
+tags:
+  - Banking
+  - Loans
+  - Generational Strife
+  - Millennials
+  - College
+  - University
+  - Laws and Regulations
+featuredImage: "student-loan-marchers.jpg"
+featuredImageCredit: '"University of East Anglia (UEA) students protesting against the privatisation of student loans" by Roger Blackwell is marked with CC BY 2.0.'
+featuredImageLink: "https://www.flickr.com/photos/10630857@N04/12343473805"
+featuredImageAlt: "Students march in protest holding red boxes above their heads with the words Student Debt on printed pages attached to the front of the boxes"
 ---
 
 ## Links
-
-https://twitter.com/Chronotope/status/1519782915575533568
-https://www.salon.com/2012/09/15/stop_calling_student_loans_financial_aid/?utm_source=facebook&utm_medium=socialflow
 
 ### Impact
 
@@ -46,6 +55,7 @@ https://www.washingtonpost.com/news/grade-point/wp/2017/03/17/trump-administrati
 
 ### Flaws of the System
 
+https://www.salon.com/2012/09/15/stop_calling_student_loans_financial_aid/?utm_source=facebook&utm_medium=socialflow
 https://www.bloomberg.com/news/articles/2015-03-04/this-fed-official-just-perfectly-described-why-student-loans-are-a-terrible-investment
 https://revealnews.org/podcast/whos-getting-rich-off-your-student-debt/
 https://www.wsj.com/articles/al-lord-profited-when-college-tuition-rose-he-is-paying-for-it-11627048831
