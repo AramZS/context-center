@@ -67,3 +67,5 @@ https://www.washingtonpost.com/news/get-there/wp/2015/07/09/these-20-schools-are
 https://www.mic.com/articles/114208/happy-college-acceptance-day-you-re-going-to-be-in-debt-forever
 https://www.nytimes.com/2015/09/13/magazine/is-college-tuition-too-high.html
 https://www.buzzfeednews.com/article/mollyhensleyclancy/the-problem-with-too-big-to-fail-colleges#.de45nydWy
+
+<p><a href="https://www.bloomberg.com/news/articles/2022-04-30/biden-s-1-75-trillion-student-debt-problem-by-the-numbers" target="_blank">https://www.bloomberg.com/news/articles/2022-04-30/biden-s-1-75-trillion-student-debt-problem-by-the-numbers</a></p>
