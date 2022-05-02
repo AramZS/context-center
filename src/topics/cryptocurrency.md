@@ -286,6 +286,7 @@ https://runyourown.social/
 https://queer.party/@cassolotl/108195007013414698
 https://activitystrea.ms/
 https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
+https://fed.brid.gy
 
 #### Interledger
 
