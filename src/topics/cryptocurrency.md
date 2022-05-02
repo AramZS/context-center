@@ -238,6 +238,7 @@ https://twitter.com/Chronotope/status/1300906427515645952
 https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848721019
 https://www.newyorker.com/news/daily-comment/why-bitcoin-is-bad-for-the-environment
 https://www.ft.com/content/0448b44d-1d78-48f8-8ca8-6edae7976a5f
+https://www.washingtonpost.com/business/2022/03/18/bitcoin-mining-noise-pollution-appalachia/
 
 #### Neutral or good for the environment
 
