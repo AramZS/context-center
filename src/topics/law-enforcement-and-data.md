@@ -9,10 +9,10 @@ tags:
   - Law Enforcement
   - Data
   - User Data
-featuredImage: "privacy-phone.jpg"
-featuredImageCredit: '"data privacy" by stockcatalog is marked with CC BY 2.0.'
-featuredImageLink: "https://www.flickr.com/photos/151691693@N02/41234382652"
-featuredImageAlt: '"data privacy" by stockcatalog portrays a human hand holding a phone with a blue screen showing a padlock and key icon.'
+featuredImage: "law-enforcement-mech.jpg"
+featuredImageCredit: '"Law enforcement mech" by RG&B is marked with CC BY-NC-ND 2.0.'
+featuredImageLink: "https://www.flickr.com/photos/34943347@N04/5531895119"
+featuredImageAlt: '"Law enforcement mech" by RG&B portrays a LEGO construction of what looks like a law enforcement vehicle if it were shaped with legs and arms like a Sci-Fi mech.'
 featuredImageCaption: "What happens when the government wants inside your phone?"
 ---
 
