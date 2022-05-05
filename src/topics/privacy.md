@@ -26,6 +26,7 @@ https://berjon.com/privacy-reality-check/
 https://berjon.com/competition-privacy/
 https://open.nytimes.com/how-the-new-york-times-thinks-about-your-privacy-bc07d2171531
 https://blog.mozilla.org/netpolicy/2022/04/12/competition-should-not-be-weaponized-to-hobble-privacy-protections-on-the-open-web/
+https://www.adexchanger.com/online-advertising/programmatic-tech-is-a-front-for-psychological-warfare/
 
 ## Compliance APIs
 
