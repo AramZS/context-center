@@ -27,9 +27,6 @@ Systems intended for ad targeting and UX optimization have become useful to law 
 https://www.theverge.com/2022/5/2/23045250/mozilla-mental-health-app-privacy-analysis
 https://www.consumerreports.org/health-privacy/what-your-period-tracker-app-knows-about-you-a8701683935/
 https://www.washingtonpost.com/technology/2019/04/10/tracking-your-pregnancy-an-app-may-be-more-public-than-you-think/
-
-<p><a href="https://www.nytimes.com/2022/01/11/style/facebook-womens-sexual-health-advertising.html" target="_blank">https://www.nytimes.com/2022/01/11/style/facebook-womens-sexual-health-advertising.html</a></p>
-
 https://www.brennancenter.org/our-work/research-reports/social-media-surveillance-us-government
 https://themarkup.org/privacy/2022/01/27/gay-bi-dating-app-muslim-prayer-apps-sold-data-on-peoples-location-to-a-controversial-data-broker
 https://gizmodo.com/your-weather-app-is-selling-you-out-1845052421
@@ -37,7 +34,7 @@ https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-co
 
 <p><a href="https://www.nytimes.com/2017/12/28/business/media/alphonso-app-tracking.html" target="_blank">https://www.nytimes.com/2017/12/28/business/media/alphonso-app-tracking.html</a></p>
 
-
+https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-want-see-pregnancy-ads-after-my-child-was-stillborn/
 
 ### Data Brokers
 
