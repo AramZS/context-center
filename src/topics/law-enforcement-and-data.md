@@ -49,6 +49,7 @@ https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-b
 https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html
 https://www.vice.com/en/article/gygx7y/your-anonymous-browsing-data-isnt-actually-anonymous
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
+https://gizmodo.com/anonymized-data-is-meaningless-bullshit-1841429952
 
 
 ### How Law Enforcement Acquires Your Data
