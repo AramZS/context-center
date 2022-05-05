@@ -16,7 +16,7 @@ featuredImageAlt: '"Law enforcement mech" by RG&B portrays a LEGO construction o
 featuredImageCaption: "What happens when the government wants inside your phone?"
 ---
 
-Systems intended for ad targeting and UX optimization have become a target of law enforcement. This Context Check examines how that works and why.
+Systems intended for ad targeting and UX optimization have become useful to law enforcement. This Context Check examines how that works and why.
 
 <br /><br /><br />
 
