@@ -71,6 +71,11 @@ https://www.motherjones.com/politics/2022/02/meet-abortion-bans-new-best-friend-
 https://www.washingtonpost.com/technology/2022/05/04/abortion-digital-privacy/
 https://jezebel.com/a-data-firm-is-tracking-people-who-visit-abortion-clini-1848875722
 https://twitter.com/swodinsky/status/1521938727009927170
+https://gizmodo.com/roe-v-wade-supreme-court-abortion-overturn-ron-wyden-da-1848876732
+
+<p><a href="https://www.bloomberg.com/opinion/articles/2022-05-04/roe-v-wade-online-privacy-will-be-critical-for-women-if-abortion-is-banned" target="_blank">https://www.bloomberg.com/opinion/articles/2022-05-04/roe-v-wade-online-privacy-will-be-critical-for-women-if-abortion-is-banned</a></p>
+
+https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-parenthood-abortion-clinics-placer-ai
 
 ### Fighting Back
 
