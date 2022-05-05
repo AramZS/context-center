@@ -78,6 +78,7 @@ https://twitter.com/swodinsky/status/1521938727009927170
 ### Fighting Back
 
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
+https://ssd.eff.org/en/playlist/reproductive-healthcare-service-provider-seeker-or-advocate#your-security-plan
 https://twitter.com/swodinsky/status/1521940021485449216
 https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843828887
 https://twitter.com/swodinsky/status/1521351334339002369
