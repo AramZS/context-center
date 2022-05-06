@@ -227,6 +227,7 @@ https://www.adweek.com/programmatic/investors-want-proof-digital-ads-funding-mis
 https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-privacy-bill/
 https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-brokers-have-over-location-data
 https://www.admonsters.com/ad-targeting-bias/
+https://gizmodo.com/gdpr-iab-europe-privacy-consent-ad-tech-online-advertis-1848469604
 
 ## Papers
 
