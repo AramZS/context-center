@@ -86,3 +86,4 @@ https://twitter.com/swodinsky/status/1521940021485449216
 https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843828887
 https://twitter.com/swodinsky/status/1521351334339002369
 https://www.eff.org/deeplinks/2022/05/digital-security-and-privacy-tips-those-involved-abortion-access
+https://gizmodo.com/how-to-get-an-abortion-keep-personal-information-safe-1848874362
