@@ -36,6 +36,7 @@ https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-co
 
 https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-want-see-pregnancy-ads-after-my-child-was-stillborn/
 https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
+https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 
 ### Data Brokers
 
@@ -65,6 +66,7 @@ https://theintercept.com/2019/12/22/ice-social-media-surveillance/
 https://www.theverge.com/2020/6/25/21303190/congress-data-smartphone-tracking-fbi-security-privacy
 https://www.vice.com/en/article/m7vymn/cdc-tracked-phones-location-data-curfews
 https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-1844306733
+https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
 
 ### Abortion and User Data
 
@@ -79,6 +81,7 @@ https://gizmodo.com/roe-v-wade-supreme-court-abortion-overturn-ron-wyden-da-1848
 
 https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-parenthood-abortion-clinics-placer-ai
 https://jezebel.com/abortion-in-the-surveillance-state-1848076906
+https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-risk-rcna27492
 
 ### Fighting Back
 
