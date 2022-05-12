@@ -27,6 +27,7 @@ https://berjon.com/competition-privacy/
 https://open.nytimes.com/how-the-new-york-times-thinks-about-your-privacy-bc07d2171531
 https://blog.mozilla.org/netpolicy/2022/04/12/competition-should-not-be-weaponized-to-hobble-privacy-protections-on-the-open-web/
 https://www.adexchanger.com/online-advertising/programmatic-tech-is-a-front-for-psychological-warfare/
+https://berjon.com/principled-privacy/
 
 ## Compliance APIs
 
@@ -191,6 +192,8 @@ https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d3962
 [Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
 
 [Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
+
+https://www.w3.org/TR/privacy-principles/
 
 ### User Perception
 

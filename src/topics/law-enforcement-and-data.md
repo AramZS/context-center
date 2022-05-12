@@ -37,6 +37,7 @@ https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-co
 https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-want-see-pregnancy-ads-after-my-child-was-stillborn/
 https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
 https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
+https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
 
 ### Data Brokers
 
@@ -67,6 +68,7 @@ https://www.theverge.com/2020/6/25/21303190/congress-data-smartphone-tracking-fb
 https://www.vice.com/en/article/m7vymn/cdc-tracked-phones-location-data-curfews
 https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-1844306733
 https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
+https://americandragnet.org/
 
 ### Abortion and User Data
 
