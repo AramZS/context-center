@@ -19,3 +19,4 @@ https://github.com/palewire/wordpress-memento-plugin
 https://mementoweb.org/guide/quick-intro/
 https://mementoweb.org/guide/rfc/
 https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#Preventing_and_repairing_dead_links
+https://ahrefs.com/blog/link-rot-study/

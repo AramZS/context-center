@@ -34,6 +34,7 @@ https://gizmodo.com/you-need-to-care-about-this-1848042385
 https://www.vice.com/en/article/597kpd/new-report-suggests-high-likelihood-of-human-civilization-coming-to-an-end-in-2050
 https://nymag.com/intelligencer/2017/07/climate-change-earth-too-hot-for-humans.html
 https://gizmodo.com/the-ipcc-warns-this-is-a-make-or-break-decade-for-human-1847444573
+https://gizmodo.com/50-50-chance-hit-1-5-degrees-warming-2026-1848904911
 
 ### Life Changes
 

@@ -27,6 +27,7 @@ https://berjon.com/competition-privacy/
 https://open.nytimes.com/how-the-new-york-times-thinks-about-your-privacy-bc07d2171531
 https://blog.mozilla.org/netpolicy/2022/04/12/competition-should-not-be-weaponized-to-hobble-privacy-protections-on-the-open-web/
 https://www.adexchanger.com/online-advertising/programmatic-tech-is-a-front-for-psychological-warfare/
+https://berjon.com/principled-privacy/
 
 ## Compliance APIs
 
@@ -192,6 +193,8 @@ https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d3962
 
 [Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
 
+https://www.w3.org/TR/privacy-principles/
+
 ### User Perception
 
 ["I need a better description": An Investigation Into User Expectations For Differential Privacy](https://arxiv.org/abs/2110.06452)
@@ -227,6 +230,7 @@ https://www.adweek.com/programmatic/investors-want-proof-digital-ads-funding-mis
 https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-privacy-bill/
 https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-brokers-have-over-location-data
 https://www.admonsters.com/ad-targeting-bias/
+https://gizmodo.com/gdpr-iab-europe-privacy-consent-ad-tech-online-advertis-1848469604
 
 ## Papers
 

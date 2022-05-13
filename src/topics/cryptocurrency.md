@@ -107,6 +107,7 @@ https://blog.mollywhite.net/axie-hack/
 https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-managers-of-axie-infinity
 https://www.youtube.com/watch?v=IZaTd0hDtkI
 https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
+https://twitter.com/doctorow/status/1524805409713823744
 
 ### Negative
 

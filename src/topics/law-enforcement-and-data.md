@@ -35,6 +35,9 @@ https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-co
 <p><a href="https://www.nytimes.com/2017/12/28/business/media/alphonso-app-tracking.html" target="_blank">https://www.nytimes.com/2017/12/28/business/media/alphonso-app-tracking.html</a></p>
 
 https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-want-see-pregnancy-ads-after-my-child-was-stillborn/
+https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
+https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
+https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
 
 ### Data Brokers
 
@@ -64,6 +67,8 @@ https://theintercept.com/2019/12/22/ice-social-media-surveillance/
 https://www.theverge.com/2020/6/25/21303190/congress-data-smartphone-tracking-fbi-security-privacy
 https://www.vice.com/en/article/m7vymn/cdc-tracked-phones-location-data-curfews
 https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-1844306733
+https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
+https://americandragnet.org/
 
 ### Abortion and User Data
 
@@ -77,6 +82,9 @@ https://gizmodo.com/roe-v-wade-supreme-court-abortion-overturn-ron-wyden-da-1848
 <p><a href="https://www.bloomberg.com/opinion/articles/2022-05-04/roe-v-wade-online-privacy-will-be-critical-for-women-if-abortion-is-banned" target="_blank">https://www.bloomberg.com/opinion/articles/2022-05-04/roe-v-wade-online-privacy-will-be-critical-for-women-if-abortion-is-banned</a></p>
 
 https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-parenthood-abortion-clinics-placer-ai
+https://jezebel.com/abortion-in-the-surveillance-state-1848076906
+https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-risk-rcna27492
+https://www.youtube.com/watch?v=UY29mVjMA4c
 
 ### Fighting Back
 
@@ -86,3 +94,4 @@ https://twitter.com/swodinsky/status/1521940021485449216
 https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843828887
 https://twitter.com/swodinsky/status/1521351334339002369
 https://www.eff.org/deeplinks/2022/05/digital-security-and-privacy-tips-those-involved-abortion-access
+https://gizmodo.com/how-to-get-an-abortion-keep-personal-information-safe-1848874362

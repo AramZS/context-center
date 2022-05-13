@@ -24,7 +24,9 @@ https://www.propublica.org/article/colleges-flush-with-cash-saddle-poorest-stude
 https://www.mic.com/articles/114234/the-student-debt-strike-movement-is-finally-getting-the-attention-it-deserves
 https://www.buzzfeednews.com/article/annehelenpetersen/millennials-burnout-generation-debt-work
 https://longreads.com/2021/12/01/debt-demands-a-body/
-https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they-told-us-why.html
+
+<p><a href="https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they-told-us-why.html" target="_blank">https://www.nytimes.com/2018/07/05/upshot/americans-are-having-fewer-babies-they-told-us-why.html</a></p>
+
 https://highline.huffingtonpost.com/articles/en/poor-millennials/
 https://www.huffpost.com/entry/student-loan-debt-suicides_b_1638972
 https://www.theatlantic.com/magazine/archive/2015/12/the-silicon-valley-suicides/413140/
