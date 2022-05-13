@@ -1,0 +1,39 @@
+:root {
+    --green: #59bf51;
+    --red: #bf413e;
+    --grey: #999999;
+	/* Background colors ---------------------------*/
+	--header-footer-background: #005289;
+	--main-background: #e0e0e0;
+	--card-background: #ffffff;
+	--filterbar-background: #cccccc;
+
+	/* Text colors ---------------------------------*/
+		/* Header and footer ---------------------------------*/
+	--title-color: #ffffff;
+	--header-footer-body-color: #eeeeee;
+	--header-footer-link-color: #7acbff;
+
+		/* Main ---------------------------------*/
+	--main-link-color: #32323a;
+	--timestamp-color: #888888;
+
+	/* Other colors ---------------------------------*/
+	--timeline-line-color: #cccccc;
+	--timeline-icon-color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --timeline-line-color: #444444;
+		--header-footer-background: #003356;
+		--main-background: #222222;
+		--card-background: #333333;
+		--filterbar-background: #000000;
+		--main-color: #cccccc;
+		--link-color: #7acbff;
+
+		/* Auxiliary pages  ---------------------------------*/
+		--etc-header-color: #3086bf;
+	}
+}
