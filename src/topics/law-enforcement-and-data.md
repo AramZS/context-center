@@ -84,6 +84,7 @@ https://gizmodo.com/roe-v-wade-supreme-court-abortion-overturn-ron-wyden-da-1848
 https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-parenthood-abortion-clinics-placer-ai
 https://jezebel.com/abortion-in-the-surveillance-state-1848076906
 https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-risk-rcna27492
+https://www.youtube.com/watch?v=UY29mVjMA4c
 
 ### Fighting Back
 
