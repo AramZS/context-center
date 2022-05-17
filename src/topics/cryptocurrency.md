@@ -167,6 +167,7 @@ https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
 https://www.stephendiehl.com/blog/simple.html
 https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
 https://www.youtube.com/watch?v=C6aeL83z_9Y
+https://hbr.org/2022/05/cautionary-tales-from-cryptoland
 
 #### Economics
 
