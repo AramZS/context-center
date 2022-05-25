@@ -15,6 +15,93 @@ featuredImageCaption: "Yum, capital"
 
 ## Links
 
+### Negative
+
+https://www.bloomberg.com/opinion/articles/2020-12-01/bitcoin-is-the-tulipmania-that-refuses-to-die
+https://webapp.io/blog/crypto-miners-are-killing-free-ci/
+https://thenextweb.com/news/majority-cryptocurrency-centralized
+https://www.theguardian.com/technology/2018/mar/20/child-abuse-imagery-bitcoin-blockchain-illegal-content
+https://gizmodo.com/bitcoin-surges-15-overnight-because-nobody-learned-the-1833737971
+https://theoutline.com/post/3074/inside-the-group-chats-where-people-pump-and-dump-cryptocurrency
+https://www.ibtimes.co.uk/nothing-free-starbucks-wifi-hijacked-customers-laptops-secretly-mine-cryptocurrency-1651264
+https://www.stephendiehl.com/blog/disconnect.html
+https://twitter.com/FoldableHuman/status/1464821797392551945
+https://discontents.substack.com/p/what-if-we-made-the-internet-a-pyramid
+https://www.oreilly.com/radar/why-its-too-early-to-get-excited-about-web3/
+https://web3isgoinggreat.com/
+https://tante.cc/2021/12/17/the-third-web/
+https://the-crypto-syllabus.com/brian-eno-on-nfts-and-automatism/
+https://www.gawker.com/culture/the-future-is-useless-expensive
+https://www.ft.com/content/83a14261-598d-4601-87fc-5dde528b33d0
+https://the-crypto-syllabus.com/geraldine-juarez-on-nfts-ghosts/
+https://twitter.com/davetroy/status/1478017765927788555
+https://the-crypto-syllabus.com/francesca-bria-on-decentralisation/
+https://www.cnbc.com/2022/01/06/kazakhstan-bitcoin-mining-shuts-down-amid-fatal-protests.html
+https://www.stephendiehl.com/blog/web3-bullshit.html
+https://www.profgalloway.com/web3/
+https://www.nytimes.com/2022/01/15/technology/cryptocurrency-nft-gamers.html
+https://www.techrepublic.com/article/mozilla-stops-accepting-cryptocurrency-wikipedia-may-be-next-are-dominos-falling/
+https://www.youtube.com/watch?v=YQ_xWvX1n9g&t=773s
+http://news.trust.org/item/20220118122426-mv9tu/
+https://www.youtube.com/watch?v=AxaHugHihh0
+https://www.salon.com/2022/01/26/the-crytpo-crash-isnt-just-tulip-trading--its-a-result-of-the-entitlement-that-led-to/
+https://www.bloomberg.com/news/articles/2022-01-12/bitcoin-trading-president-likely-loses-money-for-el-salvadorans
+https://the-crypto-syllabus.com/yanis-varoufakis-on-techno-feudalism/
+https://www.theguardian.com/global/2022/jan/29/huge-mess-of-theft-artists-sound-alarm-theft-nfts-proliferates
+https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster
+https://www.coindesk.com/layer2/privacyweek/2022/01/27/before-you-click-i-agree-how-binance-coinbase-and-22-other-crypto-exchanges-handle-your-data/
+https://twitter.com/anildash/status/1488579268410056708
+https://www.theatlantic.com/technology/archive/2022/02/nft-jimmy-fallon-paris-hilton-millionaire/621486/
+https://www.garbageday.email/p/the-end-of-the-metaverse-hopefully
+https://blog.dshr.org/2022/02/ee380-talk.html
+https://www.usenix.org/publications/loginonline/web3-fraud
+https://blog.mollywhite.net/off-ramps/
+https://twitter.com/concodanomics/status/1492831802028965888
+https://ftw.usatoday.com/2021/11/xbox-phil-spencer-exploitive-nft
+https://www.youtube.com/watch?v=8St36RjHd2E
+https://www.theverge.com/2022/2/18/22941223/salesforce-nft-cloud-employee-protest-open-letter
+https://themarkup.org/citizen-browser/2022/02/22/facebook-scammers-are-schilling-fake-cryptocurrency-using-big-techs-biggest-names
+https://ez.substack.com/p/solutions-that-create-problems?utm_source=url
+https://www.salon.com/2022/02/16/nfts-arent-art--theyre-just-the-of-cryptos-latest-scam/
+https://www.vice.com/en/article/88gb75/at-sxsw-a-pathetic-tech-future-struggles-to-be-born
+https://www.platformer.news/p/why-you-cant-rebuild-wikipedia-with
+https://www.youtube.com/watch?v=hXBZ-BXfCSY
+https://www.youtube.com/watch?v=u-sNSjS8cq0
+https://ez.substack.com/p/the-emperors-new-blockchain
+https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
+https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
+https://www.stephendiehl.com/blog/simple.html
+https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
+https://www.youtube.com/watch?v=C6aeL83z_9Y
+https://hbr.org/2022/05/cautionary-tales-from-cryptoland
+
+#### Economics
+
+https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
+https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
+https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
+https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
+https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html
+
+#### Disturbing Origins
+
+https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/
+https://inthesetimes.com/article/the-ticking-bomb-of-crypto-fascism
+https://www.splcenter.org/hatewatch/2021/12/09/how-cryptocurrency-revolutionized-white-supremacist-movement
+https://www.salon.com/2018/06/08/how-bitcoin-made-right-wing-conspiracy-theories-mainstream/
+
+#### Major Scams
+
+https://kotaku.com/hacker-steals-nfts-worth-millions-from-opensea-marketpl-1848570074
+https://kotaku.com/youtube-twitch-streamer-ice-poseidon-stole-money-crypto-1848463229
+https://www.buzzfeednews.com/article/sarahemerson/crypto-laundering-scheme-rapper-forbes
+https://www.buzzfeednews.com/article/sarahemerson/doj-accused-crypto-couple-nft-opensea-accounts-disappeared
+https://www.bloomberg.com/news/articles/2022-02-09/nyc-couple-arrested-in-4-5b-bitcoin-hack-are-crypto-crime-s-bonnie-clyde
+https://www.bloomberg.com/news/features/2021-10-07/crypto-mystery-where-s-the-69-billion-backing-the-stablecoin-tether
+https://decrypt.co/90590/crypto-com-suffers-hack-at-least-15m-ethereum
+https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021-chainalysis.html
+https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv-show
+
 ### Positive
 
 https://future.a16z.com/crypto-and-community-owned-characters/
@@ -108,91 +195,6 @@ https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-man
 https://www.youtube.com/watch?v=IZaTd0hDtkI
 https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
 https://twitter.com/doctorow/status/1524805409713823744
-
-### Negative
-
-https://www.bloomberg.com/opinion/articles/2020-12-01/bitcoin-is-the-tulipmania-that-refuses-to-die
-https://webapp.io/blog/crypto-miners-are-killing-free-ci/
-https://thenextweb.com/news/majority-cryptocurrency-centralized
-https://www.theguardian.com/technology/2018/mar/20/child-abuse-imagery-bitcoin-blockchain-illegal-content
-https://gizmodo.com/bitcoin-surges-15-overnight-because-nobody-learned-the-1833737971
-https://theoutline.com/post/3074/inside-the-group-chats-where-people-pump-and-dump-cryptocurrency
-https://www.ibtimes.co.uk/nothing-free-starbucks-wifi-hijacked-customers-laptops-secretly-mine-cryptocurrency-1651264
-https://www.stephendiehl.com/blog/disconnect.html
-https://twitter.com/FoldableHuman/status/1464821797392551945
-https://discontents.substack.com/p/what-if-we-made-the-internet-a-pyramid
-https://www.oreilly.com/radar/why-its-too-early-to-get-excited-about-web3/
-https://web3isgoinggreat.com/
-https://tante.cc/2021/12/17/the-third-web/
-https://the-crypto-syllabus.com/brian-eno-on-nfts-and-automatism/
-https://www.gawker.com/culture/the-future-is-useless-expensive
-https://www.ft.com/content/83a14261-598d-4601-87fc-5dde528b33d0
-https://the-crypto-syllabus.com/geraldine-juarez-on-nfts-ghosts/
-https://twitter.com/davetroy/status/1478017765927788555
-https://the-crypto-syllabus.com/francesca-bria-on-decentralisation/
-https://www.cnbc.com/2022/01/06/kazakhstan-bitcoin-mining-shuts-down-amid-fatal-protests.html
-https://www.stephendiehl.com/blog/web3-bullshit.html
-https://www.profgalloway.com/web3/
-https://www.nytimes.com/2022/01/15/technology/cryptocurrency-nft-gamers.html
-https://www.techrepublic.com/article/mozilla-stops-accepting-cryptocurrency-wikipedia-may-be-next-are-dominos-falling/
-https://www.youtube.com/watch?v=YQ_xWvX1n9g&t=773s
-http://news.trust.org/item/20220118122426-mv9tu/
-https://www.youtube.com/watch?v=AxaHugHihh0
-https://www.salon.com/2022/01/26/the-crytpo-crash-isnt-just-tulip-trading--its-a-result-of-the-entitlement-that-led-to/
-https://www.bloomberg.com/news/articles/2022-01-12/bitcoin-trading-president-likely-loses-money-for-el-salvadorans
-https://the-crypto-syllabus.com/yanis-varoufakis-on-techno-feudalism/
-https://www.theguardian.com/global/2022/jan/29/huge-mess-of-theft-artists-sound-alarm-theft-nfts-proliferates
-https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster
-https://www.coindesk.com/layer2/privacyweek/2022/01/27/before-you-click-i-agree-how-binance-coinbase-and-22-other-crypto-exchanges-handle-your-data/
-https://twitter.com/anildash/status/1488579268410056708
-https://www.theatlantic.com/technology/archive/2022/02/nft-jimmy-fallon-paris-hilton-millionaire/621486/
-https://www.garbageday.email/p/the-end-of-the-metaverse-hopefully
-https://blog.dshr.org/2022/02/ee380-talk.html
-https://www.usenix.org/publications/loginonline/web3-fraud
-https://blog.mollywhite.net/off-ramps/
-https://twitter.com/concodanomics/status/1492831802028965888
-https://ftw.usatoday.com/2021/11/xbox-phil-spencer-exploitive-nft
-https://www.youtube.com/watch?v=8St36RjHd2E
-https://www.theverge.com/2022/2/18/22941223/salesforce-nft-cloud-employee-protest-open-letter
-https://themarkup.org/citizen-browser/2022/02/22/facebook-scammers-are-schilling-fake-cryptocurrency-using-big-techs-biggest-names
-https://ez.substack.com/p/solutions-that-create-problems?utm_source=url
-https://www.salon.com/2022/02/16/nfts-arent-art--theyre-just-the-of-cryptos-latest-scam/
-https://www.vice.com/en/article/88gb75/at-sxsw-a-pathetic-tech-future-struggles-to-be-born
-https://www.platformer.news/p/why-you-cant-rebuild-wikipedia-with
-https://www.youtube.com/watch?v=hXBZ-BXfCSY
-https://www.youtube.com/watch?v=u-sNSjS8cq0
-https://ez.substack.com/p/the-emperors-new-blockchain
-https://ez.substack.com/p/the-infinite-exploitation-of-cryptocurrency
-https://www.mollywhite.net/annotations/latecomers-guide-to-crypto
-https://www.stephendiehl.com/blog/simple.html
-https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
-https://www.youtube.com/watch?v=C6aeL83z_9Y
-https://hbr.org/2022/05/cautionary-tales-from-cryptoland
-
-#### Economics
-
-https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
-https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
-https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
-https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
-
-#### Disturbing Origins
-
-https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/
-https://inthesetimes.com/article/the-ticking-bomb-of-crypto-fascism
-https://www.splcenter.org/hatewatch/2021/12/09/how-cryptocurrency-revolutionized-white-supremacist-movement
-https://www.salon.com/2018/06/08/how-bitcoin-made-right-wing-conspiracy-theories-mainstream/
-
-#### Major Scams
-
-https://kotaku.com/hacker-steals-nfts-worth-millions-from-opensea-marketpl-1848570074
-https://kotaku.com/youtube-twitch-streamer-ice-poseidon-stole-money-crypto-1848463229
-https://www.buzzfeednews.com/article/sarahemerson/crypto-laundering-scheme-rapper-forbes
-https://www.buzzfeednews.com/article/sarahemerson/doj-accused-crypto-couple-nft-opensea-accounts-disappeared
-https://www.bloomberg.com/news/articles/2022-02-09/nyc-couple-arrested-in-4-5b-bitcoin-hack-are-crypto-crime-s-bonnie-clyde
-https://www.bloomberg.com/news/features/2021-10-07/crypto-mystery-where-s-the-69-billion-backing-the-stablecoin-tether
-https://decrypt.co/90590/crypto-com-suffers-hack-at-least-15m-ethereum
-https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021-chainalysis.html
 
 ### Is it Art?
 

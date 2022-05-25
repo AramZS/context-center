@@ -38,6 +38,7 @@ https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-w
 https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
 https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
+https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
 
 ### Data Brokers
 

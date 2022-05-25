@@ -94,6 +94,7 @@ https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html
 https://www.vcuhealth.org/news/covid-19/breakthrough-infections-viral-load-what-does-this-mean-to-you
 https://www.nytimes.com/2021/08/03/well/live/covid-delta-variant-vaccine-symptoms.html
 https://news.un.org/en/story/2021/04/1089192
+https://www.msnbc.com/the-reidout/reidout-blog/long-covid-study-hospitalizations-rcna29601
 
 ### Ivermectin
 
