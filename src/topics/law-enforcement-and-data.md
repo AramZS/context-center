@@ -86,6 +86,7 @@ https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-pare
 https://jezebel.com/abortion-in-the-surveillance-state-1848076906
 https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-risk-rcna27492
 https://www.youtube.com/watch?v=UY29mVjMA4c
+https://www.consumerreports.org/health-privacy/period-tracker-apps-privacy-a2278134145/
 
 ### Fighting Back
 
