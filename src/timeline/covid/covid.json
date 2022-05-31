@@ -1,10 +1,12 @@
 {
 	"timeline": "covid",
+	"title": "COVID",
 	"description": "A Timeline about COVID on Context Center",
 	"tags": [
 		"COVID",
 		"Health",
 		"Medicine"
 	],
-	"date": "Last Modified"
+	"date": "Last Modified",
+	"layout": "timeline-item"
 }

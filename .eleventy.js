@@ -329,6 +329,16 @@ module.exports = function (eleventyConfig) {
 		return pagedPosts;
 	});
 
+	eleventyConfig.addPlugin(require("./_custom-plugins/timelinety"), {
+		domainName: site,
+		timelineOutFolder: "timeline",
+		outDir: path.normalize(path.join(__dirname, "docs")),
+		timelinesInFolder: path.normalize(
+			path.join(__dirname, "src", "timeline")
+		),
+		customCSS: "assets/css/template-timeline.css",
+	});
+
 	eleventyConfig.addPlugin(pluginTOC, {
 		tags: ["h1", "h2", "h3", "h4"], // which heading tags are selected headings must each have an ID attribute
 		wrapper: "", // element to put around the root `ol`/`ul`

@@ -12,20 +12,6 @@
     </header>
     <% } %>
     <section>
-        <div class="timeline-filter-wrapper">
-            <header class="timeline-filter">
-                <ul>
-                    <li>
-                        <input type="checkbox" name="filter-shortcut" id="all" checked /> <label for="all">All</label>
-                    </li>
-                    <% content.filters.forEach(function(filter){ %>
-                        <li>
-                            <input type="checkbox" name="filter" id="<%= filter %>" checked /> <label for="<%= filter %>"><%- utilities.sentenceCase(filter) %> </label>
-                        </li>
-                    <% }); %>
-                    </ul>
-                </header>
-            </div>
             <article class="timeline">
             <% content.entries.forEach(function(entry){ %>
                 <div class="timeline-entry" data-category='<%= entry.categoriesString %>' aria-hidden="false">
@@ -61,7 +47,6 @@
                         <% } %>
                     </div>
                 </div>
-            <% }); %>
             </article>
         </section>
         <% if (content.footer) { %>

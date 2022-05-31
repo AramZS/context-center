@@ -1,0 +1,12 @@
+---
+layout: timeline-item
+pagination:
+    data: timeline
+    size: 1
+    alias: timelineItem
+permalink: "timeline/{{ timelineItem.timeline | slug }}/{{ timelineItem.slug | slug }}"
+eleventyComputed:
+  title: "{{ timelineItem.timeline }}: {{ timelineItem.title }}"
+  description: "{{ timelineItem.description }}"
+---
+

@@ -1,5 +1,5 @@
 {
-	"layout": "timeline.njk",
+	"layout": "timeline-item",
 	"description": "A Timeline on Context Center",
 	"tags": [
 		"timeline"
