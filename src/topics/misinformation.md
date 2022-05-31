@@ -49,6 +49,10 @@ https://firstdraftnews.org/latest/5-tips-ways-we-can-all-covid19-check-coronavir
 https://theconversation.com/how-to-address-coronavirus-misinformation-spreading-through-messaging-apps-and-email-134310
 https://www.imperial.ac.uk/stories/coronavirus-misinformation/
 
+### Voting Misinformation
+
+https://www.nytimes.com/2022/05/31/technology/misinformation-sheriff-election-midterms.html
+
 ### Journalistic Tools
 
 https://en.unesco.org/fightfakenews
