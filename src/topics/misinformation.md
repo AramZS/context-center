@@ -58,6 +58,7 @@ https://firstdraftnews.org/latest/tips-for-reporting-on-covid-19-coronavirus-and
 
 https://www.cjr.org/tow_center_reports/craig_silverman_lies_damn_lies_viral_content.php
 https://hoaxy.osome.iu.edu/
+https://journalistsresource.org/environment/science-skeptics-climate-change-news/
 
 ### Identifying Misinformation
 
