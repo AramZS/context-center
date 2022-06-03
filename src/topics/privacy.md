@@ -231,6 +231,7 @@ https://www.bostonglobe.com/2022/02/01/business/mass-lawmakers-advance-digital-p
 https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-brokers-have-over-location-data
 https://www.admonsters.com/ad-targeting-bias/
 https://gizmodo.com/gdpr-iab-europe-privacy-consent-ad-tech-online-advertis-1848469604
+https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 
 ## Papers
 

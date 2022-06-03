@@ -82,6 +82,7 @@ https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-fin
 https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
 https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
 https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html
+https://www.vice.com/en/article/88gw55/nobody-learned-anything-from-the-crypto-crash
 
 #### Disturbing Origins
 
@@ -272,6 +273,9 @@ https://www.buzzfeednews.com/article/katienotopoulos/bored-ape-nft-founder-ident
 https://thewalrus.ca/bitcoin-widow/
 https://www.vice.com/en/article/5dgw9a/racist-meta-slave-nft-project-rebrands-after-being-called-racist
 
+### VC
+
+https://www.vice.com/en/article/jgmyzk/the-pivot-to-web3-is-going-to-get-people-hurt
 
 ### Crash and Burns by Big Entities
 
