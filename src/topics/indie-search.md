@@ -14,6 +14,7 @@ http://teclis.com
 [Marginala](https://search.marginala.nu/)
 
 https://kagi.com/
+https://wiby.me
 
 ## Tools
 
