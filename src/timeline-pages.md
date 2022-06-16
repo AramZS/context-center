@@ -4,9 +4,10 @@ pagination:
     data: collections.timelines
     size: 1
     alias: timeline
-permalink: "timeline/{{ timeline.timeline | slug }}/index.html"
+permalink: "timeline/{{ timeline.timelineUrl | slugify }}/index.html"
 eleventyComputed:
-  title: "{{ timeline.timelineName }}"
+  title: "{{ timeline.title }}"
   description: "{{ timeline.description }}"
+  timelineSlug: "{{ timeline.timelineSlug }}"
 ---
 

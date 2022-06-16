@@ -6,9 +6,9 @@ const sentenceCase = function (str) {
 	return str[0].toUpperCase() + str.slice(1).toLowerCase();
 };
 
-const humanizeDate = function (datetime, date) {
-	const d = new Date(datetime || date);
-	if (datetime) {
+const humanizeDate = function (date, short) {
+	const d = new Date(date);
+	if (!short) {
 		return d.toLocaleString("en-US", {
 			weekday: "short", // long, short, narrow
 			day: "numeric", // numeric, 2-digit
@@ -26,15 +26,15 @@ const humanizeDate = function (datetime, date) {
 	});
 };
 
-const isWrappedInParagraphTags = function (html) {
+const isNotWrappedInParagraphTags = function (html) {
 	if (typeof html !== "string") {
 		return false;
 	}
-	return html.substring(0, 3) === "<p>";
+	return !(html.substring(0, 3) === "<p>");
 };
 
 module.exports = {
 	sentenceCase,
 	humanizeDate,
-	isWrappedInParagraphTags,
+	isNotWrappedInParagraphTags,
 };

@@ -15,7 +15,8 @@ const getTimelines = (timelineFolder, domainName) => {
 			path.join(timelineFolder, `${timelineDir}`)
 		);
 		const timelineData = require(timelinePath + `/${timelineDir}.json`);
-		const timelineTitle = timelineData.mainTitle || timelineData.title;
+		const timelineTitle =
+			timelineData.mainTitle || timelineData.title || timeline.name;
 		const timelineEventFiles = readdirSync(timelinePath);
 		let lastUpdated = 0;
 		const timelineFilesContents = timelineEventFiles.map((filePath) => {
@@ -29,17 +30,12 @@ const getTimelines = (timelineFolder, domainName) => {
 				)
 			).toString();
 		});
-		// console.log("project files", timelineFilesContents);
-		let daysWorked = 0;
 		lastUpdated = timelineFilesContents.reduce((prevValue, fileContent) => {
 			try {
 				const mdObject = matter(fileContent);
 				//console.log("project data", mdObject.data);
 				if (!mdObject.data || !mdObject.data.date) {
 					return 0;
-				}
-				if (mdObject.data.tags.includes("WiP")) {
-					++daysWorked;
 				}
 				const datetime = Date.parse(mdObject.data.date);
 				if (prevValue > datetime) {
@@ -52,25 +48,29 @@ const getTimelines = (timelineFolder, domainName) => {
 				return 0;
 			}
 		}, 0);
+		const timelineDescription = timelineData.description
+			? timelineData.description
+			: `Building ${timelineTitle}`;
 		return {
 			title: timelineTitle,
 			slug: timelineDir,
-			timeline: timelineData.timeline,
-			timelineName: timelineData.timeline
-				? timelineData.timeline
-				: timelineTitle,
-			description: timelineData.description
-				? timelineData.description
-				: `Building ${timelineTitle}`,
+			timeline: timelineDir,
+			timelineSlug: "timeline-" + timelineData.timeline,
+			timelineUrl: timelineData.timeline,
+			timelineName: timelineData.title
+				? timelineData.title
+				: timelineData.timeline,
+			description: timelineDescription,
 			url: (function () {
 				return domainName + "/timelines/" + timelineDir;
 			})(),
-			count: timelineEventFiles.length - 1, // minus one for the project description json file.
+			count: timelineEventFiles.length - 1, // minus one for the timeline description json file.
 			lastUpdatedPost: lastUpdated,
 		};
 	});
 
 	directorySet.sort((a, b) => b.lastUpdatedPost - a.lastUpdatedPost);
+	console.log("Timelines", directorySet);
 	return directorySet;
 };
 module.exports = getTimelines;

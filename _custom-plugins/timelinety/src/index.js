@@ -4,8 +4,8 @@ const timelineSets = require("./build-tools/timeline-sets");
 module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addShortcode("humanizeDate", utils.humanizeDate);
 	eleventyConfig.addShortcode(
-		"isWrappedInParagraphTags",
-		utils.isWrappedInParagraphTags
+		"isNotWrappedInParagraphTags",
+		utils.isNotWrappedInParagraphTags
 	);
 	eleventyConfig.addShortcode("sentenceCase", utils.sentenceCase);
 	const timelines = timelineSets(
@@ -17,11 +17,22 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		return timelines;
 	});
 	timelines.map((timelineObj) => {
-		eleventyConfig.addCollection(timelineObj.timeline, (collection) => {
-			return collection
-				.getAll()
-				.filter((item) => item.data.timeline === timelineObj.timeline);
-		});
+		eleventyConfig.addCollection(
+			"timeline-" + timelineObj.timeline,
+			(collection) => {
+				const collectionFiltered = collection
+					.getAll()
+					.filter(
+						(item) => item.data.timeline === timelineObj.timeline
+					);
+				console.log(
+					"timeline filtered",
+					timelineObj.timeline,
+					collectionFiltered.map((collection) => collection.template)
+				);
+				return collectionFiltered;
+			}
+		);
 	});
 	// console.log("eleventyConfig", eleventyConfig);
 };

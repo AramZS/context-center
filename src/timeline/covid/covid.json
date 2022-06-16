@@ -7,6 +7,12 @@
 		"Health",
 		"Medicine"
 	],
+	"categories": [
+		"News"
+	],
 	"date": "Last Modified",
-	"layout": "timeline-item"
+	"layout": "timeline-item",
+	"header": "Let's talk about the history of COVID",
+	"color": "grey",
+	"shortdate": false
 }

@@ -9,7 +9,9 @@ tags:
   - BioNTech
   - Children
   - 4 and under
-  - Caccines
+  - Vaccines
+categories:
+  - Vaccines
 ---
 
 > Pfizer and German partner BioNTech said their three-dose coronavirus vaccine regimen was safe and generated a robust immune response in infants, toddlers and preschoolers.

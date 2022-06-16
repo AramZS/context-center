@@ -1,63 +1,69 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
-    <%- include('/head', {head: content.head}) %>
+
+<meta charset="utf-8" />
+<title>{{- title -}}</title>
+{% if description %}
+<meta name="description" content="{{ description }}" />
+{% endif %}
+{% if author %}
+<meta name="author" content="{{ author }}" />
+{% endif %}
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600"
+  rel="stylesheet"
+  type="text/css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+  integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="icon" type="image/png" href="img/favicon.png" />
+<meta property="og:title" content="{{- title -}}" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="img/og-image.jpg" />
+
 </head>
 <body>
-    <% if (content.header) { %>
-    <header class="page-header">
-        <% if (!utilities.isWrappedInParagraphTags(content.header)) { %><p><% } %>
-        <%- content.header %>
-        <% if (!utilities.isWrappedInParagraphTags(content.header)) { %><p><% } %>
-    </header>
-    <% } %>
-    <section>
-            <article class="timeline">
-            <% content.entries.forEach(function(entry){ %>
-                <div class="timeline-entry" data-category='<%= entry.categoriesString %>' aria-hidden="false">
-                    <div class="timeline-icon <%- entry.color || 'grey' %>">
-                        <% if (entry.faicon) { %>
-                            <i class="fas fa-<%= entry.faicon %>" aria-hidden="true"></i>
-                        <% } %>
-                    </div>
-                    <div class="timeline-description">
-                        <span class="timestamp"><time datetime="<%- entry.datetime || entry.date %>"><%- utilities.humanizeDate(entry.datetime, entry.date) %></time></span>
-                        <h2><a id="<%= entry.id %>" href="#<%= entry.id %>"><i class="fas fa-link"></i></a><%- entry.title %></h2>
-                        <% if (entry.image) { %>
-                            <div class="captioned-image image-right">
-                                <% if (entry.image.link) { %><a href="<%= entry.image.link %>"><% } %>
-                                <img src="<%= entry.image.src %>" alt="<%= entry.image.src %>" />
-                                <% if (entry.image.link) { %></a><% } %>
-                                <% if (entry.image.caption) { %>
-                                    <span class="caption"><%- entry.image.caption %></span>
-                                <% } %>
-                            </div>
-                        <% } %>
-                        <% if (!utilities.isWrappedInParagraphTags(entry.body)) { %><p><% } %>
-                        <%- entry.body %>
-                        <% if (!utilities.isWrappedInParagraphTags(entry.body)) { %></p><% } %>
-                        <% if (entry.links) { %>
-                            <ul>
-                                <% entry.links.forEach(function (link) { %>
-                                    <li>
-                                        <a href="<%= link.href %>" target="_blank"><%- link.linkText %></a><%- link.extraText %>
-                                    </li>
-                                <% }) %>
-                            </ul>
-                        <% } %>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <% if (content.footer) { %>
-        <footer class="page-footer">
-            <% if (!utilities.isWrappedInParagraphTags(content.footer)) { %><p><% } %>
-            <%- content.footer %>
-            <% if (!utilities.isWrappedInParagraphTags(content.footer)) { %></p><% } %>
-        </footer>
-        <% } %>
+<div class="timeline-entry" data-category='{% for item in categories %}{{ item }} {% endfor %}' aria-hidden="false">
+    <div class="timeline-icon {{- color }}">
+        {% if faicon %}
+            <i class="fas fa-{{- faicon }}" aria-hidden="true"></i>
+        {% endif %}
+    </div>
+    <div class="timeline-description">
+        <span class="timestamp"><time datetime="{{- date }}">{%- humanizeDate date %}</time></span>
+        <h2><a id="{{- title | slugify -}}" href="#{{- title | slugify -}}"><i class="fas fa-link"></i></a>{{- title }}</h2>
+        {% if image %}
+            <div class="captioned-image image-right">
+                {% if image.link %}<a href="{{- image.link -}}">{% endif %}
+                <img src="{{- image.src -}}" alt="{{- image.src -}}" />
+                {% if image.link %}</a>{% endif %}
+                {% if image.caption %}
+                    <span class="caption">{{- image.caption -}}</span>
+                {% endif %}
+            </div>
+        {% endif %}
 
-        <script src="js/classlist-polyfill.js"></script>
-        <script src="js/site-js.js"></script>
-    </body>
+        {{- content }}
+
+        {% if links %}
+            <ul>
+                {% for link in links %}
+                    <li>
+                        <a href="{{- link.href -}}" target="_blank">{{- link.linkText }}</a>{{- link.extraText }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>
+</body>
 </html>

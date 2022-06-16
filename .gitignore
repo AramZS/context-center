@@ -110,3 +110,4 @@ gh-pages
 gh-pages.pub
 !docs/.gitignore
 .DS_Store
+buildlog.txt

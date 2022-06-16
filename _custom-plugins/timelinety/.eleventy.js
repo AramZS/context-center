@@ -21,9 +21,12 @@ const pluginDefaults = {
 
 module.exports = function (eleventyConfig, options) {
 	const pluginConfig = Object.assign(pluginDefaults, options);
+	pluginConfig.jsPath = pluginConfig.domainName + "/timelines/js";
+	pluginConfig.cssPath = pluginConfig.domainName + "/timelines/css";
 	const dirs = __dirname.split(process.cwd());
 	const pluginLayoutPath = path.join(
 		pluginConfig.layoutFolderDepth,
+		//"./",
 		dirs[1],
 		"src",
 		"layouts"
@@ -53,7 +56,11 @@ module.exports = function (eleventyConfig, options) {
 		"timeline-item",
 		path.join(pluginLayoutPath, "timeline-item.njk")
 	);
-	eleventyConfig.addGlobalData("timelineConfig", pluginConfig);
+	eleventyConfig.addLayoutAlias(
+		"timeline-head",
+		path.join(pluginLayoutPath, "head.njk")
+	);
+	eleventyConfig.addGlobalData("timelinesConfig", pluginConfig);
 	return library(eleventyConfig, pluginConfig);
 };
 
