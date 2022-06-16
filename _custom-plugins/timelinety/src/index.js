@@ -25,11 +25,11 @@ module.exports = function (eleventyConfig, pluginConfig) {
 					.filter(
 						(item) => item.data.timeline === timelineObj.timeline
 					);
-				console.log(
+				/**				console.log(
 					"timeline filtered",
 					timelineObj.timeline,
 					collectionFiltered.map((collection) => collection.template)
-				);
+				); */
 				return collectionFiltered;
 			}
 		);
