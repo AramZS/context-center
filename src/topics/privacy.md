@@ -236,6 +236,7 @@ https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 ## Papers
 
 https://cyberdefensereview.army.mil/CDR-Content/Articles/Article-View/Article/2537110/microtargeting-as-information-warfare/
+https://www.cpb.nl/sites/default/files/publicaties/download/cpb-discussion-paper-280-targeted-advertising-platform-competition-and-privacy.pdf
 
 ## Books
 
