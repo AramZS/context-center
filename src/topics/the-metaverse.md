@@ -17,7 +17,9 @@ featuredImageCaption: "People wearing VR glasses in a hell as if painted by Hier
 
 ### Examining the concept of the Web3 Metaverse
 
+https://www.theguardian.com/games/2022/jan/25/ive-seen-the-metaverse-and-i-dont-want-it
 https://theface.com/life/metaverse-web3-mark-zuckerberg-facebook-nfts-digital-age-society-life
+https://www.vice.com/en/article/v7eqbb/the-metaverse-has-always-been-a-dystopia
 
 ### Standards
 
@@ -51,3 +53,13 @@ https://newsletters.theatlantic.com/galaxy-brain/6233ecafdc551a002089fb15/lesson
 
 https://www.businessinsider.com/details-of-facebooks-big-metaverse-pitch-event-for-advertisers-2022-2
 https://venturebeat.com/2022/01/28/metaverse-vs-data-privacy-a-clash-of-the-titans/
+https://www.euronews.com/next/2021/12/03/reading-your-mind-how-eyes-pupils-and-heart-rate-could-be-used-to-target-ads-in-the-metave
+
+### Banking and Real Estate Goes VR
+
+https://www.wsj.com/articles/accounting-firms-scoop-up-virtual-land-in-the-metaverse-11641599590
+https://www.newyorker.com/news/letter-from-silicon-valley/money-in-the-metaverse
+
+### Who Wants the Metaverse?
+
+https://www.thedrum.com/news/2021/11/01/facebook-beware-study-shows-most-americans-don-t-care-about-the-metaverse
