@@ -43,3 +43,6 @@ https://twitter.com/Chronotope/status/1505204194524995585
 ---
 
 https://twitter.com/robinberjon/status/1505014770080096256
+
+https://sadgrl.online/cyberspace/surf-the-web.html
+https://indieseek.xyz/2022/06/06/how-to-surf-the-web/

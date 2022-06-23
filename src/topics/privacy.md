@@ -232,6 +232,9 @@ https://themarkup.org/privacy/2022/03/21/lawsuit-highlights-how-little-control-b
 https://www.admonsters.com/ad-targeting-bias/
 https://gizmodo.com/gdpr-iab-europe-privacy-consent-ad-tech-online-advertis-1848469604
 https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
+https://gizmodo.com/how-often-do-ads-sell-your-data-every-day-1848931523
+https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/
+https://gizmodo.com/why-every-company-ad-network-now-1848936157
 
 ## Papers
 

@@ -73,6 +73,7 @@ https://www.stephendiehl.com/blog/simple.html
 https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
 https://www.youtube.com/watch?v=C6aeL83z_9Y
 https://hbr.org/2022/05/cautionary-tales-from-cryptoland
+https://www.washingtonpost.com/technology/2022/05/29/molly-white-crypto/
 
 #### Economics
 
@@ -130,6 +131,7 @@ https://www.bloomberg.com/news/newsletters/2022-02-01/crypto-s-next-big-thing-ma
 https://www.cnbc.com/2021/10/09/war-to-attract-bitcoin-miners-pits-texas-against-new-york-kentucky.html
 https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bundling
 https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
+https://evanjconrad.com/posts/crypto-use-cases
 
 ### Middle of the Road
 
@@ -244,6 +246,7 @@ https://gizmodo.com/nemus-amazon-rainforest-nfts-put-greenwashing-on-the-bl-1848
 https://www.newyorker.com/news/daily-comment/why-bitcoin-is-bad-for-the-environment
 https://www.ft.com/content/0448b44d-1d78-48f8-8ca8-6edae7976a5f
 https://www.washingtonpost.com/business/2022/03/18/bitcoin-mining-noise-pollution-appalachia/
+https://www.theverge.com/2022/6/3/23151622/new-york-bitcoin-mining-moratorium-bill-state-senate
 
 #### Neutral or good for the environment
 
@@ -259,6 +262,7 @@ https://github.com/memo/eco-nft
 https://bitcoinmagazine.com/culture/how-bitcoin-mining-strengthens-electricity-grids
 https://bullishthoughts.substack.com/p/the-elephants-in-the-grid
 https://www.citadel21.com/bitcoin-is-the-first-global-market-for-electricity-and-will-unleash-renewables
+https://www.cnbc.com/2022/06/08/ethereum-had-successful-dress-rehearsal-to-move-to-proof-of-stake.html
 
 ### CryptoBros
 
@@ -284,6 +288,7 @@ https://www.newsbreak.com/news/2463879452086/stalker-2-developer-cancels-nft-pla
 https://www.gameinformer.com/2022/02/01/team17-announces-then-cancels-worms-nft-plans-due-to-fan-and-studio-pushback
 https://www.theguardian.com/technology/2022/feb/24/profiting-off-suffering-ap-cancels-sale-of-migrant-boat-nft-amid-backlash
 https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
+https://www.bloomberg.com/news/features/2022-06-10/axie-infinity-axs-crypto-game-promised-nft-riches-gave-ruin
 
 ### Alternatives
 
@@ -322,4 +327,6 @@ https://www.ietf.org/archive/id/draft-nottingham-avoiding-internet-centralizatio
 https://werd.io/2022/the-web-is-a-miracle
 https://tedium.co/2022/04/06/centralization-decentralization-social-networking-faq/
 https://indieweb.org/POSSE
+https://jamesg.blog/2022/02/16/indieweb-utils-v020/
+https://www.vice.com/en/article/pkb4ng/meet-the-self-hosters-taking-back-the-internet-one-server-at-a-time
 

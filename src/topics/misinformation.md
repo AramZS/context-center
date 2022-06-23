@@ -72,6 +72,8 @@ https://firstdraftnews.org/latest/how-to-analyze-facebook-data-for-misinformatio
 [Newsgathering and Monitoring Digital Misinformation](https://firstdraftnews.org/wp-content/uploads/2019/10/Newsgathering_and_Monitoring_Digital_AW3.pdf?x32994)
 
 https://www.reuters.com/manipulatedmedia/en/
+https://branch.climateaction.tech/issues/issue-3/open-letter-tackling-the-threat-of-climate-misinformation-and-disinformation/
+https://gizmodo.com/facebook-papers-meta-climate-change-denial-1848956720
 
 ### The Flow of Misinformation
 
