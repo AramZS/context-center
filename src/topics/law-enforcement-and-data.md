@@ -93,11 +93,13 @@ https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-
 https://www.youtube.com/watch?v=UY29mVjMA4c
 https://www.consumerreports.org/health-privacy/period-tracker-apps-privacy-a2278134145/
 https://www.newyorker.com/magazine/2022/07/04/we-are-not-going-back-to-the-time-before-roe-we-are-going-somewhere-worse
+https://time.com/6184111/abortion-surveillance-tech-tracking/
 
 ### Fighting Back
 
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
 https://ssd.eff.org/en/playlist/reproductive-healthcare-service-provider-seeker-or-advocate#your-security-plan
+https://digitaldefensefund.org/ddf-guides/abortion-privacy
 https://twitter.com/swodinsky/status/1521940021485449216
 https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843828887
 https://twitter.com/swodinsky/status/1521351334339002369
