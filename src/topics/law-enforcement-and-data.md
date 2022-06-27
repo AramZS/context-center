@@ -95,6 +95,8 @@ https://www.consumerreports.org/health-privacy/period-tracker-apps-privacy-a2278
 https://www.newyorker.com/magazine/2022/07/04/we-are-not-going-back-to-the-time-before-roe-we-are-going-somewhere-worse
 https://time.com/6184111/abortion-surveillance-tech-tracking/
 
+<p><a href="https://www.bloomberg.com/news/articles/2022-06-27/anti-abortion-centers-find-pregnant-teens-online-then-save-their-data" target="_blank">Anti-Abortion Centers Find Pregnant Teens Online, Then Save Their Data</a></p>
+
 ### Fighting Back
 
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
