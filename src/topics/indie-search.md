@@ -20,6 +20,7 @@ http://teclis.com
 
 https://kagi.com/
 https://wiby.me
+https://indieweb-search.jamesg.blog/
 
 ## Tools
 
@@ -30,6 +31,7 @@ https://typesense.org/
 https://www.sbert.net/
 https://fastapi.tiangolo.com/
 https://github.com/google-research/google-research/tree/master/scann
+https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
 
 ## Specific Search & Recommendation Platforms
 
@@ -51,3 +53,6 @@ https://twitter.com/robinberjon/status/1505014770080096256
 
 https://sadgrl.online/cyberspace/surf-the-web.html
 https://indieseek.xyz/2022/06/06/how-to-surf-the-web/
+https://wiki.nikiv.dev/web/search-engines
+https://indieweb.org/IndieWeb_Search
+https://onezero.medium.com/a-search-engine-designed-to-surprise-you-b81944ed5c06
