@@ -1,6 +1,7 @@
 ---
 title: "Spread the word about a Context Center post"
 layout: index
+description: "Learn how to use label printers to create stickers that link to important topics and sites that counter misinformation."
 eleventyExcludeFromCollections: true
 internalPageTypes: [ 'about' ]
 ---
