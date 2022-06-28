@@ -17,6 +17,7 @@ If you are dealing with misinformation in your own community, please feel free t
 ### Stickers List
 
 - [Sticker: V is for Victory, V is for Vaccines](http://context.center/assets/stickers/Vlabel2.pdf)
+- [Sticker: V is for Victory, V is for Vaccines (Black & White)](http://context.center/assets/stickers/Vlabel2-bw.pdf)
 
 ### How to Print
 
