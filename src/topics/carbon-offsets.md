@@ -25,6 +25,7 @@ featuredImageCaption: "Will the trees save us?"
 - https://www.reuters.com/article/us-climatechange-usa-trees/plant-a-trillion-trees-republicans-offer-fossil-friendly-climate-fix-idUSKBN2061FG
 - https://www.vox.com/2020/2/27/20994118/carbon-offset-climate-change-net-zero-neutral-emissions
 - https://www.theguardian.com/environment/2011/sep/16/carbon-offset-projects-carbon-emissions
+- https://www.nytimes.com/wirecutter/blog/does-buying-carbon-offset-help-the-planet/
 
 ### Carbon Offsets on Fire
 
@@ -44,3 +45,4 @@ featuredImageCaption: "Will the trees save us?"
 ### Carbon Footprints
 
 - https://mashable.com/feature/carbon-footprint-pr-campaign-sham
+- https://www.nytimes.com/wirecutter/blog/measuring-laptop-sustainability/
