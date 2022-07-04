@@ -39,6 +39,7 @@ https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracki
 https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
 https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
+https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
 
 ### Data Brokers
 
@@ -70,11 +71,13 @@ https://www.vice.com/en/article/m7vymn/cdc-tracked-phones-location-data-curfews
 https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-1844306733
 https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
 https://americandragnet.org/
+https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
 
 ### Anti-choice Activists and Bounties
 
 https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-collecting-the-data-theyll-need-for-prosecutions-post-roe/
 https://www.nytimes.com/2021/09/10/us/politics/texas-abortion-law-facts.html
+https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html
 
 ### Abortion and User Data
 
