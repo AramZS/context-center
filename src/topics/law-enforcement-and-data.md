@@ -40,6 +40,7 @@ https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
 https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
 https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
+https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-jane-used-tracking-tools-that-sent-visitor-data-to-meta-google-and-others
 
 ### Data Brokers
 
