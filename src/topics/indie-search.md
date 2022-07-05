@@ -39,6 +39,11 @@ https://blogsurf.io
 http://well-known.dev
 https://tinygem.org/
 
+## Corpuses
+
+https://commoncrawl.org/
+https://httparchive.org/
+
 ## Talking About Search
 
 https://twitter.com/Chronotope/status/1506745918464405507
