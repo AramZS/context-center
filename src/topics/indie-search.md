@@ -61,3 +61,4 @@ https://indieseek.xyz/2022/06/06/how-to-surf-the-web/
 https://wiki.nikiv.dev/web/search-engines
 https://indieweb.org/IndieWeb_Search
 https://onezero.medium.com/a-search-engine-designed-to-surprise-you-b81944ed5c06
+https://indiemap.org/docs.html#common-crawl

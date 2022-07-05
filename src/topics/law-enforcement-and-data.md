@@ -73,6 +73,7 @@ https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-18443067
 https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
 https://americandragnet.org/
 https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
+https://www.washingtonpost.com/technology/2022/07/03/abortion-data-privacy-prosecution/
 
 ### Anti-choice Activists and Bounties
 
