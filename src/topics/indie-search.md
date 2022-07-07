@@ -63,3 +63,5 @@ https://indieweb.org/IndieWeb_Search
 https://onezero.medium.com/a-search-engine-designed-to-surprise-you-b81944ed5c06
 https://indiemap.org/docs.html#common-crawl
 https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-without-own-index.html
+https://future.com/the-future-of-search-is-boutique
+https://melanocarpa.lesarbr.es/hypha/federated_search
