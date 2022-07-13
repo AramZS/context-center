@@ -21,6 +21,7 @@ featuredImageAlt: "Climate Emergency - Families facing Climate Change by John En
 ### Human Cause
 
 https://www.huffpost.com/entry/united-nations-ipcc-climate_n_6110051be4b05f81570b9f50
+https://www.washingtonpost.com/climate-environment/2022/07/12/united-states-china-global-economic-damages-emissions-study/
 
 ### The Emergency
 
