@@ -21,8 +21,8 @@ const pluginDefaults = {
 
 module.exports = function (eleventyConfig, options) {
 	const pluginConfig = Object.assign(pluginDefaults, options);
-	pluginConfig.jsPath = pluginConfig.domainName + "/timelines/js";
-	pluginConfig.cssPath = pluginConfig.domainName + "/timelines/css";
+	pluginConfig.jsPath = pluginConfig.domainName + "/assets/timelines/js";
+	pluginConfig.cssPath = pluginConfig.domainName + "/assets/timelines/css";
 	const dirs = __dirname.split(process.cwd());
 	const pluginLayoutPath = path.join(
 		pluginConfig.layoutFolderDepth,
@@ -40,14 +40,14 @@ module.exports = function (eleventyConfig, options) {
 		pluginLayoutPath
 		// fs.statSync(path.join(pluginLayoutPath, "timeline-item.njk"))
 	);
-	eleventyConfig.addPassthroughCopy(
-		path.join(__dirname, "/src/js"),
-		"timelines/js"
-	);
-	eleventyConfig.addPassthroughCopy(
-		path.join(__dirname, "/src/css"),
-		"timelines/css"
-	);
+	const localJs = path.join(__dirname, "/src/js");
+	const jsPassthru = {};
+	jsPassthru[localJs] = "assets/timelines/js";
+	eleventyConfig.addPassthroughCopy(jsPassthru);
+	const localCss = path.join(__dirname, "/src/css");
+	const cssPassthru = {};
+	cssPassthru[localCss] = "assets/timelines/css";
+	eleventyConfig.addPassthroughCopy(cssPassthru);
 	eleventyConfig.addLayoutAlias(
 		"timeline",
 		path.join(pluginLayoutPath, "timeline.njk")
