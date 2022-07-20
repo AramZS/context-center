@@ -75,6 +75,9 @@ https://www.youtube.com/watch?v=C6aeL83z_9Y
 https://hbr.org/2022/05/cautionary-tales-from-cryptoland
 https://www.washingtonpost.com/technology/2022/05/29/molly-white-crypto/
 
+<a href="https://www.bloomberg.com/news/articles/2022-07-07/crypto-collapse-threatens-to-leave-black-hispanic-investors-further-behind#xj4y7vzkg" target="_blank">https://www.bloomberg.com/news/articles/2022-07-07/crypto-collapse-threatens-to-leave-black-hispanic-investors-further-behind#xj4y7vzkg</a>
+
+
 #### Economics
 
 https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
