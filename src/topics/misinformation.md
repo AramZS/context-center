@@ -83,6 +83,7 @@ https://gizmodo.com/facebook-papers-meta-climate-change-denial-1848956720
 
 https://datasociety.net/library/source-hacking-media-manipulation-in-practice/
 https://www.bbc.co.uk/programmes/b09vx0db
+https://www.youtube.com/watch?v=m4NaeB542TA
 
 ### Understanding Why People Believe Misinformation
 
