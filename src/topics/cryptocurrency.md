@@ -19,7 +19,6 @@ featuredImageCaption: "Yum, capital"
 
 https://www.bloomberg.com/opinion/articles/2020-12-01/bitcoin-is-the-tulipmania-that-refuses-to-die
 https://webapp.io/blog/crypto-miners-are-killing-free-ci/
-https://thenextweb.com/news/majority-cryptocurrency-centralized
 https://www.theguardian.com/technology/2018/mar/20/child-abuse-imagery-bitcoin-blockchain-illegal-content
 https://gizmodo.com/bitcoin-surges-15-overnight-because-nobody-learned-the-1833737971
 https://theoutline.com/post/3074/inside-the-group-chats-where-people-pump-and-dump-cryptocurrency
@@ -48,7 +47,6 @@ https://www.bloomberg.com/news/articles/2022-01-12/bitcoin-trading-president-lik
 https://the-crypto-syllabus.com/yanis-varoufakis-on-techno-feudalism/
 https://www.theguardian.com/global/2022/jan/29/huge-mess-of-theft-artists-sound-alarm-theft-nfts-proliferates
 https://www.vice.com/en/article/xgdvnd/the-nft-ecosystem-is-a-complete-disaster
-https://www.coindesk.com/layer2/privacyweek/2022/01/27/before-you-click-i-agree-how-binance-coinbase-and-22-other-crypto-exchanges-handle-your-data/
 https://twitter.com/anildash/status/1488579268410056708
 https://www.theatlantic.com/technology/archive/2022/02/nft-jimmy-fallon-paris-hilton-millionaire/621486/
 https://www.garbageday.email/p/the-end-of-the-metaverse-hopefully
@@ -77,13 +75,14 @@ https://www.washingtonpost.com/technology/2022/05/29/molly-white-crypto/
 
 <a href="https://www.bloomberg.com/news/articles/2022-07-07/crypto-collapse-threatens-to-leave-black-hispanic-investors-further-behind#xj4y7vzkg" target="_blank">https://www.bloomberg.com/news/articles/2022-07-07/crypto-collapse-threatens-to-leave-black-hispanic-investors-further-behind#xj4y7vzkg</a>
 
+https://www.cnbc.com/2021/05/31/cryptocurrency-poses-a-significant-risk-of-tax-evasion.html
+
 
 #### Economics
 
 https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
 https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
 https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
-https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
 https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html
 https://www.vice.com/en/article/88gw55/nobody-learned-anything-from-the-crypto-crash
 
@@ -106,6 +105,28 @@ https://www.bloomberg.com/news/features/2021-10-07/crypto-mystery-where-s-the-69
 https://decrypt.co/90590/crypto-com-suffers-hack-at-least-15m-ethereum
 https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021-chainalysis.html
 https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv-show
+https://techcrunch.com/2022/06/01/former-opensea-exec-arrested-and-charged-with-insider-trading-of-nfts/
+https://blog.mollywhite.net/celsius-letters/
+
+#### Decentralization
+
+https://www.wsj.com/articles/bitcoins-one-percent-controls-lions-share-of-the-cryptocurrencys-wealth-11639996204
+https://moxie.org/2022/01/07/web3-first-impressions.html
+https://thenextweb.com/news/majority-cryptocurrency-centralized
+https://www.nytimes.com/2021/12/16/opinion/web3-big-tech.html
+https://www.wired.com/story/theres-no-good-reason-to-trust-blockchain-technology/
+https://soatok.blog/2021/10/19/against-web3-and-faux-decentralization/
+
+#### Privacy Promise
+
+https://www.coindesk.com/layer2/privacyweek/2022/01/27/before-you-click-i-agree-how-binance-coinbase-and-22-other-crypto-exchanges-handle-your-data/
+https://www.washingtonpost.com/outlook/2022/04/01/cryptocurrency-privacy-mainstream/
+https://www.buzzfeednews.com/article/katienotopoulos/bored-ape-nft-founder-identity
+https://www.pbs.org/wgbh/nova/article/cryptocurrency-privacy/
+https://iapp.org/news/a/cnil-publishes-blockchain-guidance-for-gdpr-compliance/
+https://www.wired.com/story/bitcoin-seizure-record-doj-crypto-tracing-monero/
+https://www.science.org/content/article/why-criminals-cant-hide-behind-bitcoin
+https://www.coindesk.com/layer2/privacyweek/2022/01/27/the-privacy-that-defi-needs-to-succeed/
 
 ### Positive
 
@@ -135,6 +156,7 @@ https://www.cnbc.com/2021/10/09/war-to-attract-bitcoin-miners-pits-texas-against
 https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bundling
 https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 https://evanjconrad.com/posts/crypto-use-cases
+https://medium.com/@mariabustillos/why-does-journalism-need-blockchain-technology-fc986d9094ab
 
 ### Middle of the Road
 
@@ -144,7 +166,6 @@ https://qz.com/1355945/why-have-cryptocurrencies-like-bitcoin-and-ethereum-falle
 https://www.fastcompany.com/40516337/with-this-cryptocurrency-everyone-gets-paid
 https://thenextweb.com/news/google-facebook-twitter-cryptocurrency
 https://www.bloomberg.com/news/articles/2018-03-16/fewer-americans-hold-cryptocurrencies-than-you-probably-think?cmpid%3D=socialflow-twitter-markets
-https://www.pbs.org/wgbh/nova/article/cryptocurrency-privacy/
 https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html
 https://qz.com/1160667/the-secret-lives-of-students-who-mine-cryptocurrency-in-their-dorm-rooms/
 https://www.bloomberg.com/news/articles/2017-11-03/diary-of-an-african-cryptocurrency-miner?cmpid=socialflow-twitter-business
@@ -157,7 +178,6 @@ https://modelcitizen.substack.com/p/the-infrastructure-bills-tough-lessons
 https://themarkup.org/ask-the-markup/2021/07/28/what-are-the-pitfalls-of-investing-in-cryptocurrency
 https://nymag.com/intelligencer/2021/10/whats-a-dao-why-your-group-chat-could-be-worth-millions.html
 https://maxread.substack.com/p/ragequit
-https://www.nytimes.com/2021/12/16/opinion/web3-big-tech.html
 https://society.robinsloan.com/archive/notes-on-web3/
 https://www.bloomberg.com/opinion/articles/2021-12-21/there-s-inside-information-in-sec-filings
 https://gizmodo.com/wait-are-nfts-the-new-creative-commons-1848234720
@@ -168,7 +188,6 @@ https://www.npr.org/2021/03/12/976513031/the-69-million-jpeg
 https://www.artnews.com/art-news/news/todd-kramer-nft-theft-1234614874/
 https://twitter.com/pfrazee/status/1479498725047291913
 https://www.lynalden.com/proof-of-stake/
-https://moxie.org/2022/01/07/web3-first-impressions.html
 https://buzzmachine.com/2022/01/09/web-0000012/
 https://www.ft.com/content/2745d50b-36e4-4c0a-abe0-e93f035b0628
 https://www.bloomberg.com/news/articles/2022-01-21/crypto-meltdown-erases-more-than-1-trillion-in-market-value
@@ -276,9 +295,19 @@ https://www.inputmag.com/culture/bored-ape-yacht-club-nft-nyc-ape-fest
 https://www.washingtonpost.com/technology/2022/01/13/crypto-puerto-rico/
 https://www.washingtonpost.com/food/2022/01/15/nft-restaurant-flyfish-new-york/
 https://www.themarysue.com/dune-book-crypto/
-https://www.buzzfeednews.com/article/katienotopoulos/bored-ape-nft-founder-identity
 https://thewalrus.ca/bitcoin-widow/
 https://www.vice.com/en/article/5dgw9a/racist-meta-slave-nft-project-rebrands-after-being-called-racist
+
+#### Peter Thiel
+
+https://markets.businessinsider.com/currencies/news/peter-thiel-blockchain-platform-invested-billions-crypto-exchange-mike-novogratz-2021-5-1030415884
+https://www.coindesk.com/markets/2014/06/05/100k-peter-thiel-fellowship-awarded-to-ethereums-vitalik-buterin/
+https://decrypt.co/98866/peter-thiels-founders-fund-and-pantera-capital-lead-20m-round-for-ondo-finance
+https://www.wsj.com/articles/peter-thiels-founders-fund-makes-big-bet-on-bitcoin-1514917433
+https://decrypt.co/97251/peter-thiel-unleashes-ethereum-warren-buffett-enemies-bitcoin-2022
+https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html
+https://www.buzzfeednews.com/article/rosiegray/peter-thiel-donald-trump-white-nationalist-support
+https://nymag.com/intelligencer/2016/06/peter-thiel.html
 
 ### VC
 
@@ -291,7 +320,8 @@ https://www.newsbreak.com/news/2463879452086/stalker-2-developer-cancels-nft-pla
 https://www.gameinformer.com/2022/02/01/team17-announces-then-cancels-worms-nft-plans-due-to-fan-and-studio-pushback
 https://www.theguardian.com/technology/2022/feb/24/profiting-off-suffering-ap-cancels-sale-of-migrant-boat-nft-amid-backlash
 https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
-https://www.bloomberg.com/news/features/2022-06-10/axie-infinity-axs-crypto-game-promised-nft-riches-gave-ruin
+
+<a href="https://www.bloomberg.com/news/features/2022-06-10/axie-infinity-axs-crypto-game-promised-nft-riches-gave-ruin" target="_blank">https://www.bloomberg.com/news/features/2022-06-10/axie-infinity-axs-crypto-game-promised-nft-riches-gave-ruin</a>
 
 ### Alternatives
 
