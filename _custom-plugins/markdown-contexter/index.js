@@ -225,7 +225,8 @@ module.exports = (eleventyConfig, userOptions) => {
 			if (
 				(remark && data.layout && /post/.test(data.layout)) ||
 				/fwd/.test(data.layout) ||
-				/topic/.test(data.layout)
+				/topic/.test(data.layout) ||
+				/timeline-item/.test(data.layout)
 			) {
 				// console.log("msc compile");
 

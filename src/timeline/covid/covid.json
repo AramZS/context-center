@@ -1,6 +1,6 @@
 {
 	"timeline": "covid",
-	"title": "COVID",
+	"title": "COVID Timeline",
 	"description": "A Timeline about COVID on Context Center",
 	"tags": [
 		"COVID",
@@ -9,6 +9,12 @@
 	],
 	"categories": [
 		"News"
+	],
+	"filters": [
+		"Vaccination",
+		"USA",
+		"Reinfections",
+		"Masking"
 	],
 	"date": "Last Modified",
 	"layout": "timeline-item",

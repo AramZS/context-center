@@ -51,7 +51,8 @@ const getTimelines = (timelineFolder, domainName) => {
 		const timelineDescription = timelineData.description
 			? timelineData.description
 			: `Building ${timelineTitle}`;
-		return {
+
+		let finalObj = {
 			title: timelineTitle,
 			slug: timelineDir,
 			timeline: timelineDir,
@@ -67,6 +68,8 @@ const getTimelines = (timelineFolder, domainName) => {
 			count: timelineEventFiles.length - 1, // minus one for the timeline description json file.
 			lastUpdatedPost: lastUpdated,
 		};
+		finalObj = { ...timelineData, ...finalObj };
+		return finalObj;
 	});
 
 	directorySet.sort((a, b) => b.lastUpdatedPost - a.lastUpdatedPost);

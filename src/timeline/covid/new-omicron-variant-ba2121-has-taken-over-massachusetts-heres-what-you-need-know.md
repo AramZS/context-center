@@ -4,9 +4,14 @@ description: "By May 7, BA.2 had roughly doubled its prevalence, to about 56 per
 date: 2022-05-08 8:45:43.10 -4
 dateAdded: 2022-06-13 20:59:43.10 -4
 isBasedOn: "https://www.bostonglobe.com/2022/05/13/metro/new-omicron-variant-ba2121-has-taken-over-massachusetts-heres-what-you-need-know/"
+links:
+  -
+    href: "https://www.bostonglobe.com/2022/05/13/metro/new-omicron-variant-ba2121-has-taken-over-massachusetts-heres-what-you-need-know/"
+    linkText: "A new Omicron variant, BA.2.12.1, has taken over in Massachusetts. Here’s what you need to know."
+    extraText: "BA.2.12.1 has exploded"
 tags:
   - Massachusetts
-  - "BA.2.12.1"
+  - BA-2-12-1
   - Omicron
   - Rising Cases
 ---

@@ -1,3 +1,70 @@
+---js
+{
+    eleventyComputed: {
+        applyThis: {
+            timelineCheck: function(siteContext){
+                if (siteContext){
+                    console.log(siteContext.timeline, "Global check")
+                }
+            },
+        },
+        title: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.title
+
+            return '';
+        },
+        description: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.description
+
+            return '';
+        },
+        tags: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.tags
+
+            return [];
+        },
+        categories: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.categories
+
+            return '';
+        },
+        filters: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.filters
+
+            return [];
+        },
+        date: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.date
+
+            return "Last Modified";
+        },
+        header: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.header
+
+            return [];
+        },
+        color: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.color
+
+            return 'grey';
+        },
+        shortdate: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.shortdate
+
+            return false;
+        },
+    }
+}
+---
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -25,6 +92,7 @@
 />
 <link rel="stylesheet" href="{{timelinesConfig.cssPath}}/normalize.css" />
 <link rel="stylesheet" href="{{timelinesConfig.cssPath}}/main.css" />
+<link rel="stylesheet" href="{{timelinesConfig.domainName}}/{{timelinesConfig.customCSS}}" />
 <link rel="icon" type="image/png" href="img/favicon.png" />
 <meta property="og:title" content="{{- title -}}" />
 <meta property="og:type" content="article" />
@@ -34,10 +102,14 @@
 <body>
     {% if header  %}
     <header class="page-header">
-        {{ header }}
+        <h1>{{ title }}</h1>
+        <p>{{ header }}</p>
     </header>
     {% endif %}
     <section>
+            <!--
+        {{ eleventyComputed | console }}
+     -->
         <div class="timeline-filter-wrapper">
             <header class="timeline-filter">
                 <ul>
@@ -57,6 +129,7 @@
             <article class="timeline" data-timeline="{{timelineSlug}}">
             {% for entry in collections[timelineSlug] %}
                 <div class="timeline-entry" data-category='{% for item in entry.data.categories %}{{ item }} {% endfor %}' aria-hidden="false">
+                    <!-- {{ entry | console }} -->
                     <div class="timeline-icon {{- entry.data.color or "grey" }}">
                         {% if entry.data.faicon %}
                             <i class="fas fa-{{- entry.data.faicon }}" aria-hidden="true"></i>
@@ -79,9 +152,11 @@
                                 {% endif %}
                             </div>
                         {% endif %}
-                        {% if entry.content and isNotWrappedInParagraphTags(entry.content) %}<p>{% endif %}
-                        {{- entry.content or "" }}
-                        {% if entry.content and isNotWrappedInParagraphTags(entry.content) %}</p>{% endif %}
+                        {% if entry.data and entry.data.content %}
+
+                        {{- entry.data.content or "" }}
+
+                        {% endif %}
                         {% if entry.data.links %}
                             <ul>
                                 {% for link in entry.data.links %}
