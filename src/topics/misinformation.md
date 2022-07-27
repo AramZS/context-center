@@ -49,6 +49,10 @@ https://firstdraftnews.org/latest/5-tips-ways-we-can-all-covid19-check-coronavir
 https://theconversation.com/how-to-address-coronavirus-misinformation-spreading-through-messaging-apps-and-email-134310
 https://www.imperial.ac.uk/stories/coronavirus-misinformation/
 
+### Voting Misinformation
+
+https://www.nytimes.com/2022/05/31/technology/misinformation-sheriff-election-midterms.html
+
 ### Journalistic Tools
 
 https://en.unesco.org/fightfakenews
@@ -58,6 +62,7 @@ https://firstdraftnews.org/latest/tips-for-reporting-on-covid-19-coronavirus-and
 
 https://www.cjr.org/tow_center_reports/craig_silverman_lies_damn_lies_viral_content.php
 https://hoaxy.osome.iu.edu/
+https://journalistsresource.org/environment/science-skeptics-climate-change-news/
 
 ### Identifying Misinformation
 
@@ -67,6 +72,8 @@ https://firstdraftnews.org/latest/how-to-analyze-facebook-data-for-misinformatio
 [Newsgathering and Monitoring Digital Misinformation](https://firstdraftnews.org/wp-content/uploads/2019/10/Newsgathering_and_Monitoring_Digital_AW3.pdf?x32994)
 
 https://www.reuters.com/manipulatedmedia/en/
+https://branch.climateaction.tech/issues/issue-3/open-letter-tackling-the-threat-of-climate-misinformation-and-disinformation/
+https://gizmodo.com/facebook-papers-meta-climate-change-denial-1848956720
 
 ### The Flow of Misinformation
 
@@ -76,6 +83,7 @@ https://www.reuters.com/manipulatedmedia/en/
 
 https://datasociety.net/library/source-hacking-media-manipulation-in-practice/
 https://www.bbc.co.uk/programmes/b09vx0db
+https://www.youtube.com/watch?v=m4NaeB542TA
 
 ### Understanding Why People Believe Misinformation
 

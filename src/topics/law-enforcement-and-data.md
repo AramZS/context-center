@@ -38,6 +38,9 @@ https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-w
 https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
 https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
+https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
+https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
+https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-jane-used-tracking-tools-that-sent-visitor-data-to-meta-google-and-others
 
 ### Data Brokers
 
@@ -69,6 +72,15 @@ https://www.vice.com/en/article/m7vymn/cdc-tracked-phones-location-data-curfews
 https://gizmodo.com/law-enforcement-is-buying-its-way-into-our-breaches-1844306733
 https://www.vice.com/en/article/v7dw8x/san-francisco-police-are-using-driverless-cars-as-mobile-surveillance-cameras
 https://americandragnet.org/
+https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
+https://www.washingtonpost.com/technology/2022/07/03/abortion-data-privacy-prosecution/
+https://www.politico.com/news/2022/07/18/google-data-states-track-abortions-00045906
+
+### Anti-choice Activists and Bounties
+
+https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-collecting-the-data-theyll-need-for-prosecutions-post-roe/
+https://www.nytimes.com/2021/09/10/us/politics/texas-abortion-law-facts.html
+https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html
 
 ### Abortion and User Data
 
@@ -85,11 +97,19 @@ https://www.vice.com/en/article/g5qaq3/location-data-firm-heat-maps-planned-pare
 https://jezebel.com/abortion-in-the-surveillance-state-1848076906
 https://www.nbcnews.com/tech/roe-v-wade-overturned-online-privacy-data-tracking-risk-rcna27492
 https://www.youtube.com/watch?v=UY29mVjMA4c
+https://www.consumerreports.org/health-privacy/period-tracker-apps-privacy-a2278134145/
+https://www.newyorker.com/magazine/2022/07/04/we-are-not-going-back-to-the-time-before-roe-we-are-going-somewhere-worse
+https://time.com/6184111/abortion-surveillance-tech-tracking/
+
+<p><a href="https://www.bloomberg.com/news/articles/2022-06-27/anti-abortion-centers-find-pregnant-teens-online-then-save-their-data" target="_blank">Anti-Abortion Centers Find Pregnant Teens Online, Then Save Their Data</a></p>
+
+https://www.washingtonpost.com/technology/2022/06/29/google-facebook-abortion-data/
 
 ### Fighting Back
 
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
 https://ssd.eff.org/en/playlist/reproductive-healthcare-service-provider-seeker-or-advocate#your-security-plan
+https://digitaldefensefund.org/ddf-guides/abortion-privacy
 https://twitter.com/swodinsky/status/1521940021485449216
 https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843828887
 https://twitter.com/swodinsky/status/1521351334339002369

@@ -118,7 +118,9 @@
                     font-size: 28px
             & > *
                 width: fit-content
-            & > h1
+            & h1
                 margin: 10px auto 0
+                @media (max-width: variables.$tablet)
+                    font-size: smaller
                 @media (max-width: variables.$mobile-width)
                     width: 100%

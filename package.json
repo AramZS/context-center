@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "eleventy"
+		"build": "eleventy",
+		"build-with-log": "npx @11ty/eleventy --serve | tee ./buildlog.txt"
 	},
 	"keywords": [],
 	"author": "",
