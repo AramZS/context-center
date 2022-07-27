@@ -152,6 +152,9 @@
                                 {% endif %}
                             </div>
                         {% endif %}
+                        {%- if entry.data.isBasedOn and entry.data.customLink %}
+                            <a target="_blank" href="{{entry.data.customLink}}">Read the article</a>
+                        {%- endif %}
                         {% if entry.data and entry.data.content %}
 
                         {{- entry.data.content or "" }}
