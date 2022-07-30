@@ -56,7 +56,7 @@ https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-ph
 https://www.vice.com/en/article/gygx7y/your-anonymous-browsing-data-isnt-actually-anonymous
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
 https://gizmodo.com/anonymized-data-is-meaningless-bullshit-1841429952
-
+https://gizmodo.com/data-brokers-selling-pregnancy-roe-v-wade-abortion-1849148426
 
 ### How Law Enforcement Acquires Your Data
 
