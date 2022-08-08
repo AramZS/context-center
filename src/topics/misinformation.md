@@ -103,3 +103,9 @@ https://knowledge.wharton.upenn.edu/article/build-fake-news-campaign/
 https://misinforeview.hks.harvard.edu/
 https://mediamanipulation.org/research
 https://checkmyads.org/branded/
+
+### Misinformation as a Practice
+
+https://www.youtube.com/watch?v=MCfMupGRqqY
+https://www.demandprotest.com/2600.html
+https://digitalcommons.unl.edu/senatedocs/2/
