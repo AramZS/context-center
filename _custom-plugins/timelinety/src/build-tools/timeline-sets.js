@@ -7,6 +7,17 @@ const getDirectories = (source) =>
 		.filter((dirent) => dirent.isDirectory())
 		.map((dirent) => dirent.name);
 
+const sortByDate = () => {
+	if (alphabeticalSorts.includes(tagName)) {
+		taggedPosts.sort((a, b) => {
+			if (a.url > b.url) return -1;
+			else if (a.url < b.url) return 1;
+			else return 0;
+		});
+		taggedPosts.reverse();
+	}
+};
+
 const getTimelines = (timelineFolder, domainName) => {
 	// Map out the set of directories under the timeline folder and turn them
 	// into useful objects.
@@ -35,7 +46,7 @@ const getTimelines = (timelineFolder, domainName) => {
 			try {
 				const mdObject = matter(fileContent);
 				//console.log("project data", mdObject.data);
-				if (!mdObject.data || !mdObject.data.date) {
+				if (!mdObject.data || !mdObject.data.dateAdded) {
 					return 0;
 				}
 				if (mdObject.data.hasOwnProperty("filters")) {
@@ -43,7 +54,7 @@ const getTimelines = (timelineFolder, domainName) => {
 				} else {
 					filterSet = filterSet.concat(mdObject.data.tags);
 				}
-				const datetime = Date.parse(mdObject.data.date);
+				const datetime = Date.parse(mdObject.data.dateAdded);
 				if (prevValue > datetime) {
 					return prevValue;
 				} else {

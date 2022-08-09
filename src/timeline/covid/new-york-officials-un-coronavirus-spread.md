@@ -5,7 +5,7 @@ date: 2020-04-06 16:59:43.10 -4
 dateAdded: 2020-08-08 22:59:43.10 -4
 isBasedOn: "https://www.thecity.nyc/2020/4/6/21210370/first-rikers-virus-positive-fatality-was-jailed-on-technicality"
 tags:
-  - NYC
+  - New York
   - Law
 ---
 

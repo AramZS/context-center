@@ -1,7 +1,7 @@
 ---
 title: "Covid was vanishing last Memorial Day. Cases are five times higher now."
 description: "Covid-weary Americans enter summer with little effort to contain a still-raging pandemic."
-date: 2022-05-23 14:01:43.10 -4
+date: 2022-05-28 14:01:43.10 -4
 dateAdded: 2022-05-29 22:59:43.10 -4
 isBasedOn: "https://www.washingtonpost.com/health/2022/05/28/covid-memorial-day-surge/"
 tags:

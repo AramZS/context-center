@@ -30,6 +30,14 @@ module.exports = function (eleventyConfig, pluginConfig) {
 					timelineObj.timeline,
 					collectionFiltered.map((collection) => collection.template)
 				); */
+
+				collectionFiltered.sort((a, b) => {
+					if (a.date > b.date) return -1;
+					else if (a.date < b.date) return 1;
+					else return 0;
+				});
+				// collectionFiltered.reverse();
+
 				return collectionFiltered;
 			}
 		);
