@@ -5,7 +5,7 @@ date: 2020-07-10 12:00:00.10 -4
 dateAdded: 2022-08-08 22:59:43.10 -4
 isBasedOn: "https://www.esquire.com/news-politics/a33274466/school-reopenings-coronavirus-trump-no-plan/"
 tags:
-  - Children
+  - Youth
 ---
 
 https://www.esquire.com/news-politics/a33274466/school-reopenings-coronavirus-trump-no-plan/

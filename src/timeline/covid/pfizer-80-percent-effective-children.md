@@ -7,7 +7,7 @@ isBasedOn: "https://www.washingtonpost.com/health/2022/05/23/children-coronaviru
 tags:
   - Pfizer
   - BioNTech
-  - Children
+  - Youth
   - 4 and under
   - Vaccines
 categories:
