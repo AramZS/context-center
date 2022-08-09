@@ -7,13 +7,15 @@
         {% set featuredImageLink = post.data.featuredImageLink %}
         {% include "partials/post-image.njk" %}
     </div></a>
+    <div class="post-summary__inside-content">
     <h3>
-        <a href="{{ post.url }}">{{post.data.title | safe}}</a>
+        <a href="{{ site.site_url }}{{ post.url }}">{{post.data.title | safe}}</a>
     </h3>
     <p>
         {{ post.data.description | safe }}
     </p>
-    <p>
-        <a href="{{ post.url }}"><button>Read more...</button></a>
-    </p>
+    </div>
+    <div class="read-more">
+        <a href="{{ site.site_url }}{{ post.url }}"><button>Read more...</button></a>
+    </div>
 </article>

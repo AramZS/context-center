@@ -13,9 +13,27 @@
                 width: 100%
         h2
             padding: 10px 10px
+    main
+        margin-top: 20px
     #maincontent
+        ul
+            display: grid
+            gap: 20px 25px
+            grid-template-columns: repeat(2, 1fr)
+            @media print, screen and (max-width: variables.$mobile-width)
+                grid-template-columns: repeat(1, 1fr)
+            li
+                flex-basis: 450px
+                flex-shrink: 0
+                flex-grow: 4
         .post-summary
-            margin-top: 20px
+            height: 100%
+            position: relative
+            .post-summary__inside-content
+                padding-bottom: 50px
+            .read-more
+                position: absolute
+                bottom: 15px
             a
                 color: #0700d9
                 &:hover
