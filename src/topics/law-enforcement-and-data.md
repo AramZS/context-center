@@ -37,7 +37,9 @@ https://www.vox.com/explainers/2019/5/7/18273355/angry-birds-phone-games-data-co
 https://www.washingtonpost.com/lifestyle/2018/12/12/dear-tech-companies-i-dont-want-see-pregnancy-ads-after-my-child-was-stillborn/
 https://www.nytimes.com/interactive/2019/06/14/opinion/bluetooth-wireless-tracking-privacy.html
 https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
-https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
+
+<a href="https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html" target="_blank">https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html</a>
+
 https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
 https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
 https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-jane-used-tracking-tools-that-sent-visitor-data-to-meta-google-and-others

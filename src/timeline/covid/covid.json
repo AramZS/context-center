@@ -16,6 +16,9 @@
 		"Reinfections",
 		"Masking"
 	],
+	"doNotUseFilters": [
+		"4 and under"
+	],
 	"date": "Last Modified",
 	"layout": "timeline-item",
 	"header": "Let's talk about the history of COVID",

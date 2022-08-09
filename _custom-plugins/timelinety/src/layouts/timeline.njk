@@ -61,7 +61,7 @@
                 return siteContext.timeline.shortdate
 
             return false;
-        },
+        }
     }
 }
 ---
@@ -92,7 +92,7 @@
                     {% for filter in filters %}
                         <li>
                             <input type="checkbox" name="filter" id="{{ filter }}" checked /> <label for="{{ filter }}">
-                                {%- sentenceCase filter -%}
+                                {{- filter -}}
                             </label>
                         </li>
                     {% endfor %}
@@ -110,7 +110,5 @@
             {{- footer }}
         </footer>
         {% endif %}
-
-        <script src="{{timelinesConfig.jsPath}}/site-js.js"></script>
     </body>
 </html>

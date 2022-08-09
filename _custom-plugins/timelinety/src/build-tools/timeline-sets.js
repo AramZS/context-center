@@ -30,12 +30,18 @@ const getTimelines = (timelineFolder, domainName) => {
 				)
 			).toString();
 		});
+		let filterSet = [...timelineData.filters];
 		lastUpdated = timelineFilesContents.reduce((prevValue, fileContent) => {
 			try {
 				const mdObject = matter(fileContent);
 				//console.log("project data", mdObject.data);
 				if (!mdObject.data || !mdObject.data.date) {
 					return 0;
+				}
+				if (mdObject.data.hasOwnProperty("filters")) {
+					filterSet = filterSet.concat(mdObject.data.filters);
+				} else {
+					filterSet = filterSet.concat(mdObject.data.tags);
 				}
 				const datetime = Date.parse(mdObject.data.date);
 				if (prevValue > datetime) {
@@ -52,6 +58,12 @@ const getTimelines = (timelineFolder, domainName) => {
 			? timelineData.description
 			: `Building ${timelineTitle}`;
 
+		if (timelineData.hasOwnProperty("doNotUseFilters")) {
+			filterSet = filterSet.filter((el) => {
+				return !timelineData.doNotUseFilters.includes(el);
+			});
+		}
+
 		let finalObj = {
 			title: timelineTitle,
 			slug: timelineDir,
@@ -67,6 +79,7 @@ const getTimelines = (timelineFolder, domainName) => {
 			})(),
 			count: timelineEventFiles.length - 1, // minus one for the timeline description json file.
 			lastUpdatedPost: lastUpdated,
+			filters: [...new Set(filterSet)],
 		};
 		finalObj = { ...timelineData, ...finalObj };
 		return finalObj;

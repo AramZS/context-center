@@ -82,7 +82,9 @@ https://www.cnbc.com/2021/05/31/cryptocurrency-poses-a-significant-risk-of-tax-e
 https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
 https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
 https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
-https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html
+
+<a href="https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html" target="_blank">https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html</a>
+
 https://www.vice.com/en/article/88gw55/nobody-learned-anything-from-the-crypto-crash
 
 #### Disturbing Origins
