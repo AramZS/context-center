@@ -41,6 +41,7 @@ https://www.nytimes.com/2012/02/19/magazine/shopping-habits.html
 https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
 https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
 https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-jane-used-tracking-tools-that-sent-visitor-data-to-meta-google-and-others
+https://krausefx.com/blog/ios-privacy-instagram-and-facebook-can-track-anything-you-do-on-any-website-in-their-in-app-browser
 
 ### Data Brokers
 
@@ -75,6 +76,7 @@ https://americandragnet.org/
 https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
 https://www.washingtonpost.com/technology/2022/07/03/abortion-data-privacy-prosecution/
 https://www.politico.com/news/2022/07/18/google-data-states-track-abortions-00045906
+https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-dms/?sh=12cee161579c
 
 ### Anti-choice Activists and Bounties
 
