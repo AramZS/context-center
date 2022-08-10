@@ -7,7 +7,7 @@ isBasedOn: "https://www.ny1.com/nyc/all-boroughs/news/2022/07/09/nyc-recommends-
 tags:
   - New York
   - Masks
-  - "BA.5"
+  - "BA-5"
   - Omicron
   - Rising Cases
 ---

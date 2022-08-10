@@ -5,7 +5,7 @@ date: 2022-07-10 06:00:43.10 -4
 dateAdded: 2022-07-13 20:59:43.10 -4
 isBasedOn: "https://www.washingtonpost.com/health/2022/07/10/omicron-variant-ba5-covid-reinfection/"
 tags:
-  - "BA.5"
+  - "BA-5"
   - Rising Cases
   - Omicron
 ---

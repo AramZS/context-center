@@ -6,6 +6,7 @@ dateAdded: 2022-08-08 22:59:43.10 -4
 isBasedOn: "https://www.reuters.com/article/us-china-health-pneumonia-idUSKBN1YZ0GP"
 tags:
   - China
+  - Rising Cases
 ---
 
 https://www.reuters.com/article/us-china-health-pneumonia-idUSKBN1YZ0GP

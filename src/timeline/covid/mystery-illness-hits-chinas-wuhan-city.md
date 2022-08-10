@@ -6,6 +6,7 @@ dateAdded: 2022-08-08 22:59:43.10 -4
 isBasedOn: "https://www.scmp.com/news/china/politics/article/3044050/mystery-illness-hits-chinas-wuhan-city-nearly-30-hospitalised"
 tags:
   - China
+  - Rising Cases
 ---
 
 https://www.scmp.com/news/china/politics/article/3044050/mystery-illness-hits-chinas-wuhan-city-nearly-30-hospitalised
