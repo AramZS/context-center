@@ -71,4 +71,9 @@
     }
 }
 ---
-{% include "./timeline-wrapper.njk" %}
+
+{% extends "../../_custom-plugins/timelinety/src/layouts/timeline-wrapper.njk" %}
+
+{% block nav %}
+    {% include "partials/nav.njk" %}
+{% endblock %}

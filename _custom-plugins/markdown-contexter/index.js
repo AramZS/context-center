@@ -133,7 +133,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					if (imageCheck) {
 						console.log("Image issue possibly", e);
 					}
-					console.log("Contextualizing link: ", link);
+					// console.log("Contextualizing link: ", link);
 					inputContent = inputContent.replace(
 						urlObj.replace,
 						`<p><a href="${link}" target="_blank">${link}</a></p>`
@@ -141,22 +141,22 @@ module.exports = (eleventyConfig, userOptions) => {
 					let pContext = contexter.context(link);
 					completeAllPromiseArray.push(pContext);
 					// No file yet
-					console.log(
-						"Cached link " + cacheFile + " to repo not ready"
-					);
+					// console.log(
+					//	"Cached link " + cacheFile + " to repo not ready"
+					// );
 					pContext
 						.then((r) => {
 							const fileWritePromise = new Promise(
 								(resolve, reject) => {
-									console.log("Context ready", r.linkId);
+									// console.log("Context ready", r.linkId);
 									// No file yet
-									console.log(
-										"Cached link for " +
-											cacheFile +
-											" ready to write."
-									);
+									// console.log(
+									//	"Cached link for " +
+									//		cacheFile +
+									//		" ready to write."
+									//);
 									try {
-										console.log("Writing data for: ", link);
+										// console.log("Writing data for: ", link);
 										fs.mkdirSync(cacheFolder, {
 											recursive: true,
 										});

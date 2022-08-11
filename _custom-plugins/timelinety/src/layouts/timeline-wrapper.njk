@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+    {% block head %}
+
+        {% include "./head.njk" %}
+
+    {% endblock %}
+    {% block additionalhead %}
+    {% endblock %}
+    </head>
+    <body>
+    {% block nav %}
+        <!-- <nav><a href="{{timelinesConfig.domainName}}">Return to Home</a></nav> -->
+    {% endblock %}
+    {% include "./timeline-base.njk" %}
+    {% block pagebottom %}
+    {% endblock %}
+    </body>
+</html>

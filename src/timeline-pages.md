@@ -1,5 +1,5 @@
 ---
-layout: timeline
+layout: timeline-extended
 pagination:
     data: collections.timelines
     size: 1
