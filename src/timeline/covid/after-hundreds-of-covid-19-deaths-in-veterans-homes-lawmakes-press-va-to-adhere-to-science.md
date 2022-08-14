@@ -1,12 +1,11 @@
 ---
 title: "After hundreds of covid-19 deaths in state-run veterans homes, lawmakers press VA to adhere to science"
-description: "The economic fallout of the Covid pandemic has been harder on millennials, who are already indebted and a step behind on the career ladder from the last financial crisis. This second pummeling could keep them from accruing the wealth of older generations."
+description: "The push comes as lawmakers continue to probe patient care at state-run homes for veterans, which receive about $1 billion in federal funding."
 date: 2020-08-08 16:43:00.10 -5
 dateAdded: 2022-08-09 22:59:43.10 -5
-isBasedOn: "https://www.wsj.com/articles/millennials-covid-financial-crisis-fall-behind-jobless-11596811470"
+isBasedOn: "https://www.washingtonpost.com/business/2020/08/08/after-hundreds-covid-19-deaths-state-run-veterans-homes-lawmakers-press-va-adhere-science/"
 tags:
-  - Labor
-  - Markets
+  - Vaccines
 ---
 
-https://www.wsj.com/articles/millennials-covid-financial-crisis-fall-behind-jobless-11596811470
+https://www.washingtonpost.com/business/2020/08/08/after-hundreds-covid-19-deaths-state-run-veterans-homes-lawmakers-press-va-adhere-science/

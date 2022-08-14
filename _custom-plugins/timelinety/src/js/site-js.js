@@ -8,6 +8,20 @@ function hide(el) {
 	el.setAttribute("aria-hidden", true);
 }
 
+function uncheckAll() {
+	var checkedBoxes = document.querySelectorAll(
+		'input[type="checkbox"][name="filter"]:checked'
+	);
+	var activeFilters = [];
+	checkedBoxes.forEach(function (filter) {
+		filter.checked = false;
+	});
+	var entries = document.getElementsByClassName("timeline-entry");
+	for (var i = 0; i < entries.length; i++) {
+		hide(entries[i]);
+	}
+}
+
 function hideUnchecked() {
 	/* Uncheck the "all" box if one of the filter boxes is unchecked */
 	var allBoxes = document.querySelectorAll(
@@ -30,18 +44,15 @@ function hideUnchecked() {
 	var entries = document.getElementsByClassName("timeline-entry");
 	for (var i = 0; i < entries.length; i++) {
 		var entry = entries[i];
-		var categories = [];
+		var tags = [];
 		try {
-			categories = entry.dataset.category
+			tags = entry.dataset.tags
 				.split(",")
-				.filter((category) => category.length > 0);
+				.filter((tag) => tag.length > 0);
 		} catch {
 			// Pass
 		}
-		if (
-			categories.length &&
-			!isItemInCategories(categories, activeFilters)
-		) {
+		if (tags.length && !isItemInTags(tags, activeFilters)) {
 			hide(entry);
 		} else {
 			show(entry);
@@ -65,9 +76,9 @@ function checkAll() {
 	reflowEntries();
 }
 
-function isItemInCategories(categories, visibleCategories) {
-	return visibleCategories.some(function (id) {
-		return categories.indexOf(id) >= 0;
+function isItemInTags(tags, visibleTags) {
+	return visibleTags.some(function (id) {
+		return tags.indexOf(id) >= 0;
 	});
 }
 
@@ -103,6 +114,8 @@ function onload() {
 	document
 		.querySelector('input[type="checkbox"]#all')
 		.addEventListener("click", checkAll);
+
+	document.querySelector("button#none").addEventListener("click", uncheckAll);
 
 	/* Flow entries */
 	reflowEntries();

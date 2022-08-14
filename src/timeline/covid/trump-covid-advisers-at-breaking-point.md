@@ -6,7 +6,7 @@ dateAdded: 2022-08-09 22:59:43.10 -5
 isBasedOn: "https://www.thedailybeast.com/its-just-fck-up-after-fck-uptrumps-covid-advisers-at-their-breaking-point"
 tags:
   - Politics
-  - Masks
+  - Masking
 ---
 
 https://www.thedailybeast.com/its-just-fck-up-after-fck-uptrumps-covid-advisers-at-their-breaking-point

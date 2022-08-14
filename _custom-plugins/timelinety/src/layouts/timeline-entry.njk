@@ -1,5 +1,5 @@
-<div class="timeline-entry" data-category='{% for item in entry.data.categories %}{{ item }} {% endfor %}' aria-hidden="false">
-                    <!-- {{ entry | console }} -->
+<div class="timeline-entry" data-tags="{% for item in entry.data.tags %}{{ item }},{% endfor %}" aria-hidden="false">
+
                     <div class="timeline-icon {{- entry.data.color or "grey" }}">
                         {% if entry.data.faicon %}
                             <i class="fas fa-{{- entry.data.faicon }}" aria-hidden="true"></i>

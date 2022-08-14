@@ -13,9 +13,12 @@
             <header class="timeline-filter">
                 <ul>
                     <li>
+                        <button name="filters-off" id="none">Uncheck all</button>
+                    </li>
+                    <li>
                         <input type="checkbox" name="filter-shortcut" id="all" checked /> <label for="all">All</label>
                     </li>
-                    {% for filter in filters %}
+                    {% for filter in filters | sort %}
                         <li>
                             <input type="checkbox" name="filter" id="{{ filter }}" checked /> <label for="{{ filter }}">
                                 {{- filter -}}

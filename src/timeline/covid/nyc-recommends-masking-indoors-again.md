@@ -6,7 +6,7 @@ dateAdded: 2022-07-13 20:59:43.10 -4
 isBasedOn: "https://www.ny1.com/nyc/all-boroughs/news/2022/07/09/nyc-recommends-masking-indoors-again--with-covid-cases-rising"
 tags:
   - New York
-  - Masks
+  - Masking
   - "BA-5"
   - Omicron
   - Rising Cases

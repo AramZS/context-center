@@ -5,7 +5,7 @@ date: 2020-04-22 12:00:00.10 -5
 dateAdded: 2022-08-08 22:59:43.10 -4
 isBasedOn: "https://www.theatlantic.com/health/archive/2020/04/dont-wear-mask-yourself/610336/"
 tags:
-  - Masks
+  - Masking
 ---
 
 https://www.theatlantic.com/health/archive/2020/04/dont-wear-mask-yourself/610336/
