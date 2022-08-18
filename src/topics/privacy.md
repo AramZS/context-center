@@ -131,6 +131,7 @@ https://www.nytimes.com/wirecutter/blog/state-of-privacy-laws-in-us/
 https://gdpr.eu/what-is-gdpr/
 https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018
 https://gdpr.eu/data-protection-impact-assessment-template/
+https://www.wsj.com/articles/eu-court-expands-definition-of-sensitive-data-prompting-legal-concerns-for-companies-11660123800 
 
 ### CCPA
 
