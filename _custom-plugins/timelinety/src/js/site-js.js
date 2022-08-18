@@ -10,7 +10,7 @@ function hide(el) {
 
 function uncheckAll() {
 	var checkedBoxes = document.querySelectorAll(
-		'input[type="checkbox"][name="filter"]:checked'
+		'input[type="checkbox"]:checked'
 	);
 	var activeFilters = [];
 	checkedBoxes.forEach(function (filter) {

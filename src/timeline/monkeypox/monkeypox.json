@@ -1,0 +1,24 @@
+{
+	"timeline": "monkeypox",
+	"title": "Monkeypox Timeline",
+	"description": "A Timeline about Monkeypox as it was reported, maintained on Context Center",
+	"tags": [
+		"Monkeypox",
+		"Health",
+		"Medicine"
+	],
+	"categories": [
+		"News"
+	],
+	"filters": [
+		"USA"
+	],
+	"doNotUseFilters": [
+		"4 and under"
+	],
+	"date": "Last Modified",
+	"layout": "timeline-item",
+	"header": "Let's talk about the history of Monkeypox",
+	"color": "grey",
+	"shortdate": false
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+    {% block head %}
+
+        {% include "./head.njk" %}
+
+    {% endblock %}
+    {% block additionalhead %}
+    {% endblock %}
+    </head>
+    <body>
+    {% block nav %}
+        <!-- <nav><a href="{{timelinesConfig.domainName}}">Return to Home</a></nav> -->
+    {% endblock %}
+    {% include "./timeline-header.njk" %}
+    <section>
+
+        {% include "./timeline-filters.njk" %}
+
+        <article class="timeline" data-timeline="{{timelineSlug}}">
+            {% include "./timeline-entry.njk" %}
+        </article>
+    </section>
+    {% include "./timeline-footer.njk" %}
+    {% block pagebottom %}
+    {% endblock %}
+    </body>
+</html>

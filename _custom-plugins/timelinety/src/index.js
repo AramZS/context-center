@@ -30,17 +30,58 @@ module.exports = function (eleventyConfig, pluginConfig) {
 					timelineObj.timeline,
 					collectionFiltered.map((collection) => collection.template)
 				); */
-
-				collectionFiltered.sort((a, b) => {
+				const collectionEnhanced = collectionFiltered.map(
+					(timelineItem) => {
+						timelineItem.timelineData = timelineObj;
+						return timelineItem;
+					}
+				);
+				collectionEnhanced.sort((a, b) => {
 					if (a.date > b.date) return -1;
 					else if (a.date < b.date) return 1;
 					else return 0;
 				});
 				// collectionFiltered.reverse();
 
-				return collectionFiltered;
+				return collectionEnhanced;
 			}
 		);
 	});
+	console.log("send", eleventyConfig.addGlobalData);
+	eleventyConfig.addGlobalData(
+		"globalTimelines",
+		timelines.reduce((previousValue, currentValue) => {
+			//console.log("reduce", previousValue, currentValue);
+			previousValue[currentValue.timeline] = currentValue;
+			return previousValue;
+		}, {})
+	);
+	/**
+	eleventyConfig.addCollection("timeline-items", (collection) => {
+		let collectionFiltered = collection.getAll().filter((item) => {
+			if (item.data.timeline && !item.data.hasOwnProperty("count")) {
+				return true;
+			}
+			return false;
+		});
+		collectionFiltered = collectionFiltered.map((timelineItem) => {
+			timelineItem.timelineData = timelines.find((timelineObj) => {
+				if (timelineObj.timeline === timelineItem.data.timeline) {
+					return true;
+				}
+				return false;
+			});
+			return timelineItem;
+		});
+		collectionFiltered.sort((a, b) => {
+			if (a.date > b.date) return -1;
+			else if (a.date < b.date) return 1;
+			else return 0;
+		});
+		// collectionFiltered.reverse();
+		console.log("collectionFiltered", collectionFiltered);
+		return collectionFiltered;
+	}); */
+
 	// console.log("eleventyConfig", eleventyConfig);
 };

@@ -5,7 +5,7 @@ date: 2020-03-13 16:59:43.10 -4
 dateAdded: 2020-08-08 22:59:43.10 -4
 isBasedOn: "https://www.businessinsider.com/tsa-will-allow-12-ounces-of-carry-on-hand-sanitizer-as-coronavirus-spreads-2020-3"
 tags:
-  - Laws
+  - Law
 ---
 
 https://www.businessinsider.com/tsa-will-allow-12-ounces-of-carry-on-hand-sanitizer-as-coronavirus-spreads-2020-3
