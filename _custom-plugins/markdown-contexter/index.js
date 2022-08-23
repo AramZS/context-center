@@ -130,77 +130,92 @@ module.exports = (eleventyConfig, userOptions) => {
 						);
 					}
 				} catch (e) {
-					if (imageCheck) {
-						console.log("Image issue possibly", e);
-					}
-					console.log("Contextualizing link: ", link);
-					inputContent = inputContent.replace(
-						urlObj.replace,
-						`<p><a href="${link}" target="_blank">${link}</a></p>`
-					);
-					let pContext = contexter.context(link);
-					completeAllPromiseArray.push(pContext);
-					// No file yet
-					console.log(
-						"Cached link " + cacheFile + " to repo not ready"
-					);
-					pContext
-						.then((r) => {
-							const fileWritePromise = new Promise(
-								(resolve, reject) => {
-									console.log("Context ready", r.linkId);
-									// No file yet
-									console.log(
-										"Cached link for " +
-											cacheFile +
-											" ready to write."
-									);
-									try {
-										console.log("Writing data for: ", link);
-										fs.mkdirSync(cacheFolder, {
-											recursive: true,
-										});
-										imageHandler
-											.handleImageFromObject(
-												r,
-												fileName,
-												cacheFilePath
-											)
-											.then((localImageFileName) => {
-												if (localImageFileName) {
-													r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
-													// console.log('write data to file', cacheFile)
-												}
-												fs.writeFileSync(
-													cacheFile,
-													JSON.stringify(r)
-												);
-												resolve(cacheFile);
-											})
-											.catch((e) => {
-												console.log(
-													"Image handling failed",
-													e
-												);
-											});
-									} catch (e) {
+					try {
+						if (imageCheck) {
+							console.log("Image issue possibly", e);
+						}
+						console.log("Contextualizing link: ", link);
+						inputContent = inputContent.replace(
+							urlObj.replace,
+							`<p><a href="${link}" target="_blank">${link}</a></p>`
+						);
+						let pContext = contexter.context(link);
+						// completeAllPromiseArray.push(pContext);
+						// No file yet
+						console.log(
+							"Cached link " + cacheFile + " to repo not ready"
+						);
+						pContext
+							.then((r) => {
+								const fileWritePromise = new Promise(
+									(resolve, reject) => {
+										console.log("Context ready", r.linkId);
+										// No file yet
 										console.log(
-											"writing to cache failed:",
-											e
+											"Cached link for " +
+												cacheFile +
+												" ready to write."
 										);
-										reject(e);
+										try {
+											console.log(
+												"Writing data for: ",
+												link
+											);
+											fs.mkdirSync(cacheFolder, {
+												recursive: true,
+											});
+											imageHandler
+												.handleImageFromObject(
+													r,
+													fileName,
+													cacheFilePath
+												)
+												.then((localImageFileName) => {
+													if (localImageFileName) {
+														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
+														// console.log('write data to file', cacheFile)
+													}
+													fs.writeFileSync(
+														cacheFile,
+														JSON.stringify(r)
+													);
+													resolve(cacheFile);
+												})
+												.catch((e) => {
+													console.log(
+														"Image handling failed",
+														e
+													);
+													reject(e);
+												});
+										} catch (e) {
+											console.log(
+												"writing to cache failed:",
+												e
+											);
+											reject(e);
+										}
+										setTimeout(() => {
+											console.log(
+												"Request timed out for ",
+												cacheFile
+											);
+											reject("Timeout error");
+										}, 6000);
 									}
-								}
-							);
-							completeAllPromiseArray.push(fileWritePromise);
-						})
-						.catch((e) => {
-							console.log(
-								"Context adding promise failed on ",
-								link,
-								e
-							);
-						});
+								);
+								completeAllPromiseArray.push(fileWritePromise);
+							})
+							.catch((e) => {
+								console.log(
+									"Context adding promise failed on ",
+									link,
+									e
+								);
+							});
+					} catch (e) {
+						console.log("Contexter Process Failed: ", e);
+					}
 				}
 			});
 		}
@@ -266,7 +281,9 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				await Promise.all(completeAllPromiseArray);
+				await Promise.all(completeAllPromiseArray).catch((err) => {
+					console.log("Error in building archives collect: ", err);
+				});
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",
