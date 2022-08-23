@@ -58,3 +58,7 @@ encrypted messaging [PDF]</a>
 - https://datatracker.ietf.org/doc/bofreq-mahy-mimi-more-im-interop/
 
 <a href="https://scholarship.law.upenn.edu/faculty_scholarship/470/" target="_blank">Modularity Theory and Internet Regulation [PDF]</a>
+
+## Additional Notes
+
+This topic <a href="https://twitter.com/MalloryKnodel/status/1562091533624549377" target="_blank" class="inline-link">started with a thread by Mallory Knodel</a>.
