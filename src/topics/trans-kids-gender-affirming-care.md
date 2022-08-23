@@ -48,7 +48,9 @@ https://www.scottishlegal.com/articles/dr-sandra-duffy-puberty-blockers-ruling-w
 https://massivesci.com/articles/kale-edmiston-transgender-neuroscience/
 https://www.sciencedirect.com/science/article/abs/pii/S0273229706000773
 https://www.sciencedirect.com/science/article/pii/S2352154620301509
-https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1196/annals.1308.017
+
+<a href="https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1196/annals.1308.017" target="_blank">Adolescence: Vulnerable Period for Stress-Induced Prefrontal Cortical Function? Introduction to Part IV</a>
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6057016/
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/
 https://www.scientificamerican.com/article/anti-trans-laws-will-have-a-chilling-effect-on-medicine/

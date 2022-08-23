@@ -131,7 +131,7 @@ https://www.nytimes.com/wirecutter/blog/state-of-privacy-laws-in-us/
 https://gdpr.eu/what-is-gdpr/
 https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018
 https://gdpr.eu/data-protection-impact-assessment-template/
-https://www.wsj.com/articles/eu-court-expands-definition-of-sensitive-data-prompting-legal-concerns-for-companies-11660123800 
+https://www.wsj.com/articles/eu-court-expands-definition-of-sensitive-data-prompting-legal-concerns-for-companies-11660123800
 
 ### CCPA
 
@@ -190,7 +190,8 @@ https://aws.amazon.com/blogs/industries/how-to-create-a-modern-cpg-data-architec
 https://web.dev/same-site-same-origin/
 https://web.archive.org/web/20210828232159/https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
 https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64
-[Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
+
+<p><a href="https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf" target="_blank">Exposure Notification Privacy Preserving Analytics</a></p>
 
 [Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
 

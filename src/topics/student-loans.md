@@ -34,7 +34,9 @@ https://www.theatlantic.com/magazine/archive/2015/12/the-silicon-valley-suicides
 <p><a href="https://www.usnews.com/education/blogs/student-loan-ranger/articles/how-student-loan-debt-affects-women" target="_blank">https://www.usnews.com/education/blogs/student-loan-ranger/articles/how-student-loan-debt-affects-women</a></p>
 
 https://www.vice.com/en/article/5gjy9z/a-millennials-guide-to-planning-for-retirement-815
-https://www.nytimes.com/2015/06/24/business/economy/more-americans-are-renting-and-paying-more-as-homeownership-falls.html
+
+<p><a href="https://www.nytimes.com/2015/06/24/business/economy/more-americans-are-renting-and-paying-more-as-homeownership-falls.html" target="_blank">https://www.nytimes.com/2015/06/24/business/economy/more-americans-are-renting-and-paying-more-as-homeownership-falls.html</a></p>
+
 https://www.bloomberg.com/news/articles/2016-05-25/these-are-the-countries-where-millennials-will-work-themselves-to-death
 https://www.dailydot.com/unclick/food-stamps-millennials-fight-for-15/?fb=ss&prtnr=salon
 
@@ -67,7 +69,9 @@ https://hbr.org/2016/05/two-thirds-of-college-grads-struggle-to-launch-their-car
 https://qz.com/570078/americas-millennials-are-in-crisis-and-its-not-all-in-their-heads/
 https://www.washingtonpost.com/news/get-there/wp/2015/07/09/these-20-schools-are-responsible-for-a-fifth-of-all-graduate-school-debt/
 https://www.mic.com/articles/114208/happy-college-acceptance-day-you-re-going-to-be-in-debt-forever
-https://www.nytimes.com/2015/09/13/magazine/is-college-tuition-too-high.html
+
+<p><a href="https://www.nytimes.com/2015/09/13/magazine/is-college-tuition-too-high.html" target="_blank">https://www.nytimes.com/2015/09/13/magazine/is-college-tuition-too-high.html</a></p>
+
 https://www.buzzfeednews.com/article/mollyhensleyclancy/the-problem-with-too-big-to-fail-colleges#.de45nydWy
 
 <p><a href="https://www.bloomberg.com/news/articles/2022-04-30/biden-s-1-75-trillion-student-debt-problem-by-the-numbers" target="_blank">https://www.bloomberg.com/news/articles/2022-04-30/biden-s-1-75-trillion-student-debt-problem-by-the-numbers</a></p>

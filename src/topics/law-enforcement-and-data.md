@@ -82,7 +82,8 @@ https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-
 
 https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-collecting-the-data-theyll-need-for-prosecutions-post-roe/
 https://www.nytimes.com/2021/09/10/us/politics/texas-abortion-law-facts.html
-https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html
+
+<p><a href="https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html" target="_blank">Inside the Extreme Effort to Punish Women for Abortion</a></p>
 
 ### Abortion and User Data
 

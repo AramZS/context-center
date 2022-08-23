@@ -88,7 +88,7 @@ https://gizmodo.com/one-weird-trick-world-leaders-have-to-stop-climate-chan-1847
 https://www.theguardian.com/commentisfree/2019/oct/09/polluters-climate-crisis-fossil-fuel
 https://www.usatoday.com/story/opinion/2021/03/16/wall-street-esg-sustainable-investing-greenwashing-column/6948923002/
 https://grist.org/climate/major-news-networks-devoted-less-than-four-hours-to-climate-change-in-2019-total/
-https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html
+[https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html](https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html)
 
 ### Heatwaves and Fires
 
