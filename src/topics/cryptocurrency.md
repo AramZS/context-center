@@ -106,6 +106,7 @@ https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021
 https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv-show
 https://techcrunch.com/2022/06/01/former-opensea-exec-arrested-and-charged-with-insider-trading-of-nfts/
 https://blog.mollywhite.net/celsius-letters/
+https://www.theguardian.com/technology/2022/aug/24/nfts-stolen-non-fungible-tokens-criminals-scam-cryptocurrency
 
 #### Decentralization
 

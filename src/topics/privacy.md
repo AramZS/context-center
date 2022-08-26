@@ -237,7 +237,10 @@ https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 https://gizmodo.com/how-often-do-ads-sell-your-data-every-day-1848931523
 https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/
 https://gizmodo.com/why-every-company-ad-network-now-1848936157
+
 <a href="https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival" target="_blank">https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival</a>
+
+https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 
 ## Papers
 

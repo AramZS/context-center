@@ -53,6 +53,10 @@ https://www.imperial.ac.uk/stories/coronavirus-misinformation/
 
 https://www.nytimes.com/2022/05/31/technology/misinformation-sheriff-election-midterms.html
 
+### Climate Misinformation
+
+https://heated.world/p/the-fossil-fuel-industrys-fake-news?sd=pf
+
 ### Journalistic Tools
 
 https://en.unesco.org/fightfakenews
