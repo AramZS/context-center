@@ -78,6 +78,7 @@ https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
 https://www.washingtonpost.com/technology/2022/07/03/abortion-data-privacy-prosecution/
 https://www.politico.com/news/2022/07/18/google-data-states-track-abortions-00045906
 https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-dms/?sh=12cee161579c
+https://www.politico.com/news/2022/08/28/privacy-bill-triggers-lobbying-surge-by-data-brokers-00052958
 
 ### Anti-choice Activists and Bounties
 
