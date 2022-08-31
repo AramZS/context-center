@@ -207,6 +207,10 @@ https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-184390802
 
 https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
 
+## Trust
+
+https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
