@@ -203,6 +203,10 @@ https://www.w3.org/TR/privacy-principles/
 
 https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-1843908029
 
+### Data Protection
+
+https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
