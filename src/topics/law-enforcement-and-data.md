@@ -43,6 +43,9 @@ https://www.wired.com/story/leaky-forms-keyloggers-meta-tiktok-pixel-study/
 https://www.wired.com/story/eu-law-scan-phones-abortion-texts/
 https://themarkup.org/pixel-hunt/2022/06/15/facebook-and-anti-abortion-clinics-are-collecting-highly-sensitive-info-on-would-be-patients
 https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-jane-used-tracking-tools-that-sent-visitor-data-to-meta-google-and-others
+https://krausefx.com/blog/ios-privacy-instagram-and-facebook-can-track-anything-you-do-on-any-website-in-their-in-app-browser
+https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-selling-data-tracks-people-reproductive-health-clinics-places-worship-other
+https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-call-records-to-sensors-your-phone-reveals-more-about-you-than-you-think-189618
 
 ### Data Brokers
 
@@ -58,7 +61,7 @@ https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-ph
 https://www.vice.com/en/article/gygx7y/your-anonymous-browsing-data-isnt-actually-anonymous
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
 https://gizmodo.com/anonymized-data-is-meaningless-bullshit-1841429952
-
+https://gizmodo.com/data-brokers-selling-pregnancy-roe-v-wade-abortion-1849148426
 
 ### How Law Enforcement Acquires Your Data
 
@@ -77,12 +80,17 @@ https://americandragnet.org/
 https://www.vox.com/recode/23059057/privacy-abortion-phone-data-roe
 https://www.washingtonpost.com/technology/2022/07/03/abortion-data-privacy-prosecution/
 https://www.politico.com/news/2022/07/18/google-data-states-track-abortions-00045906
+https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-dms/?sh=12cee161579c
+https://www.politico.com/news/2022/08/28/privacy-bill-triggers-lobbying-surge-by-data-brokers-00052958
+https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-selling-mass-surveillance-local-police
+https://apnews.com/article/technology-police-government-surveillance-d395409ef5a8c6c3f6cdab5b1d0e27ef
 
 ### Anti-choice Activists and Bounties
 
 https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-collecting-the-data-theyll-need-for-prosecutions-post-roe/
 https://www.nytimes.com/2021/09/10/us/politics/texas-abortion-law-facts.html
-https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html
+
+<p><a href="https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html" target="_blank">Inside the Extreme Effort to Punish Women for Abortion</a></p>
 
 ### Abortion and User Data
 

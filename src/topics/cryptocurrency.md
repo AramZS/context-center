@@ -108,6 +108,7 @@ https://www.cnbc.com/2022/01/06/crypto-scammers-took-a-record-14-billion-in-2021
 https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv-show
 https://techcrunch.com/2022/06/01/former-opensea-exec-arrested-and-charged-with-insider-trading-of-nfts/
 https://blog.mollywhite.net/celsius-letters/
+https://www.theguardian.com/technology/2022/aug/24/nfts-stolen-non-fungible-tokens-criminals-scam-cryptocurrency
 
 #### Decentralization
 
@@ -221,6 +222,8 @@ https://www.vice.com/en/article/88g3ag/the-metaverse-has-bosses-too-meet-the-man
 https://www.youtube.com/watch?v=IZaTd0hDtkI
 https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-guide.html
 https://twitter.com/doctorow/status/1524805409713823744
+https://www.ft.com/content/29f32905-1933-458e-aa29-7f1685109ea1
+https://www.bloomberg.com/news/articles/2022-08-15/crypto-rules-crackdown-looms-for-150-billion-stablecoin-market
 
 ### Is it Art?
 

@@ -53,6 +53,10 @@ https://www.imperial.ac.uk/stories/coronavirus-misinformation/
 
 https://www.nytimes.com/2022/05/31/technology/misinformation-sheriff-election-midterms.html
 
+### Climate Misinformation
+
+https://heated.world/p/the-fossil-fuel-industrys-fake-news?sd=pf
+
 ### Journalistic Tools
 
 https://en.unesco.org/fightfakenews
@@ -103,3 +107,10 @@ https://knowledge.wharton.upenn.edu/article/build-fake-news-campaign/
 https://misinforeview.hks.harvard.edu/
 https://mediamanipulation.org/research
 https://checkmyads.org/branded/
+https://techpolicy.press/reconsidering-the-fight-against-disinformation/
+
+### Misinformation as a Practice
+
+https://www.youtube.com/watch?v=MCfMupGRqqY
+https://www.demandprotest.com/2600.html
+https://digitalcommons.unl.edu/senatedocs/2/

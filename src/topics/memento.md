@@ -2,6 +2,10 @@
 title: Memento API
 description: "Archival APIs and Tools"
 date: 2021-11-30 22:59:43.10 -4
+featuredImage: "digital_archives_servers_ultra_realistic_realism-2.png"
+featuredImageCredit: '"Digital Archives Servers - Ultra Realistic" by Midjourney AI'
+featuredImageLink: "https://www.midjourney.com"
+featuredImageAlt: 'Digital Archives Servers as imagined by the Midjourney AI, showing servers of various sizes and designs on the right, a table with archival documents for preservation on the left and tall sunny windows in the background'
 ---
 
 ## Links

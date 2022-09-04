@@ -131,6 +131,7 @@ https://www.nytimes.com/wirecutter/blog/state-of-privacy-laws-in-us/
 https://gdpr.eu/what-is-gdpr/
 https://www.wired.co.uk/article/what-is-gdpr-uk-eu-legislation-compliance-summary-fines-2018
 https://gdpr.eu/data-protection-impact-assessment-template/
+https://www.wsj.com/articles/eu-court-expands-definition-of-sensitive-data-prompting-legal-concerns-for-companies-11660123800
 
 ### CCPA
 
@@ -189,7 +190,8 @@ https://aws.amazon.com/blogs/industries/how-to-create-a-modern-cpg-data-architec
 https://web.dev/same-site-same-origin/
 https://web.archive.org/web/20210828232159/https://applift.com/blog/applifts-compendium-of-adtech-abbreviation
 https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d39627d79a64
-[Exposure Notification Privacy Preserving Analytics](https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf)
+
+<p><a href="https://covid19-static.cdn-apple.com/applications/covid19/current/static/contact-tracing/pdf/ENPA_White_Paper.pdf" target="_blank">Exposure Notification Privacy Preserving Analytics</a></p>
 
 [Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
 
@@ -200,6 +202,14 @@ https://www.w3.org/TR/privacy-principles/
 ["I need a better description": An Investigation Into User Expectations For Differential Privacy](https://arxiv.org/abs/2110.06452)
 
 https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-1843908029
+
+### Data Protection
+
+https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
+
+## Trust
+
+https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
 
 ## Journalism
 
@@ -235,7 +245,10 @@ https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 https://gizmodo.com/how-often-do-ads-sell-your-data-every-day-1848931523
 https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/
 https://gizmodo.com/why-every-company-ad-network-now-1848936157
+
 <a href="https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival" target="_blank">https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival</a>
+
+https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 
 ## Papers
 

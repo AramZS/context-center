@@ -46,6 +46,7 @@ https://www.theguardian.com/environment/2017/jan/06/london-breaches-toxic-air-po
 https://www.telegraph.co.uk/news/2021/07/29/plug-sockets-should-higher-wall-make-homes-flood-resilient-says/
 https://www.nhpr.org/climate-change/2021-01-11/as-climate-change-drives-migration-to-n-h-towns-face-tension-and-opportunity
 https://gizmodo.com/americans-are-already-deciding-where-to-move-based-on-c-1846667236
+https://www.washingtonpost.com/climate-environment/interactive/2022/extreme-heat-risk-map-us/
 
 ### The Ice Caps
 
@@ -67,6 +68,8 @@ https://www.nytimes.com/2019/09/20/climate/global-climate-strike.html
 https://www.washingtonpost.com/climate-environment/2022/02/15/sea-level-rise-2050-climate/
 https://coast.noaa.gov/slr/
 https://revealnews.org/article/see-how-climate-change-could-bring-disaster-to-some-popular-coastal-national-parks/
+https://www.nytimes.com/interactive/2022/08/12/climate/california-rain-storm.html
+
 
 ### Drought
 
@@ -85,7 +88,7 @@ https://gizmodo.com/one-weird-trick-world-leaders-have-to-stop-climate-chan-1847
 https://www.theguardian.com/commentisfree/2019/oct/09/polluters-climate-crisis-fossil-fuel
 https://www.usatoday.com/story/opinion/2021/03/16/wall-street-esg-sustainable-investing-greenwashing-column/6948923002/
 https://grist.org/climate/major-news-networks-devoted-less-than-four-hours-to-climate-change-in-2019-total/
-https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html
+[https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html](https://www.nytimes.com/2022/06/19/climate/supreme-court-climate-epa.html)
 
 ### Heatwaves and Fires
 
