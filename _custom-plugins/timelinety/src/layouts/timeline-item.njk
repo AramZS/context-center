@@ -1,18 +1,6 @@
 ---js
 {
     eleventyComputed: {
-        applyThis: {
-            timelineCheck: function(siteContext){
-                if (siteContext){
-                    console.log("Global check", siteContext.globalTimelines, 'for timeline', siteContext.timeline, ' and global object is ', siteContext)
-                }
-            },
-        },
-        timelineData: function(siteContext){
-            if (siteContext?.globalTimelines.hasOwnProperty(siteContext.timeline)){
-                return siteContext.globalTimelines[timeline]
-            }
-        },
         title: function(siteContext){
             if (siteContext?.title)
                 return siteContext.title

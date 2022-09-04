@@ -51,8 +51,9 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addGlobalData(
 		"globalTimelines",
 		timelines.reduce((previousValue, currentValue) => {
-			//console.log("reduce", previousValue, currentValue);
-			previousValue[currentValue.timeline] = currentValue;
+			if (currentValue?.timeline) {
+				previousValue[currentValue.timeline] = currentValue;
+			}
 			return previousValue;
 		}, {})
 	);
