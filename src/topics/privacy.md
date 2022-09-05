@@ -209,7 +209,7 @@ https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to
 
 ## Trust
 
-https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
+<a href="https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/" target="_blank">https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/</a>
 
 ## Journalism
 

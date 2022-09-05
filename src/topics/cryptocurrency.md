@@ -168,7 +168,9 @@ https://qz.com/1355945/why-have-cryptocurrencies-like-bitcoin-and-ethereum-falle
 https://www.fastcompany.com/40516337/with-this-cryptocurrency-everyone-gets-paid
 https://thenextweb.com/news/google-facebook-twitter-cryptocurrency
 https://www.bloomberg.com/news/articles/2018-03-16/fewer-americans-hold-cryptocurrencies-than-you-probably-think?cmpid%3D=socialflow-twitter-markets
-https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html
+
+<a href="https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html" target="_blank">https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html</a>
+
 https://qz.com/1160667/the-secret-lives-of-students-who-mine-cryptocurrency-in-their-dorm-rooms/
 https://www.bloomberg.com/news/articles/2017-11-03/diary-of-an-african-cryptocurrency-miner?cmpid=socialflow-twitter-business
 https://www.washingtonpost.com/news/energy-environment/wp/2017/12/19/why-the-bitcoin-craze-is-using-up-so-much-energy/
@@ -309,7 +311,9 @@ https://www.coindesk.com/markets/2014/06/05/100k-peter-thiel-fellowship-awarded-
 https://decrypt.co/98866/peter-thiels-founders-fund-and-pantera-capital-lead-20m-round-for-ondo-finance
 https://www.wsj.com/articles/peter-thiels-founders-fund-makes-big-bet-on-bitcoin-1514917433
 https://decrypt.co/97251/peter-thiel-unleashes-ethereum-warren-buffett-enemies-bitcoin-2022
-https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html
+
+<a href="https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html" target="_blank">https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html</a>
+
 https://www.buzzfeednews.com/article/rosiegray/peter-thiel-donald-trump-white-nationalist-support
 https://nymag.com/intelligencer/2016/06/peter-thiel.html
 

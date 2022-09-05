@@ -36,13 +36,20 @@ const pullImageFromTwitter = async (twitterObj, cacheFile, cacheFilePath) => {
 						mediaObj.local_url = fileObj.cacheFile;
 						return mediaObj;
 					} catch (e) {
-						// @TODO: This is NOT a web ready URL.
-						const localImage = await getImageAndWriteLocally(
-							imageUrl,
-							fileObj.cacheFile
-						);
-						mediaObj.local_url = localImage;
-						// mediaObj.local_url = false;
+						try {
+							// @TODO: This is NOT a web ready URL.
+							const localImage = await getImageAndWriteLocally(
+								imageUrl,
+								fileObj.cacheFile
+							);
+							mediaObj.local_url = localImage;
+							// mediaObj.local_url = false;
+						} catch (e) {
+							console.log(
+								"Tweet media obj enrichment failed ",
+								e
+							);
+						}
 						return mediaObj;
 					}
 				});
@@ -90,13 +97,14 @@ const imageCheck = (response, cacheFile, cacheFilePath, promiseArray) => {
 	} else if (r.twitterObj && r.twitterObj.length) {
 		try {
 			const twitterObjResult = pullImageFromTwitter(
-				twitterObj,
+				r.twitterObj,
 				cacheFile,
 				cacheFilePath
 			);
 			//@TODO Process the Twitter Object usefully?
 			return false;
 		} catch (e) {
+			console.log("Twitter Object failure ", e);
 			return false;
 		}
 	} else {
@@ -145,6 +153,7 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 					);
 					return imageFile;
 				} catch (e) {
+					console.log("Image file for page failed ", e);
 					return false;
 				}
 			}
@@ -154,15 +163,45 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 	}
 };
 
-const getImageAndWriteLocally = async (url, imageCacheFile) => {
-	const responseImage = await fetchUrl(url);
-	if (responseImage) {
-		const buffer = await responseImage.buffer();
-		fs.writeFileSync(imageCacheFile, buffer);
-		return imageCacheFile;
-	} else {
-		return false;
-	}
+const getImageAndWriteLocally = (url, imageCacheFile) => {
+	return new Promise((resolve, reject) => {
+		fetchUrl(url)
+			.then((responseImage) => {
+				if (responseImage) {
+					responseImage.buffer().then((buffer) => {
+						fs.writeFileSync(imageCacheFile, buffer);
+						resolve(imageCacheFile);
+					});
+				} else {
+					resolve(false);
+				}
+			})
+			.catch((error) => {
+				console.log("Image write failed ", error);
+				resolve(false);
+			});
+		/**
+		 *
+		try {
+			responseImage = await fetchUrl(url);
+		} catch (e) {
+			console.log("Image fetch failed ", e);
+		}
+		try {
+			if (responseImage) {
+				const buffer = await responseImage.buffer();
+				fs.writeFileSync(imageCacheFile, buffer);
+				return imageCacheFile;
+			} else {
+				return false;
+			}
+		} catch (e) {
+			console.log("Image write failed ", e);
+			return false;
+		}
+
+		 */
+	});
 };
 
 module.exports = { imageCheck, handleImageFromObject };

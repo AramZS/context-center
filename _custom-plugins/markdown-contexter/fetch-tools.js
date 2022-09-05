@@ -24,12 +24,15 @@ class HTTPResponseError extends Error {
 	}
 }
 
-const checkStatus = (response) => {
+const checkStatus = (response, url) => {
 	if (response.ok) {
 		// response.status >= 200 && response.status < 300
 		return response;
 	} else {
-		console.log(response.internals);
+		console.log(
+			"HTTP response internals failed for " + url,
+			response.internals
+		);
 		throw new HTTPResponseError(response);
 	}
 };
@@ -54,7 +57,7 @@ const fetchUrl = async (url, options = false, ua = true) => {
 		}
 		return false;
 	}
-	response = checkStatus(response);
+	response = checkStatus(response, url);
 	return response;
 };
 
