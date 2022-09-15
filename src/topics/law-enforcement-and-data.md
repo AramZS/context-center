@@ -82,6 +82,7 @@ https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-
 https://www.politico.com/news/2022/08/28/privacy-bill-triggers-lobbying-surge-by-data-brokers-00052958
 https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-selling-mass-surveillance-local-police
 https://apnews.com/article/technology-police-government-surveillance-d395409ef5a8c6c3f6cdab5b1d0e27ef
+https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/
 
 ### Anti-choice Activists and Bounties
 
