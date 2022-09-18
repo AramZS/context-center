@@ -21,6 +21,8 @@ http://teclis.com
 https://kagi.com/
 https://wiby.me
 https://indieweb-search.jamesg.blog/
+https://www.mojeek.com/about/
+https://www.ecosia.org/
 
 ## Tools
 

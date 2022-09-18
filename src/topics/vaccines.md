@@ -116,6 +116,7 @@ https://www.theguardian.com/commentisfree/2022/jan/12/long-covid-wife-suicide-gi
 https://www.theguardian.com/society/2022/feb/03/long-covid-fight-recognition-gaslighting-pandemic
 https://www.wsj.com/articles/long-covid-patients-report-vibrations-tremors-my-body-is-moving-inside-its-jolting-11640098486?mod=e2tw
 https://www.theatlantic.com/science/archive/2021/09/covid-19-long-haulers-pandemic-future/619941/
+https://www.nytimes.com/2022/08/25/opinion/long-covid-pandemic.html
 
 ### Get Vaccinated
 
