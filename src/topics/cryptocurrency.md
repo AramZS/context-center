@@ -202,7 +202,7 @@ https://www.theverge.com/2022/1/28/22906010/web3-nft-internet-history-video-plat
 https://www.vox.com/recode/22907072/web3-crypto-nft-bitcoin-metaverse
 https://www.nytimes.com/2022/01/31/opinion/crypto-nfts-inequality.html
 https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/
-https://www.nytimes.com/2022/01/24/opinion/crypto-blockchain-nfts.html?action=click&block=associated_collection_recirc&impression_id=26323111-8908-11ec-a0c3-b7927a4d02c4&index=1&pgtype=Article&region=footer
+https://www.nytimes.com/2022/01/24/opinion/crypto-blockchain-nfts.html
 https://www.nytimes.com/2022/02/07/opinion/crypto-nfts-folk-economics.html
 https://www.platformer.news/p/the-man-who-got-fired-by-his-dao
 https://www.bloomberg.com/news/articles/2022-02-12/andreessen-horowitz-a16z-s-chris-dixon-sees-web3-riches-others-see-rubbish

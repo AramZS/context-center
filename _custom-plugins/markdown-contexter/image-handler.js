@@ -25,6 +25,15 @@ const pullImageFromTwitter = async (twitterObj, cacheFile, cacheFilePath) => {
 		) {
 			const tweetObjAdjustedMedia =
 				tweetObj.data.attachments.media_keys.map(async (mediaObj) => {
+					if (!mediaObj?.url) {
+						if (mediaObj?.type === "photo") {
+							console.log(
+								"Twitter object does not have URL, no image url available",
+								mediaObj
+							);
+						}
+						return false;
+					}
 					const imageUrl = mediaObj.url;
 					const fileObj = generateImageFilename(
 						imageUrl,
@@ -36,6 +45,20 @@ const pullImageFromTwitter = async (twitterObj, cacheFile, cacheFilePath) => {
 						mediaObj.local_url = fileObj.cacheFile;
 						return mediaObj;
 					} catch (e) {
+						if (fs.existsSync(fileObj.cacheFolder)) {
+							console.log(
+								"Folder for twitter images exists",
+								fileObj.cacheFolder
+							);
+						} else {
+							console.log(
+								"Make dir for twitter images",
+								fileObj.cacheFolder
+							);
+							fs.mkdirSync(fileObj.cacheFolder, {
+								recursive: true,
+							});
+						}
 						try {
 							// @TODO: This is NOT a web ready URL.
 							const localImage = await getImageAndWriteLocally(
@@ -75,6 +98,9 @@ const imageCheck = (response, cacheFile, cacheFilePath, promiseArray) => {
 		} else {
 			image = r.finalizedMeta.image;
 		}
+		if (!image) {
+			return false;
+		}
 		const fileObj = generateImageFilename(image, cacheFile, cacheFilePath);
 		const imageCacheFolder = fileObj.cacheFolder;
 		const imageCacheFile = fileObj.cacheFile;
@@ -86,12 +112,19 @@ const imageCheck = (response, cacheFile, cacheFilePath, promiseArray) => {
 				imageName: fileObj.imageFileName,
 			};
 		} catch (e) {
-			const imageResult = handleImageFromObject(
-				response,
-				cacheFile,
-				cacheFilePath
-			);
-			promiseArray.push(imageResult);
+			try {
+				const imageResult = handleImageFromObject(
+					response,
+					cacheFile,
+					cacheFilePath
+				);
+				imageResult.catch((e) => {
+					console.log("Image retrieve failed ", e);
+				});
+				promiseArray.push(imageResult);
+			} catch (e) {
+				console.log("Image could not be retrieved", e);
+			}
 			return false;
 		}
 	} else if (r.twitterObj && r.twitterObj.length) {
@@ -104,7 +137,7 @@ const imageCheck = (response, cacheFile, cacheFilePath, promiseArray) => {
 			//@TODO Process the Twitter Object usefully?
 			return false;
 		} catch (e) {
-			console.log("Twitter Object failure ", e);
+			console.log("Twitter Image Object failure ", e, r.twitterObj);
 			return false;
 		}
 	} else {
@@ -141,21 +174,26 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 				fs.accessSync(imageCacheFile, fs.constants.F_OK);
 				return imageFile;
 			} catch (e) {
-				fs.mkdirSync(imageCacheFolder, {
-					recursive: true,
-				});
-				// console.log("Writing Image to ", imageCacheFile);
-				// console.log("Image file being written: ", image);
-				try {
-					const imageFile = await getImageAndWriteLocally(
-						image,
-						imageCacheFile
-					);
-					return imageFile;
-				} catch (e) {
-					console.log("Image file for page failed ", e);
-					return false;
+				if (fs.existsSync(imageCacheFolder)) {
+					console.log("Folder for images exists", imageCacheFolder);
+				} else {
+					console.log("Make dir for images", imageCacheFolder);
+					fs.mkdirSync(imageCacheFolder, {
+						recursive: true,
+					});
 				}
+			}
+			// console.log("Writing Image to ", imageCacheFile);
+			// console.log("Image file being written: ", image);
+			try {
+				const imageFile = await getImageAndWriteLocally(
+					image,
+					imageCacheFile
+				);
+				return imageFile;
+			} catch (e) {
+				console.log("Image file for page failed ", e);
+				return false;
 			}
 		} else {
 			return false;
@@ -164,21 +202,26 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 };
 
 const getImageAndWriteLocally = (url, imageCacheFile) => {
+	return false;
 	return new Promise((resolve, reject) => {
 		fetchUrl(url)
 			.then((responseImage) => {
+				// console.log(url, " retrieved");
 				if (responseImage) {
 					responseImage.buffer().then((buffer) => {
 						fs.writeFileSync(imageCacheFile, buffer);
 						resolve(imageCacheFile);
 					});
 				} else {
-					resolve(false);
+					reject(false);
 				}
 			})
 			.catch((error) => {
-				console.log("Image write failed ", error);
-				resolve(false);
+				console.log(
+					"Image write failed in getImageAndWriteLocally ",
+					error
+				);
+				reject(false);
 			});
 		/**
 		 *

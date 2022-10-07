@@ -17,7 +17,7 @@
 		"4 and under"
 	],
 	"date": "Last Modified",
-	"layout": "timeline-item",
+	"layout": "timeline-standalone-item",
 	"header": "Let's talk about the history of Monkeypox",
 	"color": "grey",
 	"shortdate": false

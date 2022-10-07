@@ -171,15 +171,20 @@ module.exports = (eleventyConfig, userOptions) => {
 													cacheFilePath
 												)
 												.then((localImageFileName) => {
+													console.log(
+														"handleImageFromObject result ",
+														localImageFileName
+													);
 													if (localImageFileName) {
 														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
 														// console.log('write data to file', cacheFile)
+
+														fs.writeFileSync(
+															cacheFile,
+															JSON.stringify(r)
+														);
+														resolve(cacheFile);
 													}
-													fs.writeFileSync(
-														cacheFile,
-														JSON.stringify(r)
-													);
-													resolve(cacheFile);
 												})
 												.catch((e) => {
 													console.log(

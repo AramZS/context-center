@@ -184,7 +184,7 @@ module.exports = function (eleventyConfig) {
 	];
 	const njkEngine = require("nunjucks").configure(nunjucksFileSystem, {
 		autoescape: false,
-		throwOnUndefined: throwOnUndefinedSetting,
+		throwOnUndefined: false,
 		noCache: throwOnUndefinedSetting,
 	});
 	console.log("other nunjucksFileSystem", nunjucksFileSystem);

@@ -66,7 +66,9 @@ https://publications.aap.org/pediatrics/article/142/4/e20182162/37381/Ensuring-C
 
 https://psychcentral.com/lib/there-is-no-evidence-that-rapid-onset-gender-dysphoria-exists#1
 https://www.sciencedirect.com/science/article/abs/pii/S0306453015000943?casa_token=cs2uTv6X96cAAAAA%3AfBmY27NAacdJ46piKDy0-4_zo3X8js_FBbwtEMlb3lsUxsW2nBjuClD799vpbZm1oq20YvGfNIU
-https://academic.oup.com/HTTPHandlers/Sigma/LoginHandler.ashx?error=login_required&state=997b234e-ba15-464c-af78-0244a94fea51redirecturl%3Dhttpszazjzjacademiczwoupzwcomzjjcemzjarticlezj102zj11zj3869zj4157558
+
+<a href="https://academic.oup.com/jcem/article/102/11/3869/4157558" target="_blank">Endocrine Treatment of Gender-Dysphoric/Gender-Incongruent Persons: An Endocrine Society Clinical Practice Guideline</a>
+
 https://www.frontiersin.org/articles/10.3389/fnhum.2017.00528/full
 https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 

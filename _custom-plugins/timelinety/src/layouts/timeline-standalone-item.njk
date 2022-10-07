@@ -1,0 +1,81 @@
+---js
+{
+    eleventyComputed: {
+        applyThis: {
+            timelineCheck: function(siteContext){
+                if (siteContext){
+                    console.log(siteContext.timeline, "Global check timelineitem")
+                }
+            },
+        },
+        title: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.title)
+                return siteContext.globalTimelines[siteContext.timeline].title
+
+            return '';
+        },
+        description: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.description)
+                return siteContext.globalTimelines[siteContext.timeline].description
+
+            return '';
+        },
+        tags: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.tags)
+                return siteContext.globalTimelines[siteContext.timeline].tags
+
+            return [];
+        },
+        categories: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.categories)
+                return siteContext.globalTimelines[siteContext.timeline].categories
+
+            return '';
+        },
+        filters: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.filters)
+                return siteContext.globalTimelines[siteContext.timeline].filters
+
+            return [];
+        },
+        date: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.date)
+                return siteContext.globalTimelines[siteContext.timeline].date
+
+            return "Last Modified";
+        },
+        header: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.header)
+                return siteContext.globalTimelines[siteContext.timeline].header
+
+            return false;
+        },
+        color: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.color)
+                return siteContext.globalTimelines[siteContext.timeline].color
+
+            return 'grey';
+        },
+        shortdate: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.shortdate)
+                return siteContext.globalTimelines[siteContext.timeline].shortdate
+
+            return false;
+        },
+        lastUpdatedPost: function(siteContext){
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.lastUpdatedPost)
+                return siteContext.globalTimelines[siteContext.timeline].lastUpdatedPost
+
+            return false;
+        },
+        entry: function(siteContext){
+            if (siteContext?.timeline && siteContext.title){
+
+            }
+
+            return {}
+        }
+    }
+}
+---
+{% include "./timeline-item-wrapper.njk" %}

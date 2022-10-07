@@ -53,8 +53,8 @@ module.exports = function (eleventyConfig, options) {
 		path.join(pluginLayoutPath, "timeline.njk")
 	);
 	eleventyConfig.addLayoutAlias(
-		"timeline-item",
-		path.join(pluginLayoutPath, "timeline-item.njk")
+		"timeline-standalone-item",
+		path.join(pluginLayoutPath, "timeline-standalone-item.njk")
 	);
 	eleventyConfig.addLayoutAlias(
 		"timeline-base",
