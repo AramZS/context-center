@@ -157,6 +157,7 @@ https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bu
 https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 https://evanjconrad.com/posts/crypto-use-cases
 https://medium.com/@mariabustillos/why-does-journalism-need-blockchain-technology-fc986d9094ab
+https://www.starlinglab.org/78days/
 
 ### Middle of the Road
 
