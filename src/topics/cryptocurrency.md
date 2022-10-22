@@ -158,6 +158,7 @@ https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 https://evanjconrad.com/posts/crypto-use-cases
 https://medium.com/@mariabustillos/why-does-journalism-need-blockchain-technology-fc986d9094ab
 https://www.starlinglab.org/78days/
+https://youtu.be/JPGNvKy6DTA
 
 ### Middle of the Road
 
