@@ -64,6 +64,10 @@ module.exports = function (eleventyConfig, options) {
 		"timeline-head",
 		path.join(pluginLayoutPath, "head.njk")
 	);
+	eleventyConfig.addLayoutAlias(
+		"timeline-json",
+		path.join(pluginLayoutPath, "json/timeline.njk")
+	);
 	eleventyConfig.addGlobalData("timelinesConfig", pluginConfig);
 	return library(eleventyConfig, pluginConfig);
 };

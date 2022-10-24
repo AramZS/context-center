@@ -1,0 +1,49 @@
+{
+    "title": "{{ title }}",
+    "author": "{{ author }}",
+    "slug": "{{ timelineSlug }}",
+    "filters": [
+        {% if filters|length %}
+            {% for filter in filters | sort %}
+                "{{ filter }}"{% if filter !== filters | sort | last %},{% endif %}
+            {% endfor %}
+        {% endif %}
+    ],
+    "items": [
+        {% for entry in collections[timelineSlug] %}
+            {
+                "title": "{{- entry.data.title }}",
+                "slug": "{{- entry.data.title | slugify -}}",
+                "date": "{{ entry.data.date }}",
+                "humanReadableDate": "{% humanizeDate entry.data.date %}",
+                "faicon": "{{ entry.data.faicon }}",
+                "content": {% if entry.data and entry.data.content %}{{ entry.data.content | dump | safe or "" }}{% endif %},
+                "isBasedOn": {%- if entry.data.isBasedOn and entry.data.customLink %}"{{entry.data.customLink}}"{% else %}false{%- endif %},
+                "image": {% if entry.data.image %}{
+                    "src": "{{- entry.data.image.src -}}",
+                    "link": "{% if entry.data.image.link %}{{- entry.data.image.link -}}{% endif %}",
+                    "caption": "{% if entry.data.image.caption %}{{- entry.data.image.caption -}}{% endif %}"
+                }{% else %}false{% endif %},
+                "links": [
+                    {% if entry.data.links %}
+                            {% for link in entry.data.links %}
+                            {
+                                "href": "{{- link.href -}}",
+                                "linkText": "{{- link.linkText }}",
+                                "extraText": "{{- link.extraText or '' }}"
+                            }{% if link !== entry.data.links | last %},{% endif %}
+                            {% endfor %}
+                    {% endif %}
+                ],
+                "tags": [
+                    {% if tags|length %}
+                    {% for item in entry.data.tags %}
+                    "{{ item }}"{% if item !== entry.data.tags | last %},{% endif %}
+                    {% endfor %}
+                    {% endif %}
+                ]
+            }{% if entry !== collections[timelineSlug] | last %},{% endif %}
+
+        {% endfor %}
+    ]
+}
