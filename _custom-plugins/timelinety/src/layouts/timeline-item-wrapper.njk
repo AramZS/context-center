@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+{% set title = timelineObj.title %}
+{% set description = timelineObj.description %}
+{% set author = timelineObj.author %}
+{% set header = timelineObj.header %}
+{% set lastUpdatedPost = timelineObj.lastUpdatedPost %}
+{% set footer = timelineObj.footer %}
+{% set filters = timelineObj.filters %}
+{% set metatitle = timelineEntryItem.title %}
     <head>
     {% block head %}
 
@@ -19,6 +27,9 @@
         {% include "./timeline-filters.njk" %}
 
         <article class="timeline" data-timeline="{{timelineSlug}}">
+            {% set timelineItem = timelineEntryItem %}
+            {% set timelineItemContent = content %}
+            <!-- entry: {{ content | console }} -->
             {% include "./timeline-entry.njk" %}
         </article>
     </section>

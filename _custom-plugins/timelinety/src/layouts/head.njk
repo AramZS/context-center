@@ -1,5 +1,9 @@
 <meta charset="utf-8" />
+{% if metatitle %}
+<title>{{- metatitle -}}</title>
+{% else %}
 <title>{{- title -}}</title>
+{% endif %}
 {% if description %}
 <meta name="description" content="{{ description }}" />
 {% endif %}

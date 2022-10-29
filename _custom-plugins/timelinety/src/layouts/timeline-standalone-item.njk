@@ -1,80 +1,76 @@
 ---js
 {
     eleventyComputed: {
+        timelineObj: function(siteContext){
+            let obj = {
+
+            };
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.title)
+                obj.title = siteContext.globalTimelines[siteContext.timeline].title
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.description)
+                obj.description = siteContext.globalTimelines[siteContext.timeline].description
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.tags)
+                obj.tags = siteContext.globalTimelines[siteContext.timeline].tags
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.categories)
+                obj.categories = siteContext.globalTimelines[siteContext.timeline].categories
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.filters)
+                obj.filters = siteContext.globalTimelines[siteContext.timeline].filters
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.date)
+                obj.date = siteContext.globalTimelines[siteContext.timeline].date
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.header)
+                obj.header = siteContext.globalTimelines[siteContext.timeline].header
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.color)
+                obj.color = siteContext.globalTimelines[siteContext.timeline].color
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.shortdate)
+                obj.shortdate = siteContext.globalTimelines[siteContext.timeline].shortdate
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.lastUpdatedPost)
+                obj.lastUpdatedPost = siteContext.globalTimelines[siteContext.timeline].lastUpdatedPost
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.footer)
+                obj.lastUpdatedPost = siteContext.globalTimelines[siteContext.timeline].footer
+
+            return obj;
+        },
+        timelineEntryItem: function(siteContext){
+            let data = {};
+            if (siteContext?.timeline && siteContext.title && siteContext.date && siteContext.header && siteContext.description){
+                Object.assign(data, {
+                        timeline: siteContext.timeline,
+                        title: siteContext.title,
+                        content: siteContext?.content,
+                        description: siteContext?.description,
+                        tags: siteContext?.tags,
+                        faicon: siteContext?.faicon,
+                        image: siteContext?.data?.image,
+                        date: siteContext?.date,
+                        categories: siteContext?.categories,
+                        filters: siteContext?.filters,
+                        dateAdded: siteContext?.dateAdded,
+                        isBasedOn: siteContext?.isBasedOn,
+                        shortdate: siteContext?.shortdate,
+                        links: siteContext?.data?.links
+                    }
+                )
+            }
+            console.log('entry data ', JSON.stringify({ data: data }))
+            return { data: JSON.parse(JSON.stringify(data)) }
+        },
         applyThis: {
             timelineCheck: function(siteContext){
                 if (siteContext){
-                    console.log(siteContext.timeline, "Global check timelineitem")
+                    console.log("Global check timelineitem", siteContext)
                 }
             },
         },
-        title: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.title)
-                return siteContext.globalTimelines[siteContext.timeline].title
-
-            return '';
-        },
-        description: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.description)
-                return siteContext.globalTimelines[siteContext.timeline].description
-
-            return '';
-        },
-        tags: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.tags)
-                return siteContext.globalTimelines[siteContext.timeline].tags
-
-            return [];
-        },
-        categories: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.categories)
-                return siteContext.globalTimelines[siteContext.timeline].categories
-
-            return '';
-        },
-        filters: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.filters)
-                return siteContext.globalTimelines[siteContext.timeline].filters
-
-            return [];
-        },
-        date: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.date)
-                return siteContext.globalTimelines[siteContext.timeline].date
-
-            return "Last Modified";
-        },
-        header: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.header)
-                return siteContext.globalTimelines[siteContext.timeline].header
-
-            return false;
-        },
-        color: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.color)
-                return siteContext.globalTimelines[siteContext.timeline].color
-
-            return 'grey';
-        },
-        shortdate: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.shortdate)
-                return siteContext.globalTimelines[siteContext.timeline].shortdate
-
-            return false;
-        },
-        lastUpdatedPost: function(siteContext){
-            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.lastUpdatedPost)
-                return siteContext.globalTimelines[siteContext.timeline].lastUpdatedPost
-
-            return false;
-        },
-        entry: function(siteContext){
-            if (siteContext?.timeline && siteContext.title){
-
-            }
-
-            return {}
-        }
     }
 }
 ---

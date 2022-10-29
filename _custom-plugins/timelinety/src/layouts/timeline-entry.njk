@@ -1,37 +1,38 @@
-<div class="timeline-entry" data-tags="{% if tags|length %}{% for item in entry.data.tags %}{{ item }},{% endfor %}{% endif %}" aria-hidden="false">
-    <div class="timeline-icon {{- entry.data.color or "grey" }}">
-        {% if entry.data.faicon %}
-            <i class="fas fa-{{- entry.data.faicon }}" aria-hidden="true"></i>
+<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" aria-hidden="false">
+    <!-- entry: {{ timelineItem | console }} -->
+    <div class="timeline-icon {{- timelineItem.data.color or "grey" }}">
+        {% if timelineItem.data.faicon %}
+            <i class="fas fa-{{- timelineItem.data.faicon }}" aria-hidden="true"></i>
         {% endif %}
     </div>
     <div class="timeline-description">
         <span class="timestamp">
-            <time datetime="{{- entry.data.date }}">
-                {%- humanizeDate entry.data.date %}
+            <time datetime="{{- timelineItem.data.date }}">
+                {%- humanizeDate timelineItem.data.date %}
             </time>
         </span>
-        <h2><a id="{{- entry.data.title | slugify -}}" href="#{{- entry.data.title | slugify -}}"><i class="fas fa-link"></i></a>{{- entry.data.title }}</h2>
-        {% if entry.data.image %}
+        <h2><a id="{{- timelineItem.data.title | slugify -}}" href="#{{- timelineItem.data.title | slugify -}}"><i class="fas fa-link"></i></a>{{- timelineItem.data.title }}</h2>
+        {% if timelineItem.data.image %}
             <div class="captioned-image image-right">
-                {% if entry.data.image.link %}<a href="{{- entry.data.image.link -}}">{% endif %}
-                <img src="{{- entry.data.image.src -}}" alt="{{- entry.data.image.src -}}" />
-                {% if entry.data.image.link %}</a>{% endif %}
-                {% if entry.data.image.caption %}
-                    <span class="caption">{{- entry.data.image.caption -}}</span>
+                {% if timelineItem.data.image.link %}<a href="{{- timelineItem.data.image.link -}}">{% endif %}
+                <img src="{{- timelineItem.data.image.src -}}" alt="{{- timelineItem.data.image.src -}}" />
+                {% if timelineItem.data.image.link %}</a>{% endif %}
+                {% if timelineItem.data.image.caption %}
+                    <span class="caption">{{- timelineItem.data.image.caption -}}</span>
                 {% endif %}
             </div>
         {% endif %}
-        {%- if entry.data.isBasedOn and entry.data.customLink %}
-            <a target="_blank" href="{{entry.data.customLink}}">Read the article</a>
+        {%- if timelineItem.data.isBasedOn and timelineItem.data.customLink %}
+            <a target="_blank" href="{{timelineItem.data.customLink}}">Read the article</a>
         {%- endif %}
-        {% if entry.data and entry.data.content %}
+        {% if timelineItemContent %}
 
-        {{- entry.data.content or "" }}
+        {{- timelineItemContent or "" }}
 
         {% endif %}
-        {% if entry.data.links %}
+        {% if timelineItem.data.links %}
             <ul>
-                {% for link in entry.data.links %}
+                {% for link in timelineItem.data.links %}
                     <li>
                         <a href="{{- link.href -}}" target="_blank">{{- link.linkText }}</a>&nbsp;{{- link.extraText }}
                     </li>
