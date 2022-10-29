@@ -224,6 +224,7 @@ https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-
 https://twitter.com/doctorow/status/1524805409713823744
 https://www.ft.com/content/29f32905-1933-458e-aa29-7f1685109ea1
 https://www.bloomberg.com/news/articles/2022-08-15/crypto-rules-crackdown-looms-for-150-billion-stablecoin-market
+https://www.bloomberg.com/features/2022-the-crypto-story/?leadSource=uverify%20wall
 
 ### Is it Art?
 
