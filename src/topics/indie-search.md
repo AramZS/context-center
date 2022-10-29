@@ -67,3 +67,4 @@ https://indiemap.org/docs.html#common-crawl
 https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-without-own-index.html
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
+https://wiby.me/about/guide.html
