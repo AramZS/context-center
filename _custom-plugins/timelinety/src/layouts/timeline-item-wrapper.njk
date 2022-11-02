@@ -7,15 +7,26 @@
 {% set lastUpdatedPost = timelineObj.lastUpdatedPost %}
 {% set footer = timelineObj.footer %}
 {% set filters = timelineObj.filters %}
-{% set metatitle = timelineEntryItem.title %}
     <head>
+        <!-- <script src="https://unpkg.com/@webcomponents/custom-elements"></script> -->
+        <link rel="preload" href="{{timelinesConfig.jsPath}}/single-item.js" as="script" />
+        <link rel="preload" href="{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json" as="fetch" />
     {% block head %}
 
+        {% set metatitle = timelineEntryItem.data.title %}
+        {% set metadescription = timelineEntryItem.data.description %}
+        <!-- entry: {{ timelineEntryItem | console }} -->
         {% include "./head.njk" %}
 
     {% endblock %}
     {% block additionalhead %}
     {% endblock %}
+        <script>
+            window.baseItem = "{{- timelineEntryItem.data.title | slugify -}}";
+            window.timelineAPI = "{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json";
+            window.timelineHomeItemSlug = "{{- timelineEntryItem.data.title | slugify -}}"
+        </script>
+        <script src="{{timelinesConfig.jsPath}}/single-item.js" async></script>
     </head>
     <body>
     {% block nav %}
@@ -26,7 +37,7 @@
 
         {% include "./timeline-filters.njk" %}
 
-        <article class="timeline" data-timeline="{{timelineSlug}}">
+        <article class="timeline" data-timeline="{{timelineEntryItem.data.timeline}}">
             {% set timelineItem = timelineEntryItem %}
             {% set timelineItemContent = content %}
             <!-- entry: {{ content | console }} -->

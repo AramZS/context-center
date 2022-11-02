@@ -1,6 +1,6 @@
-<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" aria-hidden="false">
+<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" id="{{- timelineItem.data.title | slugify -}}" aria-hidden="false">
     <!-- entry: {{ timelineItem | console }} -->
-    <div class="timeline-icon {{- timelineItem.data.color or "grey" }}">
+    <div class="timeline-icon {{ timelineItem.data.color or "grey" }}">
         {% if timelineItem.data.faicon %}
             <i class="fas fa-{{- timelineItem.data.faicon }}" aria-hidden="true"></i>
         {% endif %}
@@ -15,7 +15,7 @@
         {% if timelineItem.data.image %}
             <div class="captioned-image image-right">
                 {% if timelineItem.data.image.link %}<a href="{{- timelineItem.data.image.link -}}">{% endif %}
-                <img src="{{- timelineItem.data.image.src -}}" alt="{{- timelineItem.data.image.src -}}" />
+                <img src="{{- timelineItem.data.image.src -}}" alt="{{- timelineItem.data.image.alt -}}" />
                 {% if timelineItem.data.image.link %}</a>{% endif %}
                 {% if timelineItem.data.image.caption %}
                     <span class="caption">{{- timelineItem.data.image.caption -}}</span>
@@ -34,7 +34,7 @@
             <ul>
                 {% for link in timelineItem.data.links %}
                     <li>
-                        <a href="{{- link.href -}}" target="_blank">{{- link.linkText }}</a>&nbsp;{{- link.extraText }}
+                        <a href="{{- link.href -}}" target="_blank">{{- link.linkText or link.href }}</a>&nbsp;{{- link.extraText or "" }}
                     </li>
                 {% endfor %}
             </ul>

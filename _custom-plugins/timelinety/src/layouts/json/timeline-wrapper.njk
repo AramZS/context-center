@@ -17,6 +17,7 @@
                 "date": "{{ entry.data.date }}",
                 "humanReadableDate": "{% humanizeDate entry.data.date %}",
                 "faicon": "{{ entry.data.faicon }}",
+                "color": "{{ entry.data.color }}",
                 "content": {% if entry.data and entry.data.content %}{{ entry.data.content | dump | safe or "" }}{% endif %},
                 "isBasedOn": {%- if entry.data.isBasedOn and entry.data.customLink %}"{{entry.data.customLink}}"{% else %}false{%- endif %},
                 "image": {% if entry.data.image %}{

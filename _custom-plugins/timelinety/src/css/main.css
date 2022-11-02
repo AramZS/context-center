@@ -94,6 +94,7 @@ footer.page-footer {
 }
 
 .timeline-entry {
+	display: block;
 	position: relative;
 	margin-top: -75px;
 	margin-top: -25px;

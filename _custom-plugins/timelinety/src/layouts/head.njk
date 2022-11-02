@@ -5,7 +5,7 @@
 <title>{{- title -}}</title>
 {% endif %}
 {% if description %}
-<meta name="description" content="{{ description }}" />
+<meta name="description" content="{{ metadescription or description }}" />
 {% endif %}
 {% if author %}
 <meta name="author" content="{{ author }}" />
