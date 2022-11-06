@@ -19,9 +19,6 @@ function isPlainObject(v) {
 }
 
 class TimelineItem extends HTMLElement {
-	static get observedAttributes() {
-		return ["data-buildobj"];
-	}
 	elBuilder(data) {
 		console.log("Set data ", data);
 		this.setAttribute("data-tags", data.tags.join(","));
@@ -118,9 +115,6 @@ class TimelineItem extends HTMLElement {
 	set itembuild(data) {
 		this.elBuilder(data);
 	}
-	connectedCallback() {
-		let data = JSON.parse(this.getAttribute("data-buildobj"));
-	}
 	constructor() {
 		// Always call super first in constructor
 		super();
@@ -184,7 +178,7 @@ let preload = () => {
 			data.items.forEach((item) => {
 				console.log("process this data", item);
 				let itemDOMObj = new TimelineEl(); // document.createElement("timeline-item");
-				itemDOMObj.setAttribute("data-buildobj", JSON.stringify(item));
+				// itemDOMObj.setAttribute("data-buildobj", JSON.stringify(item));
 				itemDOMObj.itembuild = item;
 				if (item.slug == window.timelineHomeItemSlug) {
 					homeItemFound = true;
