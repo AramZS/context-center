@@ -1,5 +1,6 @@
 const utils = require("./build-tools/utilities");
 const timelineSets = require("./build-tools/timeline-sets");
+const imageTool = require("./build-tools/timeline-social-image");
 
 module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addShortcode("humanizeDate", utils.humanizeDate);
@@ -7,7 +8,17 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		"isNotWrappedInParagraphTags",
 		utils.isNotWrappedInParagraphTags
 	);
+	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
+		console.log("Create Template Social Image Starts");
+		imageTool.buildItemImage(itemObj);
+		console.log("Create Template Social Image Ends");
+		return "";
+	});
 	eleventyConfig.addShortcode("sentenceCase", utils.sentenceCase);
+	eleventyConfig.addFilter("setAttribute", function (dictionary, key, value) {
+		dictionary[key] = value;
+		return dictionary;
+	});
 	const timelines = timelineSets(
 		pluginConfig.timelinesInFolder,
 		pluginConfig.domainName

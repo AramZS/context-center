@@ -39,6 +39,10 @@
 
         <article class="timeline" data-timeline="{{timelineEntryItem.data.timeline}}">
             {% set timelineItem = timelineEntryItem %}
+            {% set timelineItemSlug = timelineItem.data.title | slugify %}
+            {% set preFullTimelineItem = timelineEntryItem.data|setAttribute('content', content) %}
+            {% set fullTimelineItem = preFullTimelineItem|setAttribute('slug', timelineItemSlug) %}
+            {{- fullTimelineItem | createTemplateImage -}}
             {% set timelineItemContent = content %}
             <!-- entry: {{ content | console }} -->
             {% include "./timeline-entry.njk" %}

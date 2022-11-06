@@ -58,7 +58,7 @@
                         isBasedOn: siteContext?.isBasedOn,
                         shortdate: siteContext?.shortdate,
                         links: siteContext?.links,
-                        color: siteContext?.data?.color,
+                        color: siteContext && siteContext.data && siteContext.color ? siteContext.data.color : "grey",
                     }
                 )
             }
