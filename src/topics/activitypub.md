@@ -47,6 +47,8 @@ https://twitodon.com/
 
 [Here is a search for people you follow mentioning “mastodon” in the last 7 days](https://twitter.com/search?q=filter%3Afollows%20within_time%3A7d%20mastodon&src=typed_query&f=live)
 
+https://pruvisto.org/debirdify/
+
 ### Directories
 
 https://fedi.directory/
@@ -113,6 +115,7 @@ https://www.washingtonpost.com/technology/2022/10/29/twitter-alternatives/
 [Assemblag.es](https://assemblag.es/about)
 [Social.Coop](https://social.coop/about)
 [People Making Games](https://peoplemaking.games/explore)
+[EconTwitter](https://econtwitter.net/public)
 
 ## ActivityPub Projects
 
