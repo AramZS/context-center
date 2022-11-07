@@ -67,3 +67,5 @@ https://indiemap.org/docs.html#common-crawl
 https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-without-own-index.html
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
+https://wiby.me/about/guide.html
+https://www.newyorker.com/culture/infinite-scroll/what-google-search-isnt-showing-you?utm_social-type=owned&mbid=social_twitter&utm_medium=social&utm_source=twitter&utm_brand=tny 
