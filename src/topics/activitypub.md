@@ -118,6 +118,7 @@ https://www.washingtonpost.com/technology/2022/10/29/twitter-alternatives/
 [Social.Coop](https://social.coop/about)
 [People Making Games](https://peoplemaking.games/explore)
 [EconTwitter](https://econtwitter.net/public)
+[Mathstodon.xyz](https://mathstodon.xyz/about)
 
 ## ActivityPub Projects
 
