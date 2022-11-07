@@ -66,6 +66,7 @@ https://github.com/hometown-fork/hometown#readme
 
 https://growyourown.services/grow-your-own-social-network/
 https://blog.joinmastodon.org/2018/06/how-to-implement-a-basic-activitypub-server/
+https://glitch-soc.github.io/docs/
 
 ### Hosting Options
 
