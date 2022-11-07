@@ -600,4 +600,50 @@ timeline-item {
 	return createTimelineItem(item);
 };
 
-module.exports = { buildItemImage };
+const testImg = () => {
+	console.log("Create Template Social Image Enters");
+	const dom = new JSDOM(`<!DOCTYPE html><head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	</head><body></body>`);
+	const window = dom.window;
+	const document = window.document;
+	const customElements = window.customElements;
+	const HTMLElement = window.HTMLElement;
+	function h(tag, attrs, ...children) {
+		var el = document.createElement(tag);
+		if (isPlainObject(attrs)) {
+			for (let k in attrs) {
+				if (typeof attrs[k] === "function")
+					el.addEventListener(k, attrs[k]);
+				else el.setAttribute(k, attrs[k]);
+			}
+		} else if (attrs) {
+			children = [attrs].concat(children);
+		}
+		children = children.filter(Boolean);
+		for (let child of children) el.append(child);
+		return el;
+	}
+
+	function isPlainObject(v) {
+		return v && typeof v === "object" && Object.prototype === v.__proto__;
+	}
+
+	htmlToImage
+		.toPng(h("div", {}, h("p", {}, "Hello world")))
+		.then((dataUrl) => {
+			const cacheFolder = path.join(
+				__dirname,
+				"../../",
+				`/src/img/`,
+				`test.png`
+			);
+			console.log("Test Social Image ready to write to ", cacheFolder);
+			fs.writeFileSync(cacheFolder, dataUrl);
+		})
+		.catch((reason) => {
+			console.log("Test Social image build failed for reason: ", reason);
+		});
+};
+
+module.exports = { buildItemImage, testImg };

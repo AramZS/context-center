@@ -8,6 +8,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		"isNotWrappedInParagraphTags",
 		utils.isNotWrappedInParagraphTags
 	);
+	imageTool.testImg();
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
 		console.log("Create Template Social Image Starts");
 		imageTool.buildItemImage(itemObj);
