@@ -332,13 +332,7 @@ https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
 
 #### Activity Pub
 
-https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/
-https://tinysubversions.com/notes/reading-activitypub/
-https://runyourown.social/
-https://queer.party/@cassolotl/108195007013414698
-https://activitystrea.ms/
-https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
-https://fed.brid.gy
+Expanded to: https://context.center/topics/activitypub
 
 #### Interledger
 

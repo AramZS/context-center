@@ -52,7 +52,9 @@ https://www.sciencedirect.com/science/article/pii/S2352154620301509
 <a href="https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1196/annals.1308.017" target="_blank">Adolescence: Vulnerable Period for Stress-Induced Prefrontal Cortical Function? Introduction to Part IV</a>
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6057016/
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/" target="_blank">Pubertal Suppression for Transgender Youth and Risk of Suicidal Ideation</a>
+
 https://www.scientificamerican.com/article/anti-trans-laws-will-have-a-chilling-effect-on-medicine/
 
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6806792/" target="_blank">Buying time or arresting development?</a>
