@@ -34,6 +34,7 @@ https://simonwillison.net/2022/Nov/5/mastodon/
 
 https://publicinfrastructure.org/2022/09/28/welcome-to-smalltown/
 https://bonfirenetworks.org/posts/meet_us_at_the_playground/
+https://midrange.tedium.co/issues/mastodon-onboarding-tips/
 
 ## Tips for Users
 
@@ -74,6 +75,7 @@ https://glitch-soc.github.io/docs/
 
 https://federation.spacebear.ee/software/hometown
 https://fedi.monster/
+https://masto.host/
 
 ## Information for Webmasters
 
