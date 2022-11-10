@@ -44,6 +44,7 @@ https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-ja
 https://krausefx.com/blog/ios-privacy-instagram-and-facebook-can-track-anything-you-do-on-any-website-in-their-in-app-browser
 https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-selling-data-tracks-people-reproductive-health-clinics-places-worship-other
 https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-call-records-to-sensors-your-phone-reveals-more-about-you-than-you-think-189618
+https://bokonads.com/medical-targeting-should-be-illegal/
 
 ### Data Brokers
 

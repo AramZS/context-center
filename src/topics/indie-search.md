@@ -46,6 +46,12 @@ https://tinygem.org/
 https://commoncrawl.org/
 https://httparchive.org/
 
+## Crawl Techniques
+
+https://www.npmjs.com/package/puppeteer-extra-plugin-stealth
+https://fightwithtools.dev/posts/projects/context-pages/day-2/
+https://www.wikidata.org/wiki/Wikidata:Data_access
+
 ## Talking About Search
 
 https://twitter.com/Chronotope/status/1506745918464405507
