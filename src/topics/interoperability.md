@@ -46,6 +46,8 @@ featuredImageAlt: "AI-generated artistic rendition of connected cyberpunk towers
 <a href="https://www.internetsociety.org/wp-content/uploads/2022/03/ISOC-EU-DMA-interoperability-encrypted-messaging-20220311.pdf" target="_blank"> DMA and interoperability of
 encrypted messaging [PDF]</a>
 
+https://www.eff.org/interoperablefacebook
+
 ## Messaging
 
 - https://www.newamerica.org/oti/blog/we-dont-have-to-sacrifice-encryption-to-achieve-messaging-interoperability/
