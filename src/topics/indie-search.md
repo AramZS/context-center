@@ -21,6 +21,8 @@ http://teclis.com
 https://kagi.com/
 https://wiby.me
 https://indieweb-search.jamesg.blog/
+https://www.mojeek.com/about/
+https://www.ecosia.org/
 
 ## Tools
 
@@ -44,6 +46,12 @@ https://tinygem.org/
 https://commoncrawl.org/
 https://httparchive.org/
 
+## Crawl Techniques
+
+https://www.npmjs.com/package/puppeteer-extra-plugin-stealth
+https://fightwithtools.dev/posts/projects/context-pages/day-2/
+https://www.wikidata.org/wiki/Wikidata:Data_access
+
 ## Talking About Search
 
 https://twitter.com/Chronotope/status/1506745918464405507
@@ -65,3 +73,5 @@ https://indiemap.org/docs.html#common-crawl
 https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-without-own-index.html
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
+https://wiby.me/about/guide.html
+https://www.newyorker.com/culture/infinite-scroll/what-google-search-isnt-showing-you

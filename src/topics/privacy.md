@@ -249,6 +249,7 @@ https://gizmodo.com/why-every-company-ad-network-now-1848936157
 <a href="https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival" target="_blank">https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival</a>
 
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
+https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 
 ## Papers
 

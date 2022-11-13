@@ -53,7 +53,7 @@ https://www.sciencedirect.com/science/article/pii/S2352154620301509
 
 <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6057016/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6057016/</a>
 
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/" target="_blank">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/</a>
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7073269/" target="_blank">Pubertal Suppression for Transgender Youth and Risk of Suicidal Ideation</a>
 
 <a href="https://www.scientificamerican.com/article/anti-trans-laws-will-have-a-chilling-effect-on-medicine/" target="_blank">https://www.scientificamerican.com/article/anti-trans-laws-will-have-a-chilling-effect-on-medicine/</a>
 

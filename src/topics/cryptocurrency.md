@@ -109,6 +109,7 @@ https://www.buzzfeednews.com/article/sarahemerson/seth-green-bored-ape-stolen-tv
 https://techcrunch.com/2022/06/01/former-opensea-exec-arrested-and-charged-with-insider-trading-of-nfts/
 https://blog.mollywhite.net/celsius-letters/
 https://www.theguardian.com/technology/2022/aug/24/nfts-stolen-non-fungible-tokens-criminals-scam-cryptocurrency
+https://www.theatlantic.com/technology/archive/2022/11/sam-bankman-fried-bankruptcy-crypto-ftx/672104/
 
 #### Decentralization
 
@@ -159,6 +160,8 @@ https://blog.simondlr.com/posts/expansive-nft-universes-cc0-fidelity-on-chain-bu
 https://unchained.com/blog/bitcoin-obsoletes-all-other-money/
 https://evanjconrad.com/posts/crypto-use-cases
 https://medium.com/@mariabustillos/why-does-journalism-need-blockchain-technology-fc986d9094ab
+https://www.starlinglab.org/78days/
+https://youtu.be/JPGNvKy6DTA
 
 ### Middle of the Road
 
@@ -226,6 +229,7 @@ https://www.nytimes.com/interactive/2022/03/18/technology/cryptocurrency-crypto-
 https://twitter.com/doctorow/status/1524805409713823744
 https://www.ft.com/content/29f32905-1933-458e-aa29-7f1685109ea1
 https://www.bloomberg.com/news/articles/2022-08-15/crypto-rules-crackdown-looms-for-150-billion-stablecoin-market
+https://www.bloomberg.com/features/2022-the-crypto-story/?leadSource=uverify%20wall
 
 ### Is it Art?
 
@@ -335,13 +339,7 @@ https://defector.com/deaaron-foxs-nft-project-suddenly-mysteriously-shuts-down/
 
 #### Activity Pub
 
-https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/
-https://tinysubversions.com/notes/reading-activitypub/
-https://runyourown.social/
-https://queer.party/@cassolotl/108195007013414698
-https://activitystrea.ms/
-https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
-https://fed.brid.gy
+Expanded to: https://context.center/topics/activitypub
 
 #### Interledger
 

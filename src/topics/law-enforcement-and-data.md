@@ -46,6 +46,7 @@ https://themarkup.org/pixel-hunt/2022/07/01/online-abortion-pill-provider-hey-ja
 https://krausefx.com/blog/ios-privacy-instagram-and-facebook-can-track-anything-you-do-on-any-website-in-their-in-app-browser
 https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-selling-data-tracks-people-reproductive-health-clinics-places-worship-other
 https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-call-records-to-sensors-your-phone-reveals-more-about-you-than-you-think-189618
+https://bokonads.com/medical-targeting-should-be-illegal/
 
 ### Data Brokers
 
@@ -84,6 +85,7 @@ https://www.forbes.com/sites/emilybaker-white/2022/08/08/facebook-abortion-teen-
 https://www.politico.com/news/2022/08/28/privacy-bill-triggers-lobbying-surge-by-data-brokers-00052958
 https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-selling-mass-surveillance-local-police
 https://apnews.com/article/technology-police-government-surveillance-d395409ef5a8c6c3f6cdab5b1d0e27ef
+https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/
 
 ### Anti-choice Activists and Bounties
 
