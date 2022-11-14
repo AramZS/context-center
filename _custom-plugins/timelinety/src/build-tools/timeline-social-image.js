@@ -1,4 +1,4 @@
-const htmlToImage = require("html-to-image");
+const htmlToImage = require("node-html-to-image");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
@@ -581,6 +581,20 @@ timeline-item {
 		itemDOMObj.itembuild = item;
 		document.body.append(styleElement());
 		console.log("Social Image Item DOM El ready", itemDOMObj.innerHTML);
+		//document.body.innerHTML; dom.serialize(),
+		const cacheFile = path.join(
+			__dirname,
+			"../../",
+			`/src/img/`,
+			`${item.title}.png`
+		);
+		console.log("Social Image ready to write to ", cacheFolder);
+		htmlToImage({
+			output: cacheFile,
+			html: dom.serialize(),
+		}).then(() => console.log("The image was created successfully!"));
+
+		return true;
 		htmlToImage
 			.toPng(itemDOMObj)
 			.then((dataUrl) => {
@@ -628,7 +642,12 @@ const testImg = () => {
 	function isPlainObject(v) {
 		return v && typeof v === "object" && Object.prototype === v.__proto__;
 	}
-
+	document.body.append(h("div", {}, h("p", {}, "Hello world")));
+	htmlToImage({
+		output: "./image.png",
+		html: dom.serialize(),
+	}).then(() => console.log("The image was created successfully!"));
+	/**
 	htmlToImage
 		.toPng(h("div", {}, h("p", {}, "Hello world")))
 		.then((dataUrl) => {
@@ -644,6 +663,7 @@ const testImg = () => {
 		.catch((reason) => {
 			console.log("Test Social image build failed for reason: ", reason);
 		});
+	*/
 };
 
 module.exports = { buildItemImage, testImg };
