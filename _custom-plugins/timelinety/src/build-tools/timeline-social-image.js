@@ -1,4 +1,5 @@
 const htmlToImage = require("node-html-to-image");
+const path = require("path");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
@@ -584,17 +585,22 @@ timeline-item {
 		//document.body.innerHTML; dom.serialize(),
 		const cacheFile = path.join(
 			__dirname,
-			"../../",
+			"../../../../",
 			`/src/img/`,
 			`${item.title}.png`
 		);
-		console.log("Social Image ready to write to ", cacheFolder);
-		htmlToImage({
-			output: cacheFile,
-			html: dom.serialize(),
-		}).then(() => console.log("The image was created successfully!"));
+		console.log("Social Image ready to write to ", cacheFile);
+		const writeImagePromise = new Promise((res, rej) => {
+			htmlToImage({
+				output: cacheFile,
+				html: dom.serialize(),
+			}).then(() => {
+				console.log("The image was created successfully!");
+				res(cacheFile);
+			});
+		});
 
-		return true;
+		return writeImagePromise;
 		htmlToImage
 			.toPng(itemDOMObj)
 			.then((dataUrl) => {
