@@ -120,6 +120,7 @@ https://docs.google.com/presentation/d/1Kk4WQIAAbkmzzzMGd5LoDnGq9kfpAxE8SNl4guUr
 ### DID
 
 https://www.w3.org/TR/did-core/
+https://github.com/KILTprotocol/kilt-did-driver/blob/master/docs/did-spec/spec.md
 
 ## Engineering-relevant laws
 
@@ -140,6 +141,13 @@ https://oag.ca.gov/privacy/ccpa
 ### Colorado
 
 https://iapp.org/news/a/colorado-privacy-act-becomes-law/
+
+### Virginia's CDPA
+
+https://lis.virginia.gov/cgi-bin/legp604.exe?211+sum+SB1392
+https://pro.bloomberglaw.com/brief/what-is-the-vcdpa/
+https://www.hutchlaw.com/blog/an-overview-of-the-virginia-consumer-data-protection-act
+https://www.dataguidance.com/notes/virginia-data-protection-overview
 
 ### Japan
 
@@ -250,6 +258,7 @@ https://gizmodo.com/why-every-company-ad-network-now-1848936157
 
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
+https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 
 ## Papers
 
