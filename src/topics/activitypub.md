@@ -49,6 +49,7 @@ https://fediverse.party/
 ## Understanding the Protocol
 
 https://tinysubversions.com/notes/reading-activitypub/
+https://evanp.me/2022/11/27/documents-in-activitypub/
 
 ## Blog Posts
 
