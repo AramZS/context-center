@@ -167,6 +167,8 @@ https://wiki.mozilla.org/Security/Anti_tracking_policy
 https://darobin.github.io/pup/
 https://www.nist.gov/privacy-framework
 https://en.wikipedia.org/wiki/Privacy_by_design
+https://almanac.httparchive.org/en/2022/privacy
+https://www.w3.org/wiki/Privacy/Privacy_Considerations
 
 ### Principles and Documents
 
@@ -190,6 +192,7 @@ https://brave.com/brave-fingerprinting-and-privacy-budgets/
 https://mickens.seas.harvard.edu/publications/riverbed-enforcing-user-defined-privacy-constraints-distributed-web-services
 [Amplification by Shuffling:
 From Local to Central Differential Privacy via Anonymity](https://arxiv.org/pdf/1811.12469.pdf)
+https://w3c.github.io/privacy-considerations/
 
 [Context-Aware Local Differential Privacy](https://arxiv.org/abs/1911.00038)
 https://www.nytimes.com/privacy
