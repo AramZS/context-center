@@ -52,6 +52,7 @@ https://tinysubversions.com/notes/reading-activitypub/
 https://evanp.me/2022/11/27/documents-in-activitypub/
 https://activitypub.rocks/
 https://www.w3.org/TR/activitypub/
+https://gitlab.com/spritely/ocappub/-/blob/master/README.org
 
 ## Blog Posts
 
