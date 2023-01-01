@@ -2,11 +2,43 @@ const htmlToImage = require("node-html-to-image");
 const path = require("path");
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+const fs = require("graceful-fs");
+const { minify } = require("csso");
+
+const checkItemForContextBox = (dataObj) => {
+	let rexExpCheck = new RegExp(
+		`<p><a href="${dataObj.isBasedOn}" target="_blank">${dataObj.isBasedOn}</a></p>\n`
+	);
+};
 
 const timelineElementStyle = (doc) => {
 	let style = doc.createElement("style");
 
-	style.type = "text/css";
+	//style.type = "text/css";
+	style.setAttribute("type", "text/css");
+
+	const cssOne = fs.readFileSync(
+		"./_custom-plugins/timelinety/src/css/normalize.css",
+		{
+			encoding: "utf8",
+			flag: "r",
+		}
+	);
+	const cssTwo = fs.readFileSync(
+		"./_custom-plugins/timelinety/src/css/main.css",
+		{
+			encoding: "utf8",
+			flag: "r",
+		}
+	);
+
+	const cssThree = fs.readFileSync(
+		"./_custom-plugins/timelinety/src/css/image.css",
+		{
+			encoding: "utf8",
+			flag: "r",
+		}
+	);
 
 	let cssText = `
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -433,15 +465,38 @@ z-index: 100;
 }
 `;
 
-	style.appendChild(doc.createTextNode(cssText));
+	cssText = `
+	${cssOne}
+
+	${cssTwo}
+	`;
+
+	cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
+	const minifiedCss = minify(cssText).css;
+
+	style.appendChild(doc.createTextNode(minifiedCss));
+
+	// style.innerText = cssText;
 
 	return style;
 };
 
-const buildItemImage = (item) => {
+const buildItemImage = (item, height) => {
+	const cacheFile = path.join(
+		__dirname,
+		"../../../../",
+		`/src/img/previews/`,
+		`${item.title}.png`
+	);
 	console.log("Create Template Social Image Enters");
 	const dom = new JSDOM(`<!DOCTYPE html><head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	<style>
+	body {
+	  width: 1200px;
+	  height: ${height};
+		}
+	</style>
 	</head><body></body>`);
 	const window = dom.window;
 	const document = window.document;
@@ -593,12 +648,7 @@ const buildItemImage = (item) => {
 		document.body.append(timelineElementStyle());
 		console.log("Social Image Item DOM El ready", itemDOMObj.innerHTML);
 		//document.body.innerHTML; dom.serialize(),
-		const cacheFile = path.join(
-			__dirname,
-			"../../../../",
-			`/src/img/previews/`,
-			`${item.title}.png`
-		);
+
 		console.log("Social Image ready to write to ", cacheFile);
 		const writeImagePromise = new Promise((res, rej) => {
 			htmlToImage({
@@ -636,8 +686,8 @@ const testImg = () => {
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
 	<style>
 	body {
-	  width: 600px;
-	  height: 500px;
+	  width: 1200px;
+	  height: 600px;
 		}
 	</style>
 	</head><body></body>`);
@@ -696,21 +746,13 @@ const testImg = () => {
 	let item = dataObj;
 	console.log("create timeline item social image with", dataObj);
 	itemDOMObj.itembuild = item;
-	document.head.appendChild(timelineElementStyle(document));
+	document.head.prepend(timelineElementStyle(document));
 
 	function isPlainObject(v) {
 		return v && typeof v === "object" && Object.prototype === v.__proto__;
 	}
-	document.body.append(
-		h(
-			"div",
-			{
-				style: "width: 100px; height: 200px; display: block; background-color: grey;",
-			},
-			h("p", { style: "color:red" }, "Hello world")
-		)
-	);
 	document.body.append(itemDOMObj);
+	fs.writeFileSync("imagetest.html", dom.serialize());
 	htmlToImage({
 		output: "./image.png",
 		html: dom.serialize(),

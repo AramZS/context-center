@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig, options) {
 		pluginLayoutPath
 		// fs.statSync(path.join(pluginLayoutPath, "timeline-item.njk"))
 	);
+	pluginConfig.pluginLayoutPath = pluginLayoutPath;
 	const localJs = path.join(__dirname, "/src/js");
 	const jsPassthru = {};
 	jsPassthru[localJs] = "assets/timelines/js";

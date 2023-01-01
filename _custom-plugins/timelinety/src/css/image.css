@@ -1,0 +1,25 @@
+timeline-item.timeline-entry {
+	margin-top: 20px;
+	width: 100%;
+	height: 90%;
+	margin-left: 12px;
+	font-size: 16px;
+}
+timeline-item.timeline-entry.odd .timeline-description {
+	margin-left: 65px;
+}
+.timeline-entry.odd .timeline-icon {
+	margin-left: 0;
+	left: 0;
+}
+.timeline-description {
+	margin-left: 65px;
+	width: calc(100% - 85px);
+}
+timeline-item.timeline-entry h2 {
+	font-size: 5rem;
+	margin-bottom: 3rem;
+}
+timeline-item.timeline-entry .inner-description {
+	font-size: 2.5rem;
+}

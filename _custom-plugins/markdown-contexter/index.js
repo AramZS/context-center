@@ -21,12 +21,21 @@ module.exports = (eleventyConfig, userOptions) => {
 		...userOptions,
 	};
 
+	const cacheFolder = path.join(
+		__dirname,
+		"../../",
+		`/${options.cachePath}/`
+	);
+
+	options.cacheFolder = cacheFolder;
+
 	const completeAllPromiseArray = [];
 
 	console.log("markdown-contexter-go");
 	eleventyConfig.addPassthroughCopy({
 		[`${options.cachePath}/images`]: options.publicImagePath,
 	});
+	eleventyConfig.addGlobalData("contexterSettings", options);
 
 	const cacheFilePath = (pageFilePath, searchKey, notJson = false) => {
 		const cacheFolder = path.join(
