@@ -2,14 +2,15 @@ body {
 	display: flex;
 	align-items: center;
 }
-timeline-item.timeline-entry {
+.timeline-entry {
 	width: 100%;
 	max-height: 90%;
 	margin-left: 12px;
 	font-size: 16px;
 }
-timeline-item.timeline-entry.odd .timeline-description {
+.timeline-entry.odd .timeline-description {
 	margin-left: 65px;
+	padding-top: 0px;
 }
 .timeline-entry.odd .timeline-icon {
 	margin-left: 0;
@@ -19,12 +20,15 @@ timeline-item.timeline-entry.odd .timeline-description {
 	margin-left: 65px;
 	width: calc(100% - 85px);
 }
-timeline-item.timeline-entry h2 {
+.timeline-entry h2 {
 	font-size: 3rem;
 	margin-bottom: 3rem;
 }
-timeline-item.timeline-entry .inner-description {
+.timeline-entry .timeline-description {
 	font-size: 2rem;
+}
+.timeline-description .timestamp time {
+	font-size: 14px;
 }
 
 contexter-box {
@@ -32,14 +36,18 @@ contexter-box {
 	border: 0;
 }
 
-.inner-description contexter-box {
+.timeline-description contexter-box {
 	width: 100%;
 }
 
-.inner-description contexter-box contexter-box-head {
+.timeline-description contexter-box contexter-box-head {
 	display: none;
 }
 
-.inner-description contexter-box contexter-summary {
-	font-size: 1.8rem;
+.timeline-description contexter-box contexter-summary {
+	font-size: 1.7rem;
+}
+
+.timeline-description contexter-box time::before {
+	content: "Source date: ";
 }

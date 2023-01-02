@@ -4,9 +4,13 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const fs = require("graceful-fs");
 const { minify } = require("csso");
+const slugify = require("slugify");
+const { humanizeDate } = require("./utilities");
 // Test setup for cache
 const { sanitizeLink } = require("link-contexter");
 var sanitizeFilename = require("sanitize-filename");
+
+const Handlebars = require("handlebars");
 
 const checkItemForContextBox = (dataObj) => {
 	let rexExpCheck = new RegExp(
@@ -277,4 +281,152 @@ const testImg = () => {
 	*/
 };
 
-module.exports = { buildItemImage, testImg };
+const testHandlebarImg = () => {
+	console.log("Create Template Social Image Enters");
+	const dom = new JSDOM(`<!DOCTYPE html><head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	<style>
+	body {
+	  width: 1200px;
+	  height: 600px;
+		}
+	</style>
+	</head><body>[INNERCONTENT]</body>`);
+	const window = dom.window;
+	const document = window.document;
+	document.head.prepend(timelineElementStyle(document));
+	const htmlTemplate = dom.serialize();
+	let hbContent = `<div class="timeline-entry" id="{{ timelineItem.data.titleslug }}" aria-hidden="false">
+    <div class="timeline-icon {{ timelineItem.data.color }}">
+        {% if timelineItem.data.faicon %}
+            <i class="fas fa-{{ timelineItem.data.faicon }}" aria-hidden="true"></i>
+        {% endif %}
+    </div>
+    <div class="timeline-description">
+        <span class="timestamp">
+            <time datetime="{{ timelineItem.data.date }}">
+                {{ timelineItem.data.date }}
+            </time>
+        </span>
+        <h2><a id="{{ timelineItem.data.titleslug }}" href="#{{ timelineItem.data.titleslug }}"><i class="fas fa-link"></i></a>{{ timelineItem.data.title }}</h2>
+        {% if timelineItem.data.image %}
+            <div class="captioned-image image-right">
+                {% if timelineItem.data.image.link %}<a href="{{ timelineItem.data.image.link }}">{% endif %}
+                <img src="{{ timelineItem.data.image.src }}" alt="{{ timelineItem.data.image.alt }}" />
+                {% if timelineItem.data.image.link %}</a>{% endif %}
+                {% if timelineItem.data.image.caption %}
+                    <span class="caption">{{ timelineItem.data.image.caption }}</span>
+                {% endif %}
+            </div>
+        {% endif %}
+        {% if timelineItem.data.isBasedOn and timelineItem.data.customLink %}
+            <a target="_blank" href="{{timelineItem.data.customLink}}">Read the article</a>
+        {% endif %}
+        {% if timelineItemContent %}
+
+        {{ timelineItemContent or "" }}
+
+        {% endif %}
+        {% if timelineItem.data.links %}
+            <ul>
+                {% for link in timelineItem.data.links %}
+                    <li>
+                        <a href="{{ link.href }}" target="_blank">{{ link.linkText or link.href }}</a>&nbsp;{{ link.extraText or "" }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>`;
+	hbContent = `<div class="timeline-entry odd" id="{{ titleslug }}" aria-hidden="false">
+    <div class="timeline-icon {{ color }}">
+        {{#if faicon }}
+            <i class="fas fa-{{ faicon }}" aria-hidden="true"></i>
+        {{/if }}
+    </div>
+    <div class="timeline-description">
+        <span class="timestamp">
+            <time datetime="{{ date }}">
+                {{ humanData }}
+            </time>
+        </span>
+        <h2><a id="{{ titleslug }}" href="#{{ titleslug }}"><i class="fas fa-link"></i></a>{{title}}</h2>
+        {{#if image }}
+            <div class="captioned-image image-right">
+                {{#if image.link }}<a href="{{ image.link }}">{{/if }}
+                <img src="{{ image.src }}" alt="{{ image.alt }}" />
+                {{#if image.link }}</a>{{/if }}
+                {{#if image.caption }}
+                    <span class="caption">{{ image.caption }}</span>
+                {{/if }}
+            </div>
+        {{/if }}
+        {{#if isBasedOn }}
+			{{#if customLink }}
+            <a target="_blank" href="{{customLink}}">Read the article</a>
+			{{/if }}
+        {{/if }}
+        {{#if timelineItemContent }}
+
+        {{{ timelineItemContent }}}
+
+        {{/if }}
+        {{#if links }}
+            <ul>
+                {{#each links }}
+                    <li>
+                        <a href="{{ this.href }}" target="_blank">
+						{{#if this.linkText }}{{ this.linkText }}
+						{{else}} {{ this.href }}
+						{{/if }}
+						</a>&nbsp;
+						{{#if this.extraText }}{{ this.extraText }}
+						{{ else }} {{ "" }}
+						{{/if }}
+                    </li>
+                {{/each }}
+            </ul>
+        {{/if }}
+    </div>
+</div>`;
+	let htmlBlock = htmlTemplate.replace(/\[INNERCONTENT\]/, hbContent);
+	let dataObj = { data: testObj() };
+	dataObj.data.titleslug = slugify(dataObj.title || dataObj.data.title);
+	dataObj.data.color = dataObj.data.color || "grey";
+	dataObj.data.humanData = humanizeDate(dataObj.data.date);
+	let finalObj = Object.assign(
+		{
+			timelineItemContent: dataObj.content || dataObj.data.content,
+		},
+		dataObj.data
+	);
+	console.log("Data obj for render", finalObj);
+	const template = Handlebars.compile(htmlBlock);
+	const renderedBlock = template(finalObj);
+	fs.writeFileSync("imagetest.html", renderedBlock);
+
+	htmlToImage({
+		output: "./image.png",
+		html: htmlBlock,
+		content: finalObj,
+	}).then(() => console.log("The image was created successfully!"));
+	/**
+	htmlToImage
+		.toPng(h("div", {}, h("p", {}, "Hello world")))
+		.then((dataUrl) => {
+			const cacheFolder = path.join(
+				__dirname,
+				"../../",
+				`/src/img/`,
+				`test.png`
+			);
+			console.log("Test Social Image ready to write to ", cacheFolder);
+			fs.writeFileSync(cacheFolder, dataUrl);
+		})
+		.catch((reason) => {
+			console.log("Test Social image build failed for reason: ", reason);
+		});
+	*/
+};
+
+module.exports = { buildItemImage, testImg, testHandlebarImg };
