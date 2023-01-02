@@ -4,11 +4,47 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const fs = require("graceful-fs");
 const { minify } = require("csso");
+// Test setup for cache
+const { sanitizeLink } = require("link-contexter");
+var sanitizeFilename = require("sanitize-filename");
 
 const checkItemForContextBox = (dataObj) => {
 	let rexExpCheck = new RegExp(
 		`<p><a href="${dataObj.isBasedOn}" target="_blank">${dataObj.isBasedOn}</a></p>\n`
 	);
+	if (rexExpCheck.test(dataObj.content)) {
+		let cacheFolder = path.join(__dirname, "../../", `/_contexterCache/`);
+		let cacheFile = (link) =>
+			sanitizeFilename(slugify(sanitizeLink(link)).replace(/\./g, ""));
+	}
+};
+
+const testObj = function () {
+	return {
+		timeline: "monkeypox",
+		title: "A looming deadline for tens of millions of Americans",
+		description:
+			"The GOP battles over a trillion-dollar stimulus deal. Ahead of the November election, President Trump guts a landmark environmental law. And, how to avoid a devastating potential kink in the vaccine supply chain.",
+		tags: [
+			"timeline",
+			"Monkeypox",
+			"Health",
+			"Medicine",
+			"Stimulus",
+			"Markets",
+		],
+		date: "2020-06-22T16:00:00.100Z",
+		categories: ["News"],
+		filters: ["USA"],
+		dateAdded: "2022-08-09T02:59:43.100Z",
+		isBasedOn:
+			"https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/",
+		shortdate: false,
+		color: "grey",
+		content:
+			'<script>window.contexterSetup=window.contexterSetup||function(){window.contexterSetupComplete=!0;class ContexterLink extends HTMLAnchorElement{constructor(){super()}connectedCallback(){this.setAttribute("target","_blank")}}customElements.define("contexter-link",ContexterLink,{extends:"a"}),customElements.define("contexter-inner",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__inner"}}),customElements.define("contexter-thumbnail",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__thumbnail"}}),customElements.define("contexter-byline",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__byline"}}),customElements.define("contexter-keywordset",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__keywordset"}}),customElements.define("contexter-linkset",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__linkset"}}),customElements.define("contexter-meta",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="contexter-box__meta"}}),customElements.define("contexter-summary",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className="p-summary entry-summary"}}),customElements.define("contexter-box-head",class extends HTMLElement{constructor(){super()}connectedCallback(){this.className="contexter-box__head"}}),customElements.define("contexter-box-inner",class extends HTMLElement{constructor(){super()}connectedCallback(){}});class ContexterBox extends HTMLElement{constructor(){super(),this.first=!0,this.shadow=this.attachShadow({mode:"open"})}connectedCallback(){if(this.first){this.first=!1;var style=document.createElement("style"),lightDomStyle=(style.innerHTML=`:host {--background: #f5f6f7;--border: darkblue;--blue: #0000ee;--font-color: black;--inner-border: black;font-family: Franklin,Arial,Helvetica,sans-serif;font-size: 14px;background: var(--background);width: 600px;color: var(--font-color);min-height: 90px;display: block;padding: 8px;border: 1px solid var(--border);cursor: pointer;box-sizing: border-box;margin: 6px;contain: content;margin: 6px auto;}// can only select top-level nodes with slotted::slotted(*) {max-width: 100%;display:block;}::slotted([slot=thumbnail]) {max-width: 100%;display:block;}::slotted([slot=header]) {width: 100%;font-size: 1.25rem;font-weight: bold;display:block;margin-bottom: 6px;}::slotted([slot=author]) {max-width: 50%;font-size: 12px;display:inline-block;float: left;}::slotted([slot=time]) {max-width: 50%;font-size: 12px;display:inline-block;float: right;}::slotted([slot=summary]) {width: 100%;margin-top: 6px;padding: 10px 2px;border-top: 1px solid var(--inner-border);font-size: 15px;display:inline-block;margin-bottom: 6px;}contexter-meta {height: auto;margin-bottom: 4px;width: 100%;display: grid;position: relative;min-height: 16px;grid-template-columns: repeat(2, 1fr);}::slotted([slot=keywords]) {width: 80%;padding: 2px 4px;border-top: 1px solid var(--inner-border);font-size: 11px;display: block;float: right;font-style: italic;text-align: right;grid-column: 2/2;grid-row: 1;align-self: end;justify-self: end;}::slotted([slot=keywords]):empty {border-top: 0px solid var(--inner-border);}::slotted([slot=archive-link]) {font-size: 1em;display: inline;}::slotted([slot=archive-link])::after {content: "|";display: inline;color: var(--font-color);text-decoration: none;margin: 0 .5em;}::slotted([slot=read-link]) {font-size: 1em;display: inline;}contexter-linkset {width: 80%;padding: 2px 4px;font-size: 13px;float: left;font-weight: bold;grid-row: 1;grid-column: 1/2;align-self: end;justify-self: start;}/* Extra small devices (phones, 600px and down) */@media only screen and (max-width: 600px) {:host {width: 310px;}}/* Small devices (portrait tablets and large phones, 600px and up) */@media only screen and (min-width: 600px) {...}/* Medium devices (landscape tablets, 768px and up) */@media only screen and (min-width: 768px) {...}/* Large devices (laptops/desktops, 992px and up) */@media only screen and (min-width: 992px) {...}/* Extra large devices (large laptops and desktops, 1200px and up) */@media only screen and (min-width: 1200px) {...}@media (prefers-color-scheme: dark){:host {--background: #354150;--border: #1f2b37;--blue: #55b0ff;--font-color: #ffffff;--inner-border: #787a7c;background: var(--background);border: 1px solid var(--border)}}`,document.createElement("style"));lightDomStyle.innerHTML=`contexter-box {contain: content;}contexter-box .read-link {font-weight: bold;}contexter-box a {color: #0000ee;}contexter-box img {width: 100%;border: 0;padding: 0;margin: 0;}/* Extra small devices (phones, 600px and down) */@media only screen and (max-width: 600px) {...}/* Small devices (portrait tablets and large phones, 600px and up) */@media only screen and (min-width: 600px) {...}/* Medium devices (landscape tablets, 768px and up) */@media only screen and (min-width: 768px) {...}/* Large devices (laptops/desktops, 992px and up) */@media only screen and (min-width: 992px) {...}/* Extra large devices (large laptops and desktops, 1200px and up) */@media only screen and (min-width: 1200px) {...}@media (prefers-color-scheme: dark){contexter-box a {color: #55b0ff;}}`,this.appendChild(lightDomStyle),this.shadow.appendChild(style);const innerContainer=document.createElement("contexter-box-inner"),innerSlotThumbnail=(this.shadow.appendChild(innerContainer),document.createElement("slot")),innerSlotHeader=(innerSlotThumbnail.name="thumbnail",innerContainer.appendChild(innerSlotThumbnail),document.createElement("slot")),innerSlotAuthor=(innerSlotHeader.name="header",innerContainer.appendChild(innerSlotHeader),document.createElement("slot")),innerSlotTime=(innerSlotAuthor.name="author",innerContainer.appendChild(innerSlotAuthor),document.createElement("slot")),innerSlotSummary=(innerSlotTime.name="time",innerContainer.appendChild(innerSlotTime),document.createElement("slot")),metaContainer=(innerSlotSummary.name="summary",innerContainer.appendChild(innerSlotSummary),document.createElement("contexter-meta")),innerSlotInfo=(innerContainer.appendChild(metaContainer),document.createElement("slot")),linkContainer=(innerSlotInfo.name="keywords",metaContainer.appendChild(innerSlotInfo),document.createElement("contexter-linkset")),innerSlotArchiveLink=(metaContainer.appendChild(linkContainer),document.createElement("slot")),innerSlotReadLink=(innerSlotArchiveLink.name="archive-link",linkContainer.appendChild(innerSlotArchiveLink),document.createElement("slot"));innerSlotReadLink.name="read-link",linkContainer.appendChild(innerSlotReadLink),this.className="contexter-box",this.onclick=e=>{if(!e.target.className.includes("read-link")&&!e.target.className.includes("title-link")){const mainLinks=this.querySelectorAll("a.main-link");mainLinks[0].click()}}}}}customElements.define("contexter-box",ContexterBox)},window.contexterSetupComplete||window.contexterSetup();</script><contexter-box class="link-card h-entry hentry" itemscope="" itemtype="https://schema.org/CreativeWork"><contexter-thumbnail class="thumbnail" slot="thumbnail"></contexter-thumbnail><contexter-box-head slot="header" class="p-name entry-title" itemprop="headline"><contexter-box-head slot="header" class="p-name entry-title" itemprop="headline"><a is="contexter-link" href="https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/" itemprop="url">A looming deadline for tens of millions of Americans</a></contexter-box-head></contexter-box-head><time class="dt-published published" slot="time" itemprop="datePublished" datetime="2022-08-09T04:52:23.531Z">7/9/2022</time><contexter-summary class="p-summary entry-summary" itemprop="abstract" slot="summary"><p>The GOP battles over a trillion-dollar stimulus deal. Ahead of the November election, President Trump guts a landmark environmental law. And, how to avoid a devastating potential kink in the vaccine supply chain.</p></contexter-summary><contexter-keywordset itemprop="keywords" slot="keywords"></contexter-keywordset><a href="https://web.archive.org/web/20220809045234/https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/" is="contexter-link" target="_blank" rel="timemap" class="read-link archive-link" itemprop="archivedAt" slot="archive-link">Archived</a><a is="contexter-link" href="https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/" class="read-link main-link" itemprop="sameAs" slot="read-link">Read</a></contexter-box>\n',
+		slug: "a-looming-deadline-for-tens-of-millions-of-americans",
+	};
 };
 
 const timelineElementStyle = (doc) => {
@@ -40,437 +76,6 @@ const timelineElementStyle = (doc) => {
 		}
 	);
 
-	let cssText = `
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-========================================================================== */
-
-/**
-* 1. Correct the line height in all browsers.
-* 2. Prevent adjustments of font size after orientation changes in iOS.
-*/
-
-html {
-line-height: 1.15; /* 1 */
--webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/* Sections
-	========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
-body {
-margin: 0;
-}
-
-/**
- * Render the main element consistently in IE.
- */
-
-main {
-display: block;
-}
-
-
-h1 {
-font-size: 2em;
-margin: 0.67em 0;
-}
-
-/* Grouping content
-	========================================================================== */
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-
-hr {
-box-sizing: content-box; /* 1 */
-height: 0; /* 1 */
-overflow: visible; /* 2 */
-}
-
-
-
-pre {
-font-family: monospace, monospace; /* 1 */
-font-size: 1em; /* 2 */
-}
-
-/* Text-level semantics
-	========================================================================== */
-
-/**
- * Remove the gray background on active links in IE 10.
- */
-
-a {
-background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-
-abbr[title] {
-border-bottom: none; /* 1 */
-text-decoration: underline; /* 2 */
-text-decoration: underline dotted; /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-
-b,
-strong {
-font-weight: bolder;
-}
-
-code,
-kbd,
-samp {
-font-family: monospace, monospace; /* 1 */
-font-size: 1em; /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-
-small {
-font-size: 80%;
-}
-
-sub,
-sup {
-font-size: 75%;
-line-height: 0;
-position: relative;
-vertical-align: baseline;
-}
-
-sub {
-bottom: -0.25em;
-}
-
-sup {
-top: -0.5em;
-}
-
-/* Embedded content
-	========================================================================== */
-
-/**
- * Remove the border on images inside links in IE 10.
- */
-
-img {
-border-style: none;
-}
-
-/* Forms
-	========================================================================== */
-
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-font-family: inherit; /* 1 */
-font-size: 100%; /* 1 */
-line-height: 1.15; /* 1 */
-margin: 0; /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-
-button,
-input {
-/* 1 */
-overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-
-button,
-select {
-/* 1 */
-text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-
-button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
--webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-
-button::-moz-focus-inner,
-[type='button']::-moz-focus-inner,
-[type='reset']::-moz-focus-inner,
-[type='submit']::-moz-focus-inner {
-border-style: none;
-padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-
-button:-moz-focusring,
-[type='button']:-moz-focusring,
-[type='reset']:-moz-focusring,
-[type='submit']:-moz-focusring {
-outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-
-fieldset {
-padding: 0.35em 0.75em 0.625em;
-}
-
-legend {
-box-sizing: border-box; /* 1 */
-color: inherit; /* 2 */
-display: table; /* 1 */
-max-width: 100%; /* 1 */
-padding: 0; /* 3 */
-white-space: normal; /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-
-progress {
-vertical-align: baseline;
-}
-
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-
-textarea {
-overflow: auto;
-}
-
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-
-[type='checkbox'],
-[type='radio'] {
-box-sizing: border-box; /* 1 */
-padding: 0; /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-
-[type='number']::-webkit-inner-spin-button,
-[type='number']::-webkit-outer-spin-button {
-height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-
-[type='search'] {
--webkit-appearance: textfield; /* 1 */
-outline-offset: -2px; /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-
-[type='search']::-webkit-search-decoration {
--webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
--webkit-appearance: button; /* 1 */
-font: inherit; /* 2 */
-}
-
-/* Interactive
-	========================================================================== */
-
-/*
-* Add the correct display in Edge, IE 10+, and Firefox.
-*/
-
-details {
-display: block;
-}
-
-/*
-* Add the correct display in all browsers.
-*/
-
-summary {
-display: list-item;
-}
-
-/* Misc
-	========================================================================== */
-
-/**
- * Add the correct display in IE 10+.
- */
-
-template {
-display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
-display: none;
-}
-
-:root {
---c2: #333;
---c3: #1e1f20;
---c4: #fff;
---background-color: #121212;
---base-font-color: var(--c4);
---border-base: #FFFF00;
---border-overlap: #040403;
---back-fill: #E6E64C;
---back-fill-overlap: #040403;
---light-highlight: #63AEE6;
---light-highlight-overlap: #000000;
---accent: #E67C7A;
---accent-overlap: #120B01;
---dark-highlight: #326E99;
---dark-highlight-overlap: #FFFFFF;
---link-color: var(--light-highlight);
-}
-body {
-font-family: "Hind Vadodara", sans-serif;
-}
-timeline-item {
-display: block;
-position: relative;
-margin-top: 6px;
-color: #eee;
-font-family: "Hind Vadodara", sans-serif;
-}
-.timeline-icon.grey {
-background-color: #666666;
-}
-.timeline-icon {
-position: absolute;
-left: 50%;
-width: 40px;
-height: 40px;
-margin-left: -20px;
-border: 4px solid #cccccc;
-  border-top-color: rgb(204, 204, 204);
-  border-right-color: rgb(204, 204, 204);
-  border-bottom-color: rgb(204, 204, 204);
-  border-left-color: rgb(204, 204, 204);
-border-radius: 50%;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-text-align: center;
-vertical-align: middle;
-z-index: 2;
-}
-.timeline-description .timestamp {
-font-style: italic;
-font-size: 80%;
-}
-.timeline-description h2 {
-font-family: "Roboto Slab", serif;
-line-height: 110%;
-margin: 5px 0;
--webkit-margin-before: 5px;
--webkit-margin-after: 5px;
-}
-.fa-regular, .fa-solid, .far, .fas {
-font-family: "Font Awesome 6 Free";
-}
-.fa-solid, .fas {
-font-weight: 900;
-}
-.fa, .fa-brands, .fa-duotone, .fa-light, .fa-regular, .fa-solid, .fa-thin, .fab, .fad, .fal, .far, .fas, .fat {
--moz-osx-font-smoothing: grayscale;
--webkit-font-smoothing: antialiased;
-display: inline-block;
-display: var(--fa-display,inline-block);
-font-style: normal;
-font-variant: normal;
-line-height: 1;
-text-rendering: auto;
-}
-.timeline-description p, .timeline-description ul {
-margin: 5px 0 10px 0;
-}
-.timeline-entry.even .timeline-description::after {
-left: 100%;
-border-left-color: #ffffff;
-}
-.timeline-description::after {
-top: 20px;
-border: solid transparent;
-  border-top-width: medium;
-  border-right-width: medium;
-  border-bottom-width: medium;
-  border-left-color: transparent;
-  border-left-width: medium;
-content: " ";
-height: 0;
-width: 0;
-position: absolute;
-pointer-events: none;
-border-width: 10px;
-margin-top: -10px;
-z-index: 100;
-}
-`;
-
-	cssText = `
-	${cssOne}
-
-	${cssTwo}
-	`;
-
 	cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
 	const minifiedCss = minify(cssText).css;
 
@@ -482,11 +87,14 @@ z-index: 100;
 };
 
 const buildItemImage = (item, height) => {
+	if (!item) {
+		item = testObj();
+	}
 	const cacheFile = path.join(
 		__dirname,
 		"../../../../",
 		`/src/img/previews/`,
-		`${item.title}.png`
+		`${sanitizeFilename(item.title)}.png`
 	);
 	console.log("Create Template Social Image Enters");
 	const dom = new JSDOM(`<!DOCTYPE html><head>
@@ -523,130 +131,18 @@ const buildItemImage = (item, height) => {
 	}
 
 	const createTimelineItem = async (dataObj, cacheFilePath) => {
-		class TimelineItem extends HTMLElement {
-			elBuilder(data) {
-				console.log("Set data ", data);
-				this.setAttribute("data-tags", data.tags.join(","));
-				let timelineIcon = h(
-					"div",
-					{
-						class: `timeline-icon ${data.color}`,
-					},
-					data?.faicon
-						? h("i", {
-								class: `fas fa-${data.faicon}`,
-								"aria-hidden": "true",
-						  })
-						: null
-				);
-				if (data.color) timelineIcon.classList.add(data.color);
-				this.appendChild(timelineIcon);
-
-				let timelineDescription = h(
-					"div",
-					{
-						class: "timeline-description",
-					},
-					h(
-						"span",
-						{ class: "timestamp" },
-						h(
-							"time",
-							{ datetime: data.date },
-							data.humanReadableDate
-						)
-					),
-					h(
-						"h2",
-						{},
-						h(
-							"a",
-							{ id: data.slug, href: data.slug },
-							h("i", { class: "fas fa-link" })
-						),
-						data.title
-					),
-					data.image
-						? h(
-								"div",
-								{ class: "captioned-image image-right" },
-								h(
-									data.image.link ? "a" : "span",
-									{},
-									h("img", {
-										src: data.image.src,
-										alt: data.image.alt,
-									})
-								),
-								h(
-									"span",
-									{ class: "caption" },
-									data.image.caption
-								)
-						  )
-						: null,
-					data.isBasedOn && data.customLink
-						? h(
-								"a",
-								{ target: "_blank", href: "data.customLink" },
-								"Read the article"
-						  )
-						: null,
-					h("span", { class: "inner-description" }),
-					data.links && data.links.length
-						? h(
-								"ul",
-								{},
-								...(() => {
-									let lis = [];
-									data.links.forEach((link) => {
-										lis.push(
-											h(
-												"li",
-												{},
-												h(
-													"a",
-													{
-														href: link.href,
-														target: "_blank",
-													},
-													link.linkText
-												),
-												` ` + link.extraText
-											)
-										);
-									});
-									return lis;
-								})()
-						  )
-						: null
-				);
-				this.appendChild(timelineDescription);
-				let innerContent = this.querySelector(".inner-description");
-				innerContent.innerHTML = `${data.content}`;
-			}
-			set itembuild(data) {
-				this.elBuilder(data);
-			}
-			constructor() {
-				// Always call super first in constructor
-				super();
-				console.log("Custom Element Setup");
-				this.setAttribute("aria-hidden", "false");
-				this.classList.add("timeline-entry");
-				this.classList.add("odd");
-				this.attachShadow({ mode: "open" });
-				// Element functionality written in here
-			}
-		}
-		customElements.define("timeline-item", TimelineItem);
+		customElements.define(
+			"timeline-item",
+			require("./TimelineItem")(document, HTMLElement)
+		);
 		const TimelineEl = customElements.get("timeline-item");
 		let itemDOMObj = new TimelineEl();
 		let item = dataObj;
-		console.log("create timeline item social image with", dataObj);
+		//console.log("create timeline item social image with", dataObj);
 		itemDOMObj.itembuild = item;
-		document.body.append(timelineElementStyle());
-		console.log("Social Image Item DOM El ready", itemDOMObj.innerHTML);
+		document.head.prepend(timelineElementStyle(document));
+		document.body.append(itemDOMObj);
+		//console.log("Social Image Item DOM El ready", itemDOMObj.innerHTML);
 		//document.body.innerHTML; dom.serialize(),
 
 		console.log("Social Image ready to write to ", cacheFile);
@@ -654,10 +150,14 @@ const buildItemImage = (item, height) => {
 			htmlToImage({
 				output: cacheFile,
 				html: dom.serialize(),
-			}).then(() => {
-				console.log("The image was created successfully!");
-				res(cacheFile);
-			});
+			})
+				.then(() => {
+					console.log("The image was created successfully!");
+					res(cacheFile);
+				})
+				.catch((reason) => {
+					console.log("Social image write failed - ", reason);
+				});
 		});
 
 		return writeImagePromise;
@@ -718,7 +218,7 @@ const testImg = () => {
 	);
 	const TimelineEl = customElements.get("timeline-item");
 	let itemDOMObj = new TimelineEl();
-	const dataObj = {
+	let dataObj = {
 		timeline: "monkeypox",
 		title: "A looming deadline for tens of millions of Americans",
 		description:
@@ -743,6 +243,7 @@ const testImg = () => {
 			'<p><a href="https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/" target="_blank">https://www.washingtonpost.com/podcasts/post-reports/a-looming-deadline-for-tens-of-millions-americans/</a></p>\n',
 		slug: "a-looming-deadline-for-tens-of-millions-of-americans",
 	};
+	dataObj = testObj();
 	let item = dataObj;
 	console.log("create timeline item social image with", dataObj);
 	itemDOMObj.itembuild = item;

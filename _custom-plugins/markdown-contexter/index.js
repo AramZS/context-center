@@ -35,6 +35,14 @@ module.exports = (eleventyConfig, userOptions) => {
 	eleventyConfig.addPassthroughCopy({
 		[`${options.cachePath}/images`]: options.publicImagePath,
 	});
+
+	const filenameMaker = (link) =>
+		sanitizeFilename(
+			slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
+		);
+
+	eleventyConfig.filenameMaker = filenameMaker;
+
 	eleventyConfig.addGlobalData("contexterSettings", options);
 
 	const cacheFilePath = (pageFilePath, searchKey, notJson = false) => {
@@ -77,9 +85,7 @@ module.exports = (eleventyConfig, userOptions) => {
 				const link = urlObj.url;
 				// console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
-				const fileName = sanitizeFilename(
-					slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
-				);
+				const fileName = filenameMaker(link);
 				const { cacheFolder, cacheFile } = cacheFilePath("", fileName);
 				let imageCheck = false;
 				// @TODO: this should just write the file, processing it and adding local images and archive links should happen at the point of building the collection I think? Especially since the collection can take an async function. Also... needs something for audio and youtube right?
@@ -251,15 +257,20 @@ module.exports = (eleventyConfig, userOptions) => {
 		return function (data) {
 			// console.log("msc compile", data);
 			// options.md.set(data);
-			if (
-				(remark && data.layout && /post/.test(data.layout)) ||
-				/fwd/.test(data.layout) ||
-				/topic/.test(data.layout)
-			) {
-				// console.log("msc compile");
+			try {
+				if (
+					(remark && data.layout && /post/.test(data.layout)) ||
+					/fwd/.test(data.layout) ||
+					/topic/.test(data.layout) ||
+					/timeline-standalone-item/.test(data.layout)
+				) {
+					// console.log("msc compile");
 
-				const rmResult = reMarkdown(inputContent, data);
-				return rmResult;
+					const rmResult = reMarkdown(inputContent, data);
+					return rmResult;
+				}
+			} catch (e) {
+				console.log("markdown-contexter reMarkdown failed", e);
 			}
 			// console.log("msc data");
 			// console.dir(this.global);

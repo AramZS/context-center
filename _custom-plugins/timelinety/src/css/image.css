@@ -4,6 +4,7 @@ timeline-item.timeline-entry {
 	height: 90%;
 	margin-left: 12px;
 	font-size: 16px;
+	padding-top: 12px;
 }
 timeline-item.timeline-entry.odd .timeline-description {
 	margin-left: 65px;
@@ -17,9 +18,26 @@ timeline-item.timeline-entry.odd .timeline-description {
 	width: calc(100% - 85px);
 }
 timeline-item.timeline-entry h2 {
-	font-size: 5rem;
+	font-size: 3rem;
 	margin-bottom: 3rem;
 }
 timeline-item.timeline-entry .inner-description {
-	font-size: 2.5rem;
+	font-size: 2rem;
+}
+
+contexter-box {
+	background-color: transparent;
+	border: 0;
+}
+
+.inner-description contexter-box {
+	width: 100%;
+}
+
+.inner-description contexter-box contexter-box-head {
+	display: none;
+}
+
+.inner-description contexter-box contexter-summary {
+	font-size: 1.8rem;
 }
