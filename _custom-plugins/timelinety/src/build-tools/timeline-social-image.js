@@ -23,6 +23,102 @@ const checkItemForContextBox = (dataObj) => {
 	}
 };
 
+const handlebarsTemplate = () => {
+	const dom = new JSDOM(`<!DOCTYPE html><head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	<style>
+	body {
+	  width: 1200px;
+	  height: {{genSize}};
+		}
+	</style>
+	</head><body>[INNERCONTENT]</body>`);
+	const window = dom.window;
+	const document = window.document;
+	document.head.prepend(timelineElementStyle(document));
+	const htmlTemplate = dom.serialize();
+	let hbContent = `<div class="timeline-entry odd" id="{{ titleslug }}" aria-hidden="false">
+    <div class="timeline-icon {{ color }}">
+        {{#if faicon }}
+            <i class="fas fa-{{ faicon }}" aria-hidden="true"></i>
+        {{/if }}
+    </div>
+    <div class="timeline-description">
+        <span class="timestamp">
+            <time datetime="{{ date }}">
+                {{ humanData }}
+            </time>
+        </span>
+        <h2><a id="{{ titleslug }}" href="#{{ titleslug }}"><i class="fas fa-link"></i></a>{{title}}</h2>
+        {{#if image }}
+            <div class="captioned-image image-right">
+                {{#if image.link }}<a href="{{ image.link }}">{{/if }}
+                <img src="{{ image.src }}" alt="{{ image.alt }}" />
+                {{#if image.link }}</a>{{/if }}
+                {{#if image.caption }}
+                    <span class="caption">{{ image.caption }}</span>
+                {{/if }}
+            </div>
+        {{/if }}
+        {{#if isBasedOn }}
+			{{#if customLink }}
+            <a target="_blank" href="{{customLink}}">Read the article</a>
+			{{/if }}
+        {{/if }}
+        {{#if timelineItemContent }}
+
+        {{{ timelineItemContent }}}
+
+        {{/if }}
+        {{#if links }}
+            <ul>
+                {{#each links }}
+                    <li>
+                        <a href="{{ this.href }}" target="_blank">
+						{{#if this.linkText }}{{ this.linkText }}
+						{{else}} {{ this.href }}
+						{{/if }}
+						</a>&nbsp;
+						{{#if this.extraText }}{{ this.extraText }}
+						{{ else }} {{ "" }}
+						{{/if }}
+                    </li>
+                {{/each }}
+            </ul>
+        {{/if }}
+    </div>
+</div>`;
+	let htmlBlock = htmlTemplate.replace(/\[INNERCONTENT\]/, hbContent);
+	return htmlBlock;
+};
+
+const prepareObject = function (dataObject, size) {
+	let dataObj = {};
+	if (dataObject.data) {
+		dataObj = dataObject;
+	} else {
+		dataObj = { data: dataObject };
+	}
+	const cacheFile = path.join(
+		__dirname,
+		"../../../../",
+		`/src/img/previews/`,
+		`${sanitizeFilename(dataObject.title)}-${size}.png`
+	);
+	dataObj.data.titleslug = slugify(dataObj.title || dataObj.data.title);
+	dataObj.data.color = dataObj.data.color || "grey";
+	dataObj.data.humanData = humanizeDate(dataObj.data.date);
+	let finalObj = Object.assign(
+		{
+			timelineItemContent: dataObj.content || dataObj.data.content,
+			genSize: size,
+			output: cacheFile,
+		},
+		dataObj.data
+	);
+	return finalObj;
+};
+
 const testObj = function () {
 	return {
 		timeline: "monkeypox",
@@ -288,7 +384,7 @@ const testHandlebarImg = () => {
 	<style>
 	body {
 	  width: 1200px;
-	  height: 600px;
+	  height: {{genSize}};
 		}
 	</style>
 	</head><body>[INNERCONTENT]</body>`);
@@ -397,14 +493,14 @@ const testHandlebarImg = () => {
 	let finalObj = Object.assign(
 		{
 			timelineItemContent: dataObj.content || dataObj.data.content,
+			genSize: "600px",
 		},
 		dataObj.data
 	);
 	console.log("Data obj for render", finalObj);
-	const template = Handlebars.compile(htmlBlock);
-	const renderedBlock = template(finalObj);
-	fs.writeFileSync("imagetest.html", renderedBlock);
-
+	//const template = Handlebars.compile(htmlBlock);
+	//const renderedBlock = template(finalObj);
+	//fs.writeFileSync("imagetest.html", renderedBlock);
 	htmlToImage({
 		output: "./image.png",
 		html: htmlBlock,
@@ -429,4 +525,10 @@ const testHandlebarImg = () => {
 	*/
 };
 
-module.exports = { buildItemImage, testImg, testHandlebarImg };
+module.exports = {
+	buildItemImage,
+	testImg,
+	testHandlebarImg,
+	handlebarsTemplate,
+	prepareObject,
+};

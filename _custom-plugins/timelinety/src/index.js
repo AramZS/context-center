@@ -1,8 +1,10 @@
 const utils = require("./build-tools/utilities");
 const timelineSets = require("./build-tools/timeline-sets");
 const imageTool = require("./build-tools/timeline-social-image");
+const htmlToImage = require("node-html-to-image");
 
 module.exports = function (eleventyConfig, pluginConfig) {
+	const timelineImages = [];
 	eleventyConfig.addShortcode("humanizeDate", utils.humanizeDate);
 	eleventyConfig.addShortcode(
 		"isNotWrappedInParagraphTags",
@@ -12,7 +14,9 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
 		console.log("Create Template Social Image Starts");
 		//imageTool.buildItemImage(itemObj, "600px");
-		imageTool.buildItemImage(itemObj, "630px");
+		//imageTool.buildItemImage(itemObj, "630px");
+		timelineImages.push(imageTool.prepareObject(itemObj, "600px"));
+		timelineImages.push(imageTool.prepareObject(itemObj, "630px"));
 		console.log("Template Social Image ", itemObj);
 		console.log("Create Template Social Image Ends");
 		return "";
@@ -71,6 +75,14 @@ module.exports = function (eleventyConfig, pluginConfig) {
 			return previousValue;
 		}, {})
 	);
+
+	eleventyConfig.on("eleventy.after", () => {
+		console.log("Image object ready to process", timelineImages);
+		htmlToImage({
+			html: imageTool.handlebarsTemplate(),
+			content: timelineImages,
+		}).then(() => console.log("The images were created successfully!"));
+	});
 	/**
 	eleventyConfig.addCollection("timeline-items", (collection) => {
 		let collectionFiltered = collection.getAll().filter((item) => {
