@@ -90,7 +90,7 @@ https://masto.host/
 ## Information for Webmasters
 
 https://fed.brid.gy
-https://activitystrea.ms/
+https://activitystrea.ms
 https://github.com/scripting/reallySimpleActivityPub
 https://wordpress.org/plugins/activitypub/
 

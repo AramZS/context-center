@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
 		console.log("Create Template Social Image Starts");
 		//imageTool.buildItemImage(itemObj, "600px");
-		//imageTool.buildItemImage(itemObj, "630px");
+		imageTool.buildItemImage(itemObj, "630px");
 		console.log("Template Social Image ", itemObj);
 		console.log("Create Template Social Image Ends");
 		return "";
