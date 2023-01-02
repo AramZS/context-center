@@ -81,6 +81,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		htmlToImage({
 			html: imageTool.handlebarsTemplate(),
 			content: timelineImages,
+			puppeteerArgs: { timeout: 0 },
 		}).then(() => console.log("The images were created successfully!"));
 	});
 	/**
