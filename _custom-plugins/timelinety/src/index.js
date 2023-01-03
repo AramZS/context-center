@@ -12,13 +12,13 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	);
 	// imageTool.testImg();
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
-		console.log("Create Template Social Image Starts");
+		console.log("Create Template Social Image Object Starts");
 		//imageTool.buildItemImage(itemObj, "600px");
 		//imageTool.buildItemImage(itemObj, "630px");
 		timelineImages.push(imageTool.prepareObject(itemObj, "600px"));
 		timelineImages.push(imageTool.prepareObject(itemObj, "630px"));
 		console.log("Template Social Image ", itemObj);
-		console.log("Create Template Social Image Ends");
+		console.log("Create Template Social Image Object Ends");
 		return "";
 	});
 	eleventyConfig.addShortcode("sentenceCase", utils.sentenceCase);
@@ -77,12 +77,20 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	);
 
 	eleventyConfig.on("eleventy.after", () => {
-		console.log("Image object ready to process", timelineImages);
+		console.log(
+			`Image array of ${timelineImages.length} ready to process`,
+			timelineImages
+		);
+		return true;
 		htmlToImage({
 			html: imageTool.handlebarsTemplate(),
 			content: timelineImages,
 			puppeteerArgs: { timeout: 0 },
-		}).then(() => console.log("The images were created successfully!"));
+		})
+			.then(() => console.log("The images were created successfully!"))
+			.catch((error) => {
+				console.log("The images were not created successfully!", error);
+			});
 	});
 	/**
 	eleventyConfig.addCollection("timeline-items", (collection) => {

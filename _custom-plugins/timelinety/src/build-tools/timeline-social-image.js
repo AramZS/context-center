@@ -24,19 +24,19 @@ const checkItemForContextBox = (dataObj) => {
 };
 
 const handlebarsTemplate = () => {
-	const dom = new JSDOM(`<!DOCTYPE html><head>
+	const cssText = timelineElementStyle();
+	const htmlTemplate = `<!DOCTYPE html><head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	<style>
+		${cssText}
+	</style>
 	<style>
 	body {
 	  width: 1200px;
 	  height: {{genSize}};
 		}
 	</style>
-	</head><body>[INNERCONTENT]</body>`);
-	const window = dom.window;
-	const document = window.document;
-	document.head.prepend(timelineElementStyle(document));
-	const htmlTemplate = dom.serialize();
+	</head><body>[INNERCONTENT]</body>`;
 	let hbContent = `<div class="timeline-entry odd" id="{{ titleslug }}" aria-hidden="false">
     <div class="timeline-icon {{ color }}">
         {{#if faicon }}
@@ -113,6 +113,7 @@ const prepareObject = function (dataObject, size) {
 			timelineItemContent: dataObj.content || dataObj.data.content,
 			genSize: size,
 			output: cacheFile,
+			timeout: 0,
 		},
 		dataObj.data
 	);
@@ -148,10 +149,10 @@ const testObj = function () {
 };
 
 const timelineElementStyle = (doc) => {
-	let style = doc.createElement("style");
+	// let style = doc.createElement("style");
 
 	//style.type = "text/css";
-	style.setAttribute("type", "text/css");
+	// style.setAttribute("type", "text/css");
 
 	const cssOne = fs.readFileSync(
 		"./_custom-plugins/timelinety/src/css/normalize.css",
@@ -179,11 +180,12 @@ const timelineElementStyle = (doc) => {
 	cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
 	const minifiedCss = minify(cssText).css;
 
-	style.appendChild(doc.createTextNode(minifiedCss));
+	// style.appendChild(doc.createTextNode(minifiedCss));
 
 	// style.innerText = cssText;
 
-	return style;
+	// return style;
+	return cssText;
 };
 
 const buildItemImage = (item, height) => {
@@ -379,19 +381,19 @@ const testImg = () => {
 
 const testHandlebarImg = () => {
 	console.log("Create Template Social Image Enters");
-	const dom = new JSDOM(`<!DOCTYPE html><head>
+	const cssText = timelineElementStyle();
+	const htmlTemplate = `<!DOCTYPE html><head>
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Hind+Vadodara:400,600" rel="stylesheet" type="text/css">
+	<style>
+		${cssText}
+	</style>
 	<style>
 	body {
 	  width: 1200px;
 	  height: {{genSize}};
 		}
 	</style>
-	</head><body>[INNERCONTENT]</body>`);
-	const window = dom.window;
-	const document = window.document;
-	document.head.prepend(timelineElementStyle(document));
-	const htmlTemplate = dom.serialize();
+	</head><body>[INNERCONTENT]</body>`;
 	let hbContent = `<div class="timeline-entry" id="{{ timelineItem.data.titleslug }}" aria-hidden="false">
     <div class="timeline-icon {{ timelineItem.data.color }}">
         {% if timelineItem.data.faicon %}
@@ -503,8 +505,8 @@ const testHandlebarImg = () => {
 	//fs.writeFileSync("imagetest.html", renderedBlock);
 	htmlToImage({
 		output: "./image.png",
-		html: htmlBlock,
-		content: finalObj,
+		html: handlebarsTemplate(),
+		content: prepareObject(testObj(), "600px"),
 	}).then(() => console.log("The image was created successfully!"));
 	/**
 	htmlToImage

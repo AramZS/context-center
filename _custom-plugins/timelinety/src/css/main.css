@@ -168,6 +168,11 @@ footer.page-footer {
 	-webkit-margin-before: 5px;
 	-webkit-margin-after: 10px;
 }
+
+.timeline-description blockquote {
+	font-style: italic;
+}
+
 .timeline-description img {
 	max-width: 150px;
 	display: block;
