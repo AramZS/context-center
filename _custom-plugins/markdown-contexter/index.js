@@ -67,7 +67,7 @@ module.exports = (eleventyConfig, userOptions) => {
 				resolve(true);
 			}, 30);
 		});
-		completeAllPromiseArray.push(promiseContext);
+		// completeAllPromiseArray.push(promiseContext);
 		// const urls = urlRegex.exec(inputContent); // .exec(inputContent);
 		let matchArray = [];
 		let urlsArray = [];
@@ -94,7 +94,12 @@ module.exports = (eleventyConfig, userOptions) => {
 					const contextString = fs.readFileSync(cacheFile).toString();
 					// Rebuild conditions?
 					// Mby https://attacomsian.com/blog/nodejs-get-file-last-modified-date
-					const contextData = JSON.parse(contextString);
+					let contextData = {};
+					try {
+						contextData = JSON.parse(contextString);
+					} catch (e) {
+						throw new Error("Could not parse cacheFile");
+					}
 					// Markdown system reads tabs as code blocks no matter what.
 					let htmlEmbed = contextData.htmlEmbed.replace(
 						/\t|^\s+|\n|\r/gim,
@@ -220,8 +225,12 @@ module.exports = (eleventyConfig, userOptions) => {
 												"Request timed out for ",
 												cacheFile
 											);
-											reject("Timeout error");
-										}, 6000);
+											reject(
+												new Error(
+													"Archiving request timeout error"
+												)
+											);
+										}, 10000);
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);
@@ -306,9 +315,13 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				await Promise.all(completeAllPromiseArray).catch((err) => {
-					console.log("Error in building archives collect: ", err);
+				let results = await Promise.all(completeAllPromiseArray);
+				const invalidResults = results.filter((result) => {
+					if (result instanceof Error) {
+						return result;
+					}
 				});
+				console.log("Invalid Results Count: ", invalidResults.length);
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",
