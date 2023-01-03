@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		//imageTool.buildItemImage(itemObj, "630px");
 		timelineImages.push(imageTool.prepareObject(itemObj, "600px"));
 		timelineImages.push(imageTool.prepareObject(itemObj, "630px"));
-		console.log("Template Social Image ", itemObj);
+		//console.log("Template Social Image ", itemObj);
 		console.log("Create Template Social Image Object Ends");
 		return "";
 	});
@@ -77,10 +77,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	);
 
 	eleventyConfig.on("eleventy.after", () => {
-		console.log(
-			`Image array of ${timelineImages.length} ready to process`,
-			timelineImages
-		);
+		console.log(`Image array of ${timelineImages.length} ready to process`);
 		return true;
 		htmlToImage({
 			html: imageTool.handlebarsTemplate(),

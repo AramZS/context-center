@@ -34,7 +34,8 @@ https://twitodon.com/
 
 https://pruvisto.org/debirdify/
 https://fedifinder.glitch.me/
-https://fedified.com/
+
+[Fedified allows you to use your Twitter profile to verify your Mastodon account](https://fedified.com/)
 
 ### Directories
 
@@ -66,7 +67,9 @@ https://publicinfrastructure.org/2022/09/28/welcome-to-smalltown/
 https://bonfirenetworks.org/posts/meet_us_at_the_playground/
 https://www.hughrundle.net/home-invasion/
 https://www.wired.co.uk/article/twitter-users-mastodon-meltdown
-https://uxdesign.cc/mastodon-is-antiviral-design-42f090ab8d51
+
+[https://uxdesign.cc/mastodon-is-antiviral-design-42f090ab8d51](https://uxdesign.cc/mastodon-is-antiviral-design-42f090ab8d51)
+
 https://foundhistory.org/2022/11/how-humanists-should-use-mastodon/
 
 ## For Server Admins

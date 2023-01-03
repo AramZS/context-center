@@ -227,7 +227,10 @@ module.exports = (eleventyConfig, userOptions) => {
 											);
 											reject(
 												new Error(
-													"Archiving request timeout error"
+													"Archiving request timeout error for " +
+														cacheFile +
+														" from ",
+													link
 												)
 											);
 										}, 10000);
