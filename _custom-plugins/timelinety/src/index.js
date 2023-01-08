@@ -76,8 +76,18 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		}, {})
 	);
 
-	eleventyConfig.on("eleventy.after", () => {
+	eleventyConfig.on("eleventy.after", async () => {
 		console.log(`Image array of ${timelineImages.length} ready to process`);
+		let processFinished = imageTool.queueImagesProcess(timelineImages);
+		return processFinished.then(() =>
+			console.log("Image generation process complete")
+		);
+		const fs = require("fs");
+		fs.writeFileSync(
+			"images.json",
+			JSON.stringify(timelineImages, null, 1)
+		);
+		//		console.log(timelineImages);
 		return true;
 		htmlToImage({
 			html: imageTool.handlebarsTemplate(),

@@ -12,6 +12,10 @@ var sanitizeFilename = require("sanitize-filename");
 
 const Handlebars = require("handlebars");
 
+const imageSlugMaker = (aString) => {
+	return slugify(aString, { remove: /[*+~.(),'"!:@]/g, lower: true });
+};
+
 const checkItemForContextBox = (dataObj) => {
 	let rexExpCheck = new RegExp(
 		`<p><a href="${dataObj.isBasedOn}" target="_blank">${dataObj.isBasedOn}</a></p>\n`
@@ -99,13 +103,19 @@ const prepareObject = function (dataObject, size) {
 	} else {
 		dataObj = { data: dataObject };
 	}
-	const cacheFile = path.join(
+	let cacheFile = path.join(
 		__dirname,
 		"../../../../",
 		`/src/img/previews/`,
-		`${sanitizeFilename(dataObject.title)}-${size}.png`
+		`${imageSlugMaker(sanitizeFilename(dataObject.title))}-${size}.png`
 	);
-	dataObj.data.titleslug = slugify(dataObj.title || dataObj.data.title);
+	/**
+	cacheFile = `./previews/${imageSlugMaker(
+		sanitizeFilename(dataObject.title)
+	)}-${size}.png`; */
+	dataObj.data.titleslug = imageSlugMaker(
+		dataObj.title || dataObj.data.title
+	);
 	dataObj.data.color = dataObj.data.color || "grey";
 	dataObj.data.humanData = humanizeDate(dataObj.data.date);
 	let finalObj = Object.assign(
@@ -177,7 +187,7 @@ const timelineElementStyle = (doc) => {
 		}
 	);
 
-	cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
+	let cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
 	const minifiedCss = minify(cssText).css;
 
 	// style.appendChild(doc.createTextNode(minifiedCss));
@@ -186,6 +196,80 @@ const timelineElementStyle = (doc) => {
 
 	// return style;
 	return cssText;
+};
+
+function generateSomeImages(imageSet) {
+	return new Promise((resolve, reject) => {
+		console.log(`Image sub array of ${imageSet.length} ready to process`);
+		imageSet.forEach((imgObject) => {
+			if (fs.existsSync(imgObject.output)) {
+				//console.log("File already exists", imgObject.output);
+			}
+		});
+		htmlToImage({
+			html: handlebarsTemplate(),
+			content: imageSet,
+			puppeteerArgs: { timeout: 0 },
+		})
+			.then(() => {
+				console.log("The images were created successfully!");
+				resolve(true);
+			})
+			.catch((error) => {
+				console.log("The images were not created successfully!", error);
+				reject(error);
+			});
+	});
+}
+
+function chunkUpArray(inputArray) {
+	const perChunk = 25; // items per chunk
+
+	const result = inputArray.reduce((resultArray, item, index) => {
+		const chunkIndex = Math.floor(index / perChunk);
+
+		if (!resultArray[chunkIndex]) {
+			resultArray[chunkIndex] = []; // start a new chunk
+		}
+
+		resultArray[chunkIndex].push(item);
+
+		return resultArray;
+	}, []);
+	console.log("Chunk count ", result.length);
+	return result;
+}
+
+const queueImagesProcess = (timelineImages) => {
+	console.log(`Image array of ${timelineImages.length} ready to process`);
+	//console.log(timelineImages);
+	let chunks = chunkUpArray(timelineImages);
+	let firstChunk = chunks.shift();
+	try {
+		let finalPromise = new Promise((resolve, reject) => {
+			let finalStep = Promise.resolve();
+			let promiseChain = chunks.reduce(
+				(prev, cur) =>
+					prev.then(() => {
+						return generateSomeImages(cur);
+					}),
+				generateSomeImages(firstChunk)
+			);
+			return promiseChain
+				.then(() => {
+					console.log("Chain complete");
+					resolve(true);
+				})
+				.catch((e) => {
+					console.log("Promise catch error in-chain ", e);
+					reject(false);
+				});
+		});
+		return finalPromise;
+	} catch (e) {
+		console.log("Promise resolution failed", e);
+		return false;
+	}
 };
 
 const buildItemImage = (item, height) => {
@@ -533,4 +617,5 @@ module.exports = {
 	testHandlebarImg,
 	handlebarsTemplate,
 	prepareObject,
+	queueImagesProcess,
 };
