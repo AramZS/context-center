@@ -82,22 +82,6 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		return processFinished.then(() =>
 			console.log("Image generation process complete")
 		);
-		const fs = require("fs");
-		fs.writeFileSync(
-			"images.json",
-			JSON.stringify(timelineImages, null, 1)
-		);
-		//		console.log(timelineImages);
-		return true;
-		htmlToImage({
-			html: imageTool.handlebarsTemplate(),
-			content: timelineImages,
-			puppeteerArgs: { timeout: 0 },
-		})
-			.then(() => console.log("The images were created successfully!"))
-			.catch((error) => {
-				console.log("The images were not created successfully!", error);
-			});
 	});
 	/**
 	eleventyConfig.addCollection("timeline-items", (collection) => {
