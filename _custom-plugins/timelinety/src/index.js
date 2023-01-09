@@ -15,11 +15,19 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		console.log("Create Template Social Image Object Starts");
 		//imageTool.buildItemImage(itemObj, "600px");
 		//imageTool.buildItemImage(itemObj, "630px");
-		timelineImages.push(imageTool.prepareObject(itemObj, "600px"));
-		timelineImages.push(imageTool.prepareObject(itemObj, "630px"));
+		timelineImages.push(
+			imageTool.prepareObject(itemObj, "600px", pluginConfig.domainName)
+		);
+		timelineImages.push(
+			imageTool.prepareObject(itemObj, "630px", pluginConfig.domainName)
+		);
 		//console.log("Template Social Image ", itemObj);
 		console.log("Create Template Social Image Object Ends");
 		return "";
+	});
+	eleventyConfig.addFilter("socialImageSlug", (title, size) => {
+		let slugs = imageTool.imageUrlMaker(pluginConfig.domainName, title);
+		return slugs[size];
 	});
 	eleventyConfig.addShortcode("sentenceCase", utils.sentenceCase);
 	eleventyConfig.addFilter("setAttribute", function (dictionary, key, value) {

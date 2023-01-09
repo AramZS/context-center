@@ -6,14 +6,21 @@ const fs = require("graceful-fs");
 const { minify } = require("csso");
 const slugify = require("slugify");
 const { humanizeDate } = require("./utilities");
-// Test setup for cache
-const { sanitizeLink } = require("link-contexter");
 var sanitizeFilename = require("sanitize-filename");
-
-const Handlebars = require("handlebars");
 
 const imageSlugMaker = (aString) => {
 	return slugify(aString, { remove: /[*+~.(),'"!:@]/g, lower: true });
+};
+
+const imageUrlMaker = (domainName, title) => {
+	return {
+		standard: `${domainName}/img/previews/${imageSlugMaker(
+			sanitizeFilename(title)
+		)}-600px.png`,
+		tall: `${domainName}/img/previews/${imageSlugMaker(
+			sanitizeFilename(title)
+		)}-630px.png`,
+	};
 };
 
 const handlebarsTemplate = () => {
@@ -85,7 +92,7 @@ const handlebarsTemplate = () => {
 	return htmlBlock;
 };
 
-const prepareObject = function (dataObject, size) {
+const prepareObject = function (dataObject, size, domainName) {
 	let dataObj = {};
 	if (dataObject.data) {
 		dataObj = dataObject;
@@ -265,4 +272,5 @@ module.exports = {
 	handlebarsTemplate,
 	prepareObject,
 	queueImagesProcess,
+	imageUrlMaker,
 };

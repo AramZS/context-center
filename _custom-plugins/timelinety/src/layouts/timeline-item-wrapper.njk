@@ -18,6 +18,8 @@
         <!-- entry: {{ timelineEntryItem | console }} -->
         {% include "./head.njk" %}
 
+        <meta property="og:image" content="{{ timelineEntryItem.data.title | socialImageSlug("tall") }}" />
+
     {% endblock %}
     {% block additionalhead %}
     {% endblock %}
