@@ -23,6 +23,7 @@ https://wiby.me
 https://indieweb-search.jamesg.blog/
 https://www.mojeek.com/about/
 https://www.ecosia.org/
+https://spot.ecloud.global
 
 ## Tools
 
@@ -51,6 +52,11 @@ https://httparchive.org/
 https://www.npmjs.com/package/puppeteer-extra-plugin-stealth
 https://fightwithtools.dev/posts/projects/context-pages/day-2/
 https://www.wikidata.org/wiki/Wikidata:Data_access
+
+## Code
+
+https://gitlab.e.foundation/e/infra/spot
+https://searx.github.io/searx/
 
 ## Talking About Search
 
