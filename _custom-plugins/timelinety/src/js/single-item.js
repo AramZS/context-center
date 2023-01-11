@@ -52,7 +52,14 @@ class TimelineItem extends HTMLElement {
 				{},
 				h(
 					"a",
-					{ id: data.slug, href: data.slug },
+					{
+						id: data.slug,
+						href:
+							location.protocol +
+							"//" +
+							location.host +
+							data.page.url,
+					},
 					h("i", { class: "fas fa-link" })
 				),
 				data.title

@@ -20,6 +20,9 @@
                 "color": "{{ entry.data.color }}",
                 "content": {% if entry.data and entry.data.content %}{{ entry.data.content | dump | safe or "" }}{% endif %},
                 "isBasedOn": {%- if entry.data.isBasedOn and entry.data.customLink %}"{{entry.data.customLink}}"{% else %}false{%- endif %},
+                "page": {
+                    "url": {%- if entry.data.page and entry.data.page.url %}"{{entry.data.page.url}}"{% else %}false{%- endif %}
+                },
                 "image": {% if entry.data.image %}{
                     "src": "{{- entry.data.image.src -}}",
                     "link": "{% if entry.data.image.link %}{{- entry.data.image.link -}}{% endif %}",

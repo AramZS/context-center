@@ -19,6 +19,7 @@
         {% include "./head.njk" %}
 
         <meta property="og:image" content="{{ timelineEntryItem.data.title | socialImageSlug("tall") }}" />
+         <meta name="twitter:image" content="{{ timelineEntryItem.data.title | socialImageSlug("standard") }}" />
 
     {% endblock %}
     {% block additionalhead %}
