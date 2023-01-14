@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Blog",
+        "url": "{{site.site_url}}{{ page.url }}",
+        "headline": "{{ title or site.site_name }}{% if metatitle %}: {{ metatitle }} {% endif %}",
+        "about": "{{ description or site.description }}",
+        "image": [
+            "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
+        ],
+        "isAccessibleForFree": "True",
+        "isPartOf": {
+            "@type": ["CreativeWork", "Product"],
+            "name": "{{site.site_name}}",
+            "productID": "{{site.site_url}}"
+        },
+        {% if isBasedOn %}
+        "isBasedOn": "{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}",
+        {% endif %}
+        "discussionUrl": "https://twitter.com/search?q=to%3AChronotope%20%23dev&src=typed_query&f=top",
+        "author": {% include "partials/json-ld-objs/person.njk" -%},
+        "editor": {% include "partials/json-ld-objs/person.njk" %},
+        "inLanguage": "en-US",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "additionalType": "CreativeWork",
+        "alternateName": "{{site.site_name}}",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Fight With Tools",
+            "description": "A site discussing how to imagine, build, analyze and use cool code and web tools. Better websites, better stories, better developers. Technology won't save the world, but you can.",
+            "sameAs": "https://fightwithtools.dev/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://41.media.tumblr.com/709bb3c371b9924add351bfe3386e946/tumblr_nxdq8uFdx81qzocgko1_1280.jpg"
+            },
+            "publishingPrinciples": "http://aramzs.github.io/about/"
+        }
+    }
+</script>

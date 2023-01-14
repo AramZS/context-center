@@ -77,3 +77,6 @@
 {% block nav %}
     {% include "partials/nav.njk" %}
 {% endblock %}
+{% block additionalhead %}
+    <script defer data-domain="{{site.site_domain}}" src="https://plausible.io/js/plausible.js"></script>
+{% endblock %}

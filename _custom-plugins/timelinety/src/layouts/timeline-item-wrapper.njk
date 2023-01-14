@@ -7,20 +7,21 @@
 {% set lastUpdatedPost = timelineObj.lastUpdatedPost %}
 {% set footer = timelineObj.footer %}
 {% set filters = timelineObj.filters %}
+
+{% set metatitle = timelineEntryItem.data.title %}
+{% set metadescription = timelineEntryItem.data.description %}
     <head>
         <!-- <script src="https://unpkg.com/@webcomponents/custom-elements"></script> -->
         <link rel="preload" href="{{timelinesConfig.jsPath}}/single-item.js" as="script" />
         <link rel="preload" href="{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json" as="fetch" />
     {% block head %}
 
-        {% set metatitle = timelineEntryItem.data.title %}
-        {% set metadescription = timelineEntryItem.data.description %}
         <!-- entry: {{ timelineEntryItem | console }} -->
         {% include "./head.njk" %}
 
         <meta property="og:image" content="{{ timelineEntryItem.data.title | socialImageSlug("tall") }}" />
-         <meta name="twitter:image" content="{{ timelineEntryItem.data.title | socialImageSlug("standard") }}" />
-
+        <meta name="twitter:image" content="{{ timelineEntryItem.data.title | socialImageSlug("standard") }}" />
+        <meta property="article:section" content="{{ title }}">
     {% endblock %}
     {% block additionalhead %}
     {% endblock %}

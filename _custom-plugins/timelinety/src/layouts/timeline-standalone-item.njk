@@ -66,6 +66,9 @@
             // console.log('entry data ', JSON.stringify({ data: data }))
             return { data: JSON.parse(JSON.stringify(data)) }
         },
+        lastMod: function(){
+            return new Date().toISOString();
+        },
         applyThis: {
             timelineCheck: function(siteContext){
                 if (siteContext){

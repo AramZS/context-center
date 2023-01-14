@@ -10,9 +10,10 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		"isNotWrappedInParagraphTags",
 		utils.isNotWrappedInParagraphTags
 	);
+	// eleventyConfig.ignores.add(path.join(`/src/img/previews/*`));
 	// imageTool.testImg();
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
-		console.log("Create Template Social Image Object Starts");
+		//console.log("Create Template Social Image Object Starts");
 		//imageTool.buildItemImage(itemObj, "600px");
 		//imageTool.buildItemImage(itemObj, "630px");
 		timelineImages.push(
@@ -22,7 +23,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 			imageTool.prepareObject(itemObj, "630px", pluginConfig.domainName)
 		);
 		//console.log("Template Social Image ", itemObj);
-		console.log("Create Template Social Image Object Ends");
+		//console.log("Create Template Social Image Object Ends");
 		return "";
 	});
 	eleventyConfig.addFilter("socialImageSlug", (title, size) => {
@@ -83,10 +84,15 @@ module.exports = function (eleventyConfig, pluginConfig) {
 			return previousValue;
 		}, {})
 	);
-
+	let ranOnce = false;
 	eleventyConfig.on("eleventy.after", async () => {
+		if (ranOnce) {
+			console.log("Do not need to re-run image gen");
+			return;
+		}
 		console.log(`Image array of ${timelineImages.length} ready to process`);
 		let processFinished = imageTool.queueImagesProcess(timelineImages);
+		ranOnce = true;
 		return processFinished.then(() =>
 			console.log("Image generation process complete")
 		);
