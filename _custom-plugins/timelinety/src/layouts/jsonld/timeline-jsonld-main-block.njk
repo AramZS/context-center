@@ -1,8 +1,8 @@
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
-        "@type": "Blog",
         "url": "{{site.site_url}}{{ page.url }}",
+        "@id": "{{site.site_url}}{{ page.url }}",
         "headline": "{{ title or site.site_name }}{% if metatitle %}: {{ metatitle }} {% endif %}",
         "about": "{{ description or site.description }}",
         "image": [
@@ -17,8 +17,8 @@
         {% if isBasedOn %}
         "isBasedOn": "{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}",
         {% endif %}
-        "discussionUrl": "https://twitter.com/search?q=to%3AChronotope%20%23dev&src=typed_query&f=top",
-        "author": {% include "partials/json-ld-objs/person.njk" -%},
+        "@type": "Blog",
+
         "editor": {% include "partials/json-ld-objs/person.njk" %},
         "inLanguage": "en-US",
         "license": "http://creativecommons.org/licenses/by-sa/4.0/",
