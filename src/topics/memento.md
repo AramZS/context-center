@@ -26,3 +26,5 @@ https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#Preventing_and_repairing_
 https://ahrefs.com/blog/link-rot-study/
 
 [https://pywb.readthedocs.io/en/latest/](https://pywb.readthedocs.io/en/latest/)
+
+https://archive.org/help/wayback_api.php

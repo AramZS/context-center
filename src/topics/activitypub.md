@@ -50,6 +50,10 @@ https://fediverse.party/
 ## Understanding the Protocol
 
 https://tinysubversions.com/notes/reading-activitypub/
+https://evanp.me/2022/11/27/documents-in-activitypub/
+https://activitypub.rocks/
+https://www.w3.org/TR/activitypub/
+https://gitlab.com/spritely/ocappub/-/blob/master/README.org
 
 ## Blog Posts
 
@@ -101,8 +105,6 @@ https://wordpress.org/plugins/activitypub/
 
 https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
 https://glitch.com/~tracery-mastodon-bot
-https://activitypub.rocks/
-https://www.w3.org/TR/activitypub/
 https://socialhub.activitypub.rocks/t/developers-meeting-7-a-standard-way-to-query-in-activitypub/2488/13
 
 ## Journalism

@@ -75,6 +75,8 @@ A collection of proposed standards by Google intended to move the web away from 
 https://privacysandbox.com/timeline/
 https://blog.chromium.org/2019/08/potential-uses-for-privacy-sandbox.html
 https://blog.chromium.org/2021/01/privacy-sandbox-in-2021.html
+https://digiday.com/marketing/wtf-googles-privacy-sandbox/
+https://digiday.com/media/google-plots-further-privacy-sandbox-trials-but-concerns-still-linger/
 
 ### Private Attribution
 
@@ -112,14 +114,19 @@ https://docs.google.com/document/d/1InSaFhB7teb7dRRTqwu4iV2AI282vMAnsZfjad8u5P4/
 https://developer.chrome.com/origintrials/#/view_trial/2479231594867458049
 https://mikewest.github.io/http-state-tokens/draft-west-http-state-tokens.html
 
-### WebID / FedID
+### IDs
+
+https://digiday.com/media/ids-dont-belong-on-the-open-web-the-pragmatic-publishers-case-for-privacy-first-ads/
+
+#### WebID / FedID
 
 https://github.com/fedidcg/FedCM
 https://docs.google.com/presentation/d/1Kk4WQIAAbkmzzzMGd5LoDnGq9kfpAxE8SNl4guUrUgw/edit
 
-### DID
+#### DID
 
 https://www.w3.org/TR/did-core/
+https://github.com/KILTprotocol/kilt-did-driver/blob/master/docs/did-spec/spec.md
 
 ## Engineering-relevant laws
 
@@ -141,6 +148,17 @@ https://oag.ca.gov/privacy/ccpa
 
 https://iapp.org/news/a/colorado-privacy-act-becomes-law/
 
+### Virginia's CDPA
+
+https://lis.virginia.gov/cgi-bin/legp604.exe?211+sum+SB1392
+https://pro.bloomberglaw.com/brief/what-is-the-vcdpa/
+https://www.hutchlaw.com/blog/an-overview-of-the-virginia-consumer-data-protection-act
+https://www.dataguidance.com/notes/virginia-data-protection-overview
+
+### ADPPA
+
+https://iapp.org/news/a/were-so-close-to-getting-data-loyalty-right/
+
 ### Japan
 
 https://auth0.com/blog/the-new-japanese-privacy-law-what-businesses-need-to-know/
@@ -159,6 +177,8 @@ https://wiki.mozilla.org/Security/Anti_tracking_policy
 https://darobin.github.io/pup/
 https://www.nist.gov/privacy-framework
 https://en.wikipedia.org/wiki/Privacy_by_design
+https://almanac.httparchive.org/en/2022/privacy
+https://www.w3.org/wiki/Privacy/Privacy_Considerations
 
 ### Principles and Documents
 
@@ -180,10 +200,12 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2655719
 https://iapp.org/resources/topics/de-identification/
 https://brave.com/brave-fingerprinting-and-privacy-budgets/
 https://mickens.seas.harvard.edu/publications/riverbed-enforcing-user-defined-privacy-constraints-distributed-web-services
+
 [Amplification by Shuffling:
 From Local to Central Differential Privacy via Anonymity](https://arxiv.org/pdf/1811.12469.pdf)
 
 [Context-Aware Local Differential Privacy](https://arxiv.org/abs/1911.00038)
+
 https://www.nytimes.com/privacy
 https://aws.amazon.com/solutions/case-studies/merkle/
 https://aws.amazon.com/blogs/industries/how-to-create-a-modern-cpg-data-architecture-with-data-mesh/
@@ -196,6 +218,12 @@ https://open.nytimes.com/how-we-manage-new-york-times-readers-data-privacy-d3962
 [Opinion 03/2013 on purpose limitation](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2013/wp203_en.pdf)
 
 https://www.w3.org/TR/privacy-principles/
+https://w3c.github.io/privacy-considerations/
+
+
+[Consumer Data Privacy in a Networked World: A Framework for Protecting Privacy and Promoting Innovation in the Global Digital Economy (PDF)](https://obamawhitehouse.archives.gov/sites/default/files/privacy-final.pdf)
+
+https://www.forrester.com/blogs/proposed-surveillance-advertising-ban-meet-contextual-targeting/
 
 ### User Perception
 
@@ -206,6 +234,8 @@ https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-184390802
 ### Data Protection
 
 https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4131523
+https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
 ## Trust
 
@@ -250,6 +280,7 @@ https://gizmodo.com/why-every-company-ad-network-now-1848936157
 
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
+https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 
 ## Papers
 
@@ -261,3 +292,8 @@ https://www.cpb.nl/sites/default/files/publicaties/download/cpb-discussion-paper
 https://www.goodreads.com/book/show/7677574-privacy-in-context?from_search=true&from_srp=true&qid=TofpBL4GQZ&rank=1
 https://www.goodreads.com/book/show/50403486-subprime-attention-crisis?from_search=true&from_srp=true&qid=DM1cXHJ0Fk&rank=1
 https://www.penguin.co.uk/books/1120394/privacy-is-power/9780552177719.html
+
+## Contextual as an Alternative
+
+https://www.publift.com/blog/contextual-advertising-everything-you-need-to-know#What-is-Contextual-Advertising
+https://www.exchangewire.com/deep-dive/the-future-of-contextual-targeting/

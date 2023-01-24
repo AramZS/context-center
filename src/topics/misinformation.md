@@ -35,6 +35,7 @@ https://ec.europa.eu/digital-single-market/en/news/factsheet-tackling-online-dis
 [Experimental Evidence for a Scalable Accuracy-Nudge Intervention](https://journals.sagepub.com/doi/full/10.1177/0956797620939054?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
 
 https://firstdraft.arist.co/courses/5ef5e5a67d406325a11c97dd
+https://www.nytimes.com/2023/01/10/world/europe/finland-misinformation-classes.html
 
 ### Vaccine Misinformation
 

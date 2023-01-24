@@ -41,6 +41,7 @@ featuredImageCaption: "Will the trees save us?"
 - https://features.propublica.org/brazil-carbon-offsets/inconvenient-truth-carbon-credits-dont-work-deforestation-redd-acre-cambodia/
 - https://revealnews.org/article/why-trees-wont-save-us-from-climate-change/
 - https://climateer.substack.com/p/avoided-emissions
+- https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe
 
 ### Carbon Footprints
 
