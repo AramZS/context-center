@@ -41,6 +41,7 @@ https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
 http://elasticlunr.com/
 https://lunrjs.com/
 https://pagefind.app/
+https://stork-search.net/
 
 ## Specific Search & Recommendation Platforms
 
