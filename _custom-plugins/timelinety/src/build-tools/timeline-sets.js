@@ -30,6 +30,7 @@ const getTimelines = (timelineFolder, domainName) => {
 			timelineData.mainTitle || timelineData.title || timeline.name;
 		const timelineEventFiles = readdirSync(timelinePath);
 		let lastUpdated = 0;
+		let firstUpdated = 0;
 		const timelineFilesContents = timelineEventFiles.map((filePath) => {
 			return readFileSync(
 				path.resolve(
@@ -65,6 +66,32 @@ const getTimelines = (timelineFolder, domainName) => {
 				return 0;
 			}
 		}, 0);
+		firstUpdated = timelineFilesContents.reduce(
+			(prevValue, fileContent) => {
+				try {
+					const mdObject = matter(fileContent);
+					//console.log("project data", mdObject.data);
+					if (!mdObject.data || !mdObject.data.dateAdded) {
+						return 0;
+					}
+					if (mdObject.data.hasOwnProperty("filters")) {
+						filterSet = filterSet.concat(mdObject.data.filters);
+					} else {
+						filterSet = filterSet.concat(mdObject.data.tags);
+					}
+					const datetime = Date.parse(mdObject.data.dateAdded);
+					if (prevValue < datetime && prevValue > 0) {
+						return prevValue;
+					} else {
+						return datetime;
+					}
+				} catch (e) {
+					console.log("Could not find date", e);
+					return 0;
+				}
+			},
+			0
+		);
 		const timelineDescription = timelineData.description
 			? timelineData.description
 			: `Building ${timelineTitle}`;
@@ -90,6 +117,7 @@ const getTimelines = (timelineFolder, domainName) => {
 			})(),
 			count: timelineEventFiles.length - 1, // minus one for the timeline description json file.
 			lastUpdatedPost: lastUpdated,
+			firstUpdatedPost: firstUpdated,
 			filters: [...new Set(filterSet)],
 		};
 		finalObj = { ...timelineData, ...finalObj };
