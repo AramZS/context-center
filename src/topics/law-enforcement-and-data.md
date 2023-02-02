@@ -115,6 +115,7 @@ https://time.com/6184111/abortion-surveillance-tech-tracking/
 <p><a href="https://www.bloomberg.com/news/articles/2022-06-27/anti-abortion-centers-find-pregnant-teens-online-then-save-their-data" target="_blank">Anti-Abortion Centers Find Pregnant Teens Online, Then Save Their Data</a></p>
 
 https://www.washingtonpost.com/technology/2022/06/29/google-facebook-abortion-data/
+https://techcrunch.com/2023/01/27/digital-data-roe-wade-reproductive-privacy/
 
 ### Fighting Back
 
