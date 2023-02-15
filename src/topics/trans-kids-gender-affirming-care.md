@@ -91,6 +91,7 @@ https://www.youtube.com/watch?v=HdT1PvJDRo4
 https://www.youtube.com/watch?v=yCxqdhZkxCo
 https://www.vice.com/en/article/mbdx7n/100-ways-be-trans-ally-tips
 https://tdor.translivesmatter.info/pages/about
+https://nytletter.com
 
 <hr />
 
