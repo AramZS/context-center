@@ -103,8 +103,8 @@
         <meta name="keywords" content="{{ filters | join(', ') }}">
     {% endif %}
 
-
-<meta name="last_updated_date" content="{{ lastMod }}">
-<meta property="article:modified_time" content="{{ lastMod }}">
+{% set lastModMeta = lastUpdatedPost or page.date %}
+<meta name="last_updated_date" content="{{ lastModMeta | makeISODate }}">
+<meta property="article:modified_time" content="{{ lastModMeta | makeISODate }}">
 
 <script src="{{timelinesConfig.jsPath}}/site-js.js" defer></script>

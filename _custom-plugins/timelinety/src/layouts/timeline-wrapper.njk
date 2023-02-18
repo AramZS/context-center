@@ -5,6 +5,7 @@
     {% block head %}
 
         {% include "./head.njk" %}
+        {% include "./jsonld/timeline-jsonld-timeline.njk" %}
 
     {% endblock %}
     {% block additionalhead %}
@@ -14,7 +15,7 @@
     {% block nav %}
         <!-- <nav><a href="{{timelinesConfig.domainName}}">Return to Home</a></nav> -->
     {% endblock %}
-    {% include "./timeline-base.njk" %}
+    {% include "./timeline-entries.njk" %}
     {% block pagebottom %}
     {% endblock %}
     </body>

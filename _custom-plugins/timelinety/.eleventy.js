@@ -70,6 +70,9 @@ module.exports = function (eleventyConfig, options) {
 		path.join(pluginLayoutPath, "json/timeline.njk")
 	);
 	eleventyConfig.addGlobalData("timelinesConfig", pluginConfig);
+	eleventyConfig.addFilter("makeISODate", function (value) {
+		return new Date(value).toISOString();
+	});
 	return library(eleventyConfig, pluginConfig);
 };
 

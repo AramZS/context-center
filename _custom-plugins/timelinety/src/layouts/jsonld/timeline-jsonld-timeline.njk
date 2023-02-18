@@ -1,3 +1,4 @@
+<script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"LiveBlogPosting",
@@ -19,7 +20,7 @@
       "@type":"BlogPosting",
       "headline":"{{- timelineItem.data.title }}",
       "datePublished":"{{ timelineItem.data.date }}",
-      "articleBody": "{{ timelineItemContent }}"{%- if timelineItem.data.isBasedOn %},
+      "articleBody": "{{ timelineItem.template.frontMatter.content }}"{%- if timelineItem.data.isBasedOn %},
       "isBasedOn": "{{ timelineItem.data.isBasedOn }}"{% endif %}{%- if timelineItem.data.image %},
       "image": "{{ timelineItem.data.image }}"
       {% endif %}
@@ -27,3 +28,4 @@
     {% endfor %}
   ]
 }
+</script>
