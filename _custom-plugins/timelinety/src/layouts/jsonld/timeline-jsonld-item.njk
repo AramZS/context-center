@@ -1,3 +1,18 @@
-        "image": [
-            "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
-        ],
+{% extends './timeline-jsonld-main-block.njk' %}
+{% block jsonLdDetail %}
+          "@type":"BlogPosting",
+          "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+          "headline": "{{ timelineEntryItem.title or timelineObj.title }}",
+          "description": "{{ timelineEntryItem.description or timelineObj.description }}",
+          {% if timelineEntryItem.data.title %}
+            "image": [
+                "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
+            ],
+          {% endif %}
+          "additionalType": "Blog",
+          "isPartOf": {
+            "@type": ["Blog", "LiveBlogPosting"],
+            "name": "{{ timelineObj.title }}",
+            "productID": "{{timelineObj.url or site.site_url or timelinesConfig.domainName}}"
+          },
+{% endblock %}

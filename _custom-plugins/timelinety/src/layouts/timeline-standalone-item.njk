@@ -8,6 +8,9 @@
             if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.title)
                 obj.title = siteContext.globalTimelines[siteContext.timeline].title
 
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.url)
+                obj.url = siteContext.globalTimelines[siteContext.timeline].url
+
             if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.description)
                 obj.description = siteContext.globalTimelines[siteContext.timeline].description
 

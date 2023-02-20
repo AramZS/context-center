@@ -1,6 +1,7 @@
 {% extends './timeline-jsonld-main-block.njk' %}
 {% block jsonLdDetail %}
           "@type":"LiveBlogPosting",
+          "additionalType": "Blog",
           "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
           "headline": "{{ timelineObj.title }}",
           "about":{
@@ -8,6 +9,11 @@
             "startDate":"{{ timelineObj.startDate or timelineObj.shortdate }}",
             "name":"{{ timelineObj.topic or timelineObj.title }}",
             "description": "{{ description or site.description }}"
+          },
+          "isPartOf": {
+            "@type": ["CreativeWork", "Product"],
+            "name": "{{site.site_name}}",
+            "productID": "{{site.site_url or timelinesConfig.domainName}}"
           },
           "coverageStartTime":"{{ timelineObj.firstUpdatedPost }}",
           "coverageEndTime":"{{ timelineObj.lastUpdatedPost }}",

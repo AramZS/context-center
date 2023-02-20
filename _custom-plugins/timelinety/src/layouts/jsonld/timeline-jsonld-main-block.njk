@@ -7,6 +7,7 @@
         "@type": "Blog",
         "headline": "{{ title or site.site_name }}{% if metatitle %}: {{ metatitle }} {% endif %}",
         "about": "{{ description or site.description }}",
+        "additionalType": "Blog",
         {% endblock %}
         {% if isBasedOn %}
         "isBasedOn": "{% if localBasedOn %}{{site.site_url or timelinesConfig.domainName}}{% endif %}{{ isBasedOn }}",
@@ -15,14 +16,8 @@
         "editor": {% include "partials/json-ld-objs/person.njk" %},
         {% endif %}
         "isAccessibleForFree": "True",
-        "isPartOf": {
-            "@type": ["CreativeWork", "Product"],
-            "name": "{{site.site_name}}",
-            "productID": "{{site.site_url or timelinesConfig.domainName}}"
-        },
         "inLanguage": "en-US",
         "license": "http://creativecommons.org/licenses/by-sa/4.0/",
-        "additionalType": "Blog",
         {% if site.publisher %}
         "publisher": {
             "@type": "Organization",

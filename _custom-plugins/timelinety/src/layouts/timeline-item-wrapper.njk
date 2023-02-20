@@ -25,6 +25,7 @@
     {% endblock %}
     {% block additionalhead %}
     {% endblock %}
+    {% include "./jsonld/timeline-jsonld-item.njk" %}
         <script>
             window.baseItem = "{{- timelineEntryItem.data.title | slugify -}}";
             window.timelineAPI = "{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json";
