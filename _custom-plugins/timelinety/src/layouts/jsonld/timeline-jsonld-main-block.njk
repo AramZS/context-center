@@ -1,39 +1,44 @@
 <script type="application/ld+json">
     {
         "@context": "http://schema.org",
-        "url": "{{site.site_url}}{{ page.url }}",
-        "@id": "{{site.site_url}}{{ page.url }}",
+        "url": "{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+        {% block jsonLdDetail %}
+        "@id": "{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+        "@type": "Blog",
         "headline": "{{ title or site.site_name }}{% if metatitle %}: {{ metatitle }} {% endif %}",
         "about": "{{ description or site.description }}",
-        "image": [
-            "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
-        ],
+        {% endblock %}
+        {% if isBasedOn %}
+        "isBasedOn": "{% if localBasedOn %}{{site.site_url or timelinesConfig.domainName}}{% endif %}{{ isBasedOn }}",
+        {% endif %}
+        {% if site.person %}
+        "editor": {% include "partials/json-ld-objs/person.njk" %},
+        {% endif %}
         "isAccessibleForFree": "True",
         "isPartOf": {
             "@type": ["CreativeWork", "Product"],
             "name": "{{site.site_name}}",
-            "productID": "{{site.site_url}}"
+            "productID": "{{site.site_url or timelinesConfig.domainName}}"
         },
-        {% if isBasedOn %}
-        "isBasedOn": "{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}",
-        {% endif %}
-        "@type": "Blog",
-
-        "editor": {% include "partials/json-ld-objs/person.njk" %},
         "inLanguage": "en-US",
         "license": "http://creativecommons.org/licenses/by-sa/4.0/",
-        "additionalType": "CreativeWork",
-        "alternateName": "{{site.site_name}}",
+        "additionalType": "Blog",
+        {% if site.publisher %}
         "publisher": {
             "@type": "Organization",
-            "name": "Fight With Tools",
-            "description": "A site discussing how to imagine, build, analyze and use cool code and web tools. Better websites, better stories, better developers. Technology won't save the world, but you can.",
-            "sameAs": "https://fightwithtools.dev/",
+            "name": "{{site.publisher.name or site.site_name}}",
+            "description": "{{site.publisher.description or site.description }}",
+            "sameAs": "{{site.publisher.domain or site.site_domain }}",
+            {% if site.publisher.logo %}
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://41.media.tumblr.com/709bb3c371b9924add351bfe3386e946/tumblr_nxdq8uFdx81qzocgko1_1280.jpg"
+                "url": "{{ site.publisher.logo }}"
             },
-            "publishingPrinciples": "http://aramzs.github.io/about/"
-        }
+            {% endif %}
+            "publishingPrinciples": "{{site.publisher.principles or ''}}"
+        },
+        {% endif %}
+        "alternateName": "{{site.site_name}}"
+
     }
 </script>

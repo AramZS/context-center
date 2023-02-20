@@ -1,31 +1,35 @@
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"LiveBlogPosting",
-  "@id":"{{timelinesConfig.domainName}}{{ page.url }}",
-  "about":{
-    "@type":"Event",
-    "startDate":"{{ timelineObj.startDate or timelineObj.shortdate }}",
-    "name":"{{ timelineObj.topic or timelineObj.title }}"
-  },
-  "coverageStartTime":"{{ timelineObj.firstUpdatedPost }}",
-  "coverageEndTime":"{{ timelineObj.lastUpdatedPost }}",
-  "headline":"{{ timelineObj.title }}",
-  "description":"{{ timelineObj.description }}",
-  "liveBlogUpdate":[
-    {% for entry in collections[timelineSlug] %}
-        {% set timelineItem = entry %}
-        {% set timelineItemContent = entry.data.content %}
-    {
-      "@type":"BlogPosting",
-      "headline":"{{- timelineItem.data.title }}",
-      "datePublished":"{{ timelineItem.data.date }}",
-      "articleBody": "{{ timelineItem.template.frontMatter.content }}"{%- if timelineItem.data.isBasedOn %},
-      "isBasedOn": "{{ timelineItem.data.isBasedOn }}"{% endif %}{%- if timelineItem.data.image %},
-      "image": "{{ timelineItem.data.image }}"
-      {% endif %}
-    }{% if entry !== collections[timelineSlug] | sort | last %},{% endif %}
-    {% endfor %}
-  ]
-}
-</script>
+{% extends './timeline-jsonld-main-block.njk' %}
+{% block jsonLdDetail %}
+          "@type":"LiveBlogPosting",
+          "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+          "headline": "{{ timelineObj.title }}",
+          "about":{
+            "@type":"Event",
+            "startDate":"{{ timelineObj.startDate or timelineObj.shortdate }}",
+            "name":"{{ timelineObj.topic or timelineObj.title }}",
+            "description": "{{ description or site.description }}"
+          },
+          "coverageStartTime":"{{ timelineObj.firstUpdatedPost }}",
+          "coverageEndTime":"{{ timelineObj.lastUpdatedPost }}",
+          "description":"{{ timelineObj.description or site.description }}",
+          {% if timelineItem.data.previewImage %}
+          "image": [
+            "{{ timelineItem.data.previewImage }}"
+          ],
+          {% endif %}
+          "liveBlogUpdate":[
+          {% for entry in collections[timelineSlug] %}
+          {% set timelineItem = entry %}
+          {% set timelineItemContent = entry.data.content %}
+          {
+            "@type":"BlogPosting",
+            "headline":"{{- timelineItem.data.title }}",
+            "datePublished":"{{ timelineItem.data.date }}",
+            "articleBody": "{{ timelineItem.template.frontMatter.content }}"{%- if timelineItem.data.isBasedOn %},
+            "isBasedOn": "{{ timelineItem.data.isBasedOn }}"{% endif %}{%- if timelineItem.data.image %},
+            "image": "{{ timelineItem.data.image }}"
+            {% endif %}
+          }{% if entry !== collections[timelineSlug] | sort | last %},{% endif %}
+          {% endfor %}
+          ],
+{% endblock %}

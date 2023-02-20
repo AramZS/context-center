@@ -197,24 +197,36 @@ const timelineElementStyle = (doc) => {
 function generateSomeImages(imageSet) {
 	return new Promise((resolve, reject) => {
 		console.log(`Image sub array of ${imageSet.length} ready to process`);
+		const imagesToCreate = [];
 		imageSet.forEach((imgObject) => {
-			if (fs.existsSync(imgObject.output)) {
-				//console.log("File already exists", imgObject.output);
+			if (fs.existsSync(imgObject.output) && process.env.RECREATE_IMGS) {
+				// Only create the images that don't already exist.
+				console.log("File already exists", imgObject.output);
+			} else {
+				imagesToCreate.push(imgObject);
 			}
 		});
-		htmlToImage({
-			html: handlebarsTemplate(),
-			content: imageSet,
-			puppeteerArgs: { timeout: 0 },
-		})
-			.then(() => {
-				console.log("The images were created successfully!");
-				resolve(true);
+		if (imagesToCreate.length === 0) {
+			console.log("No images needed to be created for this chunk");
+			resolve(true);
+		} else {
+			htmlToImage({
+				html: handlebarsTemplate(),
+				content: imagesToCreate,
+				puppeteerArgs: { timeout: 0 },
 			})
-			.catch((error) => {
-				console.log("The images were not created successfully!", error);
-				reject(error);
-			});
+				.then(() => {
+					console.log("The images were created successfully!");
+					resolve(true);
+				})
+				.catch((error) => {
+					console.log(
+						"The images were not created successfully!",
+						error
+					);
+					reject(error);
+				});
+		}
 	});
 }
 
