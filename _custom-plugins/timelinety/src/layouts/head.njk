@@ -86,8 +86,8 @@
 
 {% if featuredImage %}
 
-<meta property="og:image" content="{{site.site_url}}/img/{{featuredImage}}" />
-<meta name="twitter:image" content="{{site.site_url}}/img/{{featuredImage}}" />
+<meta property="og:image" content="{{timelinesConfig.domainName or site.site_url}}/img/{{featuredImage}}" />
+<meta name="twitter:image" content="{{timelinesConfig.domainNameor site.site_url}}/img/{{featuredImage}}" />
 
 {% endif %}
 
@@ -106,5 +106,8 @@
 {% set lastModMeta = lastUpdatedPost or page.date %}
 <meta name="last_updated_date" content="{{ lastModMeta | makeISODate }}">
 <meta property="article:modified_time" content="{{ lastModMeta | makeISODate }}">
+
+<link rel="canonical" href="{{timelinesConfig.domainName or site.site_url}}{{ page.url }}" />
+
 
 <script src="{{timelinesConfig.jsPath}}/site-js.js" defer></script>
