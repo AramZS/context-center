@@ -1,4 +1,4 @@
-<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" id="{{- timelineItem.data.title | slugify -}}" aria-hidden="false">
+<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" id="{{- timelineItem.data.title | timelineSlugify -}}" aria-hidden="false">
     <!-- entry: {{ timelineItem.data.page.url | console }} -->
     <!-- entry: {{ timelineItem | console }} -->
     <div class="timeline-icon {{ timelineItem.data.color or "grey" }}">
@@ -13,7 +13,7 @@
             </time>
         </span>
         <h2>
-            <a id="{{- timelineItem.data.title | slugify -}}" href="{{ timelineItem.data.page.url }}#{{- timelineItem.data.title | slugify -}}">
+            <a id="{{- timelineItem.data.title | timelineSlugify -}}" href="{{ timelineItem.data.page.url }}#{{- timelineItem.data.title | timelineSlugify -}}">
                 <i class="fas fa-link"></i>
             </a>
             {{- timelineItem.data.title }}</h2>

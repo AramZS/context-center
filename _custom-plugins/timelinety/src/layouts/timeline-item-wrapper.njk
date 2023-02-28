@@ -27,9 +27,9 @@
     {% endblock %}
     {% include "./jsonld/timeline-jsonld-item.njk" %}
         <script>
-            window.baseItem = "{{- timelineEntryItem.data.title | slugify -}}";
+            window.baseItem = "{{- timelineEntryItem.data.title | timelineSlugify -}}";
             window.timelineAPI = "{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json";
-            window.timelineHomeItemSlug = "{{- timelineEntryItem.data.title | slugify -}}"
+            window.timelineHomeItemSlug = "{{- timelineEntryItem.data.title | timelineSlugify -}}"
         </script>
         <script src="{{timelinesConfig.jsPath}}/single-item.js" async></script>
     </head>
@@ -44,7 +44,7 @@
 
         <article class="timeline" data-timeline="{{timelineEntryItem.data.timeline}}">
             {% set timelineItem = timelineEntryItem %}
-            {% set timelineItemSlug = timelineItem.data.title | slugify %}
+            {% set timelineItemSlug = timelineItem.data.title | timelineSlugify %}
             {% set preFullTimelineItem = timelineEntryItem.data|setAttribute('content', content) %}
             {% set fullTimelineItem = preFullTimelineItem|setAttribute('slug', timelineItemSlug) %}
             {{- fullTimelineItem | createTemplateImage -}}

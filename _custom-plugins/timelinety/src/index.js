@@ -2,6 +2,7 @@ const utils = require("./build-tools/utilities");
 const timelineSets = require("./build-tools/timeline-sets");
 const imageTool = require("./build-tools/timeline-social-image");
 const htmlToImage = require("node-html-to-image");
+const { slugger } = require("./build-tools/slugger");
 
 module.exports = function (eleventyConfig, pluginConfig) {
 	const timelineImages = [];
@@ -10,6 +11,9 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		"isNotWrappedInParagraphTags",
 		utils.isNotWrappedInParagraphTags
 	);
+	eleventyConfig.addFilter("timelineSlugify", function (text) {
+		return slugger(text);
+	});
 	// eleventyConfig.ignores.add(path.join(`/src/img/previews/*`));
 	// imageTool.testImg();
 	eleventyConfig.addFilter("createTemplateImage", function (itemObj) {
@@ -27,6 +31,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		return "";
 	});
 	eleventyConfig.addFilter("socialImageSlug", (title, size) => {
+		console.log("Social Image Title", title);
 		let slugs = imageTool.imageUrlMaker(pluginConfig.domainName, title);
 		return slugs[size];
 	});
@@ -60,6 +65,12 @@ module.exports = function (eleventyConfig, pluginConfig) {
 				const collectionEnhanced = collectionFiltered.map(
 					(timelineItem) => {
 						timelineItem.timelineData = timelineObj;
+						timelineItem.permalink = slugger(timelineObj.title);
+						timelineItem.timelineData.slug = slugger(
+							timelineItem.timelineData.slug
+						);
+						timelineItem.timelineData.permalink =
+							timelineItem.permalink;
 						return timelineItem;
 					}
 				);

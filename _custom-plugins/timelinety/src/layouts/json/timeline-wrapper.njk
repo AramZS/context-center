@@ -13,7 +13,7 @@
         {% for entry in collections[timelineSlug] %}
             {
                 "title": "{{- entry.data.title }}",
-                "slug": "{{- entry.data.title | slugify -}}",
+                "slug": "{{- entry.data.title | timelineSlugify -}}",
                 "date": "{{ entry.data.date }}",
                 "humanReadableDate": "{% humanizeDate entry.data.date %}",
                 "faicon": "{{ entry.data.faicon }}",

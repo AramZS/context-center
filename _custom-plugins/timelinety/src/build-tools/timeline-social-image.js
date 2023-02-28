@@ -4,22 +4,17 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const fs = require("graceful-fs");
 const { minify } = require("csso");
-const slugify = require("slugify");
 const { humanizeDate } = require("./utilities");
-var sanitizeFilename = require("sanitize-filename");
+const { slugger } = require("./slugger");
 
-const imageSlugMaker = (aString) => {
-	return slugify(aString, { remove: /[*+~.(),'"!:@]/g, lower: true });
-};
+const imageSlugMaker = slugger;
 
 const imageUrlMaker = (domainName, title) => {
 	return {
 		standard: `${domainName}/img/previews/${imageSlugMaker(
-			sanitizeFilename(title)
+			title
 		)}-600px.png`,
-		tall: `${domainName}/img/previews/${imageSlugMaker(
-			sanitizeFilename(title)
-		)}-630px.png`,
+		tall: `${domainName}/img/previews/${imageSlugMaker(title)}-630px.png`,
 	};
 };
 
@@ -103,7 +98,7 @@ const prepareObject = function (dataObject, size, domainName) {
 		__dirname,
 		"../../../../",
 		`/src/img/previews/`,
-		`${imageSlugMaker(sanitizeFilename(dataObject.title))}-${size}.png`
+		`${imageSlugMaker(dataObject.title)}-${size}.png`
 	);
 	/**
 	cacheFile = `./previews/${imageSlugMaker(
