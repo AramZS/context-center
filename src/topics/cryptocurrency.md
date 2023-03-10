@@ -354,6 +354,29 @@ https://hypercore-protocol.org/
 
 https://pluriverse.world/
 
+#### Gemini
+
+https://gemini.circumlunar.space/
+https://en.wikipedia.org/wiki/Gemini_(protocol)
+
+#### Secure Scuttlebutt
+
+https://scuttlebutt.nz/
+https://en.wikipedia.org/wiki/Secure_Scuttlebutt
+
+#### WebTorrent
+
+https://webtorrent.io/
+https://github.com/webtorrent/webtorrent
+
+#### Other Interesting Projects 
+
+https://nostr.com/
+https://blueskyweb.xyz/
+https://agregore.mauve.moe/
+https://reticulum.network/
+https://www.holochain.org/
+
 ### Understanding Decentralization
 
 https://www.ietf.org/archive/id/draft-nottingham-avoiding-internet-centralization-02.html
