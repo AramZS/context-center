@@ -63,10 +63,27 @@ module.exports = (eleventyConfig, userOptions) => {
 			});
 			counter++;
 		}
+		const backoffFileObj = cacheFilePath("", "backoff");
+		const backoffList = backoffFileObj.cacheFile;
+		try {
+			fs.accessSync(backoffList, fs.constants.F_OK);
+		} catch (e) {
+			fs.writeFileSync(
+				backoffList,
+				JSON.stringify({ list: [], lastCheck: {} })
+			);
+		}
+
+		let backoffObj = JSON.parse(fs.readFileSync(backoffList));
+
 		if (urlsArray.length) {
 			urlsArray.forEach((urlObj) => {
 				const link = urlObj.url;
-				// console.log("inputContent Process: ", link);
+				const timeoutID = setTimeout(() => {
+					console.trace("Failure to deal with urlObj ", urlObj);
+					throw new Error("Timed out after 30s");
+				}, 30000);
+				console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
 				const fileName = sanitizeFilename(
 					slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
@@ -91,6 +108,7 @@ module.exports = (eleventyConfig, userOptions) => {
 						cacheFilePath,
 						completeAllPromiseArray
 					);
+					console.log("Image checked", localImageObj);
 					if (localImageObj) {
 						const { localImageName, originalImage, imageName } =
 							localImageObj;
@@ -128,7 +146,26 @@ module.exports = (eleventyConfig, userOptions) => {
 							urlObj.replace,
 							htmlEmbed
 						);
+						console.log("Link replaced with context: ", link);
 					}
+					try {
+						const index = backoffObj.list.indexOf(link);
+						if (index > -1) {
+							// only splice array when item is found
+							backoffObj.list.splice(index, 1); // 2nd parameter means remove one item only
+						}
+						delete backoffObj.lastCheck[link];
+						fs.writeFileSync(
+							backoffList,
+							JSON.stringify(backoffObj)
+						);
+					} catch (e) {
+						console.log(
+							"Backoff list removal failed for link ",
+							link
+						);
+					}
+					return inputContent;
 				} catch (e) {
 					try {
 						if (imageCheck) {
@@ -139,6 +176,31 @@ module.exports = (eleventyConfig, userOptions) => {
 							urlObj.replace,
 							`<p><a href="${link}" target="_blank">${link}</a></p>`
 						);
+						if (backoffObj?.list.includes(link)) {
+							const dateDiff =
+								Date.now() -
+								Date.parse(backoffObj.lastCheck[link]);
+							if (dateDiff < 1.21e9) {
+								console.log(
+									"Backing off link: ",
+									link,
+									" with date diff of ",
+									dateDiff
+								);
+								// It has been less than 14 days since the last check
+								return options.existingRenderer.render(
+									inputContent,
+									data
+								);
+							}
+						} else {
+							backoffObj.list.push(link);
+							backoffObj.lastCheck[link] = new Date().toString();
+							fs.writeFileSync(
+								backoffList,
+								JSON.stringify(backoffObj)
+							);
+						}
 						let pContext = contexter.context(link);
 						// completeAllPromiseArray.push(pContext);
 						// No file yet
@@ -217,10 +279,17 @@ module.exports = (eleventyConfig, userOptions) => {
 						console.log("Contexter Process Failed: ", e);
 					}
 				}
+				clearTimeout(timeoutID);
 			});
 		}
+		console.log("Input content ready to return");
+		const renderResult = options.existingRenderer.render(
+			inputContent,
+			data
+		);
+		console.log("Input content processing result ", renderResult);
 		// 2nd argument sets env
-		return options.existingRenderer.render(inputContent, data);
+		return renderResult;
 	};
 	const compiler = (inputContent, inputPath) => {
 		// console.log("msc", inputContent, inputPath);
@@ -294,6 +363,9 @@ module.exports = (eleventyConfig, userOptions) => {
 			archiveFilesList = buildArchiveFileList();
 			const archives = [];
 			archiveFilesList.forEach((cacheFile) => {
+				if (cacheFile == "backoff.json") {
+					return;
+				}
 				const fileContents = fs
 					.readFileSync(options.cachePath + "/" + cacheFile)
 					.toString();
@@ -316,8 +388,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					} catch (e) {
 						console.log(
 							"Failed to assure clean data",
-							contextData.sanitizedLink,
-							contextData.data.finalizedMeta,
+							cacheFile,
 							e
 						);
 					}
