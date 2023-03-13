@@ -21,12 +21,29 @@ module.exports = (eleventyConfig, userOptions) => {
 		...userOptions,
 	};
 
+	const cacheFolder = path.join(
+		__dirname,
+		"../../",
+		`/${options.cachePath}/`
+	);
+
+	options.cacheFolder = cacheFolder;
+
 	const completeAllPromiseArray = [];
 
 	console.log("markdown-contexter-go");
 	eleventyConfig.addPassthroughCopy({
 		[`${options.cachePath}/images`]: options.publicImagePath,
 	});
+
+	const filenameMaker = (link) =>
+		sanitizeFilename(
+			slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
+		);
+
+	eleventyConfig.filenameMaker = filenameMaker;
+
+	eleventyConfig.addGlobalData("contexterSettings", options);
 
 	const cacheFilePath = (pageFilePath, searchKey, notJson = false) => {
 		const cacheFolder = path.join(
@@ -50,7 +67,7 @@ module.exports = (eleventyConfig, userOptions) => {
 				resolve(true);
 			}, 30);
 		});
-		completeAllPromiseArray.push(promiseContext);
+		// completeAllPromiseArray.push(promiseContext);
 		// const urls = urlRegex.exec(inputContent); // .exec(inputContent);
 		let matchArray = [];
 		let urlsArray = [];
@@ -85,9 +102,7 @@ module.exports = (eleventyConfig, userOptions) => {
 				}, 30000);
 				console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
-				const fileName = sanitizeFilename(
-					slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
-				);
+				const fileName = filenameMaker(link);
 				const { cacheFolder, cacheFile } = cacheFilePath("", fileName);
 				let imageCheck = false;
 				// @TODO: this should just write the file, processing it and adding local images and archive links should happen at the point of building the collection I think? Especially since the collection can take an async function. Also... needs something for audio and youtube right?
@@ -96,7 +111,12 @@ module.exports = (eleventyConfig, userOptions) => {
 					const contextString = fs.readFileSync(cacheFile).toString();
 					// Rebuild conditions?
 					// Mby https://attacomsian.com/blog/nodejs-get-file-last-modified-date
-					const contextData = JSON.parse(contextString);
+					let contextData = {};
+					try {
+						contextData = JSON.parse(contextString);
+					} catch (e) {
+						throw new Error("Could not parse cacheFile");
+					}
 					// Markdown system reads tabs as code blocks no matter what.
 					let htmlEmbed = contextData.htmlEmbed.replace(
 						/\t|^\s+|\n|\r/gim,
@@ -188,10 +208,7 @@ module.exports = (eleventyConfig, userOptions) => {
 									dateDiff
 								);
 								// It has been less than 14 days since the last check
-								return options.existingRenderer.render(
-									inputContent,
-									data
-								);
+								return;
 							}
 						} else {
 							backoffObj.list.push(link);
@@ -233,15 +250,20 @@ module.exports = (eleventyConfig, userOptions) => {
 													cacheFilePath
 												)
 												.then((localImageFileName) => {
+													console.log(
+														"handleImageFromObject result ",
+														localImageFileName
+													);
 													if (localImageFileName) {
 														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
 														// console.log('write data to file', cacheFile)
+
+														fs.writeFileSync(
+															cacheFile,
+															JSON.stringify(r)
+														);
+														resolve(cacheFile);
 													}
-													fs.writeFileSync(
-														cacheFile,
-														JSON.stringify(r)
-													);
-													resolve(cacheFile);
 												})
 												.catch((e) => {
 													console.log(
@@ -262,8 +284,15 @@ module.exports = (eleventyConfig, userOptions) => {
 												"Request timed out for ",
 												cacheFile
 											);
-											reject("Timeout error");
-										}, 6000);
+											reject(
+												new Error(
+													"Archiving request timeout error for " +
+														cacheFile +
+														" from ",
+													link
+												)
+											);
+										}, 10000);
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);
@@ -287,7 +316,7 @@ module.exports = (eleventyConfig, userOptions) => {
 			inputContent,
 			data
 		);
-		console.log("Input content processing result ", renderResult);
+		console.log("Input content processing result for ", data.title);
 		// 2nd argument sets env
 		return renderResult;
 	};
@@ -306,20 +335,33 @@ module.exports = (eleventyConfig, userOptions) => {
 		return function (data) {
 			// console.log("msc compile", data);
 			// options.md.set(data);
-			if (
-				(remark && data.layout && /post/.test(data.layout)) ||
-				/fwd/.test(data.layout) ||
-				/topic/.test(data.layout)
-			) {
-				// console.log("msc compile");
+			try {
+				if (
+					(remark && data.layout && /post/.test(data.layout)) ||
+					/fwd/.test(data.layout) ||
+					/topic/.test(data.layout) ||
+					/timeline-standalone-item/.test(data.layout)
+				) {
+					// console.log("msc compile");
 
-				const rmResult = reMarkdown(inputContent, data);
-				return rmResult;
+					const rmResult = reMarkdown(inputContent, data);
+					console.log("Processed with reMarkdown function complete");
+					return rmResult;
+				}
+			} catch (e) {
+				console.log("markdown-contexter reMarkdown failed", e);
 			}
 			// console.log("msc data");
 			// console.dir(this.global);
 			// You can also access the default `markdown-it` renderer here:
-			return this.defaultRenderer(data);
+			try {
+				return this.defaultRenderer(data);
+			} catch (e) {
+				console.log(
+					"Default render process has failed, this is bad ",
+					e
+				);
+			}
 		};
 	};
 	eleventyConfig.addExtension(options.extension, {
@@ -350,9 +392,13 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				await Promise.all(completeAllPromiseArray).catch((err) => {
-					console.log("Error in building archives collect: ", err);
+				let results = await Promise.all(completeAllPromiseArray);
+				const invalidResults = results.filter((result) => {
+					if (result instanceof Error) {
+						return result;
+					}
 				});
+				console.log("Invalid Results Count: ", invalidResults.length);
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",
@@ -388,7 +434,8 @@ module.exports = (eleventyConfig, userOptions) => {
 					} catch (e) {
 						console.log(
 							"Failed to assure clean data",
-							cacheFile,
+							contextData.sanitizedLink,
+							contextData.data.finalizedMeta,
 							e
 						);
 					}

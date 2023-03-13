@@ -24,7 +24,7 @@ let site = "https://" + domain_name;
 
 if (process.env.IS_LOCAL) {
 	site = "http://localhost:8083";
-	throwOnUndefinedSetting = true;
+	throwOnUndefinedSetting = false;
 	console.log("Dev env");
 }
 
@@ -339,7 +339,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("console", function (value) {
 		let objToEcho;
-		if (value.posts) {
+		if (value?.posts) {
 			objToEcho = Object.assign({}, value);
 			delete objToEcho.posts;
 		} else {
