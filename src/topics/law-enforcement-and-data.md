@@ -85,6 +85,7 @@ https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-
 https://apnews.com/article/technology-police-government-surveillance-d395409ef5a8c6c3f6cdab5b1d0e27ef
 https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/
 https://www.tpr.org/border-immigration/2023-01-06/conservative-group-targets-migrant-cell-phone-data-at-ngos-raising-privacy-concerns
+https://www.wired.com/story/fbi-purchase-location-data-wray-senate/
 
 ### Anti-choice Activists and Bounties
 
