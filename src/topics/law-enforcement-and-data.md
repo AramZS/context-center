@@ -117,6 +117,7 @@ https://time.com/6184111/abortion-surveillance-tech-tracking/
 
 https://www.washingtonpost.com/technology/2022/06/29/google-facebook-abortion-data/
 https://techcrunch.com/2023/01/27/digital-data-roe-wade-reproductive-privacy/
+https://www.businessinsider.com/police-getting-help-social-media-to-prosecute-people-seeking-abortions-2023-2
 
 ### Fighting Back
 
