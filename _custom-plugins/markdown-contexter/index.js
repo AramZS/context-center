@@ -105,7 +105,7 @@ module.exports = (eleventyConfig, userOptions) => {
 			urlsArray.forEach((urlObj) => {
 				const link = urlObj.url;
 				const timeoutID = setTimeout(() => {
-					console.trace("Failure to deal with urlObj ", urlObj.url);
+					console.log("Failure to deal with urlObj ", urlObj.url);
 					let backoffObj = JSON.parse(fs.readFileSync(backoffList));
 					if (backoffObj?.list.includes(urlObj.url)) {
 						console.log("Backoff process failed");
@@ -118,7 +118,7 @@ module.exports = (eleventyConfig, userOptions) => {
 							JSON.stringify(backoffObj)
 						);
 					}
-					throw new Error("Timed out after 30s");
+					// throw new Error("Timed out after 30s");
 				}, 30000);
 				// console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
