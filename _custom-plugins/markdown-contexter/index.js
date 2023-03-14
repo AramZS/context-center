@@ -119,7 +119,7 @@ module.exports = (eleventyConfig, userOptions) => {
 						);
 					}
 					// throw new Error("Timed out after 30s");
-				}, 30000);
+				}, 60000);
 				// console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
 				const fileName = filenameMaker(link);
@@ -270,13 +270,12 @@ module.exports = (eleventyConfig, userOptions) => {
 													if (localImageFileName) {
 														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
 														// console.log('write data to file', cacheFile)
-
-														fs.writeFileSync(
-															cacheFile,
-															JSON.stringify(r)
-														);
-														resolve(cacheFile);
 													}
+													fs.writeFileSync(
+														cacheFile,
+														JSON.stringify(r)
+													);
+													resolve(cacheFile);
 												})
 												.catch((e) => {
 													console.log(
@@ -305,7 +304,7 @@ module.exports = (eleventyConfig, userOptions) => {
 													link
 												)
 											);
-										}, 10000);
+										}, 15000);
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);
