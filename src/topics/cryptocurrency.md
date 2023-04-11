@@ -248,6 +248,7 @@ https://www.theguardian.com/technology/2022/jan/30/how-do-we-solve-bitcoins-carb
 #### Bad for the environment
 
 https://digiconomist.net/bitcoin-energy-consumption/
+https://www.nytimes.com/2023/04/09/business/bitcoin-mining-electricity-pollution.html
 https://www.bbc.com/news/av/technology-58020010
 https://apnews.com/article/bitcoin-mining-new-york-power-plant-climate-change-516dbd319394a6a30f83d94947abad20
 https://gizmodo.com/iran-bans-crypto-mining-after-months-of-blackouts-1846991039
