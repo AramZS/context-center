@@ -143,3 +143,4 @@ https://pixelfed.org/
 https://join.misskey.page/
 https://bookwyrm.social/
 https://owncast.online/
+https://nlnet.nl/project/Lemmy/
