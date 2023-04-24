@@ -34,12 +34,12 @@ featuredImageAlt: "AI-generated image of a robot artist"
 
 ## AI and Journalism
 
-- https://www.wired.com/about/generative-ai-policy/
-- https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-technology-risks-fake-article
-- [A Checklist of Eighteen Pitfalls in AI Journalism (PDF)](https://www.cs.princeton.edu/~sayashk/ai-hype/ai-reporting-pitfalls.pdf)
-- https://www.heidi.news/cyber/la-redaction-de-heidi-news-prend-position-sur-l-usage-des-intelligences-artificielles
-- https://twitter.com/martinstabe/status/1643197654346629120
-- https://www.niemanlab.org/2023/04/what-if-chatgpt-was-trained-on-decades-of-financial-news-and-data-bloomberggpt-aims-to-be-a-domain-specific-ai-for-business-news/
+https://www.wired.com/about/generative-ai-policy/
+https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-technology-risks-fake-article
+[A Checklist of Eighteen Pitfalls in AI Journalism (PDF)](https://www.cs.princeton.edu/~sayashk/ai-hype/ai-reporting-pitfalls.pdf)
+https://www.heidi.news/cyber/la-redaction-de-heidi-news-prend-position-sur-l-usage-des-intelligences-artificielles
+https://twitter.com/martinstabe/status/1643197654346629120
+https://www.niemanlab.org/2023/04/what-if-chatgpt-was-trained-on-decades-of-financial-news-and-data-bloomberggpt-aims-to-be-a-domain-specific-ai-for-business-news/
 
 ## Misinformation
 
