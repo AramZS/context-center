@@ -98,6 +98,8 @@ https://www.forbes.com/sites/rashishrivastava/2023/04/20/ive-never-hired-a-write
 
 https://www.nytimes.com/2023/04/19/arts/music/ai-drake-the-weeknd-fake.html
 
+https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
