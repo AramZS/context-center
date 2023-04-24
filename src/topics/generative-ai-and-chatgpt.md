@@ -40,6 +40,7 @@ https://www.theguardian.com/commentisfree/2023/apr/06/ai-chatgpt-guardian-techno
 https://www.heidi.news/cyber/la-redaction-de-heidi-news-prend-position-sur-l-usage-des-intelligences-artificielles
 https://twitter.com/martinstabe/status/1643197654346629120
 https://www.niemanlab.org/2023/04/what-if-chatgpt-was-trained-on-decades-of-financial-news-and-data-bloomberggpt-aims-to-be-a-domain-specific-ai-for-business-news/
+https://open.nytimes.com/to-apply-machine-learning-responsibly-we-use-it-in-moderation-d001f49e0644
 
 ## Misinformation
 
@@ -69,8 +70,6 @@ https://www.niemanlab.org/2023/03/how-will-journalists-use-chatgpt-clues-from-a-
 
 https://open.nytimes.com/how-the-new-york-times-uses-machine-learning-to-make-its-paywall-smarter-e5771d5f46f8
 
-https://open.nytimes.com/to-apply-machine-learning-responsibly-we-use-it-in-moderation-d001f49e0644
-
 https://open.nytimes.com/we-recommend-articles-with-a-little-help-from-our-friends-machine-learning-and-reader-input-e17e85d6cf04
 
 https://generative-ai-newsroom.com/finding-newsworthy-documents-using-generative-ai-a43a41a90e30
@@ -93,8 +92,6 @@ https://interconnected.org/home/2023/02/07/braggoscope
 
 https://us06web.zoom.us/rec/play/7P37sWaiB1GNVIHAHV0FmG89xVeFIcaYIFPTixplv_9AN-zUrypKn6qxsTVp3OQsVymgO6g8CHW4fxM.S5ZtF8ahGuJF-cCz?autoplay=true
 
-https://tech.buzzfeed.com/lessons-learned-building-products-powered-by-generative-ai-7f6c23bff376
-
 https://www.theregister.com/2023/03/08/uk_publisher_using_ai/
 
 https://www.forbes.com/sites/rashishrivastava/2023/04/20/ive-never-hired-a-writer-better-than-chatgpt-how-ai-is-upending-the-freelance-world/
@@ -108,6 +105,8 @@ https://spectrum.ieee.org/duolingo
 https://github.blog/2022-09-07-research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/
 
 https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+
+https://tech.buzzfeed.com/lessons-learned-building-products-powered-by-generative-ai-7f6c23bff376
 
 https://www.reforge.com/blog/ai-products-arms-race
 
