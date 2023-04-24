@@ -90,7 +90,7 @@ https://decrypt.co/122900/introducing-news-explorer-an-experiment-in-human-ai-co
 
 https://interconnected.org/home/2023/02/07/braggoscope
 
-[Zoom Workshop: ChatGPT for local news publishers](https://us06web.zoom.us/rec/play/7P37sWaiB1GNVIHAHV0FmG89xVeFIcaYIFPTixplv_9AN-zUrypKn6qxsTVp3OQsVymgO6g8CHW4fxM.S5ZtF8ahGuJF-cCz?autoplay=true)
+https://us06web.zoom.us/rec/play/7P37sWaiB1GNVIHAHV0FmG89xVeFIcaYIFPTixplv_9AN-zUrypKn6qxsTVp3OQsVymgO6g8CHW4fxM.S5ZtF8ahGuJF-cCz?autoplay=true
 
 https://www.theregister.com/2023/03/08/uk_publisher_using_ai/
 
@@ -164,6 +164,12 @@ https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises
 - https://gizmodo.com/samsung-galaxy-camera-fake-moon-photo-reddit-ai-texture-1850229593
 - https://arstechnica.com/gadgets/2023/03/samsung-says-it-adds-fake-detail-to-moon-photos-via-reference-photos/
 - https://www.theverge.com/2023/3/15/23641069/samsung-fake-moon-controversy-english-language-blog-post
+
+
+## Generative AI in education
+
+ - https://acoup.blog/2023/02/17/collections-on-chatgpt/
+ - https://restofworld.org/2023/chatgpt-taking-kenya-ghostwriters-jobs/
 
 ## Notes
 
