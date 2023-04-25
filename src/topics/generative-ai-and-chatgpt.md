@@ -145,7 +145,7 @@ https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innov
 
 https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
 
-https://www.ap.org/assets/files/pai-x-ap-ethics-guide.pdf
+[Ethical Considerations for Journalists Using Tools that Include AI](https://www.ap.org/assets/files/pai-x-ap-ethics-guide.pdf)
 
 https://syntheticmedia.partnershiponai.org/#landing
 
