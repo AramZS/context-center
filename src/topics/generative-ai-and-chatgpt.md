@@ -167,6 +167,12 @@ https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises
 - https://arstechnica.com/gadgets/2023/03/samsung-says-it-adds-fake-detail-to-moon-photos-via-reference-photos/
 - https://www.theverge.com/2023/3/15/23641069/samsung-fake-moon-controversy-english-language-blog-post
 
+
+## Generative AI in education
+
+ - https://acoup.blog/2023/02/17/collections-on-chatgpt/
+ - https://restofworld.org/2023/chatgpt-taking-kenya-ghostwriters-jobs/
+
 ## Notes
 
 By definition LLMs must take public data, repackage it for sale, and then make it usable for more sale without ever crediting or returning value to the public authors.
