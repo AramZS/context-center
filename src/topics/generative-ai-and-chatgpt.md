@@ -90,7 +90,7 @@ https://decrypt.co/122900/introducing-news-explorer-an-experiment-in-human-ai-co
 
 https://interconnected.org/home/2023/02/07/braggoscope
 
-https://us06web.zoom.us/rec/play/7P37sWaiB1GNVIHAHV0FmG89xVeFIcaYIFPTixplv_9AN-zUrypKn6qxsTVp3OQsVymgO6g8CHW4fxM.S5ZtF8ahGuJF-cCz?autoplay=true
+[Zoom Workshop: ChatGPT for local news publishers](https://us06web.zoom.us/rec/play/7P37sWaiB1GNVIHAHV0FmG89xVeFIcaYIFPTixplv_9AN-zUrypKn6qxsTVp3OQsVymgO6g8CHW4fxM.S5ZtF8ahGuJF-cCz?autoplay=true)
 
 https://www.theregister.com/2023/03/08/uk_publisher_using_ai/
 
