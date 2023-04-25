@@ -41,11 +41,16 @@ https://www.heidi.news/cyber/la-redaction-de-heidi-news-prend-position-sur-l-usa
 https://twitter.com/martinstabe/status/1643197654346629120
 https://www.niemanlab.org/2023/04/what-if-chatgpt-was-trained-on-decades-of-financial-news-and-data-bloomberggpt-aims-to-be-a-domain-specific-ai-for-business-news/
 https://open.nytimes.com/to-apply-machine-learning-responsibly-we-use-it-in-moderation-d001f49e0644
+https://www.thecurrent.com/publishers-fear-chatgpt-undermine-media-industry-entirely
+https://www.theatlantic.com/technology/archive/2023/03/chatgpt-api-software-integration/673340/
 
 ## Misinformation
 
 https://www.readtpa.com/p/fake-trump-arrest-photos
 https://www.theatlantic.com/technology/archive/2023/03/fake-ai-generated-puffer-coat-pope-photo/673543/
+https://simonwillison.net/2023/Mar/10/chatgpt-internet-access/
+https://blog.opencagedata.com/post/dont-believe-chatgpt
+https://www.poynter.org/fact-checking/2023/chatgpt-build-fake-news-organization-website/
 
 ## Tools
 
@@ -100,6 +105,16 @@ https://www.nytimes.com/2023/04/19/arts/music/ai-drake-the-weeknd-fake.html
 
 https://www.washingtonpost.com/technology/interactive/2023/ai-chatbot-learning/
 
+https://www.reuters.com/technology/chatgpt-launches-boom-ai-written-e-books-amazon-2023-02-21/
+
+https://www.newyorker.com/tech/annals-of-technology/chatgpt-is-a-blurry-jpeg-of-the-web
+
+https://meta.stackoverflow.com/questions/421831/temporary-policy-chatgpt-is-banned?cb=1
+
+https://maximumeffort.substack.com/p/i-taught-chatgpt-to-invent-a-language
+
+https://www.engraved.blog/building-a-virtual-machine-inside/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -148,6 +163,14 @@ https://themarkup.org/hello-world/2023/01/28/decoding-the-hype-about-ai
 
 https://fairmlbook.org/
 
+https://www.searchenginejournal.com/how-to-block-chatgpt-from-using-your-website-content/478384/
+
+https://arstechnica.com/tech-policy/2023/04/openai-may-be-sued-after-chatgpt-falsely-says-aussie-mayor-is-an-ex-con/
+
+https://www.washingtonpost.com/technology/2023/04/05/chatgpt-lies/
+
+https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html
+
 ## Big Tech + Generative AI
 
 ### Bing
@@ -159,6 +182,7 @@ https://www.cnn.com/2023/03/16/tech/openai-gpt-microsoft-365/index.html
 ### Bard
 
 https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises-ethical-concerns-from-employees
+https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaREDEF
 
 
 ### Samsung Moon Shots
@@ -171,7 +195,10 @@ https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises
 ## Generative AI in education
 
  - https://acoup.blog/2023/02/17/collections-on-chatgpt/
+ - https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist
  - https://restofworld.org/2023/chatgpt-taking-kenya-ghostwriters-jobs/
+ - https://www.theverge.com/2023/1/26/23570967/chatgpt-author-scientific-papers-springer-nature-ban
+ - https://www.npr.org/sections/money/2023/01/17/1149206188/this-22-year-old-is-trying-to-save-us-from-chatgpt-before-it-changes-writing-for
 
 ## Notes
 

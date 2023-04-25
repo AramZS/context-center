@@ -1,0 +1,133 @@
+{
+	"initialLink": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+	"sanitizedLink": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+	"finalLink": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+	"htmlEmbed": "<script>window.contexterSetup=window.contexterSetup||function(){window.contexterSetupComplete=!0;class ContexterLink extends HTMLAnchorElement{constructor(){super()}connectedCallback(){this.setAttribute(\"target\",\"_blank\")}}customElements.define(\"contexter-link\",ContexterLink,{extends:\"a\"}),customElements.define(\"contexter-inner\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__inner\"}}),customElements.define(\"contexter-thumbnail\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__thumbnail\"}}),customElements.define(\"contexter-byline\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__byline\"}}),customElements.define(\"contexter-keywordset\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__keywordset\"}}),customElements.define(\"contexter-linkset\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__linkset\"}}),customElements.define(\"contexter-meta\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"contexter-box__meta\"}}),customElements.define(\"contexter-summary\",class extends HTMLElement{constructor(){super()}attributeChangedCallback(name,oldValue,newValue){}connectedCallback(){this.className=\"p-summary entry-summary\"}}),customElements.define(\"contexter-box-head\",class extends HTMLElement{constructor(){super()}connectedCallback(){this.className=\"contexter-box__head\"}}),customElements.define(\"contexter-box-inner\",class extends HTMLElement{constructor(){super()}connectedCallback(){}});class ContexterBox extends HTMLElement{constructor(){super(),this.first=!0,this.shadow=this.attachShadow({mode:\"open\"})}connectedCallback(){if(this.first){this.first=!1;var style=document.createElement(\"style\"),lightDomStyle=(style.innerHTML=`:host {--background: #f5f6f7;--border: darkblue;--blue: #0000ee;--font-color: black;--inner-border: black;font-family: Franklin,Arial,Helvetica,sans-serif;font-size: 14px;background: var(--background);width: 600px;color: var(--font-color);min-height: 90px;display: block;padding: 8px;border: 1px solid var(--border);cursor: pointer;box-sizing: border-box;margin: 6px;contain: content;margin: 6px auto;}// can only select top-level nodes with slotted::slotted(*) {max-width: 100%;display:block;}::slotted([slot=thumbnail]) {max-width: 100%;display:block;}::slotted([slot=header]) {width: 100%;font-size: 1.25rem;font-weight: bold;display:block;margin-bottom: 6px;}::slotted([slot=author]) {max-width: 50%;font-size: 12px;display:inline-block;float: left;}::slotted([slot=time]) {max-width: 50%;font-size: 12px;display:inline-block;float: right;}::slotted([slot=summary]) {width: 100%;margin-top: 6px;padding: 10px 2px;border-top: 1px solid var(--inner-border);font-size: 15px;display:inline-block;margin-bottom: 6px;}contexter-meta {height: auto;margin-bottom: 4px;width: 100%;display: grid;position: relative;min-height: 16px;grid-template-columns: repeat(2, 1fr);}::slotted([slot=keywords]) {width: 80%;padding: 2px 4px;border-top: 1px solid var(--inner-border);font-size: 11px;display: block;float: right;font-style: italic;text-align: right;grid-column: 2/2;grid-row: 1;align-self: end;justify-self: end;}::slotted([slot=keywords]):empty {border-top: 0px solid var(--inner-border);}::slotted([slot=archive-link]) {font-size: 1em;display: inline;}::slotted([slot=archive-link])::after {content: \"|\";display: inline;color: var(--font-color);text-decoration: none;margin: 0 .5em;}::slotted([slot=read-link]) {font-size: 1em;display: inline;}contexter-linkset {width: 80%;padding: 2px 4px;font-size: 13px;float: left;font-weight: bold;grid-row: 1;grid-column: 1/2;align-self: end;justify-self: start;}/* Extra small devices (phones, 600px and down) */@media only screen and (max-width: 600px) {:host {width: 310px;}}/* Small devices (portrait tablets and large phones, 600px and up) */@media only screen and (min-width: 600px) {...}/* Medium devices (landscape tablets, 768px and up) */@media only screen and (min-width: 768px) {...}/* Large devices (laptops/desktops, 992px and up) */@media only screen and (min-width: 992px) {...}/* Extra large devices (large laptops and desktops, 1200px and up) */@media only screen and (min-width: 1200px) {...}@media (prefers-color-scheme: dark){:host {--background: #354150;--border: #1f2b37;--blue: #55b0ff;--font-color: #ffffff;--inner-border: #787a7c;background: var(--background);border: 1px solid var(--border)}}`,document.createElement(\"style\"));lightDomStyle.innerHTML=`contexter-box {contain: content;}contexter-box .read-link {font-weight: bold;}contexter-box a {color: #0000ee;}contexter-box img {width: 100%;border: 0;padding: 0;margin: 0;}/* Extra small devices (phones, 600px and down) */@media only screen and (max-width: 600px) {...}/* Small devices (portrait tablets and large phones, 600px and up) */@media only screen and (min-width: 600px) {...}/* Medium devices (landscape tablets, 768px and up) */@media only screen and (min-width: 768px) {...}/* Large devices (laptops/desktops, 992px and up) */@media only screen and (min-width: 992px) {...}/* Extra large devices (large laptops and desktops, 1200px and up) */@media only screen and (min-width: 1200px) {...}@media (prefers-color-scheme: dark){contexter-box a {color: #55b0ff;}}`,this.appendChild(lightDomStyle),this.shadow.appendChild(style);const innerContainer=document.createElement(\"contexter-box-inner\"),innerSlotThumbnail=(this.shadow.appendChild(innerContainer),document.createElement(\"slot\")),innerSlotHeader=(innerSlotThumbnail.name=\"thumbnail\",innerContainer.appendChild(innerSlotThumbnail),document.createElement(\"slot\")),innerSlotAuthor=(innerSlotHeader.name=\"header\",innerContainer.appendChild(innerSlotHeader),document.createElement(\"slot\")),innerSlotTime=(innerSlotAuthor.name=\"author\",innerContainer.appendChild(innerSlotAuthor),document.createElement(\"slot\")),innerSlotSummary=(innerSlotTime.name=\"time\",innerContainer.appendChild(innerSlotTime),document.createElement(\"slot\")),metaContainer=(innerSlotSummary.name=\"summary\",innerContainer.appendChild(innerSlotSummary),document.createElement(\"contexter-meta\")),innerSlotInfo=(innerContainer.appendChild(metaContainer),document.createElement(\"slot\")),linkContainer=(innerSlotInfo.name=\"keywords\",metaContainer.appendChild(innerSlotInfo),document.createElement(\"contexter-linkset\")),innerSlotArchiveLink=(metaContainer.appendChild(linkContainer),document.createElement(\"slot\")),innerSlotReadLink=(innerSlotArchiveLink.name=\"archive-link\",linkContainer.appendChild(innerSlotArchiveLink),document.createElement(\"slot\"));innerSlotReadLink.name=\"read-link\",linkContainer.appendChild(innerSlotReadLink),this.className=\"contexter-box\",this.onclick=e=>{if(!e.target.className.includes(\"read-link\")&&!e.target.className.includes(\"title-link\")){const mainLinks=this.querySelectorAll(\"a.main-link\");mainLinks[0].click()}}}}}customElements.define(\"contexter-box\",ContexterBox)},window.contexterSetupComplete||window.contexterSetup();</script><contexter-box class=\"link-card h-entry hentry\" itemscope=\"\" itemtype=\"https://schema.org/CreativeWork\"><contexter-thumbnail class=\"thumbnail\" slot=\"thumbnail\"></contexter-thumbnail><contexter-box-head slot=\"header\" class=\"p-name entry-title\" itemprop=\"headline\"><contexter-box-head slot=\"header\" class=\"p-name entry-title\" itemprop=\"headline\"><a is=\"contexter-link\" href=\"https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist\" itemprop=\"url\">ChatGPT and AI Text Generators: Should Academia Adapt or Resist?</a></contexter-box-head></contexter-box-head><time class=\"dt-published published\" slot=\"time\" itemprop=\"datePublished\" datetime=\"2023-04-25T14:16:37.628Z\">4/25/2023</time><contexter-keywordset itemprop=\"keywords\" slot=\"keywords\"></contexter-keywordset><a is=\"contexter-link\" href=\"https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist\" class=\"read-link main-link\" itemprop=\"sameAs\" slot=\"read-link\">Read</a></contexter-box>",
+	"linkId": "9f67b45bb6e23747c5d54cef63fdb3766e95d2b8",
+	"data": {
+		"originalLink": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+		"sanitizedLink": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+		"canonical": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+		"htmlText": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1,shrink-to-fit=no\"><meta name=\"theme-color\" content=\"#000000\"><script src=\"/env-config.js\"></script><script>document.write(ENV_CONFIG.ROBOTS_META)</script><link rel=\"manifest\" href=\"/manifest.json\"><link rel=\"shortcut icon\" href=\"/images/ico/favicon.png\"><link rel=\"apple-touch-icon-precomposed\" sizes=\"144x144\" href=\"/images/ico/apple-touch-icon-144-precomposed.png\"><link rel=\"apple-touch-icon-precomposed\" sizes=\"114x114\" href=\"/images/ico/apple-touch-icon-114-precomposed.png\"><link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\" href=\"/images/ico/apple-touch-icon-72-precomposed.png\"><link rel=\"apple-touch-icon-precomposed\" href=\"/images/ico/apple-touch-icon-57-precomposed.png\"><title>ChatGPT and AI Text Generators: Should Academia Adapt or Resist?</title><script defer=\"defer\" src=\"/static/js/8467.ad48d29e.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/polyfills.600d2e33.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/4176.0db8fe93.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/4505.8f3ec412.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/5218.14336484.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/2209.5390a3a2.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/2802.7cc58d35.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/2748.f002c3ad.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/4963.1c784195.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/4432.58c41eed.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/903.969e3bfb.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/4455.5989b7fb.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/393.c7936bcc.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/8993.9371d190.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/7407.5a8d3222.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/266.17da56b9.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/7427.55d3341d.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/3534.88266671.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/8152.5a0e48be.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/9257.a75b7369.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/2836.b69fa69f.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/5261.07b49f35.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/43.619e42b8.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/2451.0a814a9e.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/879.9bada50a.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/1221.c2fb743b.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/458.59cfbf32.js?4ac4becf103fea4eff89\"></script><script defer=\"defer\" src=\"/static/js/main.296c28bb.js?4ac4becf103fea4eff89\"></script><link href=\"/static/css/4176.ba7b1de8.css?4ac4becf103fea4eff89\" rel=\"stylesheet\"><link href=\"/static/css/main.0ca514f6.css?4ac4becf103fea4eff89\" rel=\"stylesheet\"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id=\"root\"></div><script>window.prerenderReady=!1,window.setTimeout((function(){window.prerenderServiceInitialized||(window.prerenderReady=!0)}),ENV_CONFIG.PRERENDER_TIMEOUT||1e3)</script><script>!function(){var e=document.createElement(\"script\");e.src=\"/js/\"+ENV_CONFIG.NEW_RELIC_SCRIPT,e.defer=\"defer\",e.async=\"async\",document.body.appendChild(e)}()</script><script>!function(){var e=document.createElement(\"script\");e.src=ENV_CONFIG.ANALYTICS_SCRIPT,e.defer=\"defer\",e.async=\"async\",e.onload=function(){window._satellite&&_satellite.pageBottom()},document.body.appendChild(e)}()</script><script>\"serviceWorker\"in navigator&&window.addEventListener(\"load\",(function(){navigator.serviceWorker.register(\"/service-worker.js\").then((function(e){console.log(\"SW registered: \",e)})).catch((function(e){console.log(\"SW registration failed: \",e)}))}))</script></body></html>",
+		"oembed": false,
+		"readabilityObject": {
+			"title": false,
+			"content": false,
+			"textContent": false,
+			"length": false,
+			"excerpt": false,
+			"byline": false,
+			"dir": false,
+			"siteName": false
+		},
+		"finalizedMeta": {
+			"title": "ChatGPT and AI Text Generators: Should Academia Adapt or Resist?",
+			"description": "",
+			"author": false,
+			"creator": "",
+			"publisher": false,
+			"date": "2023-04-25T14:16:37.628Z",
+			"topics": []
+		},
+		"jsonLd": {
+			"@type": false,
+			"headline": false,
+			"description": false,
+			"image": [],
+			"mainEntityOfPage": {
+				"@type": false,
+				"@id": false
+			},
+			"datePublished": false,
+			"dateModified": false,
+			"isAccessibleForFree": false,
+			"isPartOf": {
+				"@type": [],
+				"name": false,
+				"productID": false
+			},
+			"discussionUrl": false,
+			"license": false,
+			"author": {
+				"@type": false,
+				"name": false,
+				"description": false,
+				"sameAs": false,
+				"image": {
+					"@type": false,
+					"url": false
+				},
+				"givenName": false,
+				"familyName": false,
+				"alternateName": false,
+				"publishingPrinciples": false
+			},
+			"publisher": {
+				"@type": false,
+				"name": false,
+				"description": false,
+				"sameAs": false,
+				"logo": {
+					"@type": false,
+					"url": false
+				},
+				"publishingPrinciples": false
+			},
+			"editor": {
+				"@type": false,
+				"name": false,
+				"description": false,
+				"sameAs": false,
+				"image": {
+					"@type": false,
+					"url": false
+				},
+				"givenName": false,
+				"familyName": false,
+				"alternateName": false,
+				"publishingPrinciples": false
+			}
+		},
+		"twitterObj": false,
+		"status": 200,
+		"metadata": {
+			"author": false,
+			"title": "ChatGPT and AI Text Generators: Should Academia Adapt or Resist?",
+			"description": false,
+			"canonical": "https://hbsp.harvard.edu/inspiring-minds/chatgpt-and-ai-text-generators-should-academia-adapt-or-resist",
+			"keywords": [],
+			"image": false,
+			"firstParagraph": ""
+		},
+		"dublinCore": {},
+		"opengraph": {
+			"title": false,
+			"description": false,
+			"url": false,
+			"site_name": false,
+			"locale": false,
+			"type": false,
+			"typeObject": {
+				"published_time": false,
+				"modified_time": false,
+				"author": false,
+				"publisher": false,
+				"section": false,
+				"tag": []
+			},
+			"image": false
+		},
+		"twitter": {
+			"site": false,
+			"description": false,
+			"card": false,
+			"creator": false,
+			"title": false,
+			"image": false
+		},
+		"archivedData": {
+			"link": false,
+			"wayback": false
+		}
+	}
+}
