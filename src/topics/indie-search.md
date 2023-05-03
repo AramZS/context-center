@@ -36,6 +36,13 @@ https://fastapi.tiangolo.com/
 https://github.com/google-research/google-research/tree/master/scann
 https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
 
+### Search for Static Sites 
+
+http://elasticlunr.com/
+https://lunrjs.com/
+https://pagefind.app/
+https://stork-search.net/
+
 ## Specific Search & Recommendation Platforms
 
 https://blogsurf.io

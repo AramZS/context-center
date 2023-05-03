@@ -42,9 +42,12 @@ https://www.theguardian.com/commentisfree/2021/jan/31/as-the-father-of-a-trans-m
 https://www.teenvogue.com/story/united-states-government-transphobia-trans-existence-transcendence
 https://www.npr.org/2022/03/21/1087937431/a-third-of-trans-youth-are-at-risk-of-losing-gender-affirming-care-study-says
 https://www.scottishlegal.com/articles/dr-sandra-duffy-puberty-blockers-ruling-will-have-chilling-effect
+https://erininthemorn.substack.com/p/first-period-anti-trans-legislative
+https://www.nytimes.com/2023/01/25/us/politics/transgender-laws-republicans.html
 
 ## Science
 
+https://www.scientificamerican.com/article/what-the-science-on-gender-affirming-care-for-transgender-kids-really-shows/
 https://massivesci.com/articles/kale-edmiston-transgender-neuroscience/
 https://www.sciencedirect.com/science/article/abs/pii/S0273229706000773
 https://www.sciencedirect.com/science/article/pii/S2352154620301509
@@ -93,6 +96,7 @@ https://www.youtube.com/watch?v=HdT1PvJDRo4
 https://www.youtube.com/watch?v=yCxqdhZkxCo
 https://www.vice.com/en/article/mbdx7n/100-ways-be-trans-ally-tips
 https://tdor.translivesmatter.info/pages/about
+https://nytletter.com
 
 <hr />
 

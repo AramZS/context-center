@@ -24,7 +24,7 @@ let site = "https://" + domain_name;
 
 if (process.env.IS_LOCAL) {
 	site = "http://localhost:8083";
-	throwOnUndefinedSetting = true;
+	throwOnUndefinedSetting = false;
 	console.log("Dev env");
 }
 

@@ -87,6 +87,7 @@ https://www.eff.org/deeplinks/2022/08/inside-fog-data-science-secretive-company-
 https://apnews.com/article/technology-police-government-surveillance-d395409ef5a8c6c3f6cdab5b1d0e27ef
 https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/
 https://www.tpr.org/border-immigration/2023-01-06/conservative-group-targets-migrant-cell-phone-data-at-ngos-raising-privacy-concerns
+https://www.wired.com/story/fbi-purchase-location-data-wray-senate/
 
 ### Anti-choice Activists and Bounties
 
@@ -118,6 +119,8 @@ https://time.com/6184111/abortion-surveillance-tech-tracking/
 <p><a href="https://www.bloomberg.com/news/articles/2022-06-27/anti-abortion-centers-find-pregnant-teens-online-then-save-their-data" target="_blank">Anti-Abortion Centers Find Pregnant Teens Online, Then Save Their Data</a></p>
 
 https://www.washingtonpost.com/technology/2022/06/29/google-facebook-abortion-data/
+https://techcrunch.com/2023/01/27/digital-data-roe-wade-reproductive-privacy/
+https://www.businessinsider.com/police-getting-help-social-media-to-prosecute-people-seeking-abortions-2023-2
 
 ### Fighting Back
 

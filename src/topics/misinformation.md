@@ -115,3 +115,8 @@ https://techpolicy.press/reconsidering-the-fight-against-disinformation/
 https://www.youtube.com/watch?v=MCfMupGRqqY
 https://www.demandprotest.com/2600.html
 https://digitalcommons.unl.edu/senatedocs/2/
+
+### Critics 
+
+https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/
+

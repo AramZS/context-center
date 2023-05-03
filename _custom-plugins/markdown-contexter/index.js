@@ -5,9 +5,6 @@ var slugify = require("slugify");
 var sanitizeFilename = require("sanitize-filename");
 var imageHandler = require("./image-handler");
 
-const urlRegex =
-	/^([\t\- ]*)*(?<main>(\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’]))(?=\n|\r)$)+)/gim;
-
 module.exports = (eleventyConfig, userOptions) => {
 	let options = {
 		name: "markdown-contexter",
@@ -67,22 +64,62 @@ module.exports = (eleventyConfig, userOptions) => {
 				resolve(true);
 			}, 30);
 		});
+		// console.log("Running reMarkdown for ", data.title);
 		// completeAllPromiseArray.push(promiseContext);
 		// const urls = urlRegex.exec(inputContent); // .exec(inputContent);
+		// Had a runaway regex problem here. See: https://www.regular-expressions.info/catastrophic.html and https://javascript.info/regexp-catastrophic-backtracking for details. It was caused by a rogue space at the end of a line. Hopefully this fixed it and broke nothing else.
+		const urlRegex =
+			/^([\t\- ]*)*(?<main>(\b((?:[a-z][\w-]+:(?:\/{1,3}|[a-z0-9%])|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}\/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:'".,<>?«»“”‘’])))+)/gim;
 		let matchArray = [];
 		let urlsArray = [];
+		matchArray = inputContent.matchAll(urlRegex);
 		let counter = 0;
-		while ((matchArray = urlRegex.exec(inputContent)) != null) {
-			// console.log("Found URLs", matchArray.groups.main, matchArray[0]);
+		for (const match of matchArray) {
+			/** console.log(
+				"Found URL index ",
+				urlRegex.lastIndex,
+				match.groups.main,
+				match[0]
+			); */
 			urlsArray.push({
-				url: matchArray.groups.main,
-				replace: matchArray[0],
+				url: match.groups.main,
+				replace: match[0],
 			});
 			counter++;
 		}
+		//console.log("URLs found to process ", urlsArray);
+		const backoffFileObj = cacheFilePath("", "backoff");
+		const backoffList = backoffFileObj.cacheFile;
+		try {
+			fs.accessSync(backoffList, fs.constants.F_OK);
+		} catch (e) {
+			fs.writeFileSync(
+				backoffList,
+				JSON.stringify({ list: [], lastCheck: {} })
+			);
+		}
+
+		let backoffObj = JSON.parse(fs.readFileSync(backoffList));
+
 		if (urlsArray.length) {
 			urlsArray.forEach((urlObj) => {
 				const link = urlObj.url;
+				const timeoutID = setTimeout(() => {
+					console.log("Failure to deal with urlObj ", urlObj.url);
+					let backoffObj = JSON.parse(fs.readFileSync(backoffList));
+					if (backoffObj?.list.includes(urlObj.url)) {
+						console.log("Backoff process failed");
+					} else {
+						backoffObj.list.push(urlObj.url);
+						backoffObj.lastCheck[urlObj.url] =
+							new Date().toString();
+						fs.writeFileSync(
+							backoffList,
+							JSON.stringify(backoffObj)
+						);
+					}
+					// throw new Error("Timed out after 30s");
+				}, 60000);
 				// console.log("inputContent Process: ", link);
 				// console.log("inputContent treated", inputContent);
 				const fileName = filenameMaker(link);
@@ -111,6 +148,7 @@ module.exports = (eleventyConfig, userOptions) => {
 						cacheFilePath,
 						completeAllPromiseArray
 					);
+					// console.log("Image checked", localImageObj);
 					if (localImageObj) {
 						const { localImageName, originalImage, imageName } =
 							localImageObj;
@@ -148,17 +186,51 @@ module.exports = (eleventyConfig, userOptions) => {
 							urlObj.replace,
 							htmlEmbed
 						);
+						// console.log("Link replaced with context: ", link);
 					}
+					try {
+						const index = backoffObj.list.indexOf(link);
+						if (index > -1) {
+							// only splice array when item is found
+							backoffObj.list.splice(index, 1); // 2nd parameter means remove one item only
+						}
+						delete backoffObj.lastCheck[link];
+						clearTimeout(timeoutID);
+					} catch (e) {
+						console.log(
+							"Backoff list removal failed for link ",
+							link
+						);
+					}
+					return;
 				} catch (e) {
 					try {
 						if (imageCheck) {
 							console.log("Image issue possibly", e);
 						}
-						console.log("Contextualizing link: ", link);
+						// console.log("Contextualizing link: ", link);
 						inputContent = inputContent.replace(
 							urlObj.replace,
 							`<p><a href="${link}" target="_blank">${link}</a></p>`
 						);
+						if (backoffObj?.list.includes(link)) {
+							const dateDiff =
+								Date.now() -
+								Date.parse(backoffObj.lastCheck[link]);
+							if (dateDiff < 1.21e9) {
+								console.log(
+									"Backing off link: ",
+									link,
+									" with date diff of ",
+									dateDiff
+								);
+								// It has been less than 14 days since the last check
+								return;
+							}
+						} else {
+							backoffObj.list.push(link);
+							backoffObj.lastCheck[link] = new Date().toString();
+						}
 						let pContext = contexter.context(link);
 						// completeAllPromiseArray.push(pContext);
 						// No file yet
@@ -233,10 +305,15 @@ module.exports = (eleventyConfig, userOptions) => {
 													link
 												)
 											);
+<<<<<<< HEAD
 										}, 10000);
+=======
+										}, 15000);
+>>>>>>> origin/main
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);
+								return;
 							})
 							.catch((e) => {
 								console.log(
@@ -249,10 +326,18 @@ module.exports = (eleventyConfig, userOptions) => {
 						console.log("Contexter Process Failed: ", e);
 					}
 				}
+				clearTimeout(timeoutID);
 			});
+			fs.writeFileSync(backoffList, JSON.stringify(backoffObj));
 		}
+		// console.log("Input content ready to return");
+		const renderResult = options.existingRenderer.render(
+			inputContent,
+			data
+		);
+		// console.log("Input content processing result for ", data.title);
 		// 2nd argument sets env
-		return options.existingRenderer.render(inputContent, data);
+		return renderResult;
 	};
 	const compiler = (inputContent, inputPath) => {
 		// console.log("msc", inputContent, inputPath);
@@ -279,6 +364,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					// console.log("msc compile");
 
 					const rmResult = reMarkdown(inputContent, data);
+					// console.log("Processed with reMarkdown function complete");
 					return rmResult;
 				}
 			} catch (e) {
@@ -287,7 +373,14 @@ module.exports = (eleventyConfig, userOptions) => {
 			// console.log("msc data");
 			// console.dir(this.global);
 			// You can also access the default `markdown-it` renderer here:
-			return this.defaultRenderer(data);
+			try {
+				return this.defaultRenderer(data);
+			} catch (e) {
+				console.log(
+					"Default render process has failed, this is bad ",
+					e
+				);
+			}
 		};
 	};
 	eleventyConfig.addExtension(options.extension, {
@@ -335,6 +428,9 @@ module.exports = (eleventyConfig, userOptions) => {
 			archiveFilesList = buildArchiveFileList();
 			const archives = [];
 			archiveFilesList.forEach((cacheFile) => {
+				if (cacheFile == "backoff.json") {
+					return;
+				}
 				const fileContents = fs
 					.readFileSync(options.cachePath + "/" + cacheFile)
 					.toString();
