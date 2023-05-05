@@ -200,6 +200,31 @@ https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaR
  - https://www.theverge.com/2023/1/26/23570967/chatgpt-author-scientific-papers-springer-nature-ban
  - https://www.npr.org/sections/money/2023/01/17/1149206188/this-22-year-old-is-trying-to-save-us-from-chatgpt-before-it-changes-writing-for
 
+
+## AI vs the law
+
+https://futurism.com/man-financial-info-ai-make-decisions
+
+https://www.nhbr.com/worlds-first-robot-lawyer-short-circuited-by-prosecutors-faces-class-action-suit/
+
+https://www.reuters.com/legal/lawsuit-pits-class-action-firm-against-robot-lawyer-donotpay-2023-03-09/
+
+https://gizmodo.com/donotpay-robot-lawyer-speeding-ticket-ai-1850218589
+
+https://www.npr.org/2023/01/25/1151435033/a-robot-was-scheduled-to-argue-in-court-then-came-the-jail-threats
+
+https://www.courthousenews.com/robot-lawyers-not-yet-lawsuit-says/
+
+https://www.theregister.com/2023/03/13/robot_lawyer_donotpay_back_in/
+
+https://www.usatoday.com/story/tech/2023/01/09/first-ai-robot-lawyer-donotpay/11018060002/
+
+https://gizmodo.com/how-we-determined-predictive-policing-software-dispropo-1848139456
+
+https://themarkup.org/hello-world/2023/04/08/whos-afraid-of-disparate-impact
+
+https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk
+
 ## Notes
 
 By definition LLMs must take public data, repackage it for sale, and then make it usable for more sale without ever crediting or returning value to the public authors.
