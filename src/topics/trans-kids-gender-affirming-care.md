@@ -75,12 +75,15 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 
 <a href="https://www.liebertpub.com/doi/10.1089/trgh.2020.0006" target="_blank">Consensus Parameter: Research Methodologies to Evaluate Neurodevelopmental Effects of Pubertal Suppression in Transgender Youth</a>
 
+<a href="https://pubmed.ncbi.nlm.nih.gov/35212746/" target="_blank">Mental Health Outcomes in Transgender and Nonbinary Youths Receiving Gender-Affirming Care</a>
+
 ## Gender Affirming Care Decreasing Suicide
 
 https://www.tennessean.com/story/opinion/2022/03/17/anti-trans-legislation-in-tennessee-sparks-a-mental-health-crisis/7078412001/
 https://williamsinstitute.law.ucla.edu/publications/suicidality-transgender-adults/
 https://www.cnn.com/2020/01/23/health/transgender-puberty-blockers-suicide-study/index.html
 https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2749479
+https://whatweknow.inequality.cornell.edu/topics/lgbt-equality/what-does-the-scholarly-research-say-about-the-well-being-of-transgender-people/
 
 <a href="https://www.researchgate.net/publication/284551812_Impacts_of_Strong_Parental_Support_for_Trans_Youth" target="_blank">Impacts of Strong Parental Support for Trans Youth</a>
 
