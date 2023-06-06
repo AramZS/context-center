@@ -171,6 +171,8 @@ https://www.washingtonpost.com/technology/2023/04/05/chatgpt-lies/
 
 https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html
 
+https://www.axios.com/2023/06/03/house-democrats-ritchie-torres-ai-disclosure
+
 ## Big Tech + Generative AI
 
 ### Bing
