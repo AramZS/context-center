@@ -39,6 +39,17 @@ https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
 
+## Understanding Third Party Cookies 
+
+https://web.dev/understanding-cookies/
+https://qz.com/guide/the-end-of-third-party-cookies/
+https://qz.com/2000350/the-inventor-of-the-digital-cookie-has-some-regrets
+https://gizmodo.com/google-chrome-cookie-privacy-sandbox-1850303764
+https://www.bigmartech.com/bmt-013-the-end-of-third-party-cookies-part-1/
+https://www.wired.com/story/what-do-cookie-preferences-pop-ups-mean/
+https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-out/
+https://web.dev/samesite-cookies-explained/
+
 ## In-Progress Standards
 
 Privacy relevant standards.
@@ -73,6 +84,7 @@ https://github.com/bslassey/privacy-budget
 A collection of proposed standards by Google intended to move the web away from third party cookies.
 
 https://privacysandbox.com/timeline/
+https://privacysandbox.com/news/maximize-ad-relevance-after-third-party-cookies/
 https://blog.chromium.org/2019/08/potential-uses-for-privacy-sandbox.html
 https://blog.chromium.org/2021/01/privacy-sandbox-in-2021.html
 https://digiday.com/marketing/wtf-googles-privacy-sandbox/
