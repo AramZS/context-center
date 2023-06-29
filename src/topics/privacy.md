@@ -39,16 +39,24 @@ https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
 
-## Understanding Third Party Cookies 
+## Understanding Third Party Cookie
 
 https://web.dev/understanding-cookies/
+https://web.dev/samesite-cookies-explained/
 https://qz.com/guide/the-end-of-third-party-cookies/
 https://qz.com/2000350/the-inventor-of-the-digital-cookie-has-some-regrets
 https://gizmodo.com/google-chrome-cookie-privacy-sandbox-1850303764
 https://www.bigmartech.com/bmt-013-the-end-of-third-party-cookies-part-1/
 https://www.wired.com/story/what-do-cookie-preferences-pop-ups-mean/
+https://www.linkedin.com/pulse/marketers-dont-worry-losing-3p-cookies-microtargeting-dr-fou-/
+https://tom-crane.medium.com/what-happens-if-there-are-no-third-party-cookies-5ee5edb84d75
+
+### Browsers ending 3p
+
 https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-out/
-https://web.dev/samesite-cookies-explained/
+https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/
+https://www.theverge.com/2020/3/24/21192830/apple-safari-intelligent-tracking-privacy-full-third-party-cookie-blocking
+https://www.stateofdigitalpublishing.com/opinion/cookieless-is-not-near-its-here/
 
 ## In-Progress Standards
 
