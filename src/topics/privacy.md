@@ -39,7 +39,7 @@ https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
 
-## Understanding Third Party Cookie
+## Understanding Third Party Cookies
 
 https://web.dev/understanding-cookies/
 https://web.dev/samesite-cookies-explained/
@@ -301,7 +301,7 @@ https://gizmodo.com/why-every-company-ad-network-now-1848936157
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 https://thebaffler.com/latest/capitalisms-new-clothes-morozov
-https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/ 
+https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
 
 ## Papers
 

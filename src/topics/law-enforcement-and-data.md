@@ -87,6 +87,7 @@ https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-dat
 https://www.tpr.org/border-immigration/2023-01-06/conservative-group-targets-migrant-cell-phone-data-at-ngos-raising-privacy-concerns
 https://www.wired.com/story/fbi-purchase-location-data-wray-senate/
 https://www.vox.com/technology/2023/6/16/23762403/data-odni-report-wyden
+https://www.vice.com/en/article/y3pnkw/us-military-bought-mass-monitoring-augury-team-cymru-browsing-email-data
 
 ### Anti-choice Activists and Bounties
 
