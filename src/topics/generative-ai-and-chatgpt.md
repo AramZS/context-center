@@ -25,12 +25,19 @@ featuredImageAlt: "AI-generated image of a robot artist"
 
 - https://www.youtube.com/watch?v=MBV0bhlLUgA
 - https://www.theguardian.com/technology/2023/apr/17/photographer-admits-prize-winning-image-was-ai-generated
+- https://www.nytimes.com/2023/07/04/arts/design/black-artists-bias-ai.html
+- https://nymag.com/intelligencer/2023/05/when-the-threat-of-ai-is-an-insult.html
+- https://techpolicy.press/potential-implications-of-us-copyright-office-determination-on-ai-generated-work/
+- https://www.vice.com/en/article/pkapb7/a-photographer-tried-to-get-his-photos-removed-from-an-ai-dataset-he-got-an-invoice-instead
 
 ## AI and Tech Criticism
 
 - https://maxread.substack.com/p/what-facebook-criticism-can-teach
 - https://www.vice.com/en/article/wxnaqz/ai-isnt-artificial-or-intelligent
 - https://maggieappleton.com/ai-dark-forest
+- https://www.anildash.com/2023/06/08/ai-is-unreasonable/
+- https://www.technologyreview.com/2023/04/04/1070938/we-are-hurtling-toward-a-glitchy-spammy-scammy-ai-powered-internet/
+- https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged
 
 ## AI and Journalism
 
@@ -43,6 +50,9 @@ https://www.niemanlab.org/2023/04/what-if-chatgpt-was-trained-on-decades-of-fina
 https://open.nytimes.com/to-apply-machine-learning-responsibly-we-use-it-in-moderation-d001f49e0644
 https://www.thecurrent.com/publishers-fear-chatgpt-undermine-media-industry-entirely
 https://www.theatlantic.com/technology/archive/2023/03/chatgpt-api-software-integration/673340/
+https://defector.com/go-media-bot-blogs-may-be-unreadable-but-at-least-theyre-incorrect
+https://www.nytimes.com/2023/05/23/business/media/buzzfeed-botatouille-chatbot-food.html
+https://www.bloomberg.com/news/articles/2023-02-17/openai-is-faulted-by-media-for-using-articles-to-train-chatgpt
 
 ## Misinformation
 
@@ -51,6 +61,7 @@ https://www.theatlantic.com/technology/archive/2023/03/fake-ai-generated-puffer-
 https://simonwillison.net/2023/Mar/10/chatgpt-internet-access/
 https://blog.opencagedata.com/post/dont-believe-chatgpt
 https://www.poynter.org/fact-checking/2023/chatgpt-build-fake-news-organization-website/
+https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to-believe-disinformation-generated-by-ai/
 
 ## Tools
 
@@ -115,6 +126,16 @@ https://maximumeffort.substack.com/p/i-taught-chatgpt-to-invent-a-language
 
 https://www.engraved.blog/building-a-virtual-machine-inside/
 
+https://www.theverge.com/2023/6/26/23773914/ai-large-language-models-data-scraping-generation-remaking-web
+
+https://michaelnotebook.com/mc2023/
+
+https://www.vice.com/en/article/dy3vmx/an-ai-scraping-tool-is-overwhelming-websites-with-traffic
+
+https://futurism.com/the-byte/chatgpt-costs-openai-every-day
+
+https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -140,6 +161,8 @@ https://spreadprivacy.com/duckassist-launch/
 https://developers.googleblog.com/2023/03/announcing-palm-api-and-makersuite.html
 
 https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef9962dcb7
+
+https://mazzzystar.github.io/2023/05/10/LLM-for-individual/
 
 ## Ethical and Legal issues
 
@@ -173,6 +196,36 @@ https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.html
 
 https://www.axios.com/2023/06/03/house-democrats-ritchie-torres-ai-disclosure
 
+https://www.wired.com/story/effective-altruism-artificial-intelligence-sam-bankman-fried/
+
+https://www.washingtonpost.com/technology/2023/07/05/ai-apocalypse-college-students/
+
+https://www.vice.com/en/article/qjvb4x/palantir-demos-ai-to-fight-wars-but-says-it-will-be-totally-ethical-dont-worry-about-it
+
+https://www.theguardian.com/technology/2023/apr/23/pope-jacket-napalm-recipes-how-worrying-is-ai-rapid-growth
+
+## AI Harms
+
+https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-non-obvious-ways
+
+
+## Labor
+
+https://www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html
+https://restofworld.org/2023/ai-revolution-outsourced-workers/
+https://www.sfchronicle.com/opinion/openforum/article/artificial-intelligence-ai-18079275.php
+https://www.americamagazine.org/faith/2023/05/15/chatgpt-artificial-intelligence-theft-245283
+https://www.washingtonpost.com/technology/2023/06/02/ai-taking-jobs/
+https://gizmodo.com/chatgpt-openai-ai-contractors-15-dollars-per-hour-1850415474
+https://www.nbcnews.com/tech/innovation/openai-chatgpt-ai-jobs-contractors-talk-shadow-workforce-powers-rcna81892
+
+
+## Privacy
+
+https://www.washingtonpost.com/technology/2023/06/28/openai-chatgpt-lawsuit-class-action/
+https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots
+https://www.wsj.com/articles/i-cloned-myself-with-ai-she-fooled-my-bank-and-my-family-356bd1a3
+
 ## Big Tech + Generative AI
 
 ### Bing
@@ -203,7 +256,7 @@ https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaR
  - https://www.npr.org/sections/money/2023/01/17/1149206188/this-22-year-old-is-trying-to-save-us-from-chatgpt-before-it-changes-writing-for
 
 
-## AI vs the law
+## AI vs the Law
 
 https://futurism.com/man-financial-info-ai-make-decisions
 
@@ -226,6 +279,8 @@ https://gizmodo.com/how-we-determined-predictive-policing-software-dispropo-1848
 https://themarkup.org/hello-world/2023/04/08/whos-afraid-of-disparate-impact
 
 https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk
+
+https://www.plagiarismtoday.com/2023/05/23/what-the-warhol-ruling-may-mean-for-ai/
 
 ## Notes
 
