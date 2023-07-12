@@ -136,6 +136,8 @@ https://futurism.com/the-byte/chatgpt-costs-openai-every-day
 
 https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents
 
+https://www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -211,7 +213,6 @@ https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-n
 
 ## Labor
 
-https://www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html
 https://restofworld.org/2023/ai-revolution-outsourced-workers/
 https://www.sfchronicle.com/opinion/openforum/article/artificial-intelligence-ai-18079275.php
 https://www.americamagazine.org/faith/2023/05/15/chatgpt-artificial-intelligence-theft-245283
