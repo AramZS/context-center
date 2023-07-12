@@ -68,6 +68,7 @@ https://gitlab.e.foundation/e/infra/spot
 https://searx.github.io/searx/
 https://wiby.me/about/guide.html
 https://github.com/cblgh/lieu
+https://searchlab.eu/en/access/download/
 
 ## Talking About Search
 
