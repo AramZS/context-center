@@ -209,6 +209,9 @@ https://www.theguardian.com/technology/2023/apr/23/pope-jacket-napalm-recipes-ho
 ## AI Harms
 
 https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-non-obvious-ways
+https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformation/674475/
+https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
+https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
 
 
 ## Labor
@@ -219,7 +222,8 @@ https://www.americamagazine.org/faith/2023/05/15/chatgpt-artificial-intelligence
 https://www.washingtonpost.com/technology/2023/06/02/ai-taking-jobs/
 https://gizmodo.com/chatgpt-openai-ai-contractors-15-dollars-per-hour-1850415474
 https://www.nbcnews.com/tech/innovation/openai-chatgpt-ai-jobs-contractors-talk-shadow-workforce-powers-rcna81892
-
+https://www.nbcnews.com/tech/security/fbi-warns-deepfake-porn-scams-rcna88190
+https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale
 
 ## Privacy
 
