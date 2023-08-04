@@ -29,6 +29,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://nymag.com/intelligencer/2023/05/when-the-threat-of-ai-is-an-insult.html
 - https://techpolicy.press/potential-implications-of-us-copyright-office-determination-on-ai-generated-work/
 - https://www.vice.com/en/article/pkapb7/a-photographer-tried-to-get-his-photos-removed-from-an-ai-dataset-he-got-an-invoice-instead
+- https://tedium.co/2023/07/29/music-sampling-ai-generated-legal-conflict-history/
 
 ## AI and Tech Criticism
 
@@ -38,6 +39,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.anildash.com/2023/06/08/ai-is-unreasonable/
 - https://www.technologyreview.com/2023/04/04/1070938/we-are-hurtling-toward-a-glitchy-spammy-scammy-ai-powered-internet/
 - https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged
+- https://arstechnica.com/information-technology/2023/07/is-chatgpt-getting-worse-over-time-study-claims-yes-but-others-arent-sure/?utm_source=pocket_reader
 
 ## AI and Journalism
 
@@ -62,6 +64,10 @@ https://simonwillison.net/2023/Mar/10/chatgpt-internet-access/
 https://blog.opencagedata.com/post/dont-believe-chatgpt
 https://www.poynter.org/fact-checking/2023/chatgpt-build-fake-news-organization-website/
 https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to-believe-disinformation-generated-by-ai/
+
+## AI and Climate
+
+- https://clivethompson.medium.com/ai-is-thirsty-37f99f24a26e
 
 ## Tools
 
@@ -224,6 +230,7 @@ https://gizmodo.com/chatgpt-openai-ai-contractors-15-dollars-per-hour-1850415474
 https://www.nbcnews.com/tech/innovation/openai-chatgpt-ai-jobs-contractors-talk-shadow-workforce-powers-rcna81892
 https://www.nbcnews.com/tech/security/fbi-warns-deepfake-porn-scams-rcna88190
 https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale
+https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai
 
 ## Privacy
 
@@ -244,6 +251,9 @@ https://www.cnn.com/2023/03/16/tech/openai-gpt-microsoft-365/index.html
 https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises-ethical-concerns-from-employees
 https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaREDEF
 
+### Amazon
+
+https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-tasks-with-agents-for-amazon-bedrock/
 
 ### Samsung Moon Shots
 
@@ -259,6 +269,7 @@ https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaR
  - https://restofworld.org/2023/chatgpt-taking-kenya-ghostwriters-jobs/
  - https://www.theverge.com/2023/1/26/23570967/chatgpt-author-scientific-papers-springer-nature-ban
  - https://www.npr.org/sections/money/2023/01/17/1149206188/this-22-year-old-is-trying-to-save-us-from-chatgpt-before-it-changes-writing-for
+ - https://arstechnica.com/information-technology/2023/07/why-ai-detectors-think-the-us-constitution-was-written-by-ai/
 
 
 ## AI vs the Law
