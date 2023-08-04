@@ -261,6 +261,10 @@ https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
 https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
 
+## Manipulation and Cognitive Freedom
+
+https://www.humanetech.com/podcast/protecting-our-freedom-of-thought-with-nita-farahany
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
