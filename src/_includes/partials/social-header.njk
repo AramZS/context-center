@@ -40,6 +40,13 @@
 
 {% endif %}
 
+{% if isBasedOn %}
+<link rel="canonical" href="{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}" />
+<meta http-equiv="Status" content="301 Moved Permanently"/>
+<meta http-equiv="Link" rel="canonical" content="{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}" />
+<meta http-equiv="Location" rel="canonical" content="{% if localBasedOn %}{{site.site_url}}{% endif %}{{ isBasedOn }}" />
+{% endif %}
+
 {% if '/posts' in page.url %}
     <!-- Article specific OG data -->
     <!-- The OG:Type dictates a number of other tags on posts. -->

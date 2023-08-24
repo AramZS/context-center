@@ -259,7 +259,7 @@ https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
 ## Trust
 
-https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
+<a href="https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/" target="_blank">https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/</a>
 
 ## Manipulation and Cognitive Freedom
 

@@ -1,0 +1,29 @@
+@use 'root'
+@use 'nav'
+@use 'dark-mode'
+
+nav
+    position: absolute
+
+.page-header
+    margin-top: 40px
+
+.timeline .timeline-description contexter-box
+    max-width: 100%
+
+    & contexter-box-head.contexter-box__head
+        display: none
+
+    & contexter-thumbnail
+        max-width: 100%
+        width: 100%
+        & img
+            max-width: 100%
+            width: 100%
+            height: auto
+
+    & time
+        display: none
+
+    & contexter-thumbnail
+        margin-bottom: 10px

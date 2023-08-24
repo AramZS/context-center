@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+{% set title = timelineObj.title %}
+{% set description = timelineObj.description %}
+{% set author = timelineObj.author %}
+{% set header = timelineObj.header %}
+{% set lastUpdatedPost = timelineObj.lastUpdatedPost %}
+{% set footer = timelineObj.footer %}
+{% set filters = timelineObj.filters %}
+
+{% set metatitle = timelineEntryItem.data.title %}
+{% set metadescription = timelineEntryItem.data.description %}
+    <head>
+        <!-- <script src="https://unpkg.com/@webcomponents/custom-elements"></script> -->
+        <link rel="preload" href="{{timelinesConfig.jsPath}}/single-item.js" as="script" />
+        <link rel="preload" href="{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json" as="fetch" />
+    {% block head %}
+
+        <!-- entry: {{ timelineEntryItem | console }} -->
+        {% include "./head.njk" %}
+
+        <meta property="og:image" content="{{ timelineEntryItem.data.title | socialImageSlug("tall") }}" />
+        <meta name="twitter:image" content="{{ timelineEntryItem.data.title | socialImageSlug("standard") }}" />
+        <meta property="article:section" content="{{ title }}">
+    {% endblock %}
+    {% block additionalhead %}
+    {% endblock %}
+    {% include "./jsonld/timeline-jsonld-item.njk" %}
+        <script>
+            window.baseItem = "{{- timelineEntryItem.data.title | timelineSlugify -}}";
+            window.timelineAPI = "{{timelinesConfig.domainName}}/{{timelinesConfig.timelineOutFolder}}/{{timelineEntryItem.data.timeline}}/index.json";
+            window.timelineHomeItemSlug = "{{- timelineEntryItem.data.title | timelineSlugify -}}"
+        </script>
+        <script src="{{timelinesConfig.jsPath}}/single-item.js" async></script>
+    </head>
+    <body>
+    {% block nav %}
+        <!-- <nav><a href="{{timelinesConfig.domainName}}">Return to Home</a></nav> -->
+    {% endblock %}
+    {% include "./timeline-header.njk" %}
+    <section>
+
+        {% include "./timeline-filters.njk" %}
+
+        <article class="timeline" data-timeline="{{timelineEntryItem.data.timeline}}">
+            {% set timelineItem = timelineEntryItem %}
+            {% set timelineItemSlug = timelineItem.data.title | timelineSlugify %}
+            {% set preFullTimelineItem = timelineEntryItem.data|setAttribute('content', content) %}
+            {% set fullTimelineItem = preFullTimelineItem|setAttribute('slug', timelineItemSlug) %}
+            {{- fullTimelineItem | createTemplateImage -}}
+            {% set timelineItemContent = content %}
+            <!-- entry: {{ content | console }} -->
+            {% include "./timeline-entry.njk" %}
+        </article>
+    </section>
+    {% include "./timeline-footer.njk" %}
+    {% block pagebottom %}
+    {% endblock %}
+    </body>
+</html>

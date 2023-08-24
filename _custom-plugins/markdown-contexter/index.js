@@ -270,12 +270,13 @@ module.exports = (eleventyConfig, userOptions) => {
 													if (localImageFileName) {
 														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
 														// console.log('write data to file', cacheFile)
+
+														fs.writeFileSync(
+															cacheFile,
+															JSON.stringify(r)
+														);
+														resolve(cacheFile);
 													}
-													fs.writeFileSync(
-														cacheFile,
-														JSON.stringify(r)
-													);
-													resolve(cacheFile);
 												})
 												.catch((e) => {
 													console.log(
@@ -304,7 +305,11 @@ module.exports = (eleventyConfig, userOptions) => {
 													link
 												)
 											);
+<<<<<<< HEAD
+										}, 10000);
+=======
 										}, 15000);
+>>>>>>> origin/main
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);

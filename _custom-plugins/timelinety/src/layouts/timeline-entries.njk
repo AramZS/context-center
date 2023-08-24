@@ -1,0 +1,18 @@
+    {% include "./timeline-header.njk" %}
+    <section>
+            <!--
+        {{ eleventyComputed | console }}
+     -->
+
+        {% include "./timeline-filters.njk" %}
+
+        <article class="timeline" data-timeline="{{timelineSlug}}">
+        {% for entry in collections[timelineSlug] %}
+            {% set timelineItem = entry %}
+            {% set timelineItemContent = entry.data.content %}
+            {% include "./timeline-entry.njk" %}
+        {% endfor %}
+        </article>
+    </section>
+    {% include "./timeline-footer.njk" %}
+

@@ -82,7 +82,9 @@ https://www.cnbc.com/2021/05/31/cryptocurrency-poses-a-significant-risk-of-tax-e
 https://newsletters.theatlantic.com/galaxy-brain/624cb2ebdc551a00208c1524/crypto-bubble-web3-decentralized-finance/
 https://www.motherjones.com/politics/2021/11/who-goes-crypto-eth-bitcoin-etc-financialization-gamestop-class-wealth/
 https://www.nytimes.com/2022/01/27/opinion/cryptocurrency-subprime-vulnerable.html
-https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html
+
+<a href="https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html" target="_blank">https://www.nytimes.com/2022/05/18/technology/terra-luna-cryptocurrency-do-kwon.html</a>
+
 https://www.vice.com/en/article/88gw55/nobody-learned-anything-from-the-crypto-crash
 
 #### Disturbing Origins
@@ -169,7 +171,9 @@ https://qz.com/1355945/why-have-cryptocurrencies-like-bitcoin-and-ethereum-falle
 https://www.fastcompany.com/40516337/with-this-cryptocurrency-everyone-gets-paid
 https://thenextweb.com/news/google-facebook-twitter-cryptocurrency
 https://www.bloomberg.com/news/articles/2018-03-16/fewer-americans-hold-cryptocurrencies-than-you-probably-think?cmpid%3D=socialflow-twitter-markets
-https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html
+
+<a href="https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html" target="_blank">https://www.mediapost.com/publications/article/312552/cryptocurrency-miners-find-their-way-into-online-a.html</a>
+
 https://qz.com/1160667/the-secret-lives-of-students-who-mine-cryptocurrency-in-their-dorm-rooms/
 https://www.bloomberg.com/news/articles/2017-11-03/diary-of-an-african-cryptocurrency-miner?cmpid=socialflow-twitter-business
 https://www.washingtonpost.com/news/energy-environment/wp/2017/12/19/why-the-bitcoin-craze-is-using-up-so-much-energy/
@@ -201,7 +205,7 @@ https://www.theverge.com/2022/1/28/22906010/web3-nft-internet-history-video-plat
 https://www.vox.com/recode/22907072/web3-crypto-nft-bitcoin-metaverse
 https://www.nytimes.com/2022/01/31/opinion/crypto-nfts-inequality.html
 https://www.theatlantic.com/technology/archive/2022/02/future-internet-blockchain-investment-banking/621480/
-https://www.nytimes.com/2022/01/24/opinion/crypto-blockchain-nfts.html?action=click&block=associated_collection_recirc&impression_id=26323111-8908-11ec-a0c3-b7927a4d02c4&index=1&pgtype=Article&region=footer
+https://www.nytimes.com/2022/01/24/opinion/crypto-blockchain-nfts.html
 https://www.nytimes.com/2022/02/07/opinion/crypto-nfts-folk-economics.html
 https://www.platformer.news/p/the-man-who-got-fired-by-his-dao
 https://www.bloomberg.com/news/articles/2022-02-12/andreessen-horowitz-a16z-s-chris-dixon-sees-web3-riches-others-see-rubbish
@@ -312,7 +316,9 @@ https://www.coindesk.com/markets/2014/06/05/100k-peter-thiel-fellowship-awarded-
 https://decrypt.co/98866/peter-thiels-founders-fund-and-pantera-capital-lead-20m-round-for-ondo-finance
 https://www.wsj.com/articles/peter-thiels-founders-fund-makes-big-bet-on-bitcoin-1514917433
 https://decrypt.co/97251/peter-thiel-unleashes-ethereum-warren-buffett-enemies-bitcoin-2022
-https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html
+
+<a href="https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html" target="_blank">https://www.nytimes.com/2016/05/26/business/dealbook/peter-thiel-tech-billionaire-reveals-secret-war-with-gawker.html</a>
+
 https://www.buzzfeednews.com/article/rosiegray/peter-thiel-donald-trump-white-nationalist-support
 https://nymag.com/intelligencer/2016/06/peter-thiel.html
 

@@ -184,7 +184,7 @@ module.exports = function (eleventyConfig) {
 	];
 	const njkEngine = require("nunjucks").configure(nunjucksFileSystem, {
 		autoescape: false,
-		throwOnUndefined: throwOnUndefinedSetting,
+		throwOnUndefined: false,
 		noCache: throwOnUndefinedSetting,
 	});
 	console.log("other nunjucksFileSystem", nunjucksFileSystem);
@@ -327,6 +327,16 @@ module.exports = function (eleventyConfig) {
 		});
 		// console.log("pagedPosts", pagedPosts[0].tagName);
 		return pagedPosts;
+	});
+
+	eleventyConfig.addPlugin(require("./_custom-plugins/timelinety"), {
+		domainName: site,
+		timelineOutFolder: "timeline",
+		outDir: path.normalize(path.join(__dirname, "docs")),
+		timelinesInFolder: path.normalize(
+			path.join(__dirname, "src", "timeline")
+		),
+		customCSS: "assets/css/template-timeline.css",
 	});
 
 	eleventyConfig.addPlugin(pluginTOC, {
