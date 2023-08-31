@@ -242,6 +242,13 @@ footer.page-footer {
 	background-color: #999999;
 }
 
+.timeline-icon i {
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	background-size: contain;
+}
+
 /* RESPONSIVENESS */
 @media only screen and (min-width: 769px) {
 	.timeline-entry.even .timeline-description:after {

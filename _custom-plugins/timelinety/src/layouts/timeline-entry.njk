@@ -2,8 +2,8 @@
     <!-- entry: {{ timelineItem.data.page.url | console }} -->
     <!-- entry: {{ timelineItem | console }} -->
     <div class="timeline-icon {{ timelineItem.data.color or "grey" }}">
-        {% if timelineItem.data.faicon %}
-            <i class="fas fa-{{- timelineItem.data.faicon }}" aria-hidden="true"></i>
+        {% if timelineItem.data.faicon or timelineItem.data.tags %}
+            <i class="fas fa-{{- timelineItem.data.faicon or "basic"}}{% for topic in timelineItem.data.tags %} fa-i-{{- topic | timelineSlugify or "basic"}}{% endfor %}" aria-hidden="true"></i>
         {% endif %}
     </div>
     <div class="timeline-description">
