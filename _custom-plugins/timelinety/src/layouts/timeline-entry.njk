@@ -1,7 +1,7 @@
 <div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" id="{{- timelineItem.data.title | timelineSlugify -}}" aria-hidden="false">
     <!-- entry: {{ timelineItem.data.page.url | console }} -->
     <!-- entry: {{ timelineItem | console }} -->
-    <div class="timeline-icon {{ timelineItem.data.color or "grey" }}">
+    <div class="timeline-icon {{ timelineItem.data.color or "grey" }}{% for topic in timelineItem.data.tags %} fa-ic-{{- topic | timelineSlugify or "basic"}}{% endfor %}">
         {% if timelineItem.data.faicon or timelineItem.data.tags %}
             <i class="fas fa-{{- timelineItem.data.faicon or "basic"}}{% for topic in timelineItem.data.tags %} fa-i-{{- topic | timelineSlugify or "basic"}}{% endfor %}" aria-hidden="true"></i>
         {% endif %}
