@@ -218,7 +218,7 @@ https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-n
 https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformation/674475/
 https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
 https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
-
+https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8
 
 ## Labor
 
