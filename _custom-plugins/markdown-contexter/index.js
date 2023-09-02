@@ -109,15 +109,17 @@ module.exports = (eleventyConfig, userOptions) => {
 					let backoffObj = JSON.parse(fs.readFileSync(backoffList));
 					if (backoffObj?.list.includes(urlObj.url)) {
 						console.log("Backoff process failed");
+						backoffObj.lastCheck[urlObj.url] =
+							new Date().toString();
 					} else {
 						backoffObj.list.push(urlObj.url);
 						backoffObj.lastCheck[urlObj.url] =
 							new Date().toString();
-						fs.writeFileSync(
-							backoffList,
-							JSON.stringify(backoffObj)
-						);
 					}
+					fs.writeFileSync(
+						backoffList,
+						JSON.stringify(backoffObj, null, "\t")
+					);
 					// throw new Error("Timed out after 30s");
 				}, 60000);
 				// console.log("inputContent Process: ", link);
@@ -227,7 +229,9 @@ module.exports = (eleventyConfig, userOptions) => {
 								// It has been less than 14 days since the last check
 								return;
 							}
-						} else {
+						}
+						// We did not cut out because of a backoff, push new backoff link.
+						if (backoffObj?.list.includes(link)) {
 							backoffObj.list.push(link);
 							backoffObj.lastCheck[link] = new Date().toString();
 						}
@@ -297,19 +301,18 @@ module.exports = (eleventyConfig, userOptions) => {
 												"Request timed out for ",
 												cacheFile
 											);
-											reject(
-												new Error(
-													"Archiving request timeout error for " +
-														cacheFile +
-														" from ",
-													link
-												)
+											console.log(
+												"Archiving request timeout error for " +
+													cacheFile +
+													" from ",
+												link
 											);
+											reject(); // new Error("Archiving request timeout error for " + cacheFile + " from " + link));
 										}, 15000);
 									}
 								);
 								completeAllPromiseArray.push(fileWritePromise);
-								return;
+								return completeAllPromiseArray;
 							})
 							.catch((e) => {
 								console.log(
@@ -407,9 +410,9 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				let results = await Promise.all(completeAllPromiseArray);
+				let results = await Promise.allSettled(completeAllPromiseArray);
 				const invalidResults = results.filter((result) => {
-					if (result instanceof Error) {
+					if (!result || result.status == "rejected") {
 						return result;
 					}
 				});
