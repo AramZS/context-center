@@ -7,6 +7,7 @@ isBasedOn: "https://www.wsj.com/articles/millennials-covid-financial-crisis-fall
 tags:
   - Labor
   - Markets
+  - Youth
 ---
 
 https://www.wsj.com/articles/millennials-covid-financial-crisis-fall-behind-jobless-11596811470
