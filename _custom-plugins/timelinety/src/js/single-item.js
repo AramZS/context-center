@@ -22,14 +22,32 @@ class TimelineItem extends HTMLElement {
 	elBuilder(data) {
 		console.log("Set data ", data);
 		this.setAttribute("data-tags", data.tags.join(","));
+		let tagIslugs = data.tags.reduce((a, c) => {
+			return `${a} fa-i-${c
+				.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
+				.replace(/[^A-Za-z0-9\s]/g, "")
+				.trim()
+				.replace(/\s+/g, "-")
+				.toLowerCase()}`;
+		}, "");
+		let tagICslugs = data.tags.reduce((a, c) => {
+			return `${a} fa-ic-${c
+				.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
+				.replace(/[^A-Za-z0-9\s]/g, "")
+				.trim()
+				.replace(/\s+/g, "-")
+				.toLowerCase()}`;
+		}, "");
 		let timelineIcon = h(
 			"div",
 			{
-				class: `timeline-icon ${data.color}`,
+				class: `timeline-icon ${data.color} ${tagICslugs}`,
 			},
-			data?.faicon
+			data?.faicon || tagIslugs
 				? h("i", {
-						class: `fas fa-${data.faicon}`,
+						class: `fas fa-${
+							data.faicon ? data.faicon : "fa-i-basic"
+						} ${tagIslugs}`,
 						"aria-hidden": "true",
 				  })
 				: null
@@ -169,6 +187,7 @@ function singleItemPageFill() {
 		"2px solid var(--border-base)";
 	console.log("Build complete");
 	reflowEntries();
+	homeItem.scrollIntoView();
 	// Clean up
 	document.removeEventListener("DOMContentLoaded", singleItemPageFill);
 }
