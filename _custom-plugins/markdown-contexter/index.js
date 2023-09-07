@@ -99,6 +99,12 @@ module.exports = (eleventyConfig, userOptions) => {
 										JSON.stringify(r)
 									);
 									resolve(cacheFile);
+								} else {
+									console.log(
+										"Image handling returned no result for ",
+										localImageFileName
+									);
+									reject(localImageFileName);
 								}
 							})
 							.catch((e) => {
@@ -138,8 +144,12 @@ module.exports = (eleventyConfig, userOptions) => {
 							console.log("archive check attempt fail ", e);
 						}
 						reject(); // new Error("Archiving request timeout error for " + cacheFile + " from " + link));
-					}, 15000);
+					}, 20000);
 				});
+				console.log(
+					"completeAllPromiseArray ready to be pushed to for ",
+					cacheFile
+				);
 				completeAllPromiseArray.push(fileWritePromise);
 				return completeAllPromiseArray;
 			})
