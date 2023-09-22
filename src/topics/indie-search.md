@@ -71,6 +71,10 @@ https://wiby.me/about/guide.html
 https://github.com/cblgh/lieu
 https://searchlab.eu/en/access/download/
 
+## Why Should We Care?
+
+https://www.theatlantic.com/technology/archive/2023/09/google-search-size-usefulness-decline/675409/
+
 ## Talking About Search
 
 https://twitter.com/Chronotope/status/1506745918464405507
