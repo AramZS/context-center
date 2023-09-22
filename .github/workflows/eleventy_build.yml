@@ -27,20 +27,24 @@ jobs:
     env:
       MY_GITHUB_RUN_ID: ${{ github.run_id }}
     steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v3
           with:
               submodules: true
 
 
         - name: Setup Node
-          uses: actions/setup-node@v2
+          uses: actions/setup-node@v3
           with:
-            node-version: '16.16.0'
+            node-version: '16'
+        - name: Setup Pages
+          uses: actions/configure-pages@v3
+        
+        - name: Instal dependencies
+          run: npm ci
 
-        - run: npm ci
 
-
-        - run: npm run build
+        - name: Run Build
+          run: npm run build
 
 
         - name: Upload artifact
