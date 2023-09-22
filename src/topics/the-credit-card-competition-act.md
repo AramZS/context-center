@@ -45,4 +45,4 @@ https://thebaffler.com/latest/perked-up-vassallo
 
 ## Who is behind the "Consumer Credit Card Protection Coalition"?
 
-No information found. Thread about why it matters [here](https://twitter.com/Chronotope/status/1705228731495686468).
+No information found. Thread about why it matters <a href="https://twitter.com/Chronotope/status/1705228731495686468" target="_blank">here</a>.
