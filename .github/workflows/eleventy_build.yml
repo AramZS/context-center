@@ -6,6 +6,21 @@ on:
     branches:
       - main
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -28,9 +43,12 @@ jobs:
         - run: npm run build
 
 
-        - name: Deploy
-          uses: peaceiris/actions-gh-pages@v3
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v2
           with:
             deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-            publish_dir: ./docs
+            path: ./docs
 
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v2
