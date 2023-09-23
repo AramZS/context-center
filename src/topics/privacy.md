@@ -39,6 +39,25 @@ https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
 
+## Understanding Third Party Cookies
+
+https://web.dev/understanding-cookies/
+https://web.dev/samesite-cookies-explained/
+https://qz.com/guide/the-end-of-third-party-cookies/
+https://qz.com/2000350/the-inventor-of-the-digital-cookie-has-some-regrets
+https://gizmodo.com/google-chrome-cookie-privacy-sandbox-1850303764
+https://www.bigmartech.com/bmt-013-the-end-of-third-party-cookies-part-1/
+https://www.wired.com/story/what-do-cookie-preferences-pop-ups-mean/
+https://www.linkedin.com/pulse/marketers-dont-worry-losing-3p-cookies-microtargeting-dr-fou-/
+https://tom-crane.medium.com/what-happens-if-there-are-no-third-party-cookies-5ee5edb84d75
+
+### Browsers ending 3p
+
+https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-out/
+https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/
+https://www.theverge.com/2020/3/24/21192830/apple-safari-intelligent-tracking-privacy-full-third-party-cookie-blocking
+https://www.stateofdigitalpublishing.com/opinion/cookieless-is-not-near-its-here/
+
 ## In-Progress Standards
 
 Privacy relevant standards.
@@ -73,6 +92,7 @@ https://github.com/bslassey/privacy-budget
 A collection of proposed standards by Google intended to move the web away from third party cookies.
 
 https://privacysandbox.com/timeline/
+https://privacysandbox.com/news/maximize-ad-relevance-after-third-party-cookies/
 https://blog.chromium.org/2019/08/potential-uses-for-privacy-sandbox.html
 https://blog.chromium.org/2021/01/privacy-sandbox-in-2021.html
 https://digiday.com/marketing/wtf-googles-privacy-sandbox/
@@ -241,6 +261,10 @@ https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
 <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/" target="_blank">https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/</a>
 
+## Manipulation and Cognitive Freedom
+
+https://www.humanetech.com/podcast/protecting-our-freedom-of-thought-with-nita-farahany
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
@@ -281,7 +305,7 @@ https://gizmodo.com/why-every-company-ad-network-now-1848936157
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 https://thebaffler.com/latest/capitalisms-new-clothes-morozov
-https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/ 
+https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
 
 ## Papers
 

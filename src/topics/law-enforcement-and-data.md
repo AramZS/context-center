@@ -88,6 +88,8 @@ https://apnews.com/article/technology-police-government-surveillance-d395409ef5a
 https://www.washingtonpost.com/technology/2022/09/15/government-surveillance-database-dhs/
 https://www.tpr.org/border-immigration/2023-01-06/conservative-group-targets-migrant-cell-phone-data-at-ngos-raising-privacy-concerns
 https://www.wired.com/story/fbi-purchase-location-data-wray-senate/
+https://www.vox.com/technology/2023/6/16/23762403/data-odni-report-wyden
+https://www.vice.com/en/article/y3pnkw/us-military-bought-mass-monitoring-augury-team-cymru-browsing-email-data
 
 ### Anti-choice Activists and Bounties
 
@@ -121,6 +123,8 @@ https://time.com/6184111/abortion-surveillance-tech-tracking/
 https://www.washingtonpost.com/technology/2022/06/29/google-facebook-abortion-data/
 https://techcrunch.com/2023/01/27/digital-data-roe-wade-reproductive-privacy/
 https://www.businessinsider.com/police-getting-help-social-media-to-prosecute-people-seeking-abortions-2023-2
+https://www.wsj.com/articles/antiabortion-group-used-cellphone-data-to-target-ads-to-planned-parenthood-visitors-446c1212
+https://news.yahoo.com/teen-took-abortion-pill-end-085145204.html
 
 ### Fighting Back
 
@@ -132,3 +136,4 @@ https://gizmodo.com/how-to-cop-proof-your-phone-before-heading-to-a-protest-1843
 https://twitter.com/swodinsky/status/1521351334339002369
 https://www.eff.org/deeplinks/2022/05/digital-security-and-privacy-tips-those-involved-abortion-access
 https://gizmodo.com/how-to-get-an-abortion-keep-personal-information-safe-1848874362
+https://cdt.org/collections/reproductive-rights/

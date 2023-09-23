@@ -24,6 +24,7 @@ https://indieweb-search.jamesg.blog/
 https://www.mojeek.com/about/
 https://www.ecosia.org/
 https://spot.ecloud.global
+https://presearch.io/
 
 ## Tools
 
@@ -35,8 +36,10 @@ https://www.sbert.net/
 https://fastapi.tiangolo.com/
 https://github.com/google-research/google-research/tree/master/scann
 https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
+https://yacy.net/
+https://github.com/N0taN3rd/node-warc
 
-### Search for Static Sites 
+### Search for Static Sites
 
 http://elasticlunr.com/
 https://lunrjs.com/
@@ -64,6 +67,13 @@ https://www.wikidata.org/wiki/Wikidata:Data_access
 
 https://gitlab.e.foundation/e/infra/spot
 https://searx.github.io/searx/
+https://wiby.me/about/guide.html
+https://github.com/cblgh/lieu
+https://searchlab.eu/en/access/download/
+
+## Why Should We Care?
+
+https://www.theatlantic.com/technology/archive/2023/09/google-search-size-usefulness-decline/675409/
 
 ## Talking About Search
 
@@ -86,5 +96,4 @@ https://indiemap.org/docs.html#common-crawl
 https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-without-own-index.html
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
-https://wiby.me/about/guide.html
 https://www.newyorker.com/culture/infinite-scroll/what-google-search-isnt-showing-you
