@@ -75,6 +75,7 @@ https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to
 - https://stability.ai/blog/stable-diffusion-public-release
 - https://firefly.adobe.com/#
 - https://openai.com/blog/chatgpt
+- https://replicate.com/
 
 ## How is AI/ML being used?
 
