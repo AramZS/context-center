@@ -265,6 +265,10 @@ https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
 
 https://www.humanetech.com/podcast/protecting-our-freedom-of-thought-with-nita-farahany
 
+## Pay or Okay
+
+https://noyb.eu/en/pay-or-okay-beginning-end
+
 ## Journalism
 
 Relevant articles and reports on issues and successes
@@ -306,6 +310,12 @@ https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-the
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
+
+### Privacy Tax
+
+https://www.nytimes.com/2017/05/09/magazine/how-privacy-became-a-commodity-for-the-rich-and-powerful.html
+
+https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival
 
 ## Papers
 
