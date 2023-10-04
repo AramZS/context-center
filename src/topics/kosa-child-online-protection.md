@@ -1,5 +1,5 @@
 ---
-title: "Context Check: KOSA and Other Online Child Protection Design Codes - Safety or Censorship?"
+title: "Context Check: KOSA and Other Online Age-Appropriate Design Codes - Safety or Censorship?"
 description: "Taking a look at the latest online children safety bill: the Kids Online Safety Act."
 date: 2023-10-04 11:59:43.10 -4
 tags:
@@ -9,6 +9,11 @@ tags:
   - Policy
   - "Tech Policy"
   - Freedom of Speech
+public: true
+featuredImage: "censored-computer.jpg"
+featuredImageCredit: "Image Created by Caroline Madigan for opensource.com"
+featuredImageLink: "https://www.flickr.com/photos/opensourceway/6554315319"
+featuredImageAlt: "An old computer screen showing zeros and ones with sections of the binary covered in censorship-style black bars on the screen."
 ---
 
 ## Policy Critics
@@ -68,6 +73,8 @@ https://www.axios.com/newsletters/axios-ai-plus-c7e28b86-bdb8-4095-80d1-8e0fda11
 https://www.cnbc.com/2023/05/02/updated-kids-online-safety-act-aims-to-fix-unintended-consequences.html
 
 https://www.marketingbrew.com/stories/2023/03/01/congress-is-considering-bills-that-could-regulate-how-advertisers-interact-with-children
+
+https://www.vice.com/en/article/qjv3qp/congress-is-pushing-an-online-safety-bill-supported-by-anti-lgbtq-groups
 
 ## Science
 
