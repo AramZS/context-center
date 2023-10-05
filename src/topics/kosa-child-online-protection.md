@@ -22,6 +22,8 @@ https://newrepublic.com/article/174786/republicans-fooling-democrats-kids-online
 
 https://www.eff.org/deeplinks/2023/09/get-real-congress-censoring-search-results-or-recommendations-still-censorship
 
+https://buttondown.email/charliejane/archive/the-internet-is-about-to-get-a-lot-worse/
+
 https://www.eff.org/deeplinks/2023/08/us-government-about-control-speech-online-protect-kids
 
 https://www.teenvogue.com/story/kids-online-safety-act-lgbtq-youth
