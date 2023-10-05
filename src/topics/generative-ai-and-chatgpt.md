@@ -75,6 +75,7 @@ https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to
 - https://stability.ai/blog/stable-diffusion-public-release
 - https://firefly.adobe.com/#
 - https://openai.com/blog/chatgpt
+- https://replicate.com/
 
 ## How is AI/ML being used?
 
@@ -245,11 +246,13 @@ https://www.wsj.com/articles/i-cloned-myself-with-ai-she-fooled-my-bank-and-my-f
 https://www.wired.com/story/chatgpt-opened-a-new-era-in-search-microsoft-could-ruin-it/
 https://azure.microsoft.com/en-us/blog/chatgpt-is-now-available-in-azure-openai-service/
 https://www.cnn.com/2023/03/16/tech/openai-gpt-microsoft-365/index.html
+https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat
 
 ### Bard
 
 https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises-ethical-concerns-from-employees
 https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaREDEF
+https://blog.google/technology/ai/an-update-on-web-publisher-controls/
 
 ### Amazon
 

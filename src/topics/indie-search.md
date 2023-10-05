@@ -74,6 +74,8 @@ https://searchlab.eu/en/access/download/
 ## Why Should We Care?
 
 https://www.theatlantic.com/technology/archive/2023/09/google-search-size-usefulness-decline/675409/
+https://educatedguesswork.org/posts/tiptoe/
+https://www.wired.com/story/google-antitrust-lawsuit-search-results/
 
 ## Talking About Search
 
