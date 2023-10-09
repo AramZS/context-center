@@ -310,6 +310,8 @@ https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-the
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
+https://www.theguardian.com/technology/2019/jul/23/anonymised-data-never-be-anonymous-enough-study-finds
+https://www.theverge.com/2023/10/9/23909581/walmart-ozempic-food-pharmacy-market-research-privacy
 
 ### Privacy Tax
 
