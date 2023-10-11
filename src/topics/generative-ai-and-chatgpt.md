@@ -242,6 +242,7 @@ https://www.wsj.com/articles/i-cloned-myself-with-ai-she-fooled-my-bank-and-my-f
 ## AI and Policy
 
 - https://publicai.network/
+- https://www.ai.se/en/node/81535/gpt-sw3
 
 ## Big Tech + Generative AI
 
