@@ -239,6 +239,10 @@ https://www.washingtonpost.com/technology/2023/06/28/openai-chatgpt-lawsuit-clas
 https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots
 https://www.wsj.com/articles/i-cloned-myself-with-ai-she-fooled-my-bank-and-my-family-356bd1a3
 
+## AI and Policy
+
+- https://publicai.network/
+
 ## Big Tech + Generative AI
 
 ### Bing
