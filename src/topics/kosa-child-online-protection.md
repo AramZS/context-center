@@ -32,6 +32,8 @@ https://www.losangelesblade.com/2023/09/05/the-revised-kids-online-safety-act-pr
 
 https://hyperallergic.com/835609/artists-call-on-congress-to-stop-bad-internet-bills/
 
+https://jezebel.com/22-democrats-sponsor-a-bill-that-could-censor-abortion-1850923128
+
 ## Tech Critics
 
 https://www.techdirt.com/2023/10/03/senator-elizabeth-warren-supports-bill-to-silence-lgbtq-voices/
