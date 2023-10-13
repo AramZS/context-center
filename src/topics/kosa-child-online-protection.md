@@ -80,6 +80,8 @@ https://www.marketingbrew.com/stories/2023/03/01/congress-is-considering-bills-t
 
 https://www.vice.com/en/article/qjv3qp/congress-is-pushing-an-online-safety-bill-supported-by-anti-lgbtq-groups
 
+https://www.nytimes.com/2023/10/12/technology/tech-children-kids-laws.html
+
 ## Science
 
 https://slate.com/technology/2022/11/brain-development-25-year-old-mature-myth.html
