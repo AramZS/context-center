@@ -35,6 +35,7 @@ process.env.DESCRIPTION = "Context Center Description";
 process.env.BASIC_IMAGE = `${domain_name}/img/nyc_noir.jpg`;
 process.env.PRIMARY_AUTHOR = "Aram Zucker-Scharff";
 
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
 	// eleventyConfig.addPlugin(UpgradeHelper);
 	var siteConfiguration = {

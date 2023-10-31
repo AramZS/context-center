@@ -329,6 +329,8 @@ https://www.cpb.nl/sites/default/files/publicaties/download/cpb-discussion-paper
 https://www.goodreads.com/book/show/7677574-privacy-in-context?from_search=true&from_srp=true&qid=TofpBL4GQZ&rank=1
 https://www.goodreads.com/book/show/50403486-subprime-attention-crisis?from_search=true&from_srp=true&qid=DM1cXHJ0Fk&rank=1
 https://www.penguin.co.uk/books/1120394/privacy-is-power/9780552177719.html
+https://www.penguinrandomhouse.com/books/691288/your-face-belongs-to-us-by-kashmir-hill/
+https://craphound.com/category/destroy/
 
 ## Contextual as an Alternative
 
