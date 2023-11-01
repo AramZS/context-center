@@ -38,6 +38,9 @@ https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/USP%2
 https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
+https://berjon.com/gpc-under-the-gdpr/
+https://support.google.com/admanager/answer/14117049?hl=en
+https://stackdiary.com/german-court-bans-linkedin-from-ignoring-do-not-track-signals/
 
 ## Understanding Third Party Cookies
 
