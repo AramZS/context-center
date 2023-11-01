@@ -40,6 +40,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.technologyreview.com/2023/04/04/1070938/we-are-hurtling-toward-a-glitchy-spammy-scammy-ai-powered-internet/
 - https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged
 - https://arstechnica.com/information-technology/2023/07/is-chatgpt-getting-worse-over-time-study-claims-yes-but-others-arent-sure/?utm_source=pocket_reader
+- https://www.creativebloq.com/features/ai-art-the-impact-of-generative-AI
 
 ## AI and Journalism
 
