@@ -223,6 +223,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2655719
 https://iapp.org/resources/topics/de-identification/
 https://brave.com/brave-fingerprinting-and-privacy-budgets/
 https://mickens.seas.harvard.edu/publications/riverbed-enforcing-user-defined-privacy-constraints-distributed-web-services
+https://en.wikipedia.org/wiki/FTC_fair_information_practice
 
 [Amplification by Shuffling:
 From Local to Central Differential Privacy via Anonymity](https://arxiv.org/pdf/1811.12469.pdf)
