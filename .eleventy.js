@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
 		dir: {
 			input: "src",
 			includes: "_includes",
-			layouts: "_layouts",
+			layouts: "_layouts", // https://www.11ty.dev/docs/config/#directory-for-layouts-(optional)
 			data: "_data",
 			output: "docs",
 		},
