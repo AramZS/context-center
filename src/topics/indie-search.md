@@ -38,6 +38,7 @@ https://github.com/google-research/google-research/tree/master/scann
 https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
 https://yacy.net/
 https://github.com/N0taN3rd/node-warc
+https://aws.amazon.com/kendra/
 
 ### Search for Static Sites
 
