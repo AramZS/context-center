@@ -25,3 +25,8 @@ https://mementoweb.org/guide/rfc/
 https://en.wikipedia.org/wiki/Wikipedia:Citing_sources#Preventing_and_repairing_dead_links
 https://ahrefs.com/blog/link-rot-study/
 https://archive.org/help/wayback_api.php
+
+## WARCs
+
+https://support.archive-it.org/hc/en-us/categories/17378341125140-Getting-Started-with-Archive-It
+https://archive.org/details/introduction-to-the-warc_202111 

@@ -41,6 +41,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged
 - https://arstechnica.com/information-technology/2023/07/is-chatgpt-getting-worse-over-time-study-claims-yes-but-others-arent-sure/?utm_source=pocket_reader
 - https://www.creativebloq.com/features/ai-art-the-impact-of-generative-AI
+- https://www.citationneeded.news/ai-isnt-useless/
 
 ## AI and Journalism
 
@@ -221,6 +222,7 @@ https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformatio
 https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
 https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
 https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8
+https://www.theatlantic.com/technology/archive/2024/04/generative-ai-low-resource-languages/678042/
 
 ## Labor
 
@@ -233,6 +235,7 @@ https://www.nbcnews.com/tech/innovation/openai-chatgpt-ai-jobs-contractors-talk-
 https://www.nbcnews.com/tech/security/fbi-warns-deepfake-porn-scams-rcna88190
 https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale
 https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai
+https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey
 
 ## Privacy
 

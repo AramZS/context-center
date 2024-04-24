@@ -280,6 +280,7 @@ Relevant articles and reports on issues and successes
 https://themarkup.org/blacklight/2020/09/22/blacklight-tracking-advertisers-digital-privacy-sensitive-websites
 https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
+https://motherboard.vice.com/amp/en_us/article/zmwaee/there-are-no-guardrails-on-our-privacy-dystopia
 https://themarkup.org/google-the-giant/2020/07/23/google-advertising-keywords-black-girls
 https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it
 https://gizmodo.com/it-doesn-t-matter-who-owns-tiktok-1844595163
