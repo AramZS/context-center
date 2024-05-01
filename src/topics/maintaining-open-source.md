@@ -22,6 +22,10 @@ http://antirez.com/news/129
 https://openssf.org/blog/2024/01/31/maintainer-motivations-challenges-and-best-practices-on-open-source-software-security/
 https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/
 
+## Attacks on Project Safety
+
+https://research.swtch.com/xz-timeline
+
 ## Historical Context
 
 https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish
