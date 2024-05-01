@@ -21,3 +21,8 @@ https://thenewstack.io/open-source-needs-maintainers-but-how-can-they-get-paid/
 http://antirez.com/news/129
 https://openssf.org/blog/2024/01/31/maintainer-motivations-challenges-and-best-practices-on-open-source-software-security/
 https://mikemcquaid.com/open-source-maintainers-owe-you-nothing/
+
+## Historical Context
+
+https://en.wikipedia.org/wiki/Embrace,_extend,_and_extinguish
+https://www.economist.com/business/2000/03/30/deadly-embrace
