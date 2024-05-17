@@ -178,6 +178,11 @@ https://pro.bloomberglaw.com/brief/what-is-the-vcdpa/
 https://www.hutchlaw.com/blog/an-overview-of-the-virginia-consumer-data-protection-act
 https://www.dataguidance.com/notes/virginia-data-protection-overview
 
+### Maryland
+
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0541?ys=2024rs
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0571?ys=2024rs
+
 ### ADPPA
 
 https://iapp.org/news/a/were-so-close-to-getting-data-loyalty-right/

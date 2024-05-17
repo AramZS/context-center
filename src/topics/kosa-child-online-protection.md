@@ -85,3 +85,7 @@ https://www.nytimes.com/2023/10/12/technology/tech-children-kids-laws.html
 ## Science
 
 https://slate.com/technology/2022/11/brain-development-25-year-old-mature-myth.html
+
+## State Laws
+
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0571?ys=2024rs
