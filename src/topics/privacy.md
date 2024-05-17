@@ -261,6 +261,10 @@ https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4131523
 https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
+### Consent
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333743
+
 ## Trust
 
 https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/
