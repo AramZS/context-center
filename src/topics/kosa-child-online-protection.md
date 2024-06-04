@@ -89,3 +89,7 @@ https://slate.com/technology/2022/11/brain-development-25-year-old-mature-myth.h
 ## State Laws
 
 https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0571?ys=2024rs
+
+## General Privacy Tools as the Solution
+
+https://berjon.com/gpc-child-privacy/
