@@ -7,7 +7,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "eleventy",
 		"build-with-log-debug": "DEBUG=Eleventy:Template* npx @11ty/eleventy --serve --port=8083 > ./buildlog.txt",
-		"build-with-log": "npx @11ty/eleventy --serve --port=8083 | tee ./buildlog.txt"
+		"build-with-log": "npx @11ty/eleventy --serve --port=8083 | tee ./buildlog.txt",
+		"serve": "npx @11ty/eleventy --serve --port=8083"
 	},
 	"keywords": [],
 	"author": "",

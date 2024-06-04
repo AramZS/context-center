@@ -260,6 +260,8 @@ https://www.forrester.com/blogs/proposed-surveillance-advertising-ban-meet-conte
 
 https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-1843908029
 
+[Measuring Privacy: An Empirical Test Using Context to Expose Confounding Variables](https://nissenbaum.tech.cornell.edu/papers/Measuring%20Privacy.pdf)
+
 ### Data Protection
 
 https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
