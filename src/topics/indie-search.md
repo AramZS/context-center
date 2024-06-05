@@ -67,6 +67,7 @@ https://httparchive.org/
 https://www.npmjs.com/package/puppeteer-extra-plugin-stealth
 https://fightwithtools.dev/posts/projects/context-pages/day-2/
 https://www.wikidata.org/wiki/Wikidata:Data_access
+https://jamesg.blog/2024/06/05/responsible-web-crawling/
 
 ## Code
 
@@ -104,3 +105,4 @@ https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
 https://www.newyorker.com/culture/infinite-scroll/what-google-search-isnt-showing-you
+https://jamesg.blog/2024/06/05/indieweb-search-brainstorming/
