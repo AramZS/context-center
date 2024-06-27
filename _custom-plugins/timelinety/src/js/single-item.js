@@ -49,8 +49,8 @@ class TimelineItem extends HTMLElement {
 							data.faicon ? data.faicon : "fa-i-basic"
 						} ${tagIslugs}`,
 						"aria-hidden": "true",
-				  })
-				: null
+					})
+				: null,
 		);
 		if (data.color) timelineIcon.classList.add(data.color);
 		this.appendChild(timelineIcon);
@@ -63,7 +63,7 @@ class TimelineItem extends HTMLElement {
 			h(
 				"span",
 				{ class: "timestamp" },
-				h("time", { datetime: data.date }, data.humanReadableDate)
+				h("time", { datetime: data.date }, data.humanReadableDate),
 			),
 			h(
 				"h2",
@@ -78,9 +78,9 @@ class TimelineItem extends HTMLElement {
 							location.host +
 							data.page.url,
 					},
-					h("i", { class: "fas fa-link" })
+					h("i", { class: "fas fa-link" }),
 				),
-				data.title
+				data.title,
 			),
 			data.image
 				? h(
@@ -92,17 +92,17 @@ class TimelineItem extends HTMLElement {
 							h("img", {
 								src: data.image.src,
 								alt: data.image.alt,
-							})
+							}),
 						),
-						h("span", { class: "caption" }, data.image.caption)
-				  )
+						h("span", { class: "caption" }, data.image.caption),
+					)
 				: null,
 			data.isBasedOn && data.customLink
 				? h(
 						"a",
 						{ target: "_blank", href: "data.customLink" },
-						"Read the article"
-				  )
+						"Read the article",
+					)
 				: null,
 			h("span", { class: "inner-description" }),
 			data?.links.length
@@ -122,16 +122,16 @@ class TimelineItem extends HTMLElement {
 												href: link.href,
 												target: "_blank",
 											},
-											link.linkText
+											link.linkText,
 										),
-										` ` + link.extraText
-									)
+										` ` + link.extraText,
+									),
 								);
 							});
 							return lis;
-						})()
-				  )
-				: null
+						})(),
+					)
+				: null,
 		);
 		this.appendChild(timelineDescription);
 		let innerContent = this.querySelector(".inner-description");
@@ -155,7 +155,7 @@ customElements.define("timeline-item", TimelineItem);
 
 function reflowEntries() {
 	var entries = document.querySelectorAll(
-		'.timeline-entry[aria-hidden="false"]'
+		'.timeline-entry[aria-hidden="false"]',
 	);
 	for (var i = 0; i < entries.length; i++) {
 		var entry = entries[i];
@@ -168,6 +168,33 @@ function reflowEntries() {
 		} else {
 			entry.classList.add("odd");
 		}
+	}
+}
+
+function resetURLOnScroll() {
+	// Step 1: Function to check if the URL is three path levels deep
+	let path = window.location.pathname;
+	// Remove leading and trailing slashes and split the path
+	const segments = path.replace(/^\/|\/$/g, "").split("/");
+
+	function isThreePathLevelsDeep() {
+		return segments.length === 3;
+	}
+
+	// Step 2: Function to change the URL on scroll
+	function changeUrlOnScroll() {
+		if (isThreePathLevelsDeep()) {
+			// Example of changing the URL, you can customize the path as needed
+			const newPath = `/${segments[0]}/${segments[1]}/`;
+			window.history.pushState({}, "", newPath);
+			document.removeEventListener("DOMContentLoaded", changeUrlOnScroll);
+		}
+	}
+
+	if (isThreePathLevelsDeep()) {
+		console.log("On timeline item");
+		// Attach the scroll event listener to the window
+		window.addEventListener("scroll", changeUrlOnScroll);
 	}
 }
 
@@ -190,6 +217,7 @@ function singleItemPageFill() {
 	homeItem.scrollIntoView();
 	// Clean up
 	document.removeEventListener("DOMContentLoaded", singleItemPageFill);
+	resetURLOnScroll();
 }
 
 let preload = () => {
@@ -223,7 +251,7 @@ let preload = () => {
 			} else {
 				document.addEventListener(
 					"DOMContentLoaded",
-					singleItemPageFill
+					singleItemPageFill,
 				);
 			}
 		});

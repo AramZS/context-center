@@ -10,7 +10,7 @@ function hide(el) {
 
 function uncheckAll() {
 	var checkedBoxes = document.querySelectorAll(
-		'input[type="checkbox"]:checked'
+		'input[type="checkbox"]:checked',
 	);
 	var activeFilters = [];
 	checkedBoxes.forEach(function (filter) {
@@ -25,10 +25,10 @@ function uncheckAll() {
 function hideUnchecked() {
 	/* Uncheck the "all" box if one of the filter boxes is unchecked */
 	var allBoxes = document.querySelectorAll(
-		'input[type="checkbox"][name="filter"]'
+		'input[type="checkbox"][name="filter"]',
 	);
 	var checkedBoxes = document.querySelectorAll(
-		'input[type="checkbox"][name="filter"]:checked'
+		'input[type="checkbox"][name="filter"]:checked',
 	);
 	if (checkedBoxes.length < allBoxes.length) {
 		document.querySelector('input[type="checkbox"]#all').checked = false;
@@ -64,7 +64,7 @@ function hideUnchecked() {
 
 function checkAll() {
 	var checkboxes = document.querySelectorAll(
-		'input[type="checkbox"][name="filter"]'
+		'input[type="checkbox"][name="filter"]',
 	);
 	checkboxes.forEach(function (box) {
 		box.checked = true;
@@ -84,7 +84,7 @@ function isItemInTags(tags, visibleTags) {
 
 function reflowEntries() {
 	var entries = document.querySelectorAll(
-		'.timeline-entry[aria-hidden="false"]'
+		'.timeline-entry[aria-hidden="false"]',
 	);
 	for (var i = 0; i < entries.length; i++) {
 		var entry = entries[i];
