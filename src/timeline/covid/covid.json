@@ -1,7 +1,7 @@
 {
 	"timeline": "covid",
 	"title": "COVID Timeline",
-	"description": "A Timeline of notable events about COVID as it was reported, maintained on Context Center",
+	"description": "A Timeline of notable events about COVID as it was reported, maintained on Context Center. You can read more about COVID at the <a href=\"https://www.who.int/europe/emergencies/situations/covid-19\" target=\"_blank\">WHO Hub Page</a>.",
 	"tags": [
 		"COVID",
 		"Health",
