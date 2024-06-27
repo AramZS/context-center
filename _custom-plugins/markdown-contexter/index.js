@@ -57,115 +57,6 @@ module.exports = (eleventyConfig, userOptions) => {
 		return { cacheFolder, cacheFile };
 	};
 
-	const handleContexter = (link, cacheFile, fileName, finalArchiveCheck) => {
-		let archiveLink = "https://web.archive.org/web/" + link;
-		let pContext = contexter.context(
-			finalArchiveCheck ? archiveLink : link,
-			finalArchiveCheck,
-			link
-		);
-		// completeAllPromiseArray.push(pContext);
-		// No file yet
-		console.log("Cached link " + cacheFile + " to repo not ready");
-		pContext
-			.then((r) => {
-				const fileWritePromise = new Promise((resolve, reject) => {
-					console.log("Context ready", r.linkId);
-					// No file yet
-					console.log(
-						"Cached link for " + cacheFile + " ready to write."
-					);
-					try {
-						console.log(
-							"Writing data for: ",
-							finalArchiveCheck ? archiveLink : link
-						);
-						fs.mkdirSync(cacheFolder, {
-							recursive: true,
-						});
-						imageHandler
-							.handleImageFromObject(r, fileName, cacheFilePath)
-							.then((localImageFileName) => {
-								console.log(
-									"handleImageFromObject result ",
-									localImageFileName
-								);
-								if (localImageFileName) {
-									r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
-									// console.log('write data to file', cacheFile)
-
-									fs.writeFileSync(
-										cacheFile,
-										JSON.stringify(r)
-									);
-									resolve(cacheFile);
-								} else {
-									console.log(
-										"Image handling returned no result for ",
-										localImageFileName
-									);
-									reject(localImageFileName);
-								}
-							})
-							.catch((e) => {
-								console.log("Image handling failed", e);
-								reject(e);
-							});
-					} catch (e) {
-						console.log("writing to cache failed:", e);
-						reject(e);
-					}
-					setTimeout(() => {
-						console.log("Request timed out for ", cacheFile);
-						console.log(
-							"Archiving request timeout error for " +
-								cacheFile +
-								" from ",
-							finalArchiveCheck ? archiveLink : link
-						);
-						try {
-							if (!finalArchiveCheck) {
-								try {
-									handleContexter(
-										link,
-										cacheFile,
-										fileName,
-										true
-									);
-								} catch (e) {
-									console.log(
-										"archived version check failed",
-										e
-									);
-									reject();
-								}
-							}
-						} catch (e) {
-							console.log("archive check attempt fail ", e);
-						}
-						reject(); // new Error("Archiving request timeout error for " + cacheFile + " from " + link));
-					}, 20000);
-				});
-				console.log(
-					"completeAllPromiseArray ready to be pushed to for ",
-					cacheFile
-				);
-				completeAllPromiseArray.push(fileWritePromise);
-				return completeAllPromiseArray;
-			})
-			.catch((e) => {
-				// Always seem to be getting the timeout, not this. Am I not handling error codes?
-				console.log(
-					"Context adding promise failed on ",
-					finalArchiveCheck ? archiveLink : link,
-					e
-				);
-				if (!finalArchiveCheck) {
-					handleContexter(link, cacheFile, fileName, true);
-				}
-			});
-	};
-
 	const reMarkdown = (inputContent, data) => {
 		let promiseContext = new Promise((resolve, reject) => {
 			setTimeout(() => {
@@ -218,17 +109,15 @@ module.exports = (eleventyConfig, userOptions) => {
 					let backoffObj = JSON.parse(fs.readFileSync(backoffList));
 					if (backoffObj?.list.includes(urlObj.url)) {
 						console.log("Backoff process failed");
-						backoffObj.lastCheck[urlObj.url] =
-							new Date().toString();
 					} else {
 						backoffObj.list.push(urlObj.url);
 						backoffObj.lastCheck[urlObj.url] =
 							new Date().toString();
+						fs.writeFileSync(
+							backoffList,
+							JSON.stringify(backoffObj)
+						);
 					}
-					fs.writeFileSync(
-						backoffList,
-						JSON.stringify(backoffObj, null, "\t")
-					);
 					// throw new Error("Timed out after 30s");
 				}, 60000);
 				// console.log("inputContent Process: ", link);
@@ -338,24 +227,103 @@ module.exports = (eleventyConfig, userOptions) => {
 								// It has been less than 14 days since the last check
 								return;
 							}
-						}
-						// We did not cut out because of a backoff, push new backoff link.
-						if (backoffObj?.list.includes(link)) {
+						} else {
 							backoffObj.list.push(link);
 							backoffObj.lastCheck[link] = new Date().toString();
 						}
-						// fallback to https://web.archive.org/web/{url}?
-						handleContexter(link, cacheFile, fileName, false);
+						let pContext = contexter.context(link);
+						// completeAllPromiseArray.push(pContext);
+						// No file yet
+						console.log(
+							"Cached link " + cacheFile + " to repo not ready"
+						);
+						pContext
+							.then((r) => {
+								const fileWritePromise = new Promise(
+									(resolve, reject) => {
+										console.log("Context ready", r.linkId);
+										// No file yet
+										console.log(
+											"Cached link for " +
+												cacheFile +
+												" ready to write."
+										);
+										try {
+											console.log(
+												"Writing data for: ",
+												link
+											);
+											fs.mkdirSync(cacheFolder, {
+												recursive: true,
+											});
+											imageHandler
+												.handleImageFromObject(
+													r,
+													fileName,
+													cacheFilePath
+												)
+												.then((localImageFileName) => {
+													console.log(
+														"handleImageFromObject result ",
+														localImageFileName
+													);
+													if (localImageFileName) {
+														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
+														// console.log('write data to file', cacheFile)
+													}
+													fs.writeFileSync(
+														cacheFile,
+														JSON.stringify(r)
+													);
+													resolve(cacheFile);
+												})
+												.catch((e) => {
+													console.log(
+														"Image handling failed",
+														e
+													);
+													reject(e);
+												});
+										} catch (e) {
+											console.log(
+												"writing to cache failed:",
+												e
+											);
+											reject(e);
+										}
+										setTimeout(() => {
+											console.log(
+												"Request timed out for ",
+												cacheFile
+											);
+											reject(
+												new Error(
+													"Archiving request timeout error for " +
+														cacheFile +
+														" from ",
+													link
+												)
+											);
+										}, 15000);
+									}
+								);
+								completeAllPromiseArray.push(fileWritePromise);
+								return;
+							})
+							.catch((e) => {
+								console.log(
+									"Context adding promise failed on ",
+									link,
+									e
+								);
+							});
 					} catch (e) {
 						console.log("Contexter Process Failed: ", e);
 					}
 				}
 				clearTimeout(timeoutID);
 			});
-			fs.writeFileSync(
-				backoffList,
-				JSON.stringify(backoffObj, null, "\t")
-			);
+			fs.writeFileSync(backoffList, JSON.stringify(backoffObj));
 		}
 		// console.log("Input content ready to return");
 		const renderResult = options.existingRenderer.render(
@@ -438,9 +406,9 @@ module.exports = (eleventyConfig, userOptions) => {
 	if (options.buildArchive) {
 		eleventyConfig.addCollection("archives", async (collection) => {
 			try {
-				let results = await Promise.allSettled(completeAllPromiseArray);
+				let results = await Promise.all(completeAllPromiseArray);
 				const invalidResults = results.filter((result) => {
-					if (!result || result.status == "rejected") {
+					if (result instanceof Error) {
 						return result;
 					}
 				});
