@@ -8,6 +8,7 @@ tags:
   - Paxlovid
   - Long COVID
   - Science
+  - Reinfections
 ---
 
 https://www.medrxiv.org/content/10.1101/2022.11.03.22281783v1

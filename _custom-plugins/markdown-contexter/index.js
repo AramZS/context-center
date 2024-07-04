@@ -21,7 +21,7 @@ module.exports = (eleventyConfig, userOptions) => {
 	const cacheFolder = path.join(
 		__dirname,
 		"../../",
-		`/${options.cachePath}/`
+		`/${options.cachePath}/`,
 	);
 
 	options.cacheFolder = cacheFolder;
@@ -35,7 +35,7 @@ module.exports = (eleventyConfig, userOptions) => {
 
 	const filenameMaker = (link) =>
 		sanitizeFilename(
-			slugify(contexter.sanitizeLink(link)).replace(/\./g, "")
+			slugify(contexter.sanitizeLink(link)).replace(/\./g, ""),
 		);
 
 	eleventyConfig.filenameMaker = filenameMaker;
@@ -47,7 +47,7 @@ module.exports = (eleventyConfig, userOptions) => {
 			__dirname,
 			"../../",
 			`/${options.cachePath}/`,
-			pageFilePath
+			pageFilePath,
 		);
 		let cacheFile = cacheFolder + searchKey;
 		if (!notJson) {
@@ -95,7 +95,7 @@ module.exports = (eleventyConfig, userOptions) => {
 		} catch (e) {
 			fs.writeFileSync(
 				backoffList,
-				JSON.stringify({ list: [], lastCheck: {} })
+				JSON.stringify({ list: [], lastCheck: {} }),
 			);
 		}
 
@@ -104,19 +104,22 @@ module.exports = (eleventyConfig, userOptions) => {
 		if (urlsArray.length) {
 			urlsArray.forEach((urlObj) => {
 				const link = urlObj.url;
+				let timeoutForRequest;
 				const timeoutID = setTimeout(() => {
 					console.log("Failure to deal with urlObj ", urlObj.url);
 					let backoffObj = JSON.parse(fs.readFileSync(backoffList));
 					if (backoffObj?.list.includes(urlObj.url)) {
 						console.log("Backoff process failed");
+						timeoutForRequest = Promise.resolve(true);
 					} else {
 						backoffObj.list.push(urlObj.url);
 						backoffObj.lastCheck[urlObj.url] =
 							new Date().toString();
 						fs.writeFileSync(
 							backoffList,
-							JSON.stringify(backoffObj)
+							JSON.stringify(backoffObj),
 						);
+						timeoutForRequest = Promise.resolve(true);
 					}
 					// throw new Error("Timed out after 30s");
 				}, 60000);
@@ -140,13 +143,13 @@ module.exports = (eleventyConfig, userOptions) => {
 					// Markdown system reads tabs as code blocks no matter what.
 					let htmlEmbed = contextData.htmlEmbed.replace(
 						/\t|^\s+|\n|\r/gim,
-						""
+						"",
 					);
 					const localImageObj = imageHandler.imageCheck(
 						contextData,
 						fileName,
 						cacheFilePath,
-						completeAllPromiseArray
+						completeAllPromiseArray,
 					);
 					// console.log("Image checked", localImageObj);
 					if (localImageObj) {
@@ -160,7 +163,7 @@ module.exports = (eleventyConfig, userOptions) => {
 						let image = originalImage;
 						htmlEmbed = htmlEmbed.replace(
 							image,
-							`${options.domain}/${options.publicImagePath}/${fileName}/${imageName}`
+							`${options.domain}/${options.publicImagePath}/${fileName}/${imageName}`,
 						);
 					}
 					if (
@@ -170,13 +173,13 @@ module.exports = (eleventyConfig, userOptions) => {
 					) {
 						htmlEmbed = htmlEmbed.replace(
 							`</contexter-box>`,
-							`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" rel="timemap" slot="archive-link">Archived</a></contexter-box>`
+							`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" rel="timemap" slot="archive-link">Archived</a></contexter-box>`,
 						);
 					}
 					if (contextData.data.twitterObj) {
 						htmlEmbed = htmlEmbed.replace(
 							/<script async src"https:\/\/platform\.twitter\.com\/widgets\.js" charset="utf-8"><\/script>/g,
-							""
+							"",
 						);
 					}
 					// console.log("contextData", contextData);
@@ -184,7 +187,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					if (htmlEmbed) {
 						inputContent = inputContent.replace(
 							urlObj.replace,
-							htmlEmbed
+							htmlEmbed,
 						);
 						// console.log("Link replaced with context: ", link);
 					}
@@ -199,7 +202,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					} catch (e) {
 						console.log(
 							"Backoff list removal failed for link ",
-							link
+							link,
 						);
 					}
 					return;
@@ -211,7 +214,7 @@ module.exports = (eleventyConfig, userOptions) => {
 						// console.log("Contextualizing link: ", link);
 						inputContent = inputContent.replace(
 							urlObj.replace,
-							`<p><a href="${link}" target="_blank">${link}</a></p>`
+							`<p><a href="${link}" target="_blank">${link}</a></p>`,
 						);
 						if (backoffObj?.list.includes(link)) {
 							const dateDiff =
@@ -222,7 +225,7 @@ module.exports = (eleventyConfig, userOptions) => {
 									"Backing off link: ",
 									link,
 									" with date diff of ",
-									dateDiff
+									dateDiff,
 								);
 								// It has been less than 14 days since the last check
 								return;
@@ -232,10 +235,20 @@ module.exports = (eleventyConfig, userOptions) => {
 							backoffObj.lastCheck[link] = new Date().toString();
 						}
 						let pContext = contexter.context(link);
+						timeoutForRequest.then((resolution) => {
+							if (resolution) {
+								console.log(
+									"Request timed out for ",
+									link,
+									resolution,
+								);
+								return;
+							}
+						});
 						// completeAllPromiseArray.push(pContext);
 						// No file yet
 						console.log(
-							"Cached link " + cacheFile + " to repo not ready"
+							"Cached link " + cacheFile + " to repo not ready",
 						);
 						pContext
 							.then((r) => {
@@ -246,12 +259,12 @@ module.exports = (eleventyConfig, userOptions) => {
 										console.log(
 											"Cached link for " +
 												cacheFile +
-												" ready to write."
+												" ready to write.",
 										);
 										try {
 											console.log(
 												"Writing data for: ",
-												link
+												link,
 											);
 											fs.mkdirSync(cacheFolder, {
 												recursive: true,
@@ -260,12 +273,12 @@ module.exports = (eleventyConfig, userOptions) => {
 												.handleImageFromObject(
 													r,
 													fileName,
-													cacheFilePath
+													cacheFilePath,
 												)
 												.then((localImageFileName) => {
 													console.log(
 														"handleImageFromObject result ",
-														localImageFileName
+														localImageFileName,
 													);
 													if (localImageFileName) {
 														r.localImage = `/${options.publicImagePath}/${fileName}/${localImageFileName}`;
@@ -273,39 +286,39 @@ module.exports = (eleventyConfig, userOptions) => {
 													}
 													fs.writeFileSync(
 														cacheFile,
-														JSON.stringify(r)
+														JSON.stringify(r),
 													);
 													resolve(cacheFile);
 												})
 												.catch((e) => {
 													console.log(
 														"Image handling failed",
-														e
+														e,
 													);
 													reject(e);
 												});
 										} catch (e) {
 											console.log(
 												"writing to cache failed:",
-												e
+												e,
 											);
 											reject(e);
 										}
 										setTimeout(() => {
 											console.log(
 												"Request timed out for ",
-												cacheFile
+												cacheFile,
 											);
 											reject(
 												new Error(
 													"Archiving request timeout error for " +
 														cacheFile +
 														" from ",
-													link
-												)
+													link,
+												),
 											);
 										}, 15000);
-									}
+									},
 								);
 								completeAllPromiseArray.push(fileWritePromise);
 								return;
@@ -314,7 +327,7 @@ module.exports = (eleventyConfig, userOptions) => {
 								console.log(
 									"Context adding promise failed on ",
 									link,
-									e
+									e,
 								);
 							});
 					} catch (e) {
@@ -328,7 +341,7 @@ module.exports = (eleventyConfig, userOptions) => {
 		// console.log("Input content ready to return");
 		const renderResult = options.existingRenderer.render(
 			inputContent,
-			data
+			data,
 		);
 		// console.log("Input content processing result for ", data.title);
 		// 2nd argument sets env
@@ -373,7 +386,7 @@ module.exports = (eleventyConfig, userOptions) => {
 			} catch (e) {
 				console.log(
 					"Default render process has failed, this is bad ",
-					e
+					e,
 				);
 			}
 		};
@@ -416,7 +429,7 @@ module.exports = (eleventyConfig, userOptions) => {
 			} catch (e) {
 				console.log(
 					"Could not complete all promises from Contexter",
-					e
+					e,
 				);
 			}
 			console.log("Archives Collection ");
@@ -441,7 +454,7 @@ module.exports = (eleventyConfig, userOptions) => {
 							contextData.htmlEmbed =
 								contextData.htmlEmbed.replace(
 									`</contexter-box>`,
-									`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" slot="archive-link">Archived</a></contexter-box>`
+									`<a href="${options.domain}/${options.publicPath}/${contextData.sanitizedLink}" is="contexter-link" target="_blank" class="read-link archive-link" itemprop="archivedAt" slot="archive-link">Archived</a></contexter-box>`,
 								);
 						}
 						archives.push(contextData);
@@ -450,7 +463,7 @@ module.exports = (eleventyConfig, userOptions) => {
 							"Failed to assure clean data",
 							contextData.sanitizedLink,
 							contextData.data.finalizedMeta,
-							e
+							e,
 						);
 					}
 				}

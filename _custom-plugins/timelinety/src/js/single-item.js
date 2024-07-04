@@ -22,22 +22,26 @@ class TimelineItem extends HTMLElement {
 	elBuilder(data) {
 		console.log("Set data ", data);
 		this.setAttribute("data-tags", data.tags.join(","));
-		let tagIslugs = data.tags.reduce((a, c) => {
-			return `${a} fa-i-${c
-				.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
-				.replace(/[^A-Za-z0-9\s]/g, "")
-				.trim()
-				.replace(/\s+/g, "-")
-				.toLowerCase()}`;
-		}, "");
-		let tagICslugs = data.tags.reduce((a, c) => {
-			return `${a} fa-ic-${c
-				.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
-				.replace(/[^A-Za-z0-9\s]/g, "")
-				.trim()
-				.replace(/\s+/g, "-")
-				.toLowerCase()}`;
-		}, "");
+		let tagIslugs = data.tags
+			.filter((i) => i)
+			.reduce((a, c) => {
+				return `${a} fa-i-${c
+					.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
+					.replace(/[^A-Za-z0-9\s]/g, "")
+					.trim()
+					.replace(/\s+/g, "-")
+					.toLowerCase()}`;
+			}, "");
+		let tagICslugs = data.tags
+			.filter((i) => i)
+			.reduce((a, c) => {
+				return `${a} fa-ic-${c
+					.replace(/[^\w\s$*_+~.()'"!\-:@]+/g, "")
+					.replace(/[^A-Za-z0-9\s]/g, "")
+					.trim()
+					.replace(/\s+/g, "-")
+					.toLowerCase()}`;
+			}, "");
 		let timelineIcon = h(
 			"div",
 			{
