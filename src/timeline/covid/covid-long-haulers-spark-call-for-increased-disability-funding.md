@@ -6,6 +6,7 @@ dateAdded: 2023-09-02 22:59:43.10 -5
 isBasedOn: "https://www.bloomberg.com/news/articles/2021-08-06/long-covid-patients-will-drain-u-s-disability-funding"
 tags:
   - Long COVID
+  - Disability
 ---
 
 https://www.bloomberg.com/news/articles/2021-08-06/long-covid-patients-will-drain-u-s-disability-funding

@@ -7,6 +7,7 @@ isBasedOn: "https://www.thegauntlet.news/p/silence-from-prominent-left-outlets"
 tags:
   - Misinformation
   - Masking
+  - Politics
 links:
   -
     href: "https://journals.sagepub.com/doi/full/10.1177/1368430221998781"
