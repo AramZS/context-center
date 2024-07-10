@@ -30,6 +30,10 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://techpolicy.press/potential-implications-of-us-copyright-office-determination-on-ai-generated-work/
 - https://www.vice.com/en/article/pkapb7/a-photographer-tried-to-get-his-photos-removed-from-an-ai-dataset-he-got-an-invoice-instead
 - https://tedium.co/2023/07/29/music-sampling-ai-generated-legal-conflict-history/
+- https://www.theatlantic.com/technology/archive/2024/06/hot-jesus-ai/678814/?gift=iWa_iB9lkw4UuiWbIbrWGUm8BCaTZsKAG3ejo7y0Tsw
+- https://www.washingtonpost.com/technology/interactive/2024/ai-bias-beautiful-women-ugly-images/
+- https://slate.com/technology/2024/05/deviantart-what-happened-ai-decline-lawsuit-stability.html
+- https://www.404media.co/bards-and-sages-closing-ai-generated-writing/
 
 ## AI and Tech Criticism
 
@@ -42,6 +46,10 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://arstechnica.com/information-technology/2023/07/is-chatgpt-getting-worse-over-time-study-claims-yes-but-others-arent-sure/?utm_source=pocket_reader
 - https://www.creativebloq.com/features/ai-art-the-impact-of-generative-AI
 - https://www.citationneeded.news/ai-isnt-useless/
+- https://spectrum.ieee.org/chatgpt-for-coding
+- https://www.baldurbjarnason.com/2024/new-web-dev/
+- https://tedium.co/2024/05/17/google-web-search-make-default/
+- https://www.404media.co/facebooks-ai-spam-isnt-the-dead-internet-its-the-zombie-internet/
 
 ## AI and Journalism
 
@@ -56,7 +64,16 @@ https://www.thecurrent.com/publishers-fear-chatgpt-undermine-media-industry-enti
 https://www.theatlantic.com/technology/archive/2023/03/chatgpt-api-software-integration/673340/
 https://defector.com/go-media-bot-blogs-may-be-unreadable-but-at-least-theyre-incorrect
 https://www.nytimes.com/2023/05/23/business/media/buzzfeed-botatouille-chatbot-food.html
+https://www.axios.com/2024/04/30/microsoft-openai-lawsuit-copyright-newspapers-alden-global
 https://www.bloomberg.com/news/articles/2023-02-17/openai-is-faulted-by-media-for-using-articles-to-train-chatgpt
+https://www.fastcompany.com/91116001/financial-times-openai-licensing-deal
+https://www.theverge.com/2024/7/9/24194486/the-washington-post-climate-answers-ai-chatbot
+https://www.404media.co/i-paid-365-63-to-replace-404-media-with-ai/
+https://www.axios.com/2024/06/18/forbes-perplexity-ai-legal-action-copyright
+https://journalistsresource.org/media/ai-journalism-julia-angwin/
+https://www.theatlantic.com/technology/archive/2024/05/a-devils-bargain-with-openai/678537/?gift=iWa_iB9lkw4UuiWbIbrWGeo9PEb4hmzjDbi8Fn8nlyk
+https://www.cnn.com/2024/05/30/media/ai-bylines-local-news-hoodline/index.html
+https://www.niemanlab.org/2024/05/for-the-first-time-two-pulitzer-winners-disclosed-using-ai-in-their-reporting/
 
 ## Misinformation
 
@@ -66,10 +83,18 @@ https://simonwillison.net/2023/Mar/10/chatgpt-internet-access/
 https://blog.opencagedata.com/post/dont-believe-chatgpt
 https://www.poynter.org/fact-checking/2023/chatgpt-build-fake-news-organization-website/
 https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to-believe-disinformation-generated-by-ai/
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4815890
+https://link.springer.com/article/10.1007/s10676-024-09775-5
 
 ## AI and Climate
 
 - https://clivethompson.medium.com/ai-is-thirsty-37f99f24a26e
+- https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/
+- https://www.bloomberg.com/news/articles/2024-07-08/google-is-no-longer-claiming-to-be-carbon-neutral
+- https://www.scientificamerican.com/article/the-ai-boom-could-use-a-shocking-amount-of-electricity/
+- https://www.scientificamerican.com/article/what-do-googles-ai-answers-cost-the-environment/
+- https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment?CMP=Share_AndroidApp_Other
+- https://www.cnbc.com/2023/12/06/water-why-a-thirsty-generative-ai-boom-poses-a-problem-for-big-tech.html
 
 ## Tools
 
@@ -147,6 +172,12 @@ https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents
 
 https://www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html
 
+https://www.quantamagazine.org/how-do-machines-grok-data-20240412/
+
+https://www.kwaai.ai/about
+
+https://gizmodo.com/machine-learning-vs-deep-learning-whats-the-differenc-1851478983
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -223,6 +254,8 @@ https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protec
 https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
 https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8
 https://www.theatlantic.com/technology/archive/2024/04/generative-ai-low-resource-languages/678042/
+https://blog.zgp.org/block-ai-training-on-a-web-site/
+https://www.theatlantic.com/technology/archive/2024/06/ai-eats-the-world/678627/?gift=bQgJMMVzeo8RHHcE1_KM0Z6IC-mVnbZ1MIab37oJyhY
 
 ## Labor
 
@@ -236,32 +269,51 @@ https://www.nbcnews.com/tech/security/fbi-warns-deepfake-porn-scams-rcna88190
 https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale
 https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai
 https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey
+https://www.bbc.com/future/article/20240612-the-people-making-ai-sound-more-human
+https://www.wired.com/story/ai-workers-burnout-microsoft-linkedin/
 
 ## Privacy
 
 https://www.washingtonpost.com/technology/2023/06/28/openai-chatgpt-lawsuit-class-action/
 https://www.theverge.com/features/23764584/ai-artificial-intelligence-data-notation-labor-scale-surge-remotasks-openai-chatbots
 https://www.wsj.com/articles/i-cloned-myself-with-ai-she-fooled-my-bank-and-my-family-356bd1a3
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 
 ## AI and Policy
 
 - https://publicai.network/
 - https://www.ai.se/en/node/81535/gpt-sw3
+- https://time.com/6996090/ai-china-american-voters-poll/
+- https://www.ftc.gov/business-guidance/blog/2024/06/succor-borne-every-minute
+- https://firstmonday.org/ojs/index.php/fm/article/view/13636
+
+## AI and the market
+
+- https://www.youtube.com/watch?v=FZcCgnktdX8
+- https://www.wsj.com/tech/ai/the-big-ai-question-are-you-ready-to-pay-for-it-534d95e9
+- https://www.sequoiacap.com/article/ais-600b-question/
+
+[Gen AI: Too Much Spend, Too Little Benefit? PDF](https://www.goldmansachs.com/intelligence/pages/gs-research/gen-ai-too-much-spend-too-little-benefit/report.pdf)
+
+https://x.com/Moonalice/status/1810386071357894866
 
 ## Big Tech + Generative AI
 
-### Bing
+### Microsoft
 
 https://www.wired.com/story/chatgpt-opened-a-new-era-in-search-microsoft-could-ruin-it/
 https://azure.microsoft.com/en-us/blog/chatgpt-is-now-available-in-azure-openai-service/
 https://www.cnn.com/2023/03/16/tech/openai-gpt-microsoft-365/index.html
 https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat
+https://www.theverge.com/2024/6/3/24170305/microsoft-windows-recall-ai-screenshots-security-privacy-issues
+https://doublepulsar.com/recall-stealing-everything-youve-ever-typed-or-viewed-on-your-own-windows-pc-is-now-possible-da3e12e9465e
 
-### Bard
+### Google
 
 https://www.bloomberg.com/news/features/2023-04-19/google-bard-ai-chatbot-raises-ethical-concerns-from-employees
 https://www.nytimes.com/2023/03/31/podcasts/hard-fork-sundar.html?curator=MediaREDEF
 https://blog.google/technology/ai/an-update-on-web-publisher-controls/
+https://www.nbcnews.com/tech/tech-news/google-ai-im-feeling-depressed-cheese-not-sticking-to-pizza-error-rcna153301
 
 ### Amazon
 
@@ -282,6 +334,7 @@ https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-ta
  - https://www.theverge.com/2023/1/26/23570967/chatgpt-author-scientific-papers-springer-nature-ban
  - https://www.npr.org/sections/money/2023/01/17/1149206188/this-22-year-old-is-trying-to-save-us-from-chatgpt-before-it-changes-writing-for
  - https://arstechnica.com/information-technology/2023/07/why-ai-detectors-think-the-us-constitution-was-written-by-ai/
+ - https://www.404media.co/university-suspends-students-for-ai-homework-tool-it-paid-them-10-000-to-make/
 
 
 ## AI vs the Law
@@ -293,6 +346,8 @@ https://www.nhbr.com/worlds-first-robot-lawyer-short-circuited-by-prosecutors-fa
 https://www.reuters.com/legal/lawsuit-pits-class-action-firm-against-robot-lawyer-donotpay-2023-03-09/
 
 https://gizmodo.com/donotpay-robot-lawyer-speeding-ticket-ai-1850218589
+
+https://www.404media.co/listen-to-the-ai-generated-ripoff-songs-that-got-udio-and-suno-sued/
 
 https://www.npr.org/2023/01/25/1151435033/a-robot-was-scheduled-to-argue-in-court-then-came-the-jail-threats
 
@@ -309,6 +364,16 @@ https://themarkup.org/hello-world/2023/04/08/whos-afraid-of-disparate-impact
 https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk
 
 https://www.plagiarismtoday.com/2023/05/23/what-the-warhol-ruling-may-mean-for-ai/
+
+https://arstechnica.com/tech-policy/2024/06/ai-trained-on-photos-from-kids-entire-childhood-without-their-consent/
+
+## Open Source AI
+
+https://ollama.com/blog/continue-code-assistant
+
+## Personal AI
+
+https://doc.searls.com/2024/05/10/personal-vs-personalized/
 
 ## Notes
 
