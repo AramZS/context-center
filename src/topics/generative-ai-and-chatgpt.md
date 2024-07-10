@@ -178,6 +178,8 @@ https://www.kwaai.ai/about
 
 https://gizmodo.com/machine-learning-vs-deep-learning-whats-the-differenc-1851478983
 
+https://globe.engineer/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
