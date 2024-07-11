@@ -190,7 +190,7 @@ function resetURLOnScroll() {
 		if (isThreePathLevelsDeep()) {
 			// Example of changing the URL, you can customize the path as needed
 			const newPath = `/${segments[0]}/${segments[1]}/`;
-			window.history.pushState({}, "", newPath);
+			// window.history.pushState({}, "", newPath); // I don't think I want to do this.
 			document.removeEventListener("DOMContentLoaded", changeUrlOnScroll);
 		}
 	}
