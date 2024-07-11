@@ -190,15 +190,15 @@ function resetURLOnScroll() {
 		if (isThreePathLevelsDeep()) {
 			// Example of changing the URL, you can customize the path as needed
 			const newPath = `/${segments[0]}/${segments[1]}/`;
-			// window.history.pushState({}, "", newPath); // I don't think I want to do this.
-			document.removeEventListener("DOMContentLoaded", changeUrlOnScroll);
+			window.history.pushState({}, "", newPath); // I don't think I want to do this.
+			document.removeEventListener("scrollend", changeUrlOnScroll);
 		}
 	}
 
 	if (isThreePathLevelsDeep()) {
 		console.log("On timeline item");
 		// Attach the scroll event listener to the window
-		window.addEventListener("scroll", changeUrlOnScroll);
+		window.addEventListener("scrollend", changeUrlOnScroll);
 	}
 }
 
@@ -213,15 +213,20 @@ function singleItemPageFill() {
 	container.prepend(...window.timelinePrepends);
 	homeItem.scrollIntoView();
 	container.append(...window.timelineAppends);
-	homeItem.scrollIntoView();
+	homeItem.scrollIntoView(true);
 	homeItem.querySelector(".timeline-description").style.border =
 		"2px solid var(--border-base)";
 	console.log("Build complete");
 	reflowEntries();
-	homeItem.scrollIntoView();
+	homeItem.scrollIntoView({ behavior: "instant", block: "start" });
 	// Clean up
 	document.removeEventListener("DOMContentLoaded", singleItemPageFill);
-	resetURLOnScroll();
+
+	homeItem.scrollIntoView({ behavior: "instant", block: "start" });
+	setTimeout(() => {
+		homeItem.scrollIntoView({ behavior: "instant", block: "start" });
+	}, 1000);
+	setTimeout(resetURLOnScroll, 5000);
 }
 
 let preload = () => {

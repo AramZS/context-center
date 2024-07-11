@@ -79,13 +79,13 @@ module.exports = function (eleventyConfig, options) {
 		return new Date(value).toISOString();
 	});
 	eleventyConfig.addFilter("timelineStripOpenCloseQuotes", function (value) {
-		console.log("timelineStripOpenCloseQuotes", value);
+		//console.log("timelineStripOpenCloseQuotes", value);
 		return !value ? value : value.replaceAll(/^"|"$/g, "");
 	});
 	// https://stackoverflow.com/questions/46426306/how-to-safely-render-json-into-an-inline-script-using-nunjucks
 	// is expected to run after `| escape`.
 	eleventyConfig.addFilter("timelineJSONEscape", function (value) {
-		console.log("timelineJSONEscape", value, spaces);
+		//console.log("timelineJSONEscape", value, spaces);
 		if (!value) {
 			return value;
 		}
@@ -99,17 +99,17 @@ module.exports = function (eleventyConfig, options) {
 			value = value.toString();
 		}
 		var spaces = 4;
-		console.log("timelineJSONEscape 2", value, spaces);
+		//console.log("timelineJSONEscape 2", value, spaces);
 		const jsonString = JSON.stringify(value, null, spaces).replace(
 			/\</g,
 			"\\u003c",
 		);
-		console.log("timelineJSONEscape 2.5 ", jsonString);
+		//console.log("timelineJSONEscape 2.5 ", jsonString);
 		let finalJsonString = jsonString
 			.replaceAll(/^"|"$/g, "")
 			.replace(/\>/g, "\\u003e")
 			.replace(/"/g, "\\u0022");
-		console.log("timelineJSONEscape 3 ", finalJsonString);
+		//console.log("timelineJSONEscape 3 ", finalJsonString);
 		return nunjucks.runtime.markSafe(finalJsonString);
 	});
 	return library(eleventyConfig, pluginConfig);

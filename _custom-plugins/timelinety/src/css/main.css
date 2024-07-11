@@ -13,7 +13,8 @@ body {
 	font-family: "Hind Vadodara", sans-serif;
 }
 
-h1 {
+h1,
+header.page-header h1 > a {
 	font-family: "Roboto Slab", serif;
 	margin-top: 0;
 	color: #ffffff;
@@ -335,6 +336,7 @@ footer.page-footer {
 	}
 	body,
 	h1,
+	header.page-header h1 > a,
 	header.page-header p,
 	footer.page-footer p,
 	.timeline-description,
