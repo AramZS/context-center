@@ -3,6 +3,7 @@ const chalk = require("chalk");
 const library = require("./src/index.js");
 const path = require("path");
 const fs = require("fs");
+let nunjucks = require("nunjucks");
 
 // Based on
 
@@ -29,7 +30,7 @@ module.exports = function (eleventyConfig, options) {
 		//"./",
 		dirs[1],
 		"src",
-		"layouts"
+		"layouts",
 	);
 	console.log(
 		"Activate Timelinety",
@@ -37,7 +38,7 @@ module.exports = function (eleventyConfig, options) {
 		path.join(__dirname, "/src/js"),
 		process.cwd(),
 		dirs,
-		pluginLayoutPath
+		pluginLayoutPath,
 		// fs.statSync(path.join(pluginLayoutPath, "timeline-item.njk"))
 	);
 	pluginConfig.pluginLayoutPath = pluginLayoutPath;
@@ -51,27 +52,65 @@ module.exports = function (eleventyConfig, options) {
 	eleventyConfig.addPassthroughCopy(cssPassthru);
 	eleventyConfig.addLayoutAlias(
 		"timeline",
-		path.join(pluginLayoutPath, "timeline.njk")
+		path.join(pluginLayoutPath, "timeline.njk"),
 	);
 	eleventyConfig.addLayoutAlias(
 		"timeline-standalone-item",
-		path.join(pluginLayoutPath, "timeline-standalone-item.njk")
+		path.join(pluginLayoutPath, "timeline-standalone-item.njk"),
 	);
 	eleventyConfig.addLayoutAlias(
 		"timeline-base",
-		path.join(pluginLayoutPath, "timeline-base.njk")
+		path.join(pluginLayoutPath, "timeline-base.njk"),
 	);
 	eleventyConfig.addLayoutAlias(
 		"timeline-head",
-		path.join(pluginLayoutPath, "head.njk")
+		path.join(pluginLayoutPath, "head.njk"),
 	);
 	eleventyConfig.addLayoutAlias(
 		"timeline-json",
-		path.join(pluginLayoutPath, "json/timeline.njk")
+		path.join(pluginLayoutPath, "json/timeline.njk"),
 	);
 	eleventyConfig.addGlobalData("timelinesConfig", pluginConfig);
+	eleventyConfig.addFilter("buildlog", function (value) {
+		console.log("TIMELINE Buildlog ", value);
+		return;
+	});
 	eleventyConfig.addFilter("makeISODate", function (value) {
 		return new Date(value).toISOString();
+	});
+	eleventyConfig.addFilter("timelineStripOpenCloseQuotes", function (value) {
+		console.log("timelineStripOpenCloseQuotes", value);
+		return !value ? value : value.replaceAll(/^"|"$/g, "");
+	});
+	// https://stackoverflow.com/questions/46426306/how-to-safely-render-json-into-an-inline-script-using-nunjucks
+	// is expected to run after `| escape`.
+	eleventyConfig.addFilter("timelineJSONEscape", function (value) {
+		console.log("timelineJSONEscape", value, spaces);
+		if (!value) {
+			return value;
+		}
+		if (typeof value !== "string" && typeof value === "object") {
+			value = value.val;
+		}
+		if (!value) {
+			return value;
+		}
+		if (value instanceof nunjucks.runtime.SafeString) {
+			value = value.toString();
+		}
+		var spaces = 4;
+		console.log("timelineJSONEscape 2", value, spaces);
+		const jsonString = JSON.stringify(value, null, spaces).replace(
+			/\</g,
+			"\\u003c",
+		);
+		console.log("timelineJSONEscape 2.5 ", jsonString);
+		let finalJsonString = jsonString
+			.replaceAll(/^"|"$/g, "")
+			.replace(/\>/g, "\\u003e")
+			.replace(/"/g, "\\u0022");
+		console.log("timelineJSONEscape 3 ", finalJsonString);
+		return nunjucks.runtime.markSafe(finalJsonString);
 	});
 	return library(eleventyConfig, pluginConfig);
 };

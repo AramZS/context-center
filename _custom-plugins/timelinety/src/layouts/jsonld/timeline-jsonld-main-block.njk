@@ -5,8 +5,8 @@
         {% block jsonLdDetail %}
         "@id": "{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
         "@type": "Blog",
-        "headline": "{{ title or site.site_name }}{% if metatitle %}: {{ metatitle }} {% endif %}",
-        "about": "{{ description or site.description }}",
+        "headline": "{{ (title or site.site_name) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}{% if metatitle %}: {{ metatitle | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}} {% endif %}",
+        "about": "{{ (description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
         "additionalType": "Blog",
         {% endblock %}
         {% if isBasedOn %}
@@ -21,8 +21,8 @@
         {% if site.publisher %}
         "publisher": {
             "@type": "Organization",
-            "name": "{{site.publisher.name or site.site_name}}",
-            "description": "{{site.publisher.description or site.description }}",
+            "name": "{{(site.publisher.name or site.site_name) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+            "description": "{{(site.publisher.description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
             "sameAs": "{{site.publisher.domain or site.site_domain }}",
             {% if site.publisher.logo %}
             "logo": {
@@ -33,7 +33,7 @@
             "publishingPrinciples": "{{site.publisher.principles or ''}}"
         },
         {% endif %}
-        "alternateName": "{{site.site_name}}"
+        "alternateName": "{{site.site_name | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"
 
     }
 </script>

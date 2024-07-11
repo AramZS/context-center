@@ -28,6 +28,7 @@
 		"@11ty/eleventy": "*"
 	},
 	"dependencies": {
+		"nunjucks": "^3.2.4",
 		"sass": "~1.45.1"
 	}
 }

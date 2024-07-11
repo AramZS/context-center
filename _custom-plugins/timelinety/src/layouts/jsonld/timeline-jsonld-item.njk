@@ -2,8 +2,8 @@
 {% block jsonLdDetail %}
           "@type":"BlogPosting",
           "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
-          "headline": "{{ timelineEntryItem.title or timelineObj.title }}",
-          "description": "{{ timelineEntryItem.description or timelineObj.description }}",
+          "headline": "{{ (timelineEntryItem.data.title or timelineObj.title) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+          "description": "{{ (timelineEntryItem.data.description or timelineObj.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
           {% if timelineEntryItem.data.title %}
             "image": [
                 "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
@@ -12,7 +12,7 @@
           "additionalType": "Blog",
           "isPartOf": {
             "@type": ["Blog", "LiveBlogPosting"],
-            "name": "{{ timelineObj.title }}",
-            "productID": "{{timelineObj.url or site.site_url or timelinesConfig.domainName}}"
+            "name": "{{ timelineObj.title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
+            "url": "{{timelineObj.url or site.site_url or timelinesConfig.domainName}}"
           },
 {% endblock %}

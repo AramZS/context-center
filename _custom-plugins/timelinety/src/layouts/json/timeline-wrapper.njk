@@ -12,7 +12,7 @@
     "items": [
         {% for entry in collections[timelineSlug] %}
             {
-                "title": "{{- entry.data.title }}",
+                "title": {{- entry.data.title | dump | safe }},
                 "slug": "{{- entry.data.title | timelineSlugify -}}",
                 "date": "{{ entry.data.date }}",
                 "humanReadableDate": "{% humanizeDate entry.data.date %}",

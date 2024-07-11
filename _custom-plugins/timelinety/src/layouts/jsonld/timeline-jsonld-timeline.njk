@@ -3,12 +3,12 @@
           "@type":"LiveBlogPosting",
           "additionalType": "Blog",
           "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
-          "headline": "{{ timelineObj.title }}",
+          "headline": "{{ title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
           "about":{
             "@type":"Event",
             "startDate":"{{ timelineObj.startDate or timelineObj.shortdate }}",
-            "name":"{{ timelineObj.topic or timelineObj.title }}",
-            "description": "{{ description or site.description }}"
+            "name":"{{ (timelineObj.topic or title) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+            "description": "{{(description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"
           },
           "isPartOf": {
             "@type": ["CreativeWork", "Product"],
@@ -17,7 +17,7 @@
           },
           "coverageStartTime":"{{ timelineObj.firstUpdatedPost }}",
           "coverageEndTime":"{{ timelineObj.lastUpdatedPost }}",
-          "description":"{{ timelineObj.description or site.description }}",
+          "description":"{{ (timelineObj.description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
           {% if timelineItem.data.previewImage %}
           "image": [
             "{{ timelineItem.data.previewImage }}"
@@ -29,9 +29,9 @@
           {% set timelineItemContent = entry.data.content %}
           {
             "@type":"BlogPosting",
-            "headline":"{{- timelineItem.data.title }}",
+            "headline":"{{- timelineItem.data.title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
             "datePublished":"{{ timelineItem.data.date }}",
-            "articleBody": "{{ timelineItem.template.frontMatter.content }}"{%- if timelineItem.data.isBasedOn %},
+            "articleBody": "{{ timelineItem.template.frontMatter.content | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"{%- if timelineItem.data.isBasedOn %},
             "isBasedOn": "{{ timelineItem.data.isBasedOn }}"{% endif %}{%- if timelineItem.data.image %},
             "image": "{{ timelineItem.data.image }}"
             {% endif %}
