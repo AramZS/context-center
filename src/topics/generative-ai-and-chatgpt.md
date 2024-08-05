@@ -30,6 +30,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://techpolicy.press/potential-implications-of-us-copyright-office-determination-on-ai-generated-work/
 - https://www.vice.com/en/article/pkapb7/a-photographer-tried-to-get-his-photos-removed-from-an-ai-dataset-he-got-an-invoice-instead
 - https://tedium.co/2023/07/29/music-sampling-ai-generated-legal-conflict-history/
+- http://404media.co/ai-music-generator-suno-admits-it-was-trained-on-essentially-all-music-files-on-the-internet
 
 ## AI and Tech Criticism
 
@@ -68,6 +69,7 @@ https://www.technologyreview.com/2023/06/28/1075683/humans-may-be-more-likely-to
 ## AI and Climate
 
 - https://clivethompson.medium.com/ai-is-thirsty-37f99f24a26e
+- http://goldmansachs.com/intelligence/pages/AI-poised-to-drive-160-increase-in-power-demand.html
 
 ## Tools
 
@@ -145,6 +147,8 @@ https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents
 
 https://www.nytimes.com/2023/07/05/business/artificial-intelligence-power-data-centers.html
 
+https://www.washingtonpost.com/technology/2024/07/24/ai-bubble-big-tech-stocks-goldman-sachs/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -213,6 +217,14 @@ https://www.vice.com/en/article/qjvb4x/palantir-demos-ai-to-fight-wars-but-says-
 
 https://www.theguardian.com/technology/2023/apr/23/pope-jacket-napalm-recipes-how-worrying-is-ai-rapid-growth
 
+http://nymag.com/intelligencer/article/reddit-google-and-the-real-cost-of-the-ai-data-rush.html
+
+http://aisnakeoil.com/p/ai-existential-risk-probabilities
+
+https://www.reuters.com/legal/litigation/workday-must-face-novel-bias-lawsuit-over-ai-screening-software-2024-07-15/
+
+http://arstechnica.com/health/2023/11/ai-with-90-error-rate-forces-elderly-out-of-rehab-nursing-homes-suit-claims
+
 ## AI Harms
 
 https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-non-obvious-ways
@@ -220,9 +232,11 @@ https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformatio
 https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
 https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
 https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8
+http://404media.co/the-backlash-against-ai-scraping-is-real-and-measurable
 
 ## Labor
 
+https://www.forbes.com/sites/bryanrobinson/2024/07/23/employees-report-ai-increased-workload/
 https://restofworld.org/2023/ai-revolution-outsourced-workers/
 https://www.sfchronicle.com/opinion/openforum/article/artificial-intelligence-ai-18079275.php
 https://www.americamagazine.org/faith/2023/05/15/chatgpt-artificial-intelligence-theft-245283
@@ -232,6 +246,9 @@ https://www.nbcnews.com/tech/innovation/openai-chatgpt-ai-jobs-contractors-talk-
 https://www.nbcnews.com/tech/security/fbi-warns-deepfake-porn-scams-rcna88190
 https://www.ftc.gov/business-guidance/blog/2023/03/chatbots-deepfakes-voice-clones-ai-deception-sale
 https://www.theguardian.com/technology/2023/aug/02/ai-chatbot-training-human-toll-content-moderator-meta-openai
+http://forbes.com/sites/bryanrobinson/2024/07/23/employees-report-ai-increased-workload
+http://kotaku.com/voice-actor-strike-sag-aftra-troy-baker-ai-cod-mw-3-1851604153
+http://wired.com/story/ai-is-already-taking-jobs-in-the-video-game-industry
 
 ## Privacy
 
@@ -300,6 +317,28 @@ https://themarkup.org/hello-world/2023/04/08/whos-afraid-of-disparate-impact
 https://themarkup.org/machine-learning/2023/04/27/false-alarm-how-wisconsin-uses-race-and-income-to-label-students-high-risk
 
 https://www.plagiarismtoday.com/2023/05/23/what-the-warhol-ruling-may-mean-for-ai/
+
+## The Economics of Generative AI
+
+http://www.mi-3.com.au/04-08-2024/study-consumers-recoil-products-use-ai-emotional-trust-better-bet-say-authors
+
+https://www.theguardian.com/technology/article/2024/aug/03/why-big-seven-tech-companies-hit-ai-boom-doubts-shares
+
+https://www.cnn.com/2024/08/02/tech/wall-street-asks-big-tech-will-ai-ever-make-money/index.html
+
+https://www.theatlantic.com/newsletters/archive/2024/08/the-generative-ai-revolution-may-be-a-bubble/679345/
+
+https://www.ft.com/content/24a12be1-a973-4efe-ab4f-b981aee0cd0b
+
+https://www.bloomberg.com/news/articles/2024-08-02/big-tech-fails-to-convince-wall-street-that-ai-is-paying-off
+
+https://www.wheresyoured.at/pop-culture/
+
+http://futurism.com/the-byte/microsoft-losing-money-ai
+
+http://wheresyoured.at/to-serve-altman
+
+https://www.wheresyoured.at/burst-damage/
 
 ## Notes
 
