@@ -103,6 +103,7 @@ module.exports = (eleventyConfig, userOptions) => {
 
 		if (urlsArray.length) {
 			urlsArray.forEach((urlObj) => {
+				//console.log("Starting to deal with urlObj ", urlObj);
 				const link = urlObj.url;
 				let timeoutID;
 				let timeoutForRequest = new Promise((resolve, reject) => {
@@ -221,6 +222,18 @@ module.exports = (eleventyConfig, userOptions) => {
 							urlObj.replace,
 							`<p><a href="${link}" target="_blank">${link}</a></p>`,
 						);
+						if (
+							process.env.ELEVENTY_RUN_MODE == "build" &&
+							!process.env.hasOwnProperty("BUILD_CONTEXT")
+						) {
+							console.log(
+								"Do not attempt to build context for link: ",
+								link,
+							);
+							return;
+						} else {
+							console.log("Contextualizing link: ", link);
+						}
 						if (backoffObj?.list.includes(link)) {
 							const dateDiff =
 								Date.now() -
@@ -349,6 +362,7 @@ module.exports = (eleventyConfig, userOptions) => {
 											link,
 											e,
 										);
+										return;
 									});
 									completeAllPromiseArray.push(
 										fileWritePromise,
@@ -415,6 +429,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					/timeline-standalone-item/.test(data.layout)
 				) {
 					// console.log("msc compile");
+					console.log("RUN MODE == ", process.env.ELEVENTY_RUN_MODE);
 
 					const rmResult = reMarkdown(inputContent, data);
 					// console.log("Processed with reMarkdown function complete");
