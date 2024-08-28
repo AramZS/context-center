@@ -26,7 +26,6 @@ jobs:
     env:
       MY_GITHUB_RUN_ID: ${{ github.run_id }}
       RECREATE_IMGS: "false"
-      ELEVENTY_RUN_MODE: "build"
     steps:
       - uses: actions/checkout@v3
         with:
