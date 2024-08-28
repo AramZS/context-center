@@ -29,6 +29,11 @@ a:focus {
 	text-decoration: underline;
 }
 
+header.page-header.timeline-header p > a {
+	color: #d7f0ff;
+	text-decoration: underline;
+}
+
 header.page-header,
 footer.page-footer {
 	background-color: #005289;
