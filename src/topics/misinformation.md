@@ -36,6 +36,7 @@ https://ec.europa.eu/digital-single-market/en/news/factsheet-tackling-online-dis
 
 https://firstdraft.arist.co/courses/5ef5e5a67d406325a11c97dd
 https://www.nytimes.com/2023/01/10/world/europe/finland-misinformation-classes.html
+https://youtu.be/KLfL1Gm9QDM?si=GyzMB3wjhEOvEClE
 
 ### Vaccine Misinformation
 
@@ -116,7 +117,7 @@ https://www.youtube.com/watch?v=MCfMupGRqqY
 https://www.demandprotest.com/2600.html
 https://digitalcommons.unl.edu/senatedocs/2/
 
-### Critics 
+### Critics
 
 https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/
 

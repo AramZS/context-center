@@ -1,0 +1,18 @@
+{% extends './timeline-jsonld-main-block.njk' %}
+{% block jsonLdDetail %}
+          "@type":"BlogPosting",
+          "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+          "headline": "{{ (timelineEntryItem.data.title or timelineObj.title) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+          "description": "{{ (timelineEntryItem.data.description or timelineObj.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
+          {% if timelineEntryItem.data.title %}
+            "image": [
+                "{{ timelineEntryItem.data.title | socialImageSlug("tall") }}"
+            ],
+          {% endif %}
+          "additionalType": "Blog",
+          "isPartOf": {
+            "@type": ["Blog", "LiveBlogPosting"],
+            "name": "{{ timelineObj.title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
+            "url": "{{timelineObj.url or site.site_url or timelinesConfig.domainName}}"
+          },
+{% endblock %}

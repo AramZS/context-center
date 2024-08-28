@@ -1,0 +1,48 @@
+<div class="timeline-entry" data-tags="{% if timelineItem.data.tags|length %}{% for item in timelineItem.data.tags %}{{ item }},{% endfor %}{% endif %}" id="{{- timelineItem.data.title | timelineSlugify -}}" aria-hidden="false">
+    <!-- entry: {{ timelineItem.data.page.url | console }} -->
+    <!-- entry: {{ timelineItem | console }} -->
+    <div class="timeline-icon {{ timelineItem.data.color or "grey" }}{% for topic in timelineItem.data.tags %} fa-ic-{{- topic | timelineSlugify or "basic"}}{% endfor %}">
+        {% if timelineItem.data.faicon or timelineItem.data.tags %}
+            <i class="fas fa-{{- timelineItem.data.faicon or "basic"}}{% for topic in timelineItem.data.tags %} fa-i-{{- topic | timelineSlugify or "basic"}}{% endfor %}" aria-hidden="true"></i>
+        {% endif %}
+    </div>
+    <div class="timeline-description">
+        <span class="timestamp">
+            <time datetime="{{- timelineItem.data.date }}">
+                {%- humanizeDate timelineItem.data.date %}
+            </time>
+        </span>
+        <h2>
+            <a id="{{- timelineItem.data.title | timelineSlugify -}}" href="{{ timelineItem.data.page.url }}#{{- timelineItem.data.title | timelineSlugify -}}">
+                <i class="fas fa-link"></i>
+            </a>
+            {{- timelineItem.data.title }}</h2>
+        {% if timelineItem.data.image %}
+            <div class="captioned-image image-right">
+                {% if timelineItem.data.image.link %}<a href="{{- timelineItem.data.image.link -}}">{% endif %}
+                <img src="{{- timelineItem.data.image.src -}}" alt="{{- timelineItem.data.image.alt -}}" />
+                {% if timelineItem.data.image.link %}</a>{% endif %}
+                {% if timelineItem.data.image.caption %}
+                    <span class="caption">{{- timelineItem.data.image.caption -}}</span>
+                {% endif %}
+            </div>
+        {% endif %}
+        {%- if timelineItem.data.isBasedOn and timelineItem.data.customLink %}
+            <a target="_blank" href="{{timelineItem.data.customLink}}">Read the article</a>
+        {%- endif %}
+        {% if timelineItemContent %}
+
+        {{- timelineItemContent or "" }}
+
+        {% endif %}
+        {% if timelineItem.data.links %}
+            <ul>
+                {% for link in timelineItem.data.links %}
+                    <li>
+                        <a href="{{- link.href -}}" target="_blank">{{- link.linkText or link.href }}</a>&nbsp;{{- link.extraText or "" }}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</div>

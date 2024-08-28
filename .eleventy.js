@@ -31,7 +31,8 @@ if (process.env.IS_LOCAL) {
 process.env.DOMAIN = site;
 process.env.DOMAIN_NAME = domain_name;
 process.env.SITE_NAME = "Context Center";
-process.env.DESCRIPTION = "Context Center Description";
+process.env.DESCRIPTION =
+	"This site is set up to provide deep lists of links about any topic, providing useful resources to understand that topic along with timelines and useful notes.";
 process.env.BASIC_IMAGE = `${domain_name}/img/nyc_noir.jpg`;
 process.env.PRIMARY_AUTHOR = "Aram Zucker-Scharff";
 
@@ -145,7 +146,7 @@ module.exports = function (eleventyConfig) {
 
 	const pathNormalizer = function (pathString) {
 		return normalize(
-			path.normalize(path.join(path.resolve("."), pathString))
+			path.normalize(path.join(path.resolve("."), pathString)),
 		);
 	};
 
@@ -185,7 +186,7 @@ module.exports = function (eleventyConfig) {
 	];
 	const njkEngine = require("nunjucks").configure(nunjucksFileSystem, {
 		autoescape: false,
-		throwOnUndefined: throwOnUndefinedSetting,
+		throwOnUndefined: false,
 		noCache: throwOnUndefinedSetting,
 	});
 	console.log("other nunjucksFileSystem", nunjucksFileSystem);
@@ -218,7 +219,7 @@ module.exports = function (eleventyConfig) {
 	function filterTagList(tags) {
 		return (tags || []).filter(
 			(tag) =>
-				["all", "nav", "post", "posts", "projects"].indexOf(tag) === -1
+				["all", "nav", "post", "posts", "projects"].indexOf(tag) === -1,
 		);
 	}
 
@@ -276,8 +277,8 @@ module.exports = function (eleventyConfig) {
 					i + 1,
 					p,
 					i === 0,
-					i === postArray.length - 1
-				)
+					i === postArray.length - 1,
+				),
 			);
 		});
 		// console.log(paginatedPostArray)
@@ -307,7 +308,7 @@ module.exports = function (eleventyConfig) {
 				...collection.getFilteredByTag(tagName),
 			].reverse();
 			const numberOfPages = Math.ceil(
-				taggedPosts.length / maxPostsPerPage
+				taggedPosts.length / maxPostsPerPage,
 			);
 
 			for (let pageNum = 1; pageNum <= numberOfPages; pageNum++) {
@@ -321,13 +322,23 @@ module.exports = function (eleventyConfig) {
 						pageNum,
 						taggedPosts.slice(sliceFrom, sliceTo),
 						pageNum === 1,
-						pageNum === numberOfPages
-					)
+						pageNum === numberOfPages,
+					),
 				);
 			}
 		});
 		// console.log("pagedPosts", pagedPosts[0].tagName);
 		return pagedPosts;
+	});
+
+	eleventyConfig.addPlugin(require("./_custom-plugins/timelinety"), {
+		domainName: site,
+		timelineOutFolder: "timeline",
+		outDir: path.normalize(path.join(__dirname, "docs")),
+		timelinesInFolder: path.normalize(
+			path.join(__dirname, "src", "timeline"),
+		),
+		customCSS: "assets/css/template-timeline.css",
 	});
 
 	eleventyConfig.addPlugin(pluginTOC, {
@@ -363,9 +374,9 @@ module.exports = function (eleventyConfig) {
 						"git",
 						// Formats https://www.git-scm.com/docs/git-log#_pretty_formats
 						// %at author date, UNIX timestamp
-						["log", "-1", "--format=%at", filePath]
+						["log", "-1", "--format=%at", filePath],
 					)
-					.stdout.toString("utf-8")
+					.stdout.toString("utf-8"),
 			) * 1000
 		);
 	}
@@ -396,7 +407,7 @@ module.exports = function (eleventyConfig) {
 			} catch (e) {
 				return "";
 			}
-		}
+		},
 	);
 
 	let options = {
@@ -462,7 +473,7 @@ module.exports = function (eleventyConfig) {
 		idx,
 		options,
 		env,
-		self
+		self,
 	) {
 		if (tokens[idx].meta && tokens[idx].meta.includes("skip-link")) {
 			return defaultRender(tokens, idx, options, env, self);

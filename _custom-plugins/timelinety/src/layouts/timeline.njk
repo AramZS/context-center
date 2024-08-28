@@ -1,0 +1,77 @@
+---js
+{
+    eleventyComputed: {
+        applyThis: {
+            timelineCheck: function(siteContext){
+                if (siteContext){
+                    console.log(siteContext.timeline, "Global check")
+                }
+            },
+        },
+        title: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.title
+
+            return '';
+        },
+        description: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.description
+
+            return '';
+        },
+        tags: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.tags
+
+            return [];
+        },
+        categories: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.categories
+
+            return '';
+        },
+        filters: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.filters
+
+            return [];
+        },
+        date: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.date
+
+            return "Last Modified";
+        },
+        header: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.header
+
+            return [];
+        },
+        color: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.color
+
+            return 'grey';
+        },
+        shortdate: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.shortdate
+
+            return false;
+        },
+        lastUpdatedPost: function(siteContext){
+            if (siteContext?.timeline)
+                return siteContext.timeline.lastUpdatedPost
+
+            return false;
+        },
+        lastMod: function(){
+            return new Date().toISOString();
+        },
+    }
+}
+---
+{% include "./timeline-wrapper.njk" %}

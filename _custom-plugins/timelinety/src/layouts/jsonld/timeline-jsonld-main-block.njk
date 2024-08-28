@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "url": "{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+        {% block jsonLdDetail %}
+        "@id": "{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+        "@type": "Blog",
+        "headline": "{{ (title or site.site_name) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}{% if metatitle %}: {{ metatitle | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}} {% endif %}",
+        "about": "{{ (description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+        "additionalType": "Blog",
+        {% endblock %}
+        {% if isBasedOn %}
+        "isBasedOn": "{% if localBasedOn %}{{site.site_url or timelinesConfig.domainName}}{% endif %}{{ isBasedOn }}",
+        {% endif %}
+        {% if site.person %}
+        "editor": {% include "partials/json-ld-objs/person.njk" %},
+        {% endif %}
+        "isAccessibleForFree": "True",
+        "inLanguage": "en-US",
+        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
+        {% if site.publisher %}
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{(site.publisher.name or site.site_name) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+            "description": "{{(site.publisher.description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape }}",
+            "sameAs": "{{site.publisher.domain or site.site_domain }}",
+            {% if site.publisher.logo %}
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ site.publisher.logo }}"
+            },
+            {% endif %}
+            "publishingPrinciples": "{{site.publisher.principles or ''}}"
+        },
+        {% endif %}
+        "alternateName": "{{site.site_name | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"
+
+    }
+</script>

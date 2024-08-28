@@ -1,0 +1,260 @@
+@use 'root'
+@use 'nav'
+@use 'dark-mode'
+@use 'icons'
+
+nav
+    position: absolute
+
+.page-header
+    margin-top: 40px
+
+.timeline .timeline-description contexter-box
+    max-width: 100%
+
+    & contexter-box-head.contexter-box__head
+        display: none
+
+    & contexter-thumbnail
+        max-width: 100%
+        width: 100%
+        & img
+            max-width: 100%
+            width: 100%
+            height: auto
+
+    & time
+        display: none
+
+    & contexter-thumbnail
+        margin-bottom: 10px
+
+.timeline-icon
+    background-color: initial
+
+i.fas
+    width: 30px
+    height: 30px
+    margin-top: 5px
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+
+i.fas::before
+    color: black
+    display: block
+
+i.fa-i-tech
+    background-image: url("/img/noun-tech-4201094-00449F.svg")
+
+.timeline-icon.fa-ic-usa
+    background-color: #efefef
+
+i.fa-i-usa::before
+    content: ''
+
+i.fa-i-usa
+    background-image: url("/img/noun-usa-2161027.svg")
+
+i.fa-i-politics::before
+    content: ''
+
+i.fa-i-politics
+    background-image: url("/img/noun-politics-2614296.svg")
+
+.timeline-icon.fa-ic-science
+    background-color: #cb04a3
+
+i.fa-i-science::before
+    content: ''
+
+i.fa-i-science
+    background-image: url("/img/noun-science-132268-FFFFFF.svg")
+
+.timeline-icon.fa-ic-law
+    background-color: #090001
+
+i.fa-i-law::before
+    content: ''
+
+i.fa-i-law
+    background-image: url("/img/noun-law-6052900-FFFFFF.svg")
+    background-size: 48px
+
+.timeline-icon.fa-ic-markets
+    background-color: #82be73
+
+i.fa-i-markets::before
+    content: ''
+
+i.fa-i-markets
+    background-image: url("/img/noun-stocks-2397652.png")
+
+.timeline-icon.fa-ic-rising-cases
+    background-color: red
+
+i.fa-i-rising-cases::before
+    content: '⬆'
+    color: black
+    font-size: 32px
+    margin-top: -3px
+    display: block
+
+i.fa-i-rising-cases
+    background-image: none
+
+.timeline-icon.fa-ic-china
+    background-color: #EE1C25
+
+i.fa-i-china::before
+    content: ''
+
+i.fa-i-china
+    background-image: url("/img/noun-china-1968-FFFF00.svg")
+
+.timeline-icon.fa-ic-labor
+    background-color: #82be73
+
+i.fa-i-labor::before
+    content: ''
+
+i.fa-i-labor
+    background-image: url("/img/noun-stocks-2397652.png")
+
+.timeline-icon.fa-ic-misinformation
+    background-color: #87c7ff
+
+i.fa-i-misinformation::before
+    content: ''
+
+i.fa-i-misinformation
+    background-image: url(icons.$misinfo)
+
+.timeline-icon.fa-ic-reporting
+    background-color: #87c7ff
+
+i.fa-i-reporting::before
+    content: ''
+
+i.fa-i-reporting
+    background-image: url(icons.$misinfo)
+
+.timeline-icon.fa-ic-tests
+    background-color: #003c0f
+
+i.fa-i-tests::before
+    content: ''
+
+i.fa-i-tests
+    background-image: url(icons.$test)
+
+.timeline-icon.fa-ic-surge
+    background-color: red
+
+i.fa-i-surge::before
+    content: '⬆'
+    color: black
+    font-size: 32px
+    margin-top: -3px
+    display: block
+
+i.fa-i-surge
+    background-image: none
+
+.timeline-icon.fa-ic-youth
+    background-color: var(--background-color)
+
+i.fa-i-youth::before
+    content: '🧒'
+
+i.fa-i-youth
+    background-image: none
+
+.timeline-icon.fa-ic-vaccines
+    background-color: white
+
+i.fa-i-vaccines
+    width: 30px
+    height: 30px
+    margin-top: 5px
+    background-size: contain
+    background-image: url(icons.$shot)
+
+i.fa-i-vaccines::before
+    content: none
+
+.timeline-icon.fa-ic-omicron
+    background-color: orange
+
+i.fa-i-omicron::before
+    content: 'Ο'
+    color: black
+    font-family: serif
+    font-size: 37px
+    display: block
+    margin-top: -4px
+
+i.fa-i-omicron
+    background-image: none
+
+.timeline-icon.fa-ic-long-covid
+    background-color: black
+
+i.fa-i-long-covid
+    background-image: none
+
+i.fa-i-long-covid::before
+    content: '•••'
+    color: red
+    font-size: 20px
+    font-family: monospace
+    line-height: 10px
+    margin-top: 11px
+    display: block
+    margin-left: -2px
+
+.timeline-icon.fa-ic-new-york
+    background-color: #cccccc
+
+i.fa-i-new-york::before
+    content: ''
+
+i.fa-i-new-york
+    background-image: url(icons.$ny)
+
+.timeline-icon.fa-ic-california
+    background-color: #cccccc
+
+i.fa-i-california::before
+    content: ''
+
+i.fa-i-california
+    background-image: url("/img/noun-california-525836.png")
+
+.timeline-icon.fa-ic-uk
+    background-color: #003bec
+
+i.fa-i-uk::before
+    content: ''
+
+i.fa-i-uk
+    background-image: url("/img/noun-united-kingdom-1107003-FFFFFF.svg")
+
+.timeline-icon.fa-ic-texas
+    background-color: #FFFFFF
+
+i.fa-i-texas::before
+    content: ''
+
+i.fa-i-texas
+    background-image: url("/img/noun-texas-3402652-BF0D3E.svg")
+
+.timeline-icon.fa-ic-masking
+    background-color: #1f1e00
+
+i.fa-i-masking::before
+    content: ''
+
+i.fa-i-masking
+    background-image: url("/img/noun-n95-mask-5766966-FFFFFF.svg")
+    background-size: 45px

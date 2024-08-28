@@ -76,6 +76,7 @@ https://searx.github.io/searx/
 https://wiby.me/about/guide.html
 https://github.com/cblgh/lieu
 https://searchlab.eu/en/access/download/
+https://pagefind.app/
 
 ## Why Should We Care?
 

@@ -1,0 +1,34 @@
+{
+	"name": "timelinety",
+	"version": "0.0.1",
+	"description": "A plugin to create timelines",
+	"main": ".eleventy.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AramZS/eleventy-plugin-timelinety.git"
+	},
+	"keywords": [
+		"11ty",
+		"eleventy",
+		"eleventy-plugin"
+	],
+	"author": "Aram Zucker-Scharff <aramzs@hacktext.com> (https://aramzs.github.io/aramzs/)",
+	"license": "MIT",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"11ty": {
+		"compatibility": ">=1"
+	},
+	"peerDependencies": {
+		"@11ty/eleventy": "*"
+	},
+	"dependencies": {
+		"nunjucks": "^3.2.4",
+		"sass": "~1.45.1"
+	}
+}

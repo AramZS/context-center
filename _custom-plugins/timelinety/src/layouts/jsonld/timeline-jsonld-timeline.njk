@@ -1,0 +1,41 @@
+{% extends './timeline-jsonld-main-block.njk' %}
+{% block jsonLdDetail %}
+          "@type":"LiveBlogPosting",
+          "additionalType": "Blog",
+          "@id":"{{site.site_url or timelinesConfig.domainName}}{{ page.url }}",
+          "headline": "{{ title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+          "about":{
+            "@type":"Event",
+            "startDate":"{{ timelineObj.startDate or timelineObj.shortdate }}",
+            "name":"{{ (timelineObj.topic or title) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+            "description": "{{(description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"
+          },
+          "isPartOf": {
+            "@type": ["CreativeWork", "Product"],
+            "name": "{{site.site_name}}",
+            "productID": "{{site.site_url or timelinesConfig.domainName}}"
+          },
+          "coverageStartTime":"{{ timelineObj.firstUpdatedPost }}",
+          "coverageEndTime":"{{ timelineObj.lastUpdatedPost }}",
+          "description":"{{ (timelineObj.description or site.description) | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+          {% if timelineItem.data.previewImage %}
+          "image": [
+            "{{ timelineItem.data.previewImage }}"
+          ],
+          {% endif %}
+          "liveBlogUpdate":[
+          {% for entry in collections[timelineSlug] %}
+          {% set timelineItem = entry %}
+          {% set timelineItemContent = entry.data.content %}
+          {
+            "@type":"BlogPosting",
+            "headline":"{{- timelineItem.data.title | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}",
+            "datePublished":"{{ timelineItem.data.date }}",
+            "articleBody": "{{ timelineItem.template.frontMatter.content | timelineStripOpenCloseQuotes | escape | timelineJSONEscape}}"{%- if timelineItem.data.isBasedOn %},
+            "isBasedOn": "{{ timelineItem.data.isBasedOn }}"{% endif %}{%- if timelineItem.data.image %},
+            "image": "{{ timelineItem.data.image }}"
+            {% endif %}
+          }{% if entry !== collections[timelineSlug] | sort | last %},{% endif %}
+          {% endfor %}
+          ],
+{% endblock %}

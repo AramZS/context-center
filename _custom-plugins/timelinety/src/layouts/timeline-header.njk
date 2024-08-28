@@ -1,0 +1,7 @@
+    {% if header  %}
+    <header class="page-header">
+        <h1><a class="timeline-header-link" href="{{timelineObj.url}}">{{ title }}</a></h1>
+        <p>{{ header }}</p>
+        <p>Last Update: {% humanizeDate lastUpdatedPost %}</p>
+    </header>
+    {% endif %}
