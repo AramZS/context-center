@@ -1,7 +1,7 @@
 ---
 title: "What’s different about this summer’s FLiRT COVID wave"
 description: "Based on wastewater sample data, the Centers for Disease Control (CDC) and Prevention reports that COVID levels have increased in most states nationwide."
-date: 2024-07-30 12:00:00.10 -4
+date: 2024-07-30 17:30:00.10 -4
 dateAdded: 2024-08-28 11:59:43.10 -4
 isBasedOn: "https://www.salon.com/2024/07/30/whats-different-about-this-summers-flirt-wave/"
 tags:
