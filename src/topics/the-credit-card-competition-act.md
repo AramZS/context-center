@@ -38,6 +38,7 @@ https://www.cnbc.com/2023/07/30/credit-card-fee-fight-pits-payment-companies-aga
 https://punchbowl.news/archive/72123-punchbowl-news-am/
 https://www.politico.com/news/2023/07/20/junk-credit-card-fees-war-00105958
 https://www.fastcompany.com/90926257/credit-card-rewards-congress-junk-fees-visa-mastercard-donuts
+https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-speaks-on-senate-floor-adding-credit-card-competition-act-i-will-not-stop-fighting-until-we-get-this-vote/
 
 ## What is the impact?
 

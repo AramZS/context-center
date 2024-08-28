@@ -96,6 +96,12 @@ https://www.nytimes.com/2021/08/03/well/live/covid-delta-variant-vaccine-symptom
 https://news.un.org/en/story/2021/04/1089192
 https://www.msnbc.com/the-reidout/reidout-blog/long-covid-study-hospitalizations-rcna29601
 
+### Vaccines and General Health
+
+https://healthcare.utah.edu/healthfeed/2022/09/blood-clotting-covid-19-and-vaccines
+https://pubmed.ncbi.nlm.nih.gov/34257485/
+https://www.nejm.org/doi/full/10.1056/nejmoa2110475
+
 ### Ivermectin
 
 https://www.fda.gov/consumers/consumer-updates/why-you-should-not-use-ivermectin-treat-or-prevent-covid-19

@@ -44,6 +44,7 @@ https://www.npr.org/2022/03/21/1087937431/a-third-of-trans-youth-are-at-risk-of-
 https://www.scottishlegal.com/articles/dr-sandra-duffy-puberty-blockers-ruling-will-have-chilling-effect
 https://erininthemorn.substack.com/p/first-period-anti-trans-legislative
 https://www.nytimes.com/2023/01/25/us/politics/transgender-laws-republicans.html
+http://ettingermentum.news/p/transphobia-fails-again
 
 ## Science
 
@@ -91,8 +92,11 @@ https://whatweknow.inequality.cornell.edu/topics/lgbt-equality/what-does-the-sch
 
 <a href="https://journals.sagepub.com/doi/abs/10.1177/1090198120965504" target="_blank">Perspectives of Transgender Youth on Parental Support</a>
 
+<a href="http://karger.com/hrp/article/91/6/357/162902/Use-of-Gonadotropin-Releasing-Hormone-Analogs-in" target="_blank">Use of Gonadotropin-Releasing Hormone Analogs in Children: Update by an International Consortium: "No differences in clinical indices of pubertal progression were seen in studies comparing monthly preparations and 2 doses of the 3-monthly preparations of leuprolide depot"</a>
+
 ## Useful Additional References
 
+https://www.thelancet.com/journals/lanchi/article/PIIS2352-4642(21)00139-5/fulltext
 https://transjournalists.org/style-guide/
 https://threadreaderapp.com/thread/1554508212300386304.html
 https://www.youtube.com/watch?v=HdT1PvJDRo4

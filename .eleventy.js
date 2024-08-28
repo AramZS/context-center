@@ -36,6 +36,7 @@ process.env.DESCRIPTION =
 process.env.BASIC_IMAGE = `${domain_name}/img/nyc_noir.jpg`;
 process.env.PRIMARY_AUTHOR = "Aram Zucker-Scharff";
 
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 module.exports = function (eleventyConfig) {
 	// eleventyConfig.addPlugin(UpgradeHelper);
 	var siteConfiguration = {
@@ -70,7 +71,7 @@ module.exports = function (eleventyConfig) {
 		dir: {
 			input: "src",
 			includes: "_includes",
-			layouts: "_layouts",
+			layouts: "_layouts", // https://www.11ty.dev/docs/config/#directory-for-layouts-(optional)
 			data: "_data",
 			output: "docs",
 		},

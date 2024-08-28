@@ -22,6 +22,8 @@ https://newrepublic.com/article/174786/republicans-fooling-democrats-kids-online
 
 https://www.eff.org/deeplinks/2023/09/get-real-congress-censoring-search-results-or-recommendations-still-censorship
 
+https://buttondown.email/charliejane/archive/the-internet-is-about-to-get-a-lot-worse/
+
 https://www.eff.org/deeplinks/2023/08/us-government-about-control-speech-online-protect-kids
 
 https://www.teenvogue.com/story/kids-online-safety-act-lgbtq-youth
@@ -29,6 +31,8 @@ https://www.teenvogue.com/story/kids-online-safety-act-lgbtq-youth
 https://www.losangelesblade.com/2023/09/05/the-revised-kids-online-safety-act-protects-lgbtq-youth/
 
 https://hyperallergic.com/835609/artists-call-on-congress-to-stop-bad-internet-bills/
+
+https://jezebel.com/22-democrats-sponsor-a-bill-that-could-censor-abortion-1850923128
 
 ## Tech Critics
 
@@ -76,6 +80,16 @@ https://www.marketingbrew.com/stories/2023/03/01/congress-is-considering-bills-t
 
 https://www.vice.com/en/article/qjv3qp/congress-is-pushing-an-online-safety-bill-supported-by-anti-lgbtq-groups
 
+https://www.nytimes.com/2023/10/12/technology/tech-children-kids-laws.html
+
 ## Science
 
 https://slate.com/technology/2022/11/brain-development-25-year-old-mature-myth.html
+
+## State Laws
+
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0571?ys=2024rs
+
+## General Privacy Tools as the Solution
+
+https://berjon.com/gpc-child-privacy/

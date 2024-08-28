@@ -28,3 +28,8 @@ https://ahrefs.com/blog/link-rot-study/
 [https://pywb.readthedocs.io/en/latest/](https://pywb.readthedocs.io/en/latest/)
 
 https://archive.org/help/wayback_api.php
+
+## WARCs
+
+https://support.archive-it.org/hc/en-us/categories/17378341125140-Getting-Started-with-Archive-It
+https://archive.org/details/introduction-to-the-warc_202111 

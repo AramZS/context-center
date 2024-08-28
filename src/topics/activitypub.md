@@ -76,6 +76,8 @@ https://www.wired.co.uk/article/twitter-users-mastodon-meltdown
 [https://uxdesign.cc/mastodon-is-antiviral-design-42f090ab8d51](https://uxdesign.cc/mastodon-is-antiviral-design-42f090ab8d51)
 
 https://foundhistory.org/2022/11/how-humanists-should-use-mastodon/
+https://berjon.com/ap-at/
+https://bmannconsulting.com/blog/2024/01/05/why-not-both-protocols/
 
 ## For Server Admins
 
@@ -107,6 +109,7 @@ https://wordpress.org/plugins/activitypub/
 https://github.com/dariusk/rss-to-activitypub/blob/v2.0.0/README.md
 https://glitch.com/~tracery-mastodon-bot
 https://socialhub.activitypub.rocks/t/developers-meeting-7-a-standard-way-to-query-in-activitypub/2488/13
+https://seb.jambor.dev/posts/activitypub-academy/
 
 ## Journalism
 

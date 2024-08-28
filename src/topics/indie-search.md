@@ -39,6 +39,11 @@ https://memex.marginalia.nu/log/58-marginalia-open-source.gmi
 https://yacy.net/
 https://github.com/N0taN3rd/node-warc
 
+### Enterprise Tools
+
+https://aws.amazon.com/kendra/
+https://www.algolia.com/
+
 ### Search for Static Sites
 
 http://elasticlunr.com/
@@ -62,6 +67,7 @@ https://httparchive.org/
 https://www.npmjs.com/package/puppeteer-extra-plugin-stealth
 https://fightwithtools.dev/posts/projects/context-pages/day-2/
 https://www.wikidata.org/wiki/Wikidata:Data_access
+https://jamesg.blog/2024/06/05/responsible-web-crawling/
 
 ## Code
 
@@ -100,3 +106,4 @@ https://warmedal.se/~bjorn/posts/2022-07-02-providing-meaningful-search-results-
 https://future.com/the-future-of-search-is-boutique
 https://melanocarpa.lesarbr.es/hypha/federated_search
 https://www.newyorker.com/culture/infinite-scroll/what-google-search-isnt-showing-you
+https://jamesg.blog/2024/06/05/indieweb-search-brainstorming/

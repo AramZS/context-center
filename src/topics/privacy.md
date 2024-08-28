@@ -38,6 +38,9 @@ https://github.com/InteractiveAdvertisingBureau/USPrivacy/blob/master/CCPA/USP%2
 https://globalprivacycontrol.org/#gpc-spec
 https://www.chromium.org/developers/design-documents/site-engagement
 https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection
+https://berjon.com/gpc-under-the-gdpr/
+https://support.google.com/admanager/answer/14117049?hl=en
+https://stackdiary.com/german-court-bans-linkedin-from-ignoring-do-not-track-signals/
 
 ## Understanding Third Party Cookies
 
@@ -175,6 +178,11 @@ https://pro.bloomberglaw.com/brief/what-is-the-vcdpa/
 https://www.hutchlaw.com/blog/an-overview-of-the-virginia-consumer-data-protection-act
 https://www.dataguidance.com/notes/virginia-data-protection-overview
 
+### Maryland
+
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0541?ys=2024rs
+https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/sb0571?ys=2024rs
+
 ### ADPPA
 
 https://iapp.org/news/a/were-so-close-to-getting-data-loyalty-right/
@@ -220,6 +228,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2655719
 https://iapp.org/resources/topics/de-identification/
 https://brave.com/brave-fingerprinting-and-privacy-budgets/
 https://mickens.seas.harvard.edu/publications/riverbed-enforcing-user-defined-privacy-constraints-distributed-web-services
+https://en.wikipedia.org/wiki/FTC_fair_information_practice
 
 [Amplification by Shuffling:
 From Local to Central Differential Privacy via Anonymity](https://arxiv.org/pdf/1811.12469.pdf)
@@ -251,11 +260,17 @@ https://www.forrester.com/blogs/proposed-surveillance-advertising-ban-meet-conte
 
 https://gizmodo.com/how-to-track-the-tech-thats-tracking-you-every-day-1843908029
 
+[Measuring Privacy: An Empirical Test Using Context to Expose Confounding Variables](https://nissenbaum.tech.cornell.edu/papers/Measuring%20Privacy.pdf)
+
 ### Data Protection
 
 https://www.gov.uk/find-digital-market-research/review-of-literature-relevant-to-data-protection-harms-ico
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4131523
 https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
+
+### Consent
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333743
 
 ## Trust
 
@@ -276,6 +291,7 @@ Relevant articles and reports on issues and successes
 https://themarkup.org/blacklight/2020/09/22/blacklight-tracking-advertisers-digital-privacy-sensitive-websites
 https://themarkup.org/blacklight/2020/09/22/how-we-built-a-real-time-privacy-inspector
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
+https://motherboard.vice.com/amp/en_us/article/zmwaee/there-are-no-guardrails-on-our-privacy-dystopia
 https://themarkup.org/google-the-giant/2020/07/23/google-advertising-keywords-black-girls
 https://themarkup.org/coronavirus/2020/04/23/want-to-find-a-misinformed-public-facebooks-already-done-it
 https://gizmodo.com/it-doesn-t-matter-who-owns-tiktok-1844595163
@@ -303,13 +319,12 @@ https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 https://gizmodo.com/how-often-do-ads-sell-your-data-every-day-1848931523
 https://www.adexchanger.com/mobile/t-mobile-rebrands-its-ad-biz-and-navigates-the-perilous-line-between-programmatic-and-privacy/
 https://gizmodo.com/why-every-company-ad-network-now-1848936157
-
-<a href="https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival" target="_blank">https://www.fastcompany.com/90317495/another-tax-on-the-poor-surrendering-privacy-for-survival</a>
-
 https://www.cjr.org/tow_center/journalists-are-rightly-suspicious-of-ad-tech-they-also-depend-on-it.php
 https://morningconsult.com/2022/11/09/data-privacy-is-different-for-gen-z/
 https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
+https://www.theguardian.com/technology/2019/jul/23/anonymised-data-never-be-anonymous-enough-study-finds
+https://www.theverge.com/2023/10/9/23909581/walmart-ozempic-food-pharmacy-market-research-privacy
 
 ### Privacy Tax
 
@@ -327,6 +342,8 @@ https://www.cpb.nl/sites/default/files/publicaties/download/cpb-discussion-paper
 https://www.goodreads.com/book/show/7677574-privacy-in-context?from_search=true&from_srp=true&qid=TofpBL4GQZ&rank=1
 https://www.goodreads.com/book/show/50403486-subprime-attention-crisis?from_search=true&from_srp=true&qid=DM1cXHJ0Fk&rank=1
 https://www.penguin.co.uk/books/1120394/privacy-is-power/9780552177719.html
+https://www.penguinrandomhouse.com/books/691288/your-face-belongs-to-us-by-kashmir-hill/
+https://craphound.com/category/destroy/
 
 ## Contextual as an Alternative
 
