@@ -1,7 +1,7 @@
 {
 	"timeline": "covid",
 	"title": "COVID Timeline",
-	"description": "A Timeline of notable events about COVID as it was reported, maintained on Context Center. You can read more about COVID at the <a href=\"https://www.who.int/europe/emergencies/situations/covid-19\" target=\"_blank\">WHO Hub Page</a>.",
+	"description": "A Timeline of notable events about COVID as it was reported, maintained on Context Center.",
 	"tags": [
 		"COVID",
 		"Health",
@@ -20,7 +20,7 @@
 	],
 	"date": "Last Modified",
 	"layout": "timeline-standalone-item",
-	"header": "Let's talk about notable events during the history of COVID",
+	"header": "Let's talk about notable events during the history of COVID. You can read more about COVID at the <a href=\"https://www.who.int/europe/emergencies/situations/covid-19\" target=\"_blank\">WHO Hub Page</a>.",
 	"color": "grey",
 	"shortdate": false
 }

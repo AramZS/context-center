@@ -6,6 +6,7 @@ dateAdded: 2024-08-28 11:59:43.10 -4
 isBasedOn: "https://www.politico.eu/article/hydroxychloroquine-could-have-caused-17000-deaths-during-covid-study-finds/"
 tags:
   - Vaccines
+  - Hydroxychloroquine
 ---
 
 https://www.politico.eu/article/hydroxychloroquine-could-have-caused-17000-deaths-during-covid-study-finds/
