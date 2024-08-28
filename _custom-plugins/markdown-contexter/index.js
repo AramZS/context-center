@@ -361,6 +361,7 @@ module.exports = (eleventyConfig, userOptions) => {
 										link,
 										e,
 									);
+									clearTimeout(timeoutID);
 								});
 						} catch (e) {
 							console.log(
@@ -368,12 +369,17 @@ module.exports = (eleventyConfig, userOptions) => {
 								link,
 								e,
 							);
+							clearTimeout(timeoutID);
+							return;
 						}
 					} catch (e) {
 						console.log("Contexter Process Failed: ", e);
+						clearTimeout(timeoutID);
+						return;
 					}
 				}
 				clearTimeout(timeoutID);
+				return;
 			});
 			fs.writeFileSync(backoffList, JSON.stringify(backoffObj));
 		}
