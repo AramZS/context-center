@@ -230,6 +230,7 @@ module.exports = (eleventyConfig, userOptions) => {
 								"Do not attempt to build context for link: ",
 								link,
 							);
+							clearTimeout(timeoutID);
 							return;
 						} else {
 							console.log("Contextualizing link: ", link);
@@ -429,7 +430,7 @@ module.exports = (eleventyConfig, userOptions) => {
 					/timeline-standalone-item/.test(data.layout)
 				) {
 					// console.log("msc compile");
-					console.log("RUN MODE == ", process.env.ELEVENTY_RUN_MODE);
+					// console.log("RUN MODE == ", process.env.ELEVENTY_RUN_MODE);
 
 					const rmResult = reMarkdown(inputContent, data);
 					// console.log("Processed with reMarkdown function complete");
