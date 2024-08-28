@@ -34,6 +34,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.washingtonpost.com/technology/interactive/2024/ai-bias-beautiful-women-ugly-images/
 - https://slate.com/technology/2024/05/deviantart-what-happened-ai-decline-lawsuit-stability.html
 - https://www.404media.co/bards-and-sages-closing-ai-generated-writing/
+- https://www.theverge.com/2024/8/26/24228808/ai-image-editing-photoshop-comparison-argument
 
 ## AI and Tech Criticism
 
