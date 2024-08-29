@@ -38,7 +38,6 @@ public: true
 
 - https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo
 - https://www.vice.com/en/article/ok-wtf-is-longtermism-the-tech-elite-ideology-that-led-to-the-ftx-collapse/
-- https://www.vice.com/en/article/ok-wtf-is-longtermism-the-tech-elite-ideology-that-led-to-the-ftx-collapse/
 - https://thebulletin.org/2022/11/what-longtermism-gets-wrong-about-climate-change/
 - https://www.truthdig.com/articles/nick-bostrom-longtermism-and-the-eternal-return-of-eugenics-2/
 - https://newrepublic.com/article/168047/longtermism-future-humanity-william-macaskill
