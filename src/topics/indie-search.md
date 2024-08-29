@@ -69,6 +69,12 @@ https://fightwithtools.dev/posts/projects/context-pages/day-2/
 https://www.wikidata.org/wiki/Wikidata:Data_access
 https://jamesg.blog/2024/06/05/responsible-web-crawling/
 
+## Search Techniques
+
+https://seirdy.one/posts/2021/03/10/search-engines-with-own-indexes/
+https://brainbaking.com/post/2024/01/how-to-search-the-internet/
+
+
 ## Code
 
 https://gitlab.e.foundation/e/infra/spot
