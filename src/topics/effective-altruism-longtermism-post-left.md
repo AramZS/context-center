@@ -1,7 +1,7 @@
 ---
 title: Technofeudalism, Effective Altruism, Longtermism, and the Post-Left
 description: "The strange convergence of EA, Technofeudalism and a horseshoe-ish post-left"
-date: 2023-08-29 00:59:43.10 -4
+date: 2024-08-29 00:59:43.10 -4
 tags:
   - AI
   - Effective Altruism
