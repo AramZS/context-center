@@ -21,7 +21,6 @@ public: true
 - https://time.com/6262810/sam-bankman-fried-effective-altruism-alameda-ftx/
 - https://time.com/6252617/effective-altruism-sexual-harassment/
 - https://www.editorialboard.com/worshiping-the-elevated-rational-choices-of-the-rich-is-no-way-to-a-better-world/
-- https://www.nytimes.com/2024/06/17/opinion/effective-altruism-philanthropy-charity.html
 - https://www.technologyreview.com/2022/10/17/1060967/effective-altruism-growth/
 - https://www.thecrimson.com/article/2023/3/30/ea-scrut/
 - https://www.washingtonpost.com/magazine/2020/09/23/effective-altruism-charity/
@@ -33,6 +32,7 @@ public: true
 - https://www.vox.com/2015/8/10/9124145/effective-altruism-global-ai
 - https://www.truthdig.com/articles/giving-altruism-a-bad-name/
 - https://www.vox.com/future-perfect/2022/8/23/23313081/effective-altruism-billionaires-tax-inequality-dustin-moskovitz-sam-bankman-fried
+- https://www.everythingishorrible.net/p/effective-altruism-is-neither-effective
 
 ## Longtermism
 
