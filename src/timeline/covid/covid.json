@@ -19,7 +19,7 @@
 		"4 and under"
 	],
 	"date": "Last Modified",
-	"layout": "timeline-standalone-item",
+	"layout": "timeline-standalone-item-extended",
 	"header": "Let's talk about notable events during the history of COVID. You can read more about COVID at the <a href=\"https://www.who.int/europe/emergencies/situations/covid-19\" target=\"_blank\">WHO Hub Page</a>.",
 	"color": "grey",
 	"shortdate": false

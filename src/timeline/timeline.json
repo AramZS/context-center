@@ -1,5 +1,5 @@
 {
-	"layout": "timeline-standalone-item",
+	"layout": "timeline-standalone-item-extended",
 	"description": "A Timeline on Context Center",
 	"tags": [
 		"timeline"

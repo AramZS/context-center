@@ -23,7 +23,7 @@ const getTimelines = (timelineFolder, domainName) => {
 	// into useful objects.
 	const directorySet = getDirectories(timelineFolder).map((timelineDir) => {
 		const timelinePath = path.resolve(
-			path.join(timelineFolder, `${timelineDir}`)
+			path.join(timelineFolder, `${timelineDir}`),
 		);
 		const timelineData = require(timelinePath + `/${timelineDir}.json`);
 		const timelineTitle =
@@ -37,9 +37,9 @@ const getTimelines = (timelineFolder, domainName) => {
 					path.join(
 						`${timelineFolder}`,
 						`${timelineDir}`,
-						`${filePath}`
-					)
-				)
+						`${filePath}`,
+					),
+				),
 			).toString();
 		});
 		let filterSet = [...timelineData.filters];
@@ -90,7 +90,7 @@ const getTimelines = (timelineFolder, domainName) => {
 					return 0;
 				}
 			},
-			0
+			0,
 		);
 		const timelineDescription = timelineData.description
 			? timelineData.description
@@ -113,7 +113,8 @@ const getTimelines = (timelineFolder, domainName) => {
 				: timelineData.timeline,
 			description: timelineDescription,
 			url: (function () {
-				return domainName + "/timelines/" + timelineDir;
+				// @TODO: This should inheret from plugin settings.
+				return domainName + "/timeline/" + timelineDir;
 			})(),
 			count: timelineEventFiles.length - 1, // minus one for the timeline description json file.
 			lastUpdatedPost: lastUpdated,

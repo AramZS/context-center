@@ -1,0 +1,93 @@
+---js
+{
+    eleventyComputed: {
+        timelineObj: function(siteContext){
+            let obj = {
+
+            };
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.title)
+                obj.title = siteContext.globalTimelines[siteContext.timeline].title
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.url)
+                obj.url = siteContext.globalTimelines[siteContext.timeline].url
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.description)
+                obj.description = siteContext.globalTimelines[siteContext.timeline].description
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.tags)
+                obj.tags = siteContext.globalTimelines[siteContext.timeline].tags
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.categories)
+                obj.categories = siteContext.globalTimelines[siteContext.timeline].categories
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.filters)
+                obj.filters = siteContext.globalTimelines[siteContext.timeline].filters
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.date)
+                obj.date = siteContext.globalTimelines[siteContext.timeline].date
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.header)
+                obj.header = siteContext.globalTimelines[siteContext.timeline].header
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.color)
+                obj.color = siteContext.globalTimelines[siteContext.timeline].color
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.shortdate)
+                obj.shortdate = siteContext.globalTimelines[siteContext.timeline].shortdate
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.lastUpdatedPost)
+                obj.lastUpdatedPost = siteContext.globalTimelines[siteContext.timeline].lastUpdatedPost
+
+            if (siteContext?.timeline && siteContext?.globalTimelines && siteContext?.globalTimelines[siteContext.timeline] && siteContext?.globalTimelines[siteContext.timeline]?.footer)
+                obj.lastUpdatedPost = siteContext.globalTimelines[siteContext.timeline].footer
+
+            return obj;
+        },
+        timelineEntryItem: function(siteContext){
+            let data = {};
+            if (siteContext?.timeline && siteContext.title && siteContext.date && siteContext.header && siteContext.description){
+                Object.assign(data, {
+                        timeline: siteContext.timeline,
+                        title: siteContext.title,
+                        content: siteContext?.content,
+                        description: siteContext?.description,
+                        tags: siteContext?.tags,
+                        faicon: siteContext?.faicon,
+                        image: siteContext?.image,
+                        date: siteContext?.date,
+                        categories: siteContext?.categories,
+                        filters: siteContext?.filters,
+                        dateAdded: siteContext?.dateAdded,
+                        isBasedOn: siteContext?.isBasedOn,
+                        shortdate: siteContext?.shortdate,
+                        links: siteContext?.links,
+                        color: siteContext && siteContext.data && siteContext.color ? siteContext.data.color : "grey",
+                        page: siteContext && siteContext.page ? siteContext.page : false
+                    }
+                )
+            }
+            // console.log('entry data ', JSON.stringify({ data: data }))
+            return { data: JSON.parse(JSON.stringify(data)) }
+        },
+        lastMod: function(){
+            return new Date().toISOString();
+        },
+        applyThis: {
+            timelineCheck: function(siteContext){
+                if (siteContext){
+                    // console.log("Global check timelineitem from extended", siteContext)
+                }
+            },
+        },
+    }
+}
+---
+
+{% extends "../../_custom-plugins/timelinety/src/layouts/timeline-item-wrapper.njk" %}
+
+{% block nav %}
+    {% include "partials/nav.njk" %}
+{% endblock %}
+{% block additionalhead %}
+    <script defer data-domain="{{site.site_domain}}" src="https://plausible.io/js/plausible.js"></script>
+{% endblock %}
