@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	eleventyConfig.addShortcode("humanizeDate", utils.humanizeDate);
 	eleventyConfig.addShortcode(
 		"isNotWrappedInParagraphTags",
-		utils.isNotWrappedInParagraphTags
+		utils.isNotWrappedInParagraphTags,
 	);
 	eleventyConfig.addFilter("timelineSlugify", function (text) {
 		return slugger(text);
@@ -21,17 +21,16 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		//imageTool.buildItemImage(itemObj, "600px");
 		//imageTool.buildItemImage(itemObj, "630px");
 		timelineImages.push(
-			imageTool.prepareObject(itemObj, "600px", pluginConfig.domainName)
+			imageTool.prepareObject(itemObj, "600px", pluginConfig.domainName),
 		);
 		timelineImages.push(
-			imageTool.prepareObject(itemObj, "630px", pluginConfig.domainName)
+			imageTool.prepareObject(itemObj, "630px", pluginConfig.domainName),
 		);
 		//console.log("Template Social Image ", itemObj);
 		//console.log("Create Template Social Image Object Ends");
 		return "";
 	});
 	eleventyConfig.addFilter("socialImageSlug", (title, size) => {
-		console.log("Social Image Title", title);
 		let slugs = imageTool.imageUrlMaker(pluginConfig.domainName, title);
 		return slugs[size];
 	});
@@ -42,7 +41,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 	});
 	const timelines = timelineSets(
 		pluginConfig.timelinesInFolder,
-		pluginConfig.domainName
+		pluginConfig.domainName,
 	);
 	console.log("timelines", timelines);
 	eleventyConfig.addCollection("timelines", (collection) => {
@@ -55,7 +54,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 				const collectionFiltered = collection
 					.getAll()
 					.filter(
-						(item) => item.data.timeline === timelineObj.timeline
+						(item) => item.data.timeline === timelineObj.timeline,
 					);
 				/**				console.log(
 					"timeline filtered",
@@ -67,12 +66,12 @@ module.exports = function (eleventyConfig, pluginConfig) {
 						timelineItem.timelineData = timelineObj;
 						timelineItem.permalink = slugger(timelineObj.title);
 						timelineItem.timelineData.slug = slugger(
-							timelineItem.timelineData.slug
+							timelineItem.timelineData.slug,
 						);
 						timelineItem.timelineData.permalink =
 							timelineItem.permalink;
 						return timelineItem;
-					}
+					},
 				);
 				collectionEnhanced.sort((a, b) => {
 					if (a.date > b.date) return -1;
@@ -82,7 +81,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 				// collectionFiltered.reverse();
 
 				return collectionEnhanced;
-			}
+			},
 		);
 	});
 	console.log("send", eleventyConfig.addGlobalData);
@@ -93,7 +92,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 				previousValue[currentValue.timeline] = currentValue;
 			}
 			return previousValue;
-		}, {})
+		}, {}),
 	);
 	let ranOnce = false;
 	eleventyConfig.on("eleventy.after", async () => {
@@ -105,7 +104,7 @@ module.exports = function (eleventyConfig, pluginConfig) {
 		let processFinished = imageTool.queueImagesProcess(timelineImages);
 		ranOnce = true;
 		return processFinished.then(() =>
-			console.log("Image generation process complete")
+			console.log("Image generation process complete"),
 		);
 	});
 	/**

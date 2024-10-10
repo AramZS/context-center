@@ -89,6 +89,7 @@ https://pagefind.app/
 https://www.theatlantic.com/technology/archive/2023/09/google-search-size-usefulness-decline/675409/
 https://educatedguesswork.org/posts/tiptoe/
 https://www.wired.com/story/google-antitrust-lawsuit-search-results/
+https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/
 
 ## Talking About Search
 

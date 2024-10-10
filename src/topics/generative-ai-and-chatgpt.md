@@ -267,13 +267,10 @@ https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformatio
 https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
 https://techcrunch.com/2023/07/07/martin-lewis-deepfake-scam-ad-facebook/
 https://www.businessinsider.com/ai-killing-web-grand-bargain-2023-8
-<<<<<<< HEAD
 http://404media.co/the-backlash-against-ai-scraping-is-real-and-measurable
-=======
 https://www.theatlantic.com/technology/archive/2024/04/generative-ai-low-resource-languages/678042/
 https://blog.zgp.org/block-ai-training-on-a-web-site/
 https://www.theatlantic.com/technology/archive/2024/06/ai-eats-the-world/678627/?gift=bQgJMMVzeo8RHHcE1_KM0Z6IC-mVnbZ1MIab37oJyhY
->>>>>>> fbc37bb393aa4dfed25504204769acee7476cb25
 
 ## Labor
 
@@ -410,6 +407,16 @@ http://futurism.com/the-byte/microsoft-losing-money-ai
 http://wheresyoured.at/to-serve-altman
 
 https://www.wheresyoured.at/burst-damage/
+
+### Model Collapse
+
+https://www.nature.com/articles/s41586-024-07566-y
+
+https://techcrunch.com/2024/07/24/model-collapse-scientists-warn-against-letting-ai-eat-its-own-tail/
+
+https://futurism.com/the-byte/ai-companies-hiring-authors-poets-fix-writing
+
+https://experiments.myhub.ai/ai4communities_post
 
 ## Open Source AI
 
