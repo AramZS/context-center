@@ -40,6 +40,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://www.theverge.com/2024/10/4/24262410/wordpress-fight-trademarks-open-source-mullenweg
 - https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html
 - https://www.theregister.com/2024/10/02/automattic_wp_engine_wordpress_license/
+- https://techcrunch.com/2024/10/12/in-latest-move-against-wp-engine-wordpress-takes-control-of-acf-plugin/
 
 ## The Problem and Potential Solutions
 
@@ -55,6 +56,13 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://journal.rmccue.io/438/a-stronger-foundation-for-the-ecosystem/
 - https://www.pluginvulnerabilities.com/2024/09/24/who-is-on-the-wordpress-foundation-board/
 - https://www.theverge.com/2024/10/4/24262232/matt-mullenweg-wordpress-org-wp-engine
+
+## The Custom Fields Plugin
+
+- https://wordpress.org/news/2024/10/secure-custom-fields/
+- https://www.advancedcustomfields.com/blog/acf-plugin-no-longer-available-on-wordpress-org/
+- https://timnash.co.uk/advisory-advanced-custom-fields-changes/
+- https://www.theverge.com/2024/10/12/24268637/wordpress-org-matt-mullenweg-acf-fork-secure-custom-fields-wp-engine
 
 ## On Contributions
 
@@ -75,6 +83,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 
 - https://automattic.com/2024/10/03/meritless/
 - https://ma.tt/2024/10/alignment/
+- https://ma.tt/2024/10/owner-mentality/
 
 ## On Blocking WPEngine
 
@@ -95,6 +104,15 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://medium.com/@kelliepeterson/nice-guy-matt-mullenweg-ceo-of-wordpress-com-cries-foul-and-threatens-me-with-legal-action-f116ac57d862
 - https://sarahgooding.dev/2024/10/06/21-years-of-wordpress/
 - https://youtu.be/H6F0PgMcKWM?si=6qkpbNmfkfjZU-Vv
+
+## The Community Reacts
+
+- https://www.wpgraphql.com/2024/10/07/wpgraphql-becomes-a-canonical-plugin-my-move-to-automattic
+- https://wordpress.org/news/2024/10/spoon/
+- https://freewp.com/
+- https://make.wordpress.org/accessibility/2024/10/12/accessibility-team-meetings-suspended/
+- https://aspirepress.org/about-us/
+- https://openpress.ai/
 
 ## Relevant Previous Events
 
