@@ -86,6 +86,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://automattic.com/2024/10/03/meritless/
 - https://ma.tt/2024/10/alignment/
 - https://ma.tt/2024/10/owner-mentality/
+- https://www.404media.co/automattic-buyout-offer-wordpress-matt-mullenweg/
 
 ## On Blocking WPEngine
 
