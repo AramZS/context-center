@@ -41,6 +41,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://www.cnbc.com/2024/10/05/wordpress-ceo-matt-mullenweg-goes-nuclear-on-silver-lake-wp-engine-.html
 - https://www.theregister.com/2024/10/02/automattic_wp_engine_wordpress_license/
 - https://techcrunch.com/2024/10/12/in-latest-move-against-wp-engine-wordpress-takes-control-of-acf-plugin/
+- https://www.theverge.com/2024/9/27/24256361/wordpress-wp-engine-drama-explained-matt-mullenweg
 
 ## The Problem and Potential Solutions
 
