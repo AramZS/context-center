@@ -50,6 +50,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://joshcollinsworth.com/blog/fire-matt
 - https://thefragens.com/contributing-to-wordpress/
 - https://youtu.be/OUJgahHjAKU?si=GXbkF5qFGKRw2bos
+- https://pento.net/2024/10/17/howto-fork-wordpress/
 
 ## The WordPress Foundation
 
@@ -78,6 +79,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://wordpressfoundation.org/trademark-policy/
 - https://automattic.com/2024/10/01/wpe-terms/
 - https://www.inc.com/kit-eaton/the-wordpress-feud-shows-why-you-should-keep-tight-control-of-your-ip.html
+- https://techcrunch.com/2024/10/15/internal-blog-post-reveals-automattics-plan-to-enforce-the-wordpress-trademark-using-nice-and-not-nice-lawyers/
 
 ## Automattic
 
@@ -96,6 +98,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://trentlapinski.substack.com/p/matt-vs-wp-engine-thoughts-from-a
 - https://thewpminute.com/private-equity-and-the-soul-of-wordpress/
 - https://ma.tt/2024/09/ecosystem-thinking/
+- https://blog.pragmaticengineer.com/wordpress-struggles/
 
 ## Matt Mullenweg
 
