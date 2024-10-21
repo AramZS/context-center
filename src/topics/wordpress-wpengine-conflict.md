@@ -71,6 +71,13 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://wordpress.org/five-for-the-future/
 - https://www.briancoords.com/misconceptions-about-matt-open-source-and-contributions/
 
+## The Community Shifts
+
+- https://wordpress.org/news/2024/10/protect-private-conversations/
+- https://angelasjin.com/2024/10/21/on-community-code-of-conducts/
+- https://www.reddit.com/r/Wordpress/comments/1g82p1u/welcome_to_the_new_mods_lets_talk_about_how_we/
+- https://developer.wordpress.org/plugins/wordpress-org/transferring-your-plugin-to-a-new-owner/
+
 ## The Trademark Battle
 
 - https://arstechnica.com/tech-policy/2024/10/automattic-demanded-web-host-pay-32m-annually-for-using-wordpress-trademark/
@@ -88,6 +95,8 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://ma.tt/2024/10/alignment/
 - https://ma.tt/2024/10/owner-mentality/
 - https://www.404media.co/automattic-buyout-offer-wordpress-matt-mullenweg/
+- https://wordpress.org/news/2024/10/wp-engine-promotions/
+- https://techcrunch.com/2024/10/17/automattic-offered-employees-another-chance-to-quit-this-time-with-nine-months-severance/
 
 ## On Blocking WPEngine
 
