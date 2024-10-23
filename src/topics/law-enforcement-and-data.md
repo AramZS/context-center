@@ -63,6 +63,9 @@ https://www.vice.com/en/article/gygx7y/your-anonymous-browsing-data-isnt-actuall
 https://www.vice.com/en/article/epnmvz/industry-unmasks-at-scale-maid-to-pii
 https://gizmodo.com/anonymized-data-is-meaningless-bullshit-1841429952
 https://gizmodo.com/data-brokers-selling-pregnancy-roe-v-wade-abortion-1849148426
+https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
+https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/
+https://www.404media.co/inside-the-u-s-government-bought-tool-that-can-track-phones-at-abortion-clinics/
 
 ### How Law Enforcement Acquires Your Data
 
