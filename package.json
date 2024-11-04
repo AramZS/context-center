@@ -8,6 +8,7 @@
 		"build": "npx @11ty/eleventy",
 		"build-with-log-debug": "DEBUG=* npx @11ty/eleventy --serve --port=8083 2>&1 | tee ./buildlog.txt",
 		"build-with-log": "npx @11ty/eleventy --serve --port=8083 -- 2>&1 | tee ./buildlog.txt",
+		"serve:basic-dev": "npx @11ty/eleventy --serve --port=8083 -- 2>&1 | tee ./buildlog.txt",
 		"serve": "npx @11ty/eleventy --serve --port=8083"
 	},
 	"keywords": [],

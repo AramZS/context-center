@@ -425,6 +425,7 @@ https://ollama.com/blog/continue-code-assistant
 ## Personal AI
 
 https://doc.searls.com/2024/05/10/personal-vs-personalized/
+https://arxiv.org/html/2306.08302v3
 
 ## Notes
 

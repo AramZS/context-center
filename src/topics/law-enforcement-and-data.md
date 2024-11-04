@@ -108,6 +108,7 @@ https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-
 https://www.onlineabortionresources.org/blog/protecting-yourself-from-criminalization-for-self-managed-abortion
 https://www.motherjones.com/politics/2022/02/meet-abortion-bans-new-best-friend-your-phone/
 https://www.washingtonpost.com/technology/2022/05/04/abortion-digital-privacy/
+https://www.msnbc.com/opinion/msnbc-opinion/abortion-data-brokers-phones-google-apple-wyden-rcna178479
 https://jezebel.com/a-data-firm-is-tracking-people-who-visit-abortion-clini-1848875722
 https://twitter.com/swodinsky/status/1521938727009927170
 https://gizmodo.com/roe-v-wade-supreme-court-abortion-overturn-ron-wyden-da-1848876732
