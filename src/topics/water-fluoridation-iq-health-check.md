@@ -47,6 +47,7 @@ featuredImageCaption: "Water yum yum, drink it up"
 ## Scientists
 
 - https://www.ada.org/about/press-releases/community-water-fluoridation-at-optimal-levels-is-safe-and-effective
+- https://www.ada.org/resources/community-initiatives/fluoride-in-water
 
 ## Journalism
 
@@ -77,3 +78,12 @@ featuredImageCaption: "Water yum yum, drink it up"
 ## Government Statements
 
 - https://www.cdc.gov/fluoridation/about/statement-on-the-evidence-supporting-the-safety-and-effectiveness-of-community-water-fluoridation.html
+- https://www.cancer.gov/about-cancer/causes-prevention/risk/myths/fluoridated-water-fact-sheet
+
+
+<p>
+<a href="https://www.who.int/docs/default-source/wash-documents/wash-chemicals/fluoride-background-document.pdf" target="_blank">PDF of Fluoride in Drinking-water
+Background document for development of
+WHO Guidelines for Drinking-water Quality</a>
+</p>
+
