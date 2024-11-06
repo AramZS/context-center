@@ -50,6 +50,7 @@ public: true
 - https://aftermath.site/yanis-varoufakis-technofeudalism-valve-steam-interview
 - https://thebaffler.com/latest/mouthbreathing-machiavellis
 - https://prospect.org/health/big-tech-new-predatory-capitalism/
+- https://www.vanityfair.com/news/2022/04/inside-the-new-right-where-peter-thiel-is-placing-his-biggest-bets
 
 ## Post-Left
 

@@ -74,12 +74,16 @@ featuredImageCaption: "Water yum yum, drink it up"
 ## Politics
 
 - https://adanews.ada.org/ada-news/2024/february/states-debate-the-future-of-community-water-fluoridation/
+- https://www.cbc.ca/news/canada/calgary/calgary-fluoride-debate-2019-1.5340271
 
 ## Government Statements
 
 - https://www.cdc.gov/fluoridation/about/statement-on-the-evidence-supporting-the-safety-and-effectiveness-of-community-water-fluoridation.html
 - https://www.cancer.gov/about-cancer/causes-prevention/risk/myths/fluoridated-water-fact-sheet
 
+<p>
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4547570/?report=classic" target="_blank">U.S. Public Health Service Recommendation for Fluoride Concentration in Drinking Water for the Prevention of Dental Caries</a>
+</p>
 
 <p>
 <a href="https://www.who.int/docs/default-source/wash-documents/wash-chemicals/fluoride-background-document.pdf" target="_blank">PDF of Fluoride in Drinking-water
