@@ -19,6 +19,18 @@ featuredImageAlt: "A sign with the words This week... Reintroducing feudalism in
 featuredImageCaption: "Reintroducing feudalism with a tech twist"
 ---
 
+## Technofeudalism
+
+- https://www.wired.com/story/yanis-varoufakis-technofeudalism-interview/
+- https://aftermath.site/yanis-varoufakis-technofeudalism-valve-steam-interview
+- https://thebaffler.com/latest/mouthbreathing-machiavellis
+- https://prospect.org/health/big-tech-new-predatory-capitalism/
+- https://www.vanityfair.com/news/2022/04/inside-the-new-right-where-peter-thiel-is-placing-his-biggest-bets
+- https://tante.cc/2016/02/18/liberty-iphone-refusal-think-politically/
+- https://techcrunch.com/2013/11/22/geeks-for-monarchy/
+- https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
+- https://www.newyorker.com/magazine/2024/04/01/has-capitalism-been-replaced-by-technofeudalism
+
 ## Effective Altruism
 
 - https://www.wired.com/story/deaths-of-effective-altruism/
@@ -48,18 +60,6 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://newrepublic.com/article/168047/longtermism-future-humanity-william-macaskill
 - https://theconversation.com/climate-crisis-and-the-dangers-of-tech-obsessed-long-termism-176951
 - https://www.washingtonpost.com/opinions/2022/09/05/longtermism-philanthropy-altruism-risks/
-
-## Technofeudalism
-
-- https://www.wired.com/story/yanis-varoufakis-technofeudalism-interview/
-- https://aftermath.site/yanis-varoufakis-technofeudalism-valve-steam-interview
-- https://thebaffler.com/latest/mouthbreathing-machiavellis
-- https://prospect.org/health/big-tech-new-predatory-capitalism/
-- https://www.vanityfair.com/news/2022/04/inside-the-new-right-where-peter-thiel-is-placing-his-biggest-bets
-- https://tante.cc/2016/02/18/liberty-iphone-refusal-think-politically/
-- https://techcrunch.com/2013/11/22/geeks-for-monarchy/
-- https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
-- https://www.newyorker.com/magazine/2024/04/01/has-capitalism-been-replaced-by-technofeudalism
 
 ## Post-Left
 
