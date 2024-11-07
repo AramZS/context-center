@@ -12,15 +12,20 @@ tags:
   - Longtermism
   - post-left
 public: true
+featuredImage: "reintroducing-feudalism.jpg"
+featuredImageCredit: "Image used under Creative Commons Attribution 2.0. Credit to Steve Bowbrick: Reintroducing feudalism."
+featuredImageLink: "https://flickr.com/photos/bowbrick/50570445622/in/photolist-7iE194-2k3JKCS-2mPTa5t-2omX4KH-odTTw-bWrtNj-QNKCc-QNKFn-QNKBg-QNKAB-kEqEdE-8CUEqN-kcJVMm-5cBqSM-2pXoRs-5Hw7TP-kcJVVY-71f59E-kcJVGG-2k6Zibk-kcHgrp-kcGMcv-Zy2iF7-kcHgrz-kcJVRE-2psc6M9-4kzYUQ-agoqWN-2pm15Ds-ANRkx-2pmZxLa-2pANuTM-2pyoPUK"
+featuredImageAlt: "A sign with the words This week... Reintroducing feudalism in a variety of unserious fonts"
+featuredImageCaption: "Reintroducing feudalism with a tech twist"
 ---
 
 ## Effective Altruism
 
-- https://www.youtube.com/watch?v=Lm0vHQYKI-Y
 - https://www.wired.com/story/deaths-of-effective-altruism/
 - https://time.com/6262810/sam-bankman-fried-effective-altruism-alameda-ftx/
 - https://time.com/6252617/effective-altruism-sexual-harassment/
 - https://www.editorialboard.com/worshiping-the-elevated-rational-choices-of-the-rich-is-no-way-to-a-better-world/
+- https://www.youtube.com/watch?v=Lm0vHQYKI-Y
 - https://www.technologyreview.com/2022/10/17/1060967/effective-altruism-growth/
 - https://www.thecrimson.com/article/2023/3/30/ea-scrut/
 - https://www.washingtonpost.com/magazine/2020/09/23/effective-altruism-charity/
@@ -51,6 +56,10 @@ public: true
 - https://thebaffler.com/latest/mouthbreathing-machiavellis
 - https://prospect.org/health/big-tech-new-predatory-capitalism/
 - https://www.vanityfair.com/news/2022/04/inside-the-new-right-where-peter-thiel-is-placing-his-biggest-bets
+- https://tante.cc/2016/02/18/liberty-iphone-refusal-think-politically/
+- https://techcrunch.com/2013/11/22/geeks-for-monarchy/
+- https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
+- https://www.newyorker.com/magazine/2024/04/01/has-capitalism-been-replaced-by-technofeudalism
 
 ## Post-Left
 
@@ -66,6 +75,9 @@ public: true
 - https://www.reimaginingliberty.com/silicon-valleys-very-online-ideologues-are-in-model-collapse/
 - https://www.wired.com/story/the-other-tech-bubble/
 - https://www.thecut.com/2018/10/profile-red-scare-podcast.html
+- https://www.gq.com/story/election-night-in-dimes-square
+- https://martyrcomplex.substack.com/p/aristocrats-of-the-soul
+- https://www.nytimes.com/2021/02/13/technology/slate-star-codex-rationalists.html
 
 ## Effective Accelerationism
 
@@ -77,3 +89,10 @@ public: true
 - https://en.m.wikipedia.org/wiki/TESCREAL
 - https://firstmonday.org/ojs/index.php/fm/article/view/13636
 - https://www.truthdig.com/articles/the-acronym-behind-our-wildest-ai-dreams-and-nightmares/
+
+## Anti-Democratic Algorithms
+
+- https://youtu.be/4F9QzXjUB10?si=ljETFsoSGH-aoVGG
+- https://clalliance.org/blog/capabilities-of-movements-and-affordances-of-digital-media-paradoxes-of-empowerment/
+- https://www.rageinsidethemachine.com/
+
