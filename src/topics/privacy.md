@@ -272,6 +272,10 @@ https://www.techpolicy.com/Articles/L/Legislating-Data-Loyalty.aspx
 
 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4333743
 
+### Extraction Imperative
+
+https://youtu.be/gmX61zJLjcs?si=QqNsIC6hDaqQdsyu
+
 ## Trust
 
 <a href="https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/" target="_blank">https://www.cloudflare.com/learning/dns/dns-records/dns-spf-record/</a>
