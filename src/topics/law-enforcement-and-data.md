@@ -133,6 +133,7 @@ https://news.yahoo.com/teen-took-abortion-pill-end-085145204.html
 
 ### Fighting Back
 
+https://www.wired.com/story/the-wired-guide-to-protecting-yourself-from-government-surveillance/
 https://gizmodo.com/your-phone-is-a-goldmine-of-hidden-data-for-cops-heres-1843817740
 https://ssd.eff.org/en/playlist/reproductive-healthcare-service-provider-seeker-or-advocate#your-security-plan
 https://digitaldefensefund.org/ddf-guides/abortion-privacy
