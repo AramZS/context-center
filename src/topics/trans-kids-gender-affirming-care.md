@@ -49,6 +49,7 @@ http://ettingermentum.news/p/transphobia-fails-again
 ## Science
 
 https://www.scientificamerican.com/article/what-the-science-on-gender-affirming-care-for-transgender-kids-really-shows/
+https://www.scientificamerican.com/article/evidence-undermines-rapid-onset-gender-dysphoria-claims/
 https://massivesci.com/articles/kale-edmiston-transgender-neuroscience/
 https://www.sciencedirect.com/science/article/abs/pii/S0273229706000773
 https://www.sciencedirect.com/science/article/pii/S2352154620301509
