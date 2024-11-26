@@ -47,6 +47,7 @@ https://krausefx.com/blog/ios-privacy-instagram-and-facebook-can-track-anything-
 https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-selling-data-tracks-people-reproductive-health-clinics-places-worship-other
 https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-call-records-to-sensors-your-phone-reveals-more-about-you-than-you-think-189618
 https://bokonads.com/medical-targeting-should-be-illegal/
+https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/
 
 ### Data Brokers
 
@@ -66,6 +67,7 @@ https://gizmodo.com/data-brokers-selling-pregnancy-roe-v-wade-abortion-184914842
 https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/
 https://www.404media.co/inside-the-u-s-government-bought-tool-that-can-track-phones-at-abortion-clinics/
+https://www.wired.com/story/phone-data-us-soldiers-spies-nuclear-germany/
 
 ### How Law Enforcement Acquires Your Data
 
