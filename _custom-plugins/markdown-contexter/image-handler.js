@@ -175,7 +175,7 @@ const handleImageFromObject = async (response, cacheFile, cacheFilePath) => {
 				return imageFile;
 			} catch (e) {
 				if (fs.existsSync(imageCacheFolder)) {
-					console.log("Folder for images exists", imageCacheFolder);
+					// console.log("Folder for images exists", imageCacheFolder);
 				} else {
 					console.log("Make dir for images", imageCacheFolder);
 					fs.mkdirSync(imageCacheFolder, {

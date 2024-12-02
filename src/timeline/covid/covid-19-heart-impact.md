@@ -6,6 +6,7 @@ dateAdded: 2024-07-04 11:59:43.10 -4
 isBasedOn: "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/news/coronavirus-and-your-health/what-does-coronavirus-do-to-your-body"
 tags:
   - Long COVID
+  - Heart Impact
 links:
   -
     href: "https://academic.oup.com/cardiovascres/advance-article/doi/10.1093/cvr/cvac195/6987834?login=false"

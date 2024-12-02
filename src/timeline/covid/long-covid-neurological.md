@@ -7,6 +7,7 @@ isBasedOn: "https://www.scientificamerican.com/article/long-covid-now-looks-like
 tags:
   - Science
   - Long COVID
+  - Brain Harms
 ---
 
 https://www.scientificamerican.com/article/long-covid-now-looks-like-a-neurological-disease-helping-doctors-to-focus-treatments1/
