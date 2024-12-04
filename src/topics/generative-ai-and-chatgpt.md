@@ -315,6 +315,9 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 [Gen AI: Too Much Spend, Too Little Benefit? PDF](https://www.goldmansachs.com/intelligence/pages/gs-research/gen-ai-too-much-spend-too-little-benefit/report.pdf)
 
 https://x.com/Moonalice/status/1810386071357894866
+- https://pluralistic.net/2023/12/19/bubblenomics/
+- https://www.wheresyoured.at/godot-isnt-making-it/
+- https://www.ben-evans.com/benedictevans/2024/7/9/the-ai-summer
 
 ## Big Tech + Generative AI
 
