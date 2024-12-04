@@ -6,6 +6,7 @@ dateAdded: 2024-07-04 11:59:43.10 -4
 isBasedOn: "https://www.nbcnews.com/health/health-news/long-covid-even-mild-covid-linked-damage-brain-months-infection-rcna18959"
 tags:
   - Long COVID
+  - Brain Harms
 links:
   -
     href: "https://www.nbcnews.com/health/health-news/covid-invades-brain-dealing-long-term-coronavirus-rcna4414"

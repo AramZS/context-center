@@ -6,6 +6,7 @@ dateAdded: 2022-08-09 22:59:43.10 -5
 isBasedOn: "https://www.nytimes.com/2020/10/11/health/covid-survivors.html"
 tags:
   - Long COVID
+  - Brain Harms
 ---
 
 https://www.nytimes.com/2020/10/11/health/covid-survivors.html

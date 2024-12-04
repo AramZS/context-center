@@ -6,6 +6,7 @@ dateAdded: 2024-06-27 22:59:43.10 -4
 isBasedOn: "https://theconversation.com/mounting-research-shows-that-covid-19-leaves-its-mark-on-the-brain-including-with-significant-drops-in-iq-scores-224216"
 tags:
   - Long COVID
+  - Brain Harms
 links:
   -
     href: "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html"

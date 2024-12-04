@@ -9,6 +9,7 @@ tags:
   - Risk
   - Long COVID
   - Paxlovid
+  - Brain Harms
 links:
   -
     href: "https://time.com/6232103/covid-19-reinfections-effects/"

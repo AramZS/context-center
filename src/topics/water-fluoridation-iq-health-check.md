@@ -9,6 +9,7 @@ tags:
   - fluoride
   - fluoridated
   - Youth
+  - Chemistry
 featuredImage: "cat-water-faucet.jpg"
 featuredImageCredit: 'Image used under Creative Commons Attribution 2.0. Credit to Lisa Zins via Flickr'
 featuredImageLink: "https://flickr.com/photos/lisazins/32824180987/in/photolist-S1yvqX-ViZMSG-7e8CrT-9wGBk1-EcJT2a-DeNN89-esJpZ-4WvDy1-8rPZGV-DD3MZx-8rT6a7-sFaTB-dgmU9Q-pnUgqd-oHxKEK-9owxLx-DsBLg-yGAznS-9owxKg-zn7S6i-Q2TL-4iqSb3-K6d6Nw-2fJgf7G-gspDy-7pkEMA-4oaHdG-2oxZ3ut-JTEjb-6vHCY9-sMu4-Hk5SG-57Eh6s-2juAwp4-2BDKu-5oEmbT-aUC1aX-5S7Zrb-4JcLtd-8VHWuw-bHiE1k-e3oBsB-9mpvx-39KhHa-Mcu7o-7yDFWJ-9hyTLX-2qn6z7U-2QPRQ-2op9Uos"
@@ -48,6 +49,10 @@ featuredImageCaption: "Water yum yum, drink it up"
 
 - https://www.ada.org/about/press-releases/community-water-fluoridation-at-optimal-levels-is-safe-and-effective
 - https://www.ada.org/resources/community-initiatives/fluoride-in-water
+
+## Education Resources
+
+https://www.youtube.com/watch?v=GefwcsrChHk
 
 ## Journalism
 

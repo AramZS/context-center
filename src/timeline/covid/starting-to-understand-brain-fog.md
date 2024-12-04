@@ -6,6 +6,7 @@ dateAdded: 2022-08-26 22:59:43.10 -4
 isBasedOn: "https://www.newscientist.com/article/mg25433902-300-we-are-finally-starting-to-understand-brain-fog-and-how-to-treat-it/"
 tags:
   - Long COVID
+  - Brain Harms
 ---
 
 https://www.newscientist.com/article/mg25433902-300-we-are-finally-starting-to-understand-brain-fog-and-how-to-treat-it/
