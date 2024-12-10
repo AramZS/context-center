@@ -109,6 +109,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.404media.co/project-analyzing-human-language-usage-shuts-down-because-generative-ai-has-polluted-the-data/
 - https://www.404media.co/google-serves-ai-slop-as-top-result-for-one-of-the-most-famous-paintings-in-history/
 - https://www.proofnews.org/ai-models-struggle-to-get-the-facts-straight-about-kamala-harris-2/
+- https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire
 
 ## AI and Climate
 
@@ -126,6 +127,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.bloodinthemachine.com/p/ai-is-revitalizing-the-fossil-fuels
 - https://huggingface.co/blog/sasha/ai-environment-primer
 - https://www.context.news/ai/video/forget-jobs-ai-is-coming-for-your-water
+- https://www.techpolicy.press/why-we-dont-know-ais-true-water-footprint/
 
 ## Tools
 
@@ -279,6 +281,12 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - http://arstechnica.com/health/2023/11/ai-with-90-error-rate-forces-elderly-out-of-rehab-nursing-homes-suit-claims
 - https://arxiv.org/abs/2409.14160v1
 - https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/
+- https://www.technologyreview.com/2024/12/04/1107897/openais-new-defense-contract-completes-its-military-pivot/
+
+## The Politics of AI
+
+- https://ali-alkhatib.com/blog/defining-ai
+- https://thetechbubble.substack.com/p/the-phony-comforts-of-useful-idiots
 
 ## AI Harms
 
@@ -354,6 +362,12 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://www.ben-evans.com/benedictevans/2024/7/9/the-ai-summer
 - https://sherwood.news/business/companies-backing-big-ai-startups-openai-anthropic-perplexity/
 - https://futurism.com/investors-concerned-ai-making-money
+- https://calpaterson.com/porter.html
+
+### AI and Ads
+
+- https://adtechradar.com/2024/12/03/is-openai-set-to-become-an-adtech-company/
+- https://techcrunch.com/2024/12/03/the-abject-weirdness-of-ai-ads/
 
 ## Big Tech + Generative AI
 
@@ -466,6 +480,14 @@ https://experiments.myhub.ai/ai4communities_post
 ## Open Source AI
 
 https://ollama.com/blog/continue-code-assistant
+
+## Can AI Reason?
+
+- https://www.technologyreview.com/2024/01/23/1086944/why-does-ai-being-good-at-math-matter/
+- https://techcrunch.com/2024/10/11/researchers-question-ais-reasoning-ability-as-models-stumble-on-math-problems-with-trivial-changes/
+- https://arstechnica.com/ai/2024/10/llms-cant-perform-genuine-logical-reasoning-apple-researchers-suggest/
+- https://openai.com/index/learning-to-reason-with-llms/
+- https://www.quantamagazine.org/how-close-are-computers-to-automating-mathematical-reasoning-20200827/
 
 ## Personal AI
 
