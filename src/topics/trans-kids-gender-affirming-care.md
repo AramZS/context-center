@@ -81,6 +81,9 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/35212746/" target="_blank">Mental Health Outcomes in Transgender and Nonbinary Youths Receiving Gender-Affirming Care</a>
 
+https://link.springer.com/article/10.1007/s13178-018-0335-z
+https://www.nbcnews.com/feature/nbc-out/no-link-between-trans-inclusive-policies-bathroom-safety-study-finds-n911106
+
 ## Gender Affirming Care Decreasing Suicide
 
 https://www.tennessean.com/story/opinion/2022/03/17/anti-trans-legislation-in-tennessee-sparks-a-mental-health-crisis/7078412001/
