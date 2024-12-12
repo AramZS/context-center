@@ -19,6 +19,7 @@ tags:
 - https://www.fastcompany.com/91165756/cost-of-going-to-college-university-higher-education-worth-it-gen-z-parents
 - https://www.forbes.com/sites/brandonbusteed/2020/08/07/20-of-harvards-first-year-class-has-deferred/
 - https://medium.com/@mv576/black-swan-small-colleges-face-closing-because-of-ed-department-incompetence-0e0abe3ad5f1
+- https://www.fastcompany.com/91245055/higher-education-crisis-more-colleges-closing-by-2029-ivy-league-thrives
 
 ## Affordability
 
