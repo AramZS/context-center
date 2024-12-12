@@ -7,6 +7,11 @@ tags:
   - Higher Ed
   - Youth
   - Economy
+featuredImage: "cambridge-university.jpg"
+featuredImageCredit: '"Cambridge University" by foshie is marked with CC BY.'
+featuredImageLink: "https://flic.kr/p/awfTt5"
+featuredImageAlt: '"Cambridge University" by foshie portrays an image of an old-world university with pale yellow-brown brick and grass yard.'
+featuredImageCaption: "Academia meets business, and the results are for the worse."
 ---
 
 ## Signs pointing to dropping capabilities to fund Higher Ed
