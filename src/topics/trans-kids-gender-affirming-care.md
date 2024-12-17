@@ -22,6 +22,7 @@ featuredImageAlt: "AI-generated artistic rendition of a medical bureaucracy"
 
 ## Journalism
 
+https://www.erininthemorning.com/p/opinion-washington-post-editorial
 https://www.vice.com/en/article/m7gg54/florida-transgender-healthcare-minors
 https://www.theguardian.com/commentisfree/2018/oct/22/rapid-onset-gender-dysphoria-is-a-poisonous-lie-used-to-discredit-trans-people
 https://www.cnn.com/2022/04/21/health/gender-affirming-care/index.html
