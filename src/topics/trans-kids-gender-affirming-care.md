@@ -82,8 +82,20 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/35212746/" target="_blank">Mental Health Outcomes in Transgender and Nonbinary Youths Receiving Gender-Affirming Care</a>
 
-https://link.springer.com/article/10.1007/s13178-018-0335-z
-https://www.nbcnews.com/feature/nbc-out/no-link-between-trans-inclusive-policies-bathroom-safety-study-finds-n911106
+- https://link.springer.com/article/10.1007/s13178-018-0335-z
+- https://www.nbcnews.com/feature/nbc-out/no-link-between-trans-inclusive-policies-bathroom-safety-study-finds-n911106
+- https://www.sciencedirect.com/science/article/pii/S0929693X24001763
+
+### The Cass Review
+
+- https://transactual.org.uk/advocacy/critiques-of-the-cass-review/
+- https://www.thepinknews.com/2024/11/12/educational-psychologists-open-letter-cass-review-trans/
+
+<a href="https://law.yale.edu/sites/default/files/documents/integrity-project_cass-response.pdf" target="_blank">An Evidence-Based Critique of “The Cass Review” on Gender-affirming Care for Adolescent Gender Dysphoria</a>
+
+- https://osf.io/preprints/osf/uhndk
+- https://www.scientificamerican.com/article/the-u-k-s-cass-review-badly-fails-trans-children/
+- https://www.erininthemorning.com/p/british-medical-association-calls
 
 ## Gender Affirming Care Decreasing Suicide
 
