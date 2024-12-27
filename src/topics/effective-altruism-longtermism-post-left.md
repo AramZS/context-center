@@ -30,6 +30,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://techcrunch.com/2013/11/22/geeks-for-monarchy/
 - https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
 - https://www.newyorker.com/magazine/2024/04/01/has-capitalism-been-replaced-by-technofeudalism
+- https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/
 
 ## Effective Altruism
 
