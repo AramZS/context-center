@@ -128,6 +128,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://huggingface.co/blog/sasha/ai-environment-primer
 - https://www.context.news/ai/video/forget-jobs-ai-is-coming-for-your-water
 - https://www.techpolicy.press/why-we-dont-know-ais-true-water-footprint/
+- https://www.bloomberg.com/graphics/2024-ai-power-home-appliances/
 
 ## Tools
 

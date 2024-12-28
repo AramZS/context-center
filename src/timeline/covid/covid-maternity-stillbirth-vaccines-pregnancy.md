@@ -7,6 +7,7 @@ isBasedOn: "https://www.propublica.org/article/covid-maternity-stillbirth-vaccin
 tags:
   - Vaccines
   - Long COVID
+  - Pregnancy
 ---
 
 https://www.propublica.org/article/covid-maternity-stillbirth-vaccines-pregnancy
