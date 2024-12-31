@@ -291,6 +291,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 
 ## AI Harms
 
+- https://www.consumerfinance.gov/about-us/newsroom/cfpb-federal-partners-confirm-automated-systems-advanced-technology-not-an-excuse-for-lawbreaking-behavior/
 - https://themarkup.org/news/2023/07/06/ai-is-hurting-the-climate-in-a-number-of-non-obvious-ways
 - https://www.theatlantic.com/ideas/archive/2023/06/deepfake-porn-ai-misinformation/674475/
 - https://www.teenvogue.com/story/deepfake-porn-victims-are-seeking-federal-protections-through-a-new-bill
@@ -303,6 +304,21 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.nytimes.com/2024/10/23/technology/characterai-lawsuit-teen-suicide.html
 - https://padandpixel.com/ai-and-the-death-of-dignity/
 - https://www.404media.co/google-serves-ai-generated-images-of-mushrooms-putting-foragers-at-risk/
+
+### AI and Algorithmic Bias
+
+- https://www.whitehouse.gov/ostp/ai-bill-of-rights/algorithmic-discrimination-protections/
+- https://ir.lawnet.fordham.edu/ulj/vol46/iss2/1/
+- https://www.cbsnews.com/news/justice-department-redlining-investigation-digital-racist-practices/
+
+[Geographies of Algorithmic Violence: Redlining the Smart City (PDF)](https://onlinelibrary.wiley.com/doi/am-pdf/10.1111/1468-2427.12833)
+
+[Algorithmic Accountability: A Primer](https://datasociety.net/wp-content/uploads/2018/04/Data_Society_Algorithmic_Accountability_Primer_FINAL-4.pdf)
+
+- https://mitibmwatsonailab.mit.edu/research/blog/black-loans-matter-fighting-bias-for-ai-fairness-in-lending/
+- https://mashable.com/article/facebook-digital-redlining-ads-protected-traits-section-230
+- https://www.propublica.org/article/facebook-doj-advertising-discrimination-settlement
+- https://nymag.com/intelligencer/2019/04/facebooks-ad-algorithm-is-a-fully-functional-racism-machine.html
 
 ## Labor
 
