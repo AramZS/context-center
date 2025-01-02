@@ -364,6 +364,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 ## AI and Learning
 
 - https://hechingerreport.org/kids-chatgpt-worse-on-tests/
+- https://arxiv.org/abs/2410.19792
 
 ## AI and the market
 

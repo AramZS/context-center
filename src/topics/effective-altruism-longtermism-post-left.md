@@ -79,6 +79,8 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://www.gq.com/story/election-night-in-dimes-square
 - https://martyrcomplex.substack.com/p/aristocrats-of-the-soul
 - https://www.nytimes.com/2021/02/13/technology/slate-star-codex-rationalists.html
+- https://thebaffler.com/latest/the-moldbug-variations-pein
+- https://www.tabletmag.com/sections/news/articles/red-pill-prince-curtis-yarvin
 
 ## Effective Accelerationism
 
