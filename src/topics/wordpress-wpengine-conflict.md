@@ -14,22 +14,27 @@ featuredImageAlt: "A set of WordPress stickers in different colors"
 featuredImageCaption: "WordPress Sticker Swag"
 ---
 
-# What is happening?
+## What is happening?
 
-## What Automattic Says
+### Legal Developments
+
+- https://www.404media.co/wordpress-wp-engine-preliminary-injunction/
+
+### What Automattic Says
 
 - https://wordpress.org/news/2024/09/wp-engine/
 - https://wordpress.org/news/2024/09/wp-engine-banned/
 
-## What WPEngine Says
+### What WPEngine Says
 
 <p>
 <a href="https://wpengine.com/wp-content/uploads/2024/09/Cease-and-Desist-Letter-to-Automattic-and-Request-to-Preserve-Documents-Sent.pdf" target="_blank">PDF of the Cease and Desist Letter</a>
 </p>
 - https://wpengine.com/blog/highlighting-wordpress-innovation-contribution/
 
-## Journalistic Rundowns
+### Journalistic Rundowns
 
+- https://www.computerworld.com/article/3629671/wordpress-org-statement-threatens-possible-shutdown-for-all-of-2025.html
 - https://techcrunch.com/2024/09/22/matt-mullenweg-calls-wp-engine-a-cancer-to-wordpress-and-urges-community-to-switch-providers/
 - https://techcrunch.com/2024/09/25/legal-ping-pong-in-the-wordpress-world-continues-automattic-now-sends-wp-engine-a-cease-and-desist-letter-alleging-trademark-infringement/
 - https://techcrunch.com/2024/10/10/wordpress-vs-wp-engine-drama-explained/
@@ -43,8 +48,9 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://techcrunch.com/2024/10/12/in-latest-move-against-wp-engine-wordpress-takes-control-of-acf-plugin/
 - https://www.theverge.com/2024/9/27/24256361/wordpress-wp-engine-drama-explained-matt-mullenweg
 - https://techcrunch.com/2024/10/28/wordpress-vs-wp-engine-drama-explained/
+- https://www.msn.com/en-us/news/technology/pineapple-on-pizza-is-delicious-and-if-you-disagree-you-can-t-log-in-to-wordpress-org/ar-AA1w11vO
 
-## The Problem and Potential Solutions
+### The Problem and Potential Solutions
 
 - https://jeffmatson.net/blog/matt-vs-everyone/
 - https://jeffmatson.net/blog/mo-lawyers-mo-problems/
@@ -104,6 +110,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://www.theregister.com/2024/09/26/wordpressorg_denies_service_to_wp/
 - https://cullenwhitmore.com/an-open-letter-to-matt-mullenweg/
 - https://mitchcanter.me/update-wordpress-wpengine/
+- https://techcrunch.com/2024/12/17/pineapple-on-pizza-is-delicious-and-if-you-disagree-you-cant-log-in-to-wordpress-org/
 
 ## Why is this Happening?
 
@@ -119,6 +126,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://medium.com/@kelliepeterson/nice-guy-matt-mullenweg-ceo-of-wordpress-com-cries-foul-and-threatens-me-with-legal-action-f116ac57d862
 - https://sarahgooding.dev/2024/10/06/21-years-of-wordpress/
 - https://youtu.be/H6F0PgMcKWM?si=6qkpbNmfkfjZU-Vv
+- https://www.msn.com/en-us/money/other/is-matt-mullenweg-the-mad-king-of-wordpress/ar-AA1weOu4
 
 ## The Community Reacts
 
