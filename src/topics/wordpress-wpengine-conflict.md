@@ -136,6 +136,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://make.wordpress.org/accessibility/2024/10/12/accessibility-team-meetings-suspended/
 - https://aspirepress.org/about-us/
 - https://openpress.ai/
+- https://www.wp2s.com/
 
 ## Relevant Previous Events
 

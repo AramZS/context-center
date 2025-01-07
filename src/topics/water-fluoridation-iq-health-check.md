@@ -58,6 +58,7 @@ https://www.youtube.com/watch?v=GefwcsrChHk
 
 - https://www.msn.com/en-us/health/other/fact-check-no-harvard-study-did-not-confirm-fluoride-lowers-children-s-iq/ar-AA1sIPes
 - https://www.washingtonpost.com/health/2024/11/20/rfk-fluoride-drinking-water-oregon/
+- https://arstechnica.com/health/2025/01/controversial-fluoride-analysis-published-after-years-of-failed-reviews/
 
 ---
 
