@@ -106,6 +106,8 @@ https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-
 
 <p><a href="https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html" target="_blank">Inside the Extreme Effort to Punish Women for Abortion</a></p>
 
+https://bsky.app/profile/jessdkant.bsky.social/post/3lf4i2aef2s2u
+
 ### Abortion and User Data
 
 https://www.onlineabortionresources.org/blog/protecting-yourself-from-criminalization-for-self-managed-abortion
