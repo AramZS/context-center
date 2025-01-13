@@ -99,11 +99,13 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 
 ## Gender Affirming Care Decreasing Suicide
 
+https://19thnews.org/2024/09/anti-trans-laws-suicide-trans-nonbinary-youth/
 https://www.tennessean.com/story/opinion/2022/03/17/anti-trans-legislation-in-tennessee-sparks-a-mental-health-crisis/7078412001/
 https://williamsinstitute.law.ucla.edu/publications/suicidality-transgender-adults/
 https://www.cnn.com/2020/01/23/health/transgender-puberty-blockers-suicide-study/index.html
 https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2749479
 https://whatweknow.inequality.cornell.edu/topics/lgbt-equality/what-does-the-scholarly-research-say-about-the-well-being-of-transgender-people/
+https://www.npr.org/sections/shots-health-news/2024/09/25/nx-s1-5127347/more-trans-teens-attempted-suicide-after-states-passed-anti-trans-laws-a-study-shows
 
 <a href="https://www.researchgate.net/publication/284551812_Impacts_of_Strong_Parental_Support_for_Trans_Youth" target="_blank">Impacts of Strong Parental Support for Trans Youth</a>
 
