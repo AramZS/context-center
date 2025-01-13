@@ -37,6 +37,14 @@ https://ec.europa.eu/digital-single-market/en/news/factsheet-tackling-online-dis
 https://firstdraft.arist.co/courses/5ef5e5a67d406325a11c97dd
 https://www.nytimes.com/2023/01/10/world/europe/finland-misinformation-classes.html
 https://youtu.be/KLfL1Gm9QDM?si=GyzMB3wjhEOvEClE
+https://misinfocon.com/our-toolkit-for-people-and-teams-tackling-misinformation-online-9e6d240f3136
+
+#### Signals
+
+https://www.w3.org/2018/10/credibility-tech/
+https://schema.org/docs/news.html
+https://thetrustproject.org/
+https://haystack.csail.mit.edu/
 
 ### Vaccine Misinformation
 
@@ -110,6 +118,8 @@ https://misinforeview.hks.harvard.edu/
 https://mediamanipulation.org/research
 https://checkmyads.org/branded/
 https://techpolicy.press/reconsidering-the-fight-against-disinformation/
+https://firstdraftnews.org/articles/coe-report/
+https://credibilitycoalition.org/who-we-are/
 
 ### Misinformation as a Practice
 
@@ -121,3 +131,8 @@ https://digitalcommons.unl.edu/senatedocs/2/
 
 https://harpers.org/archive/2021/09/bad-news-selling-the-story-of-disinformation/
 
+## Feeds
+
+- https://civilservant.io/
+- https://www.cima.ned.org/about/
+- https://www.poynter.org/channels/fact-checking/
