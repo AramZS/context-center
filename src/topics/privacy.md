@@ -28,6 +28,7 @@ https://open.nytimes.com/how-the-new-york-times-thinks-about-your-privacy-bc07d2
 https://blog.mozilla.org/netpolicy/2022/04/12/competition-should-not-be-weaponized-to-hobble-privacy-protections-on-the-open-web/
 https://www.adexchanger.com/online-advertising/programmatic-tech-is-a-front-for-psychological-warfare/
 https://berjon.com/principled-privacy/
+https://media.ccc.de/v/38c3-feelings-are-facts-love-privacy-and-the-politics-of-intellectual-shame
 
 ## Compliance APIs
 
@@ -60,6 +61,18 @@ https://developer.chrome.com/en/docs/privacy-sandbox/third-party-cookie-phase-ou
 https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/
 https://www.theverge.com/2020/3/24/21192830/apple-safari-intelligent-tracking-privacy-full-third-party-cookie-blocking
 https://www.stateofdigitalpublishing.com/opinion/cookieless-is-not-near-its-here/
+
+## Privacy and AI
+
+- https://desfontain.es/blog/privacy-in-ai.html
+- https://www.wired.com/story/how-to-stop-your-data-from-being-used-to-train-ai/
+- https://www.brookings.edu/articles/protecting-privacy-in-an-ai-driven-world/
+
+## Privacy and Cartech
+
+- https://www.washingtonpost.com/technology/2025/01/04/tesla-data-privacy-vehicles/
+- https://www.nytimes.com/2024/12/20/technology/connected-cars-roads-data.html?smid=nytcore-android-share
+- https://www.w3.org/press-releases/2015/automotive-industry/
 
 ## In-Progress Standards
 
@@ -101,29 +114,6 @@ https://blog.chromium.org/2021/01/privacy-sandbox-in-2021.html
 https://digiday.com/marketing/wtf-googles-privacy-sandbox/
 https://digiday.com/media/google-plots-further-privacy-sandbox-trials-but-concerns-still-linger/
 
-### Private Attribution
-
-#### Safari proposal
-
-https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/
-https://www.adexchanger.com/online-advertising/apples-attribution-fix-for-safari-explained/
-https://privacycg.github.io/private-click-measurement/
-
-#### Chrome proposal
-
-https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-migration/
-https://github.com/WICG/conversion-measurement-api/blob/main/EVENT.md
-https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-experiment/
-https://docs.google.com/document/d/1BXchEk-UMgcr2fpjfXrQ3D8VhTR-COGYS1cwK_nyLfg/edit
-
-#### Mozilla / Facebook proposal
-
-https://docs.google.com/document/d/1KpdSKD8-Rn0bWPTu4UtK54ks0yv2j22pA5SrAD9av4s/edit#heading=h.f4x9f0nqv28x
-
-#### Android Proposal
-
-https://developer.android.com/design-for-safety/ads/attribution
-
 ### Storage Partitioning
 
 https://github.com/privacycg/storage-partitioning
@@ -155,6 +145,8 @@ https://github.com/KILTprotocol/kilt-did-driver/blob/master/docs/did-spec/spec.m
 
 https://iapp.org/resources/article/us-state-privacy-legislation-tracker/
 https://www.nytimes.com/wirecutter/blog/state-of-privacy-laws-in-us/
+https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-august/californias-invasion-privacy-act/
+https://news.bloomberglaw.com/privacy-and-data-security/cops-battle-data-brokers-for-privacy-in-constitutional-clash
 
 ### GDPR
 
@@ -329,6 +321,9 @@ https://thebaffler.com/latest/capitalisms-new-clothes-morozov
 https://www.washingtonpost.com/technology/2023/02/13/mental-health-data-brokers/
 https://www.theguardian.com/technology/2019/jul/23/anonymised-data-never-be-anonymous-enough-study-finds
 https://www.theverge.com/2023/10/9/23909581/walmart-ozempic-food-pharmacy-market-research-privacy
+https://teachprivacy.com/privacy-in-authoritarian-times/
+https://www.wired.com/story/the-wired-guide-to-protecting-yourself-from-government-surveillance/
+https://www.techdirt.com/2024/08/21/84-of-americans-want-tougher-online-privacy-laws-but-congress-is-too-corrupt-to-follow-through/
 
 ### Privacy Tax
 
@@ -353,3 +348,27 @@ https://craphound.com/category/destroy/
 
 https://www.publift.com/blog/contextual-advertising-everything-you-need-to-know#What-is-Contextual-Advertising
 https://www.exchangewire.com/deep-dive/the-future-of-contextual-targeting/
+
+
+## Old Private Attribution
+
+#### Safari proposal
+
+https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/
+https://www.adexchanger.com/online-advertising/apples-attribution-fix-for-safari-explained/
+https://privacycg.github.io/private-click-measurement/
+
+#### Chrome proposal
+
+https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-migration/
+https://github.com/WICG/conversion-measurement-api/blob/main/EVENT.md
+https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-experiment/
+https://docs.google.com/document/d/1BXchEk-UMgcr2fpjfXrQ3D8VhTR-COGYS1cwK_nyLfg/edit
+
+#### Mozilla / Facebook proposal
+
+https://docs.google.com/document/d/1KpdSKD8-Rn0bWPTu4UtK54ks0yv2j22pA5SrAD9av4s/edit#heading=h.f4x9f0nqv28x
+
+#### Android Proposal
+
+https://developer.android.com/design-for-safety/ads/attribution
