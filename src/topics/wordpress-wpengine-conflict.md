@@ -66,6 +66,8 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://www.pluginvulnerabilities.com/2024/09/24/who-is-on-the-wordpress-foundation-board/
 - https://www.theverge.com/2024/10/4/24262232/matt-mullenweg-wordpress-org-wp-engine
 
+["If I thought that [putting .org under the WordPress Foundation] would further our mission of democratizing publishing I’d do it in a heartbeat. I’ve seen those governance structures destroy great software more often than create it."](https://x.com/photomatt/status/1879216022718501258)
+
 ## The Custom Fields Plugin
 
 - https://wordpress.org/news/2024/10/secure-custom-fields/
