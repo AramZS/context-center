@@ -81,6 +81,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://www.nytimes.com/2021/02/13/technology/slate-star-codex-rationalists.html
 - https://thebaffler.com/latest/the-moldbug-variations-pein
 - https://www.tabletmag.com/sections/news/articles/red-pill-prince-curtis-yarvin
+- https://www.techpolicy.press/peter-thiel-dreams-of-empire/
 
 ## Effective Accelerationism
 

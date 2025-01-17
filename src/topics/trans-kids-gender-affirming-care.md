@@ -46,6 +46,7 @@ https://www.scottishlegal.com/articles/dr-sandra-duffy-puberty-blockers-ruling-w
 https://erininthemorn.substack.com/p/first-period-anti-trans-legislative
 https://www.nytimes.com/2023/01/25/us/politics/transgender-laws-republicans.html
 http://ettingermentum.news/p/transphobia-fails-again
+https://bulletin.appliedtransstudies.org/article/1/1-2/3/
 
 ## Science
 
@@ -54,6 +55,7 @@ https://www.scientificamerican.com/article/evidence-undermines-rapid-onset-gende
 https://massivesci.com/articles/kale-edmiston-transgender-neuroscience/
 https://www.sciencedirect.com/science/article/abs/pii/S0273229706000773
 https://www.sciencedirect.com/science/article/pii/S2352154620301509
+https://www.researchgate.net/publication/346443481_The_Informed_Consent_Model_of_Care_for_Accessing_Gender-Affirming_Hormone_Therapy_Is_Associated_With_High_Patient_Satisfaction
 
 <a href="https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1196/annals.1308.017" target="_blank">Adolescence: Vulnerable Period for Stress-Induced Prefrontal Cortical Function? Introduction to Part IV</a>
 
@@ -82,9 +84,14 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 
 <a href="https://pubmed.ncbi.nlm.nih.gov/35212746/" target="_blank">Mental Health Outcomes in Transgender and Nonbinary Youths Receiving Gender-Affirming Care</a>
 
+<a href="https://otdchile.org/wp-content/uploads/2024/06/Experiences-of-Puberty-and-Puberty-Blockers-Insights-From-Trans-Children-Trans-Adolescents-and-Their-Parents-.pdf" target="_blank">Experiences of Puberty and Puberty Blockers: Insights From Trans Children, Trans Adolescents, and Their Parents [PDF]</a>
+
 - https://link.springer.com/article/10.1007/s13178-018-0335-z
 - https://www.nbcnews.com/feature/nbc-out/no-link-between-trans-inclusive-policies-bathroom-safety-study-finds-n911106
 - https://www.sciencedirect.com/science/article/pii/S0929693X24001763
+- https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992/Gender-Identity-5-Years-After-Social-Transition
+- https://onlinelibrary.wiley.com/doi/10.1111/chso.12625
+- https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/camh.12437
 
 ### The Cass Review
 
@@ -123,6 +130,7 @@ https://www.youtube.com/watch?v=yCxqdhZkxCo
 https://www.vice.com/en/article/mbdx7n/100-ways-be-trans-ally-tips
 https://tdor.translivesmatter.info/pages/about
 https://nytletter.com
+https://www.youtube.com/watch?v=IqeFeqInoXc
 
 <hr />
 
