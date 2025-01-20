@@ -283,6 +283,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://arxiv.org/abs/2409.14160v1
 - https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/
 - https://www.technologyreview.com/2024/12/04/1107897/openais-new-defense-contract-completes-its-military-pivot/
+- https://www.youtube.com/watch?v=AaU6tI2pb3M
 
 ## The Politics of AI
 

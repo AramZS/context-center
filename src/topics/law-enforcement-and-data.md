@@ -148,3 +148,4 @@ https://twitter.com/swodinsky/status/1521351334339002369
 https://www.eff.org/deeplinks/2022/05/digital-security-and-privacy-tips-those-involved-abortion-access
 https://gizmodo.com/how-to-get-an-abortion-keep-personal-information-safe-1848874362
 https://cdt.org/collections/reproductive-rights/
+https://www.techpolicy.press/trumps-mass-deportations-start-with-our-dataheres-how-we-stop-him/
