@@ -82,6 +82,8 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://thebaffler.com/latest/the-moldbug-variations-pein
 - https://www.tabletmag.com/sections/news/articles/red-pill-prince-curtis-yarvin
 - https://www.techpolicy.press/peter-thiel-dreams-of-empire/
+- https://maxread.substack.com/p/is-curtis-yarvin-influential?publication_id=392873&r=cu2
+- https://maxread.substack.com/p/four-questions-about-the-new-right
 
 ## Effective Accelerationism
 
