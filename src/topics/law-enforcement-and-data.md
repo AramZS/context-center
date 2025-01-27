@@ -48,6 +48,7 @@ https://www.ftc.gov/news-events/news/press-releases/2022/08/ftc-sues-kochava-sel
 https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-call-records-to-sensors-your-phone-reveals-more-about-you-than-you-think-189618
 https://bokonads.com/medical-targeting-should-be-illegal/
 https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/
+https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites
 
 ### Data Brokers
 
@@ -68,6 +69,7 @@ https://www.nytimes.com/2022/05/19/opinion/privacy-technology-data.html
 https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/
 https://www.404media.co/inside-the-u-s-government-bought-tool-that-can-track-phones-at-abortion-clinics/
 https://www.wired.com/story/phone-data-us-soldiers-spies-nuclear-germany/
+https://techcrunch.com/2025/01/13/gravy-analytics-data-broker-breach-trove-of-location-data-threatens-privacy-millions/
 
 ### How Law Enforcement Acquires Your Data
 
@@ -97,6 +99,7 @@ https://www.vox.com/technology/2023/6/16/23762403/data-odni-report-wyden
 https://www.vice.com/en/article/y3pnkw/us-military-bought-mass-monitoring-augury-team-cymru-browsing-email-data
 https://www.washingtonpost.com/technology/2023/12/12/pharmacy-records-police-privacy-abortion/
 https://www.404media.co/fyi-a-warrant-isnt-needed-secret-service-says-you-agreed-to-be-tracked-with-location-data/
+https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-geolocate-photos-in-seconds/
 
 ### Anti-choice Activists and Bounties
 
@@ -149,3 +152,8 @@ https://www.eff.org/deeplinks/2022/05/digital-security-and-privacy-tips-those-in
 https://gizmodo.com/how-to-get-an-abortion-keep-personal-information-safe-1848874362
 https://cdt.org/collections/reproductive-rights/
 https://www.techpolicy.press/trumps-mass-deportations-start-with-our-dataheres-how-we-stop-him/
+https://hushline.app/
+https://theintercept.com/2024/03/04/signal-app-username-phone-number-privacy/
+https://themarkup.org/levelup/2023/10/25/without-a-trace-how-to-take-your-phone-off-the-grid
+https://freedom.press/digisec/blog/journalists-digital-security-checklist/
+
