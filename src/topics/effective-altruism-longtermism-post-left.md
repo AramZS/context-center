@@ -84,6 +84,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://www.techpolicy.press/peter-thiel-dreams-of-empire/
 - https://maxread.substack.com/p/is-curtis-yarvin-influential?publication_id=392873&r=cu2
 - https://maxread.substack.com/p/four-questions-about-the-new-right
+- https://nymag.com/intelligencer/article/inauguration-trump-supporters-conservative-movement-post-maga.html
 
 ## Effective Accelerationism
 

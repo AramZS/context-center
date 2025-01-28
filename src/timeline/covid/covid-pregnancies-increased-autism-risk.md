@@ -3,7 +3,7 @@ title: "Covid Pregnancies May Have Boosted Autism Risk, Study Shows"
 description: "Exposure to the virus in utero may have affected children’s development, according to a UCLA study, adding to a list of health problems emerging in the wake of the global pandemic. "
 date: 2024-12-26
 dateAdded: 2024-12-26 18:00:43.10 -5
-isBasedOn: "https://www.bloomberg.com/news/articles/2024-12-26/covid-may-have-led-to-autism-and-developmental-delays-in-babies-study-shows?leadSource=uverify%20wall"
+isBasedOn: "https://www.bloomberg.com/news/articles/2024-12-26/covid-may-have-led-to-autism-and-developmental-delays-in-babies-study-shows"
 tags:
   - Science
   - Long COVID
