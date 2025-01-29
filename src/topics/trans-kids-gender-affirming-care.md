@@ -47,6 +47,12 @@ https://erininthemorn.substack.com/p/first-period-anti-trans-legislative
 https://www.nytimes.com/2023/01/25/us/politics/transgender-laws-republicans.html
 http://ettingermentum.news/p/transphobia-fails-again
 https://bulletin.appliedtransstudies.org/article/1/1-2/3/
+https://19thnews.org/2025/01/trump-directs-federal-government-to-restrict-access-to-gender-affirming-care/
+https://www.thebulwark.com/p/we-all-lose-in-trump-war-against-trans-americans
+https://19thnews.org/2025/01/young-feminist-party-biden-equal-rights-amendment/
+https://www.assignedmedia.org/breaking-news/congress-tries-nationwide-ban-trans-athletes
+https://www.aclu.org/news/lgbtq-rights/four-myths-about-trans-athletes-debunked
+
 
 ## Science
 
