@@ -26,6 +26,7 @@ https://www.erininthemorning.com/p/opinion-washington-post-editorial
 https://www.vice.com/en/article/m7gg54/florida-transgender-healthcare-minors
 https://www.theguardian.com/commentisfree/2018/oct/22/rapid-onset-gender-dysphoria-is-a-poisonous-lie-used-to-discredit-trans-people
 https://www.cnn.com/2022/04/21/health/gender-affirming-care/index.html
+https://www.npr.org/sections/shots-health-news/2025/01/06/nx-s1-5247724/transgender-teens-gender-affirming-care-hormones-jama
 
 ### Videos
 
@@ -52,7 +53,7 @@ https://www.thebulwark.com/p/we-all-lose-in-trump-war-against-trans-americans
 https://19thnews.org/2025/01/young-feminist-party-biden-equal-rights-amendment/
 https://www.assignedmedia.org/breaking-news/congress-tries-nationwide-ban-trans-athletes
 https://www.aclu.org/news/lgbtq-rights/four-myths-about-trans-athletes-debunked
-
+https://pubmed.ncbi.nlm.nih.gov/34793826/
 
 ## Science
 
