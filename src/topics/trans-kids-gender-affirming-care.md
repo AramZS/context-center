@@ -32,6 +32,7 @@ https://www.npr.org/sections/shots-health-news/2025/01/06/nx-s1-5247724/transgen
 
 https://www.youtube.com/watch?v=C7XYfffLMEQ
 https://www.youtube.com/watch?v=6r-Uga_oR28
+https://www.youtube.com/watch?v=mlkBa7ooUN4
 
 ## Politics
 
