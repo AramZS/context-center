@@ -65,6 +65,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      pages: write
+      id-token: write    
     steps:
       - name: Log artifact name
         run: echo "Artifact name ${{ needs.build.outputs.artifact_name }} and here is also a test string ${{ needs.build.outputs.test_string }} "
