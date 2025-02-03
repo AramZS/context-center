@@ -56,7 +56,7 @@ jobs:
         run: echo "Artifact uploaded with name context-center"
         
     outputs:
-      artifact_name: ${{ steps.upload.outputs.artifact_name }}
+      artifact_name: "context-center"
       test_string: "Test string Foo Bar"
 
   deploy:
