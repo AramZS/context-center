@@ -71,7 +71,11 @@ jobs:
     steps:
       - name: Log artifact name
         run: echo "Artifact name ${{ needs.build.outputs.artifact_name }} and here is also a test string ${{ needs.build.outputs.test_string }} "
-
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: context-center
+          path: ./docs
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
