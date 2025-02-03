@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -25,7 +25,7 @@ jobs:
     runs-on: ${{ matrix.runs-on }}
     env:
       MY_GITHUB_RUN_ID: ${{ github.run_id }}
-      RECREATE_IMGS: "false"
+      RECREATE_IMGS: false
     steps:
       - uses: actions/checkout@v3
         with:
@@ -34,7 +34,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: 18
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
@@ -51,9 +51,13 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           path: ./docs
           name: context-center-${{ matrix.runs-on }}
+
+      - name: Log artifact upload
+        run: echo "Artifact uploaded with name context-center-${{ matrix.runs-on }}"
         
     outputs:
       artifact_name: ${{ steps.upload.outputs.artifact_name }}
+      test_string: "Test string Foo Bar"
 
   deploy:
     environment:
@@ -63,7 +67,7 @@ jobs:
     needs: build
     steps:
       - name: Log artifact name
-        run: echo "Artifact name ${{ needs.build.outputs.artifact_name }}"
+        run: echo "Artifact name ${{ needs.build.outputs.artifact_name }} and here is also a test string ${{ needs.build.outputs.test_string }} "
 
       - name: Deploy to GitHub Pages
         id: deployment
