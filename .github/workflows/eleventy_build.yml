@@ -54,6 +54,9 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           path: ./docs
           name: context-center-${{ matrix.runs-on }}
+        
+    outputs:
+      artifact_name: context-center-${{ matrix.runs-on }}
 
   # Deployment job
   deploy:
@@ -63,6 +66,9 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Log artifact name
+        run: echo "Artifact name ${{ needs.build.outputs.artifact_name }}"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
