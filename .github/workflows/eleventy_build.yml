@@ -24,7 +24,7 @@ jobs:
   build:
     strategy:
       matrix:
-        runs-on: [ubuntu-latest, macos-latest, windows-latest]
+        runs-on: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.runs-on }}
     env:
       MY_GITHUB_RUN_ID: ${{ github.run_id }}
