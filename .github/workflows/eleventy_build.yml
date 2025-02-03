@@ -19,10 +19,7 @@ concurrency:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        runs-on: [ubuntu-latest, macos-latest]
-    runs-on: ${{ matrix.runs-on }}
+    runs-on: ubuntu-latest
     env:
       MY_GITHUB_RUN_ID: ${{ github.run_id }}
       RECREATE_IMGS: false
@@ -50,13 +47,13 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           path: ./docs
-          name: context-center-${{ matrix.runs-on }}
+          name: context-center
 
       - name: Verify artifact upload
         run: ls -l ./docs
 
       - name: Log artifact upload
-        run: echo "Artifact uploaded with name context-center-${{ matrix.runs-on }}"
+        run: echo "Artifact uploaded with name context-center"
         
     outputs:
       artifact_name: ${{ steps.upload.outputs.artifact_name }}
@@ -76,4 +73,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v3
         with:
-          artifact_name: ${{ needs.build.outputs.artifact_name }}
+          artifact_name: context-center
