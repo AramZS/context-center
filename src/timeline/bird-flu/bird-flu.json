@@ -1,0 +1,27 @@
+{
+	"timeline": "bird-flu",
+	"title": "Bird Flu Timeline",
+	"description": "A Timeline of notable events about H5N1 as it was reported, maintained on Context Center.",
+	"tags": [
+		"Bird Flu",
+		"Healthcare",
+		"Cross-Species",
+		"H5N1",
+		"HPAI"
+	],
+	"categories": [
+		"News"
+	],
+	"filters": [
+		"USA",
+		"Reinfections"
+	],
+	"doNotUseFilters": [
+		"4 and under"
+	],
+	"date": "Last Modified",
+	"layout": "timeline-standalone-item-extended",
+	"header": "Looking at the emerging events around the spread of Bird Flu globally.",
+	"color": "grey",
+	"shortdate": false
+}

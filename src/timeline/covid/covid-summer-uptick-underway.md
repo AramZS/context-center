@@ -1,7 +1,7 @@
 ---
 title: "A covid summer uptick is underway as FLiRT and LB.1 variants ascend"
 description: "Coronavirus infections are likely growing in 44 states and territories as of June 25, according to the Centers for Disease Control and Prevention."
-date: 2024-07-03 6:00:00.10 -4
+date: 2024-07-03 06:00:00.10 -4
 dateAdded: 2024-07-04 11:59:43.10 -4
 isBasedOn: "https://www.washingtonpost.com/health/2024/07/03/covid-rising-kp2-flirt-lb1/"
 tags:
