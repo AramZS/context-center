@@ -52,6 +52,9 @@ jobs:
           path: ./docs
           name: context-center-${{ matrix.runs-on }}
 
+      - name: Verify artifact upload
+        run: ls -l ./docs
+
       - name: Log artifact upload
         run: echo "Artifact uploaded with name context-center-${{ matrix.runs-on }}"
         
