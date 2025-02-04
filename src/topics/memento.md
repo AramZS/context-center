@@ -32,4 +32,14 @@ https://archive.org/help/wayback_api.php
 ## WARCs
 
 https://support.archive-it.org/hc/en-us/categories/17378341125140-Getting-Started-with-Archive-It
-https://archive.org/details/introduction-to-the-warc_202111 
+https://archive.org/details/introduction-to-the-warc_202111
+
+## Displaying WARCs
+
+https://replayweb.page/docs/embedding/#introduction
+
+## Other Useful Links
+
+- https://github.com/pirate/internet-archiving-talk
+- https://github.com/ArchiveBox/ArchiveBox
+- https://github.com/ArchiveBox/good-karma-kit
