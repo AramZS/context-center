@@ -1,7 +1,7 @@
 ---
 title: "Waffle House is passing along the sky high cost of eggs to diners with a 50 cent surcharge"
 description: "The Waffle House restaurant chain is putting a 50 cent per egg surcharge in place due to the biggest bird flu outbreak in a decade."
-date: 2024-02-04 12:28:00.10 -5
+date: 2025-02-04 12:28:00.10 -5
 dateAdded: 2025-02-04 09:59:43.10 -4
 isBasedOn: "https://apnews.com/article/waffle-house-eggs-bird-flu-89025262684f051bdf8f7350dcf1613a"
 tags:
