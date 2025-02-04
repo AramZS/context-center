@@ -8,7 +8,23 @@ const sentenceCase = function (str) {
 
 const humanizeDate = function (date, short) {
 	const d = new Date(date);
-	if (!short) {
+	if (
+		date.length <= 12 ||
+		d.getHours() === 0 ||
+		d.getHours() === 24 - d.getTimezoneOffset() / 60
+	) {
+		short = true;
+	}
+	if (short) {
+		d.setHours(1 + d.getHours() + d.getTimezoneOffset() / 60); // Adjust incoming dates from EST
+		return d.toLocaleString("en-US", {
+			weekday: "short", // long, short, narrow
+			day: "numeric", // numeric, 2-digit
+			year: "numeric", // numeric, 2-digit
+			month: "long", // numeric, 2-digit, long, short, narrow
+			timeZone: "EST",
+		});
+	} else {
 		return d.toLocaleString("en-US", {
 			weekday: "short", // long, short, narrow
 			day: "numeric", // numeric, 2-digit
@@ -16,14 +32,9 @@ const humanizeDate = function (date, short) {
 			month: "long", // numeric, 2-digit, long, short, narrow
 			hour: "numeric", // numeric, 2-digit
 			minute: "numeric", // numeric, 2-digit
+			timeZone: "EST",
 		});
 	}
-	return d.toLocaleString("en-US", {
-		weekday: "short", // long, short, narrow
-		day: "numeric", // numeric, 2-digit
-		year: "numeric", // numeric, 2-digit
-		month: "long", // numeric, 2-digit, long, short, narrow
-	});
 };
 
 const isNotWrappedInParagraphTags = function (html) {

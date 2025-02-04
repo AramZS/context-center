@@ -56,10 +56,28 @@ i.fa-i-usa::before
 i.fa-i-usa
     background-image: url("/img/noun-usa-2161027.svg")
 
-i.fa-i-politics::before
+i.fa-i-spread
+    background-image: url("/img/noun-spread-6843388.svg")
+
+.timeline-icon.fa-ic-spread
+    background-color: green
+
+i.fa-i-chickens
+    background-image: url("/img/noun-chicken-6985354.svg")
+
+.timeline-icon.fa-ic-chickens
+    background-color: #f0d0ab
+
+i.fa-i-cows
+    background-image: url("/img/noun-cow-232099.svg")
+
+.timeline-icon.fa-ic-cows
+    background-color: #fff
+
+i.fa-i-politics::before, i.fa-i-government-action::before
     content: ''
 
-i.fa-i-politics
+i.fa-i-politics, i.fa-i-government-action
     background-image: url("/img/noun-politics-2614296.svg")
 
 .timeline-icon.fa-ic-science
@@ -112,13 +130,13 @@ i.fa-i-china::before
 i.fa-i-china
     background-image: url("/img/noun-china-1968-FFFF00.svg")
 
-.timeline-icon.fa-ic-labor
+.timeline-icon.fa-ic-labor, .timeline-icon.fa-ic-economy, .timeline-icon.fa-ic-trade
     background-color: #82be73
 
-i.fa-i-labor::before
+i.fa-i-labor::before, i.fa-i-economy::before, i.fa-i-trade::before
     content: ''
 
-i.fa-i-labor
+i.fa-i-labor, i.fa-i-economy, i.fa-i-trade
     background-image: url("/img/noun-stocks-2397652.png")
 
 .timeline-icon.fa-ic-misinformation .timeline-icon.fa-ic-hydroxychloroquine .timeline-icon.fa-ic-ivermectin
@@ -169,19 +187,6 @@ i.fa-i-youth::before
 
 i.fa-i-youth
     background-image: none
-
-.timeline-icon.fa-ic-vaccines
-    background-color: white
-
-i.fa-i-vaccines
-    width: 30px
-    height: 30px
-    margin-top: 5px
-    background-size: contain
-    background-image: url(icons.$shot)
-
-i.fa-i-vaccines::before
-    content: none
 
 .timeline-icon.fa-ic-omicron
     background-color: orange
@@ -258,3 +263,34 @@ i.fa-i-masking::before
 i.fa-i-masking
     background-image: url("/img/noun-n95-mask-5766966-FFFFFF.svg")
     background-size: 45px
+
+i.fa-i-government-failure
+    background-image: url("/img/noun-failure-3125860.svg")
+
+.timeline-icon.fa-ic-government-failure
+    background-color: #cb6a6a
+
+i.fa-i-human-infection
+    background-image: url("/img/noun-infection-4592882-FFFFFF.svg")
+
+.timeline-icon.fa-ic-human-infection
+    background-color: #605300
+
+i.fa-i-vaccines, i.fa-i-animal-vaccines, i.fa-i-animal-vaccination
+    width: 30px
+    height: 30px
+    margin-top: 5px
+    background-size: contain
+    background-image: url(icons.$shot)
+
+i.fa-i-vaccines::before, i.fa-i-animal-vaccines::before, i.fa-i-animal-vaccination::before
+    content: none
+
+.timeline-icon.fa-ic-vaccines, .timeline-icon.fa-ic-animal-vaccination
+    background-color: white
+
+i.fa-i-human-death
+    background-image: url("/img/noun-death-4568993.svg")
+
+.timeline-icon.fa-ic-human-death
+    background-color: black

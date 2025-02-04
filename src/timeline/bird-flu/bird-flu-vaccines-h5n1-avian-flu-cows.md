@@ -8,7 +8,7 @@ tags:
   - Chickens
   - Cows
   - Government Failure
-  - Animal Vaccine
+  - Animal Vaccination
 ---
 
 https://www.vox.com/future-perfect/24155545/bird-flu-vaccines-h5n1-avian-flu-cows
