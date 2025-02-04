@@ -1,7 +1,7 @@
 {
 	"timeline": "bird-flu",
 	"title": "Bird Flu Timeline",
-	"description": "A Timeline of notable events about H5N1 as it was reported, maintained on Context Center. For a more detailed science focused timeline check <a href=\"https://www.thinkglobalhealth.org/article/timeline-h5n1-bird-flu-outbreak-us\" target=\"_blank\">Think Global Health</a>.",
+	"description": "A Timeline of notable events about H5N1 as it was reported, maintained on Context Center.",
 	"tags": [
 		"Bird Flu",
 		"Healthcare",
@@ -21,7 +21,7 @@
 	],
 	"date": "Last Modified",
 	"layout": "timeline-standalone-item-extended",
-	"header": "Looking at the emerging events around the spread of Bird Flu globally.",
+	"header": "Looking at the emerging events around the spread of Bird Flu globally. For a more detailed science focused timeline check <a href=\"https://www.thinkglobalhealth.org/article/timeline-h5n1-bird-flu-outbreak-us\" target=\"_blank\">Think Global Health</a>.",
 	"color": "grey",
 	"shortdate": false
 }
