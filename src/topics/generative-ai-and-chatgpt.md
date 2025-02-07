@@ -305,6 +305,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.nytimes.com/2024/10/23/technology/characterai-lawsuit-teen-suicide.html
 - https://padandpixel.com/ai-and-the-death-of-dignity/
 - https://www.404media.co/google-serves-ai-generated-images-of-mushrooms-putting-foragers-at-risk/
+- https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/
 
 ### AI and Algorithmic Bias
 

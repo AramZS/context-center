@@ -15,6 +15,3 @@ https://www.nytimes.com/2025/02/06/health/cdc-bird-flu-cats-people.html
 > Experts said that the finding that cats might have passed the virus to people was not entirely unexpected. But they were alarmed that the finding had not yet been released to the public.
 > [...]
 > Scientists have long known that cats are highly susceptible to the virus. At least 85 domestic cats have been infected since late 2022, according to the U.S. Department of Agriculture. But there had not previously been any documented cases of cats passing the virus to people.
-
-
-

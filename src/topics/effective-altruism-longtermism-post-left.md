@@ -61,6 +61,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://newrepublic.com/article/168047/longtermism-future-humanity-william-macaskill
 - https://theconversation.com/climate-crisis-and-the-dangers-of-tech-obsessed-long-termism-176951
 - https://www.washingtonpost.com/opinions/2022/09/05/longtermism-philanthropy-altruism-risks/
+- https://www.currentaffairs.org/news/2021/07/the-dangerous-ideas-of-longtermism-and-existential-risk
 
 ## Post-Left
 
