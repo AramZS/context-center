@@ -100,6 +100,7 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 - https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992/Gender-Identity-5-Years-After-Social-Transition
 - https://onlinelibrary.wiley.com/doi/10.1111/chso.12625
 - https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/camh.12437
+- https://www.nature.com/articles/s41562-024-01979-5
 
 ### The Cass Review
 
