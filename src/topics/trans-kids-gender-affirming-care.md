@@ -100,7 +100,6 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 - https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992/Gender-Identity-5-Years-After-Social-Transition
 - https://onlinelibrary.wiley.com/doi/10.1111/chso.12625
 - https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/camh.12437
-- https://www.nature.com/articles/s41562-024-01979-5
 
 ### The Cass Review
 
@@ -128,6 +127,8 @@ https://www.npr.org/sections/shots-health-news/2024/09/25/nx-s1-5127347/more-tra
 <a href="https://journals.sagepub.com/doi/abs/10.1177/1090198120965504" target="_blank">Perspectives of Transgender Youth on Parental Support</a>
 
 <a href="http://karger.com/hrp/article/91/6/357/162902/Use-of-Gonadotropin-Releasing-Hormone-Analogs-in" target="_blank">Use of Gonadotropin-Releasing Hormone Analogs in Children: Update by an International Consortium: "No differences in clinical indices of pubertal progression were seen in studies comparing monthly preparations and 2 doses of the 3-monthly preparations of leuprolide depot"</a>
+
+- https://www.nature.com/articles/s41562-024-01979-5
 
 ## Useful Additional References
 
