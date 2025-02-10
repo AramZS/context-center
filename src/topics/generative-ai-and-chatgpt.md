@@ -367,6 +367,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 
 - https://hechingerreport.org/kids-chatgpt-worse-on-tests/
 - https://arxiv.org/abs/2410.19792
+- https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/
 
 ## AI and the market
 

@@ -42,6 +42,10 @@ featuredImageCaption: "Academia meets business, and the results are for the wors
 - https://www.kmbc.com/article/mizzou-to-close-2-dorms-because-of-enrollment-drop/3693236
 - https://www.phillymag.com/news/2023/09/02/temple-university-controversy/
 
+## Research and Grant Funding
+
+- https://www.insidehighered.com/views/2017/04/13/how-universities-have-gotten-caught-privatization-trap-essay
+
 ## Downstream Impacts
 
 - https://www.theatlantic.com/ideas/archive/2019/08/death-college-newspapers/595849/
