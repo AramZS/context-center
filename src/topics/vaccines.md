@@ -144,3 +144,8 @@ https://www.cnn.com/2021/01/22/health/face-mask-n95-coronavirus-transmission/ind
 <iframe width="560" height="315" src="https://www.youtube.com/embed/T6MjnmkdV5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 https://www.npr.org/sections/health-shots/2020/11/23/937173060/mask-mandates-work-to-slow-spread-of-coronavirus-kansas-study-finds
+
+### Vaccines in Politics
+
+https://abcnews.go.com/Politics/fact-checking-rfk-jrs-claims-vaccines-pesticides-confirmation/story?id=118224419
+https://www.npr.org/sections/shots-health-news/2025/01/28/nx-s1-5274744/rfk-confirmation-vaccines-health-secretary
