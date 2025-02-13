@@ -147,5 +147,6 @@ https://www.npr.org/sections/health-shots/2020/11/23/937173060/mask-mandates-wor
 
 ### Vaccines in Politics
 
+https://www.washingtonpost.com/health/2025/02/13/robert-kennedy-hhs-secretary-confirmation-vote/
 https://abcnews.go.com/Politics/fact-checking-rfk-jrs-claims-vaccines-pesticides-confirmation/story?id=118224419
 https://www.npr.org/sections/shots-health-news/2025/01/28/nx-s1-5274744/rfk-confirmation-vaccines-health-secretary
