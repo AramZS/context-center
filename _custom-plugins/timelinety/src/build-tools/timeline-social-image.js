@@ -12,7 +12,7 @@ const imageSlugMaker = slugger;
 const imageUrlMaker = (domainName, title) => {
 	return {
 		standard: `${domainName}/img/previews/${imageSlugMaker(
-			title,
+			title
 		)}-600px.png`,
 		tall: `${domainName}/img/previews/${imageSlugMaker(title)}-630px.png`,
 	};
@@ -98,14 +98,14 @@ const prepareObject = function (dataObject, size, domainName) {
 		__dirname,
 		"../../../../",
 		`/src/img/previews/`,
-		`${imageSlugMaker(dataObject.title)}-${size}.png`,
+		`${imageSlugMaker(dataObject.title)}-${size}.png`
 	);
 	/**
 	cacheFile = `./previews/${imageSlugMaker(
 		sanitizeFilename(dataObject.title)
 	)}-${size}.png`; */
 	dataObj.data.titleslug = imageSlugMaker(
-		dataObj.title || dataObj.data.title,
+		dataObj.title || dataObj.data.title
 	);
 	dataObj.data.color = dataObj.data.color || "grey";
 	dataObj.data.humanData = humanizeDate(dataObj.data.date);
@@ -116,7 +116,7 @@ const prepareObject = function (dataObject, size, domainName) {
 			output: cacheFile,
 			timeout: 0,
 		},
-		dataObj.data,
+		dataObj.data
 	);
 	return finalObj;
 };
@@ -160,14 +160,14 @@ const timelineElementStyle = (doc) => {
 		{
 			encoding: "utf8",
 			flag: "r",
-		},
+		}
 	);
 	const cssTwo = fs.readFileSync(
 		"./_custom-plugins/timelinety/src/css/main.css",
 		{
 			encoding: "utf8",
 			flag: "r",
-		},
+		}
 	);
 
 	const cssThree = fs.readFileSync(
@@ -175,7 +175,7 @@ const timelineElementStyle = (doc) => {
 		{
 			encoding: "utf8",
 			flag: "r",
-		},
+		}
 	);
 
 	let cssText = cssOne + "\n\n" + cssTwo + "\n\n" + cssThree;
@@ -211,7 +211,7 @@ function generateSomeImages(imageSet) {
 			htmlToImage({
 				html: handlebarsTemplate(),
 				content: imagesToCreate,
-				puppeteerArgs: { timeout: 0 },
+				puppeteerArgs: { timeout: 0, args: ["--no-sandbox"] },
 			})
 				.then(() => {
 					console.log("The images were created successfully!");
@@ -220,7 +220,7 @@ function generateSomeImages(imageSet) {
 				.catch((error) => {
 					console.log(
 						"The images were not created successfully!",
-						error,
+						error
 					);
 					reject(error);
 				});
@@ -262,7 +262,7 @@ const queueImagesProcess = (timelineImages) => {
 							.then((result) => {
 								console.log(
 									"Image generation chunk complete",
-									result,
+									result
 								);
 							})
 							.catch((e) => {
@@ -270,7 +270,7 @@ const queueImagesProcess = (timelineImages) => {
 							});
 						return genResult;
 					}),
-				generateSomeImages(firstChunk),
+				generateSomeImages(firstChunk)
 			);
 			return promiseChain
 				.then(() => {
