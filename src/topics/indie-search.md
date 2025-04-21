@@ -56,6 +56,7 @@ https://stork-search.net/
 https://blogsurf.io
 http://well-known.dev
 https://tinygem.org/
+https://archie.serialport.org/
 
 ## Corpuses
 
@@ -83,6 +84,7 @@ https://wiby.me/about/guide.html
 https://github.com/cblgh/lieu
 https://searchlab.eu/en/access/download/
 https://pagefind.app/
+https://jamesg.blog/2024/09/20/search-query-lifecycle
 
 ## Why Should We Care?
 
@@ -90,6 +92,9 @@ https://www.theatlantic.com/technology/archive/2023/09/google-search-size-useful
 https://educatedguesswork.org/posts/tiptoe/
 https://www.wired.com/story/google-antitrust-lawsuit-search-results/
 https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/
+https://sariazout.mirror.xyz/7gSSTJ96SEyvXeljymglO3zN4H6DCgVnrNZq8_2NX1A
+https://techcrunch.com/2025/01/14/uks-cma-slaps-google-search-and-its-90-market-share-with-an-antitrust-investigation/
+https://www.bbc.com/future/article/20241031-how-google-tells-you-what-you-want-to-hear
 
 ## Talking About Search
 
