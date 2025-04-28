@@ -7,6 +7,8 @@ tags:
   - DEI
   - RTO
   - Return to Office
+  - Work from Home
+  - WFH
 featuredImage: "office-img.jpg"
 featuredImageCredit: '"Eventful office with the sun shining" by Bradford Fults is marked with CC BY 2.0.'
 featuredImageLink: "https://flickr.com/photos/h3h/400307403/in/photolist-4Ds5Fg-qG96R-oC1Ub-7NZS2x-4Dty3o-4JGZbi-51QJr6-6NPoAm-5SYdSP-7W1dXu-9Ftim1-2pYnPs-j8Goc-6sP98A-2Q32fB-axTbjY-5ecPxU-hurNQ-2fqwM6y-BnFrM-6NPQtN-5BbfcA-56TqR-7dMSWR-264erVJ"
@@ -22,6 +24,7 @@ featuredImageCaption: "What is up with Return to Office policies?"
 - http://sloanreview.mit.edu/article/return-to-office-mandates-how-to-lose-your-best-performers
 - https://www.mediapost.com/publications/article/363949/study-finds-only-2-of-marketing-execs-want-a-ful.html
 - https://www.nature.com/articles/d41586-024-01713-1
+- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4956580
 
 ## Journalism
 

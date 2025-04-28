@@ -86,6 +86,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://maxread.substack.com/p/is-curtis-yarvin-influential?publication_id=392873&r=cu2
 - https://maxread.substack.com/p/four-questions-about-the-new-right
 - https://nymag.com/intelligencer/article/inauguration-trump-supporters-conservative-movement-post-maga.html
+- https://www.semafor.com/article/04/27/2025/the-group-chats-that-changed-america
 
 ## Effective Accelerationism
 

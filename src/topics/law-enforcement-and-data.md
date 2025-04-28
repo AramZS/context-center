@@ -100,6 +100,7 @@ https://www.vice.com/en/article/y3pnkw/us-military-bought-mass-monitoring-augury
 https://www.washingtonpost.com/technology/2023/12/12/pharmacy-records-police-privacy-abortion/
 https://www.404media.co/fyi-a-warrant-isnt-needed-secret-service-says-you-agreed-to-be-tracked-with-location-data/
 https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-geolocate-photos-in-seconds/
+https://www.theatlantic.com/technology/archive/2025/04/american-panopticon/682616/
 
 ### Anti-choice Activists and Bounties
 
