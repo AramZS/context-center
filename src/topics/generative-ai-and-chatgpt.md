@@ -390,9 +390,10 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://adtechradar.com/2024/12/03/is-openai-set-to-become-an-adtech-company/
 - https://techcrunch.com/2024/12/03/the-abject-weirdness-of-ai-ads/
 
-## Big Tech + Generative AI
+## Big Tech, Corporations and Generative AI
 
 - https://www.businessinsider.com/ai-synthetic-data-industry-debate-over-fake-2024-8
+- https://www.youtube.com/watch?v=lRq0pESKJgg&t=39s
 
 ## Centralization
 
