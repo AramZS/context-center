@@ -134,6 +134,11 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://grist.org/energy/georgia-was-about-to-retire-coal-plants-then-came-the-data-cen/
 - https://www.politico.com/news/2025/05/06/elon-musk-xai-memphis-gas-turbines-air-pollution-permits-00317582
 - https://arstechnica.com/health/2025/02/big-tech-data-center-buildouts-have-led-to-5-4-billion-in-public-health-costs/
+- https://impactclimate.mit.edu/2025/01/17/considering-generative-ais-environmental-impact/
+- https://www.scientificamerican.com/article/ais-climate-impact-goes-beyond-its-emissions/
+- https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117
+- https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about
+- https://www.technologyreview.com/2024/05/23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/
 
 ## Tools
 
