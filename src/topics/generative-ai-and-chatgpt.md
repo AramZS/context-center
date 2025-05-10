@@ -62,6 +62,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.baldurbjarnason.com/2024/new-web-dev/
 - https://tedium.co/2024/05/17/google-web-search-make-default/
 - https://www.404media.co/facebooks-ai-spam-isnt-the-dead-internet-its-the-zombie-internet/
+- https://drewdevault.com/2025/03/17/2025-03-17-Stop-externalizing-your-costs-on-me.html
 
 ## AI and Journalism
 
@@ -129,6 +130,10 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.context.news/ai/video/forget-jobs-ai-is-coming-for-your-water
 - https://www.techpolicy.press/why-we-dont-know-ais-true-water-footprint/
 - https://www.bloomberg.com/graphics/2024-ai-power-home-appliances/
+- https://www.bloomberg.com/news/articles/2025-04-10/ai-chipmaking-emissions-surged-fourfold-in-2024-greenpeace-says
+- https://grist.org/energy/georgia-was-about-to-retire-coal-plants-then-came-the-data-cen/
+- https://www.politico.com/news/2025/05/06/elon-musk-xai-memphis-gas-turbines-air-pollution-permits-00317582
+- https://arstechnica.com/health/2025/02/big-tech-data-center-buildouts-have-led-to-5-4-billion-in-public-health-costs/
 
 ## Tools
 
@@ -284,6 +289,8 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.wired.com/story/characterai-has-a-non-consensual-bot-problem/
 - https://www.technologyreview.com/2024/12/04/1107897/openais-new-defense-contract-completes-its-military-pivot/
 - https://www.youtube.com/watch?v=AaU6tI2pb3M
+- https://gizmodo.com/the-new-pope-wants-to-take-on-ai-2000600652
+- https://reallifemag.com/fair-warning/
 
 ## The Politics of AI
 
@@ -384,6 +391,8 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://sherwood.news/business/companies-backing-big-ai-startups-openai-anthropic-perplexity/
 - https://futurism.com/investors-concerned-ai-making-money
 - https://calpaterson.com/porter.html
+- https://futurism.com/microsoft-ceo-ai-generating-no-value
+- https://futurism.com/the-byte/openai-o3-cost-per-query
 
 ### AI and Ads
 
