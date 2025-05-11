@@ -91,6 +91,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.niemanlab.org/2024/05/for-the-first-time-two-pulitzer-winners-disclosed-using-ai-in-their-reporting/
 - https://technical.ly/software-development/ai-journalism-local-news-policy/
 - https://futurism.com/buzzfeed-publishing-articles-by-ai
+- https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php
 
 ## Misinformation
 
