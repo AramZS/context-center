@@ -140,6 +140,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117
 - https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about
 - https://www.technologyreview.com/2024/05/23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/
+- https://spectrum.ieee.org/data-centers-pollution
 
 ## Tools
 
@@ -148,6 +149,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://firefly.adobe.com/#
 - https://openai.com/blog/chatgpt
 - https://replicate.com/
+- https://claude.online/
 
 ## How is AI/ML being used?
 
@@ -297,6 +299,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.youtube.com/watch?v=AaU6tI2pb3M
 - https://gizmodo.com/the-new-pope-wants-to-take-on-ai-2000600652
 - https://reallifemag.com/fair-warning/
+- https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/
 
 ## The Politics of AI
 
@@ -381,6 +384,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://hechingerreport.org/kids-chatgpt-worse-on-tests/
 - https://arxiv.org/abs/2410.19792
 - https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/
+- https://www.theatlantic.com/technology/archive/2025/05/sycophantic-ai/682743/
 
 ## AI and the market
 
