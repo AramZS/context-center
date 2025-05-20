@@ -91,6 +91,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.niemanlab.org/2024/05/for-the-first-time-two-pulitzer-winners-disclosed-using-ai-in-their-reporting/
 - https://technical.ly/software-development/ai-journalism-local-news-policy/
 - https://futurism.com/buzzfeed-publishing-articles-by-ai
+- https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php
 
 ## Misinformation
 
@@ -143,6 +144,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/
 - https://www.technologyreview.com/2025/05/20/1116287/ai-data-centers-nevada-water-reno-computing-environmental-impact/
 - https://www.technologyreview.com/2025/05/20/1116272/ai-natural-gas-data-centers-energy-power-plants/
+- https://spectrum.ieee.org/data-centers-pollution
 
 ## Tools
 
@@ -151,7 +153,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://firefly.adobe.com/#
 - https://openai.com/blog/chatgpt
 - https://replicate.com/
-- https://claude.ai/
+- https://claude.online/
 
 ## How is AI/ML being used?
 
@@ -301,6 +303,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.youtube.com/watch?v=AaU6tI2pb3M
 - https://gizmodo.com/the-new-pope-wants-to-take-on-ai-2000600652
 - https://reallifemag.com/fair-warning/
+- https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/
 
 ## The Politics of AI
 
@@ -385,6 +388,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://hechingerreport.org/kids-chatgpt-worse-on-tests/
 - https://arxiv.org/abs/2410.19792
 - https://www.404media.co/microsoft-study-finds-ai-makes-human-cognition-atrophied-and-unprepared-3/
+- https://www.theatlantic.com/technology/archive/2025/05/sycophantic-ai/682743/
 
 ## AI and the market
 
