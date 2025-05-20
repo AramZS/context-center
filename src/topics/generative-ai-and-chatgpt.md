@@ -139,6 +139,10 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117
 - https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about
 - https://www.technologyreview.com/2024/05/23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/
+- https://www.technologyreview.com/supertopic/ai-energy-package/
+- https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/
+- https://www.technologyreview.com/2025/05/20/1116287/ai-data-centers-nevada-water-reno-computing-environmental-impact/
+- https://www.technologyreview.com/2025/05/20/1116272/ai-natural-gas-data-centers-energy-power-plants/
 
 ## Tools
 
@@ -147,6 +151,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://firefly.adobe.com/#
 - https://openai.com/blog/chatgpt
 - https://replicate.com/
+- https://claude.ai/
 
 ## How is AI/ML being used?
 
