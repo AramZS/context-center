@@ -154,6 +154,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://openai.com/blog/chatgpt
 - https://replicate.com/
 - https://claude.online/
+- https://lovable.dev/
 
 ## How is AI/ML being used?
 
