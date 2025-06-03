@@ -31,6 +31,8 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://newrepublic.com/article/183971/jd-vance-weird-terrifying-techno-authoritarian-ideas
 - https://www.newyorker.com/magazine/2024/04/01/has-capitalism-been-replaced-by-technofeudalism
 - https://www.technologyreview.com/2024/12/13/1108459/book-review-silicon-valley-democracy-techlash-rob-lalka-venture-alchemists-marietje-schaake-tech-coup/
+- https://www.theatlantic.com/magazine/archive/2025/07/government-privatization-feudalism/682888/
+- https://www.theguardian.com/us-news/ng-interactive/2025/apr/13/end-times-fascism-far-right-trump-musk
 
 ## Effective Altruism
 
@@ -88,6 +90,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://maxread.substack.com/p/four-questions-about-the-new-right
 - https://nymag.com/intelligencer/article/inauguration-trump-supporters-conservative-movement-post-maga.html
 - https://www.semafor.com/article/04/27/2025/the-group-chats-that-changed-america
+- https://www.semafor.com/article/05/25/2025/inside-the-identity-crisis-in-anti-woke-media
 
 ## Effective Accelerationism
 
