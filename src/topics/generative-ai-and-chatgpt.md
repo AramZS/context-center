@@ -92,6 +92,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://technical.ly/software-development/ai-journalism-local-news-policy/
 - https://futurism.com/buzzfeed-publishing-articles-by-ai
 - https://www.cjr.org/tow_center/how-chatgpt-misrepresents-publisher-content.php
+- https://www.wheresyoured.at/sic/
 
 ## Misinformation
 
@@ -365,6 +366,8 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://hbr.org/2024/11/research-how-gen-ai-is-already-impacting-the-labor-market
 - https://techcrunch.com/2024/11/04/perplexity-ceo-offers-ai-companys-services-to-replace-striking-nyt-staff/
 - https://techcrunch.com/2024/11/04/perplexity-ceo-offers-ai-companys-services-to-replace-striking-nyt-staff/
+- https://www.ibtimes.co.uk/klarna-slashed-40-its-staff-ai-now-theyre-scrambling-rehire-humans-after-customer-backlash-1734771
+- https://www.cnn.com/2025/05/30/business/anthropic-amodei-ai-jobs-nightcap
 
 ## Privacy
 

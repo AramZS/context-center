@@ -51,6 +51,7 @@ featuredImageCaption: "What is up with Return to Office policies?"
 - https://www.theverge.com/24290345/return-to-office-mandates-amazon-productivity-remote-work-hybrid-decoder-podcast
 - https://www.nytimes.com/2022/02/22/technology/big-tech-offices.html
 - https://warzel.substack.com/p/what-the-return-to-the-office-fight
+- https://www.wheresyoured.at/privilege-and-pro-office-pablum/
 
 ## How are workers responding?
 
@@ -58,6 +59,7 @@ featuredImageCaption: "What is up with Return to Office policies?"
 - https://www.theverge.com/2022/5/9/23063933/bioware-keywords-studios-contractors-unionize-return-office
 - https://www.irishtimes.com/business/economy/surge-in-resignations-as-employees-defy-bosses-on-return-to-office-1.4700869
 - https://www.bbc.com/worklife/article/20230622-why-workers-are-still-winning-the-return-to-office-fight
+- https://www.wheresyoured.at/the-myth-of-mentorship-and-how-weve/
 
 ## Return to Office Tactics for Management
 
