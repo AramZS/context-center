@@ -102,6 +102,7 @@ featuredImageCaption: "Reintroducing feudalism with a tech twist"
 - https://en.m.wikipedia.org/wiki/TESCREAL
 - https://firstmonday.org/ojs/index.php/fm/article/view/13636
 - https://www.truthdig.com/articles/the-acronym-behind-our-wildest-ai-dreams-and-nightmares/
+- https://www.youtube.com/watch?v=olhu9UhFGl4
 
 ## Anti-Democratic Algorithms
 
