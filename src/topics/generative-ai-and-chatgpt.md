@@ -54,6 +54,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.vice.com/en/article/wxnaqz/ai-isnt-artificial-or-intelligent
 - https://maggieappleton.com/ai-dark-forest
 - https://www.anildash.com/2023/06/08/ai-is-unreasonable/
+- https://www.anildash.com/2025/10/17/the-majority-ai-view/
 - https://www.technologyreview.com/2023/04/04/1070938/we-are-hurtling-toward-a-glitchy-spammy-scammy-ai-powered-internet/
 - https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged
 - https://arstechnica.com/information-technology/2023/07/is-chatgpt-getting-worse-over-time-study-claims-yes-but-others-arent-sure/?utm_source=pocket_reader
@@ -122,6 +123,8 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.404media.co/google-serves-ai-slop-as-top-result-for-one-of-the-most-famous-paintings-in-history/
 - https://www.proofnews.org/ai-models-struggle-to-get-the-facts-straight-about-kamala-harris-2/
 - https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire
+- https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo
+- https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society
 
 ## AI and Climate
 
@@ -345,6 +348,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://gizmodo.com/the-new-pope-wants-to-take-on-ai-2000600652
 - https://reallifemag.com/fair-warning/
 - https://www.theatlantic.com/technology/archive/2025/05/reddit-ai-persuasion-experiment-ethics/682676/
+- https://www.heise.de/en/background/Obituary-Farewell-to-robots-txt-1994-2025-10766991.html
 
 ## The Politics of AI
 
@@ -428,6 +432,8 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://arstechnica.com/ai/2025/07/study-finds-ai-tools-made-open-source-software-developers-19-percent-slower/
 - https://futurism.com/companies-fixing-ai-replacement-mistakes
 - https://www.bloodinthemachine.com/p/hundreds-of-workers-mobilize-to-stop
+- https://xeiaso.net/blog/2025/rolling-ladder-behind-us/
+- https://futurism.com/companies-fixing-ai-replacement-mistakes
 
 ## Privacy
 
@@ -465,6 +471,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://www.youtube.com/watch?v=FZcCgnktdX8
 - https://www.wsj.com/tech/ai/the-big-ai-question-are-you-ready-to-pay-for-it-534d95e9
 - https://www.sequoiacap.com/article/ais-600b-question/
+- https://techcrunch.com/2025/10/14/openai-has-five-years-to-turn-13-billion-into-1-trillion/
 
 [Gen AI: Too Much Spend, Too Little Benefit? PDF](https://www.goldmansachs.com/intelligence/pages/gs-research/gen-ai-too-much-spend-too-little-benefit/report.pdf)
 
@@ -478,6 +485,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://futurism.com/microsoft-ceo-ai-generating-no-value
 - https://futurism.com/the-byte/openai-o3-cost-per-query
 - https://limitesnumeriques.fr/travaux-productions/ai-forcing/en
+- https://futurism.com/future-society/ai-data-centers-finances
 
 ### AI and Ads
 
