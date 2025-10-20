@@ -125,39 +125,58 @@ featuredImageAlt: "AI-generated image of a robot artist"
 
 ## AI and Climate
 
-- https://clivethompson.medium.com/ai-is-thirsty-37f99f24a26e
-- http://goldmansachs.com/intelligence/pages/AI-poised-to-drive-160-increase-in-power-demand.html
-- https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/
 - https://www.bloomberg.com/news/articles/2024-07-08/google-is-no-longer-claiming-to-be-carbon-neutral
-- https://www.scientificamerican.com/article/the-ai-boom-could-use-a-shocking-amount-of-electricity/
-- https://www.scientificamerican.com/article/what-do-googles-ai-answers-cost-the-environment/
-- https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment?CMP=Share_AndroidApp_Other
-- https://www.cnbc.com/2023/12/06/water-why-a-thirsty-generative-ai-boom-poses-a-problem-for-big-tech.html
-- https://techpolicy.press/why-we-dont-know-ais-true-water-footprint
+- https://www.theguardian.com/commentisfree/article/2024/may/30/ugly-truth-ai-chatgpt-guzzling-resources-environment
 - https://techcrunch.com/2024/10/28/generative-ai-could-cause-10-billion-iphones-worth-of-e-waste-per-year-by-2030/
-- https://www.bloomberg.com/news/articles/2024-09-20/microsoft-s-ai-power-needs-prompt-revival-of-three-mile-island-nuclear-plant
-- https://www.bloodinthemachine.com/p/ai-is-revitalizing-the-fossil-fuels
 - https://huggingface.co/blog/sasha/ai-environment-primer
-- https://www.context.news/ai/video/forget-jobs-ai-is-coming-for-your-water
-- https://www.techpolicy.press/why-we-dont-know-ais-true-water-footprint/
-- https://www.bloomberg.com/graphics/2024-ai-power-home-appliances/
 - https://www.bloomberg.com/news/articles/2025-04-10/ai-chipmaking-emissions-surged-fourfold-in-2024-greenpeace-says
-- https://grist.org/energy/georgia-was-about-to-retire-coal-plants-then-came-the-data-cen/
+- https://www.scientificamerican.com/article/ais-climate-impact-goes-beyond-its-emissions/
 - https://www.politico.com/news/2025/05/06/elon-musk-xai-memphis-gas-turbines-air-pollution-permits-00317582
 - https://arstechnica.com/health/2025/02/big-tech-data-center-buildouts-have-led-to-5-4-billion-in-public-health-costs/
 - https://impactclimate.mit.edu/2025/01/17/considering-generative-ais-environmental-impact/
-- https://www.scientificamerican.com/article/ais-climate-impact-goes-beyond-its-emissions/
+- https://spectrum.ieee.org/data-centers-pollution
+- https://gizmodo.com/why-some-ai-models-spew-50-times-more-greenhouse-gas-to-answer-the-same-question-2000617314
+- https://thetyee.ca/Analysis/2025/06/10/AI-Demands-Be-Fed-All-Servers-Now/
+- https://www.sfexaminer.com/news/technology/why-chatgpt-generative-ai-unlikely-to-solve-climate-change/article_3af9df0f-0cb6-41d0-93bd-417c5ead8c99.html
+
+### AI and Energy
+
+- http://goldmansachs.com/intelligence/pages/AI-poised-to-drive-160-increase-in-power-demand.html
+- https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/
+- https://www.scientificamerican.com/article/the-ai-boom-could-use-a-shocking-amount-of-electricity/
+- https://www.bloomberg.com/news/articles/2024-09-20/microsoft-s-ai-power-needs-prompt-revival-of-three-mile-island-nuclear-plant
+- https://www.bloodinthemachine.com/p/ai-is-revitalizing-the-fossil-fuels
+- https://www.bloomberg.com/graphics/2024-ai-power-home-appliances/
+- https://grist.org/energy/georgia-was-about-to-retire-coal-plants-then-came-the-data-cen/
+- https://www.technologyreview.com/supertopic/ai-energy-package/
+- https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/
+- https://www.technologyreview.com/2025/05/20/1116272/ai-natural-gas-data-centers-energy-power-plants/
+- https://edition.cnn.com/2025/10/13/tech/openai-broadcom-power
+- https://www.nytimes.com/2025/08/14/business/energy-environment/ai-data-centers-electricity-costs.html
+- https://apnews.com/article/electricity-prices-data-centers-artificial-intelligence-fbf213a915fb574a4f3e5baaa7041c3a
+- https://www.fractracker.org/2025/07/national-data-centers-tracker/
+- https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/
+
+### AI and Water Use
+
+- https://clivethompson.medium.com/ai-is-thirsty-37f99f24a26e
+- https://www.scientificamerican.com/article/what-do-googles-ai-answers-cost-the-environment/
+- https://www.cnbc.com/2023/12/06/water-why-a-thirsty-generative-ai-boom-poses-a-problem-for-big-tech.html
+- https://techpolicy.press/why-we-dont-know-ais-true-water-footprint
+- https://www.context.news/ai/video/forget-jobs-ai-is-coming-for-your-water
+- https://www.techpolicy.press/why-we-dont-know-ais-true-water-footprint/
 - https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117
 - https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about
 - https://www.technologyreview.com/2024/05/23/1092777/ai-is-an-energy-hog-this-is-what-it-means-for-climate-change/
-- https://www.technologyreview.com/supertopic/ai-energy-package/
-- https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/
 - https://www.technologyreview.com/2025/05/20/1116287/ai-data-centers-nevada-water-reno-computing-environmental-impact/
-- https://www.technologyreview.com/2025/05/20/1116272/ai-natural-gas-data-centers-energy-power-plants/
-- https://spectrum.ieee.org/data-centers-pollution
 - https://www.404media.co/a-black-hole-of-energy-use-metas-massive-ai-data-center-is-stressing-out-a-louisiana-community/
 - https://www.nytimes.com/2025/07/14/technology/meta-data-center-water.html
 - https://insideclimatenews.org/news/16062025/illinois-data-centers-water-use/
+- https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/
+- https://theconversation.com/data-centers-consume-massive-amounts-of-water-companies-rarely-tell-the-public-exactly-how-much-262901
+- https://economictimes.indiatimes.com/news/international/us/texas-ai-data-centers-water-usage-texas-ai-centers-guzzle-463-million-gallons-now-residents-are-asked-to-cut-back-on-showers-ai-news/articleshow/122983253.cms
+- https://www.wired.com/story/big-tech-asked-for-looser-clean-water-act-permitting-trump-wants-to-give-it-to-them/
+- https://www.nytimes.com/2025/10/20/technology/ai-data-center-backlash-mexico-ireland.html
 
 ## Tools
 
