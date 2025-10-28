@@ -180,6 +180,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://economictimes.indiatimes.com/news/international/us/texas-ai-data-centers-water-usage-texas-ai-centers-guzzle-463-million-gallons-now-residents-are-asked-to-cut-back-on-showers-ai-news/articleshow/122983253.cms
 - https://www.wired.com/story/big-tech-asked-for-looser-clean-water-act-permitting-trump-wants-to-give-it-to-them/
 - https://www.nytimes.com/2025/10/20/technology/ai-data-center-backlash-mexico-ireland.html
+- https://www.theguardian.com/technology/2025/oct/25/amazon-datacentres-water-use-disclosure
 
 ## Tools
 
