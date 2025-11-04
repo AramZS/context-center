@@ -87,6 +87,11 @@ https://www.youtube.com/watch?v=Va0RCgbywGc
 https://jezebel.com/everything-i-learned-while-getting-kicked-out-of-americ-1834992879
 https://www.newyorker.com/news/letter-from-the-uk/the-fight-against-vaccine-misinformation
 https://covid19misinfo.org
+https://www.propublica.org/article/idaho-vaccine-bill-medical-freedom-act-maha
+https://www.nytimes.com/2025/10/27/science/vaccines-pets-dogs-cats.html
+https://www.semafor.com/article/10/17/2025/whooping-cough-surges-in-florida-as-vaccine-rates-plummet
+https://www.theguardian.com/global-development/2025/oct/17/health-infectious-diseases-vaccination-measles-us-robert-kennedy-latin-america-antivax-blamed-cases-deaths-rise
+https://www.scientificamerican.com/article/new-study-finds-annual-covid-vaccines-protect-people-against-severe-disease/
 
 ### Vaccines and COVID
 
@@ -123,6 +128,7 @@ https://www.theguardian.com/society/2022/feb/03/long-covid-fight-recognition-gas
 https://www.wsj.com/articles/long-covid-patients-report-vibrations-tremors-my-body-is-moving-inside-its-jolting-11640098486?mod=e2tw
 https://www.theatlantic.com/science/archive/2021/09/covid-19-long-haulers-pandemic-future/619941/
 https://www.nytimes.com/2022/08/25/opinion/long-covid-pandemic.html
+https://thetyee.ca/Analysis/2025/10/31/Physicist-COVID-Seriously-Enough/
 
 ### Get Vaccinated
 

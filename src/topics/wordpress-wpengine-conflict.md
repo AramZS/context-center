@@ -18,6 +18,7 @@ featuredImageCaption: "WordPress Sticker Swag"
 
 ### Legal Developments
 
+- https://techcrunch.com/2025/10/24/automattic-files-counterclaims-against-wp-engine-in-wordpress-lawsuit-alleging-trademark-misuse/
 - https://www.404media.co/wordpress-wp-engine-preliminary-injunction/
 
 ### What Automattic Says
