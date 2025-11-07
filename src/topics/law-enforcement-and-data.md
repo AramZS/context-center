@@ -139,6 +139,7 @@ https://techcrunch.com/2023/01/27/digital-data-roe-wade-reproductive-privacy/
 https://www.businessinsider.com/police-getting-help-social-media-to-prosecute-people-seeking-abortions-2023-2
 https://www.wsj.com/articles/antiabortion-group-used-cellphone-data-to-target-ads-to-planned-parenthood-visitors-446c1212
 https://news.yahoo.com/teen-took-abortion-pill-end-085145204.html
+https://www.statnews.com/2023/04/07/medical-data-privacy-phreesia/
 
 ### Fighting Back
 

@@ -400,7 +400,29 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://futurism.com/lonely-children-ai-chatbots
 - https://www.wired.com/story/couples-retreat-with-3-ai-chatbots-and-humans-who-love-them-replika-nomi-chatgpt/
 - https://www.newyorker.com/culture/infinite-scroll/ai-is-homogenizing-our-thoughts
+- https://futurism.com/openai-scanning-conversations-police
 - https://pivot-to-ai.com/2025/06/05/generative-ai-runs-on-gambling-addiction-just-one-more-prompt-bro/
+- https://techcrunch.com/2025/08/25/ai-sycophancy-isnt-just-a-quirk-experts-consider-it-a-dark-pattern-to-turn-users-into-profit/
+- https://www.nytimes.com/2025/08/18/opinion/chat-gpt-mental-health-suicide.html
+- https://www.reuters.com/lifestyle/its-most-empathetic-voice-my-life-how-ai-is-transforming-lives-neurodivergent-2025-07-26/
+- https://www.techpolicy.press/ai-companies-race-for-engagement-has-a-body-count/
+- https://www.theguardian.com/technology/ng-interactive/2025/oct/02/ai-children-parenting-creativity
+- https://www.wsj.com/tech/ai/chatgpt-ai-stein-erik-soelberg-murder-suicide-6b67dbfb
+- https://futurism.com/tech-industry-ai-mental-health
+- https://www.youtube.com/watch?v=VRjgNgJms3Q
+- https://www.startribune.com/adam-raine-chatgpt-lawsuit-teen-mental-health-education/601498318
+- https://www.bloomberg.com/opinion/articles/2025-07-04/chatgpt-s-mental-health-costs-are-adding-up
+- https://futurism.com/chatgpt-mental-health-crises
+- https://www.engadget.com/ai/illinois-is-the-first-state-to-ban-ai-therapists-145755797.html
+- https://gizmodo.com/all-in-podcast-boys-poke-fun-at-uber-founders-ai-psychosis-which-they-encouraged-2000644443
+- https://spectrum.ieee.org/ai-barbie-dolls
+- https://www.rollingstone.com/culture/culture-features/chatgpt-ai-philosophical-psychosis-1235404568/
+- https://www.technologyreview.com/2025/09/02/1122871/therapists-using-chatgpt-secretly/
+- https://www.wired.com/story/chatgpt-devil-worship-llm-training/
+- https://www.rollingstone.com/culture/culture-features/ai-chatbot-disappearance-jon-ganz-1235438552/
+- https://www.nytimes.com/2025/08/26/technology/chatgpt-openai-suicide.html
+- https://www.techpolicy.press/ai-chatbots-are-emotionally-deceptive-by-design/
+- https://futurism.com/artificial-intelligence/ai-dunning-kruger-effect
 
 ## Labor
 
