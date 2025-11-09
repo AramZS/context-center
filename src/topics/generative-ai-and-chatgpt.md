@@ -357,6 +357,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://thetechbubble.substack.com/p/the-phony-comforts-of-useful-idiots
 - https://www.theverge.com/news/712513/trump-ai-action-plan
 - https://www.wired.com/story/president-trump-ai-action-plan-speech/
+- https://www.youtube.com/watch?v=A0X4O49cY4o
 
 ## AI Harms
 
