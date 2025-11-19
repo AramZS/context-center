@@ -102,7 +102,7 @@ https://www.404media.co/fyi-a-warrant-isnt-needed-secret-service-says-you-agreed
 https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-geolocate-photos-in-seconds/
 https://www.theatlantic.com/technology/archive/2025/04/american-panopticon/682616/
 
-### Anti-choice Activists and Bounties
+### Anti-choice Activists and Bounty Hunters
 
 https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-collecting-the-data-theyll-need-for-prosecutions-post-roe/
 
@@ -111,6 +111,10 @@ https://www.technologyreview.com/2022/05/31/1052901/anti-abortion-activists-are-
 <p><a href="https://www.nytimes.com/2022/07/01/us/abortion-abolitionists.html" target="_blank">Inside the Extreme Effort to Punish Women for Abortion</a></p>
 
 https://bsky.app/profile/jessdkant.bsky.social/post/3lf4i2aef2s2u
+https://aramzs.xyz/noteworthy/the-bounty-hunter-tendency-the-future-of-privacy-and-ad-techs-new-profit-frontier/
+https://tweets.aramzs.com/1522248036390473729/
+https://www.theatlantic.com/magazine/archive/2024/11/texas-red-state-surveillance-book-bans-abortion/679950/
+https://www.404media.co/contractor-paying-random-people-300-to-physically-track-immigrants-for-ice/
 
 ### Abortion and User Data
 
