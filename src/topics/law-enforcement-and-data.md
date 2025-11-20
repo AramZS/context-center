@@ -49,6 +49,7 @@ https://theconversation.com/ftc-lawsuit-spotlights-a-major-privacy-risk-from-cal
 https://bokonads.com/medical-targeting-should-be-illegal/
 https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/
 https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites
+https://www.youtube.com/watch?v=uB0gr7Fh6lY
 
 ### Data Brokers
 
