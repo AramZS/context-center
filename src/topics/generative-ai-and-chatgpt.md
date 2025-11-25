@@ -26,6 +26,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.inc.com/jason-aten/stop-calling-everything-ai-its-just-computers-doing-computer-stuff.html
 - https://youtu.be/EUrOxh_0leE?si=wxbMi0069wJGHA2v
 - https://anatomyof.ai/
+- https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems
 
 ## AI vs the Artist
 
