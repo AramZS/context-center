@@ -127,6 +127,19 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo
 - https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society
 
+## AI detecting AI
+
+- https://facultyhub.chemeketa.edu/technology/generative-ai/why-ai-detection-tools-are-ineffective/
+- https://arstechnica.com/information-technology/2023/07/why-ai-detectors-think-the-us-constitution-was-written-by-ai/
+- https://gizmodo.com/ai-detectors-inaccurate-freelance-writers-fired-1851529820
+- https://arstechnica.com/tech-policy/2024/05/why-deepfake-detection-isnt-as-simple-as-openais-true-false-binary/
+- https://mitsloanedtech.mit.edu/ai/teach/ai-detectors-dont-work/
+- https://techxplore.com/news/2025-11-ai-tools-fakes.html
+- https://www.techpolicy.press/synthetic-media-policy-provenance-and-authentication-expert-insights-and-questions/
+- https://www.fastcompany.com/91293162/ai-slop-is-suffocating-the-web
+- https://www.washingtonpost.com/technology/2025/08/08/bunnies-trampoline-video-ai-fake-tiktok/
+- https://futurism.com/college-students-ai-typos
+
 ## AI and Climate
 
 - https://www.bloomberg.com/news/articles/2024-07-08/google-is-no-longer-claiming-to-be-carbon-neutral
