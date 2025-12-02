@@ -7,6 +7,7 @@ isBasedOn: "https://www.nytimes.com/2020/10/11/health/covid-survivors.html"
 tags:
   - Long COVID
   - Brain Harms
+  - Immune Impact
 ---
 
 https://www.nytimes.com/2020/10/11/health/covid-survivors.html
