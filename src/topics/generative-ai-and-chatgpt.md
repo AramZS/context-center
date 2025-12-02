@@ -179,6 +179,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.bloomberg.com/graphics/2025-ai-impacts-data-centers-water-data/
 - https://theconversation.com/data-centers-consume-massive-amounts-of-water-companies-rarely-tell-the-public-exactly-how-much-262901
 - https://economictimes.indiatimes.com/news/international/us/texas-ai-data-centers-water-usage-texas-ai-centers-guzzle-463-million-gallons-now-residents-are-asked-to-cut-back-on-showers-ai-news/articleshow/122983253.cms
+- https://www.rollingstone.com/culture/culture-features/data-center-water-pollution-amazon-oregon-1235466613/
 - https://www.wired.com/story/big-tech-asked-for-looser-clean-water-act-permitting-trump-wants-to-give-it-to-them/
 - https://www.nytimes.com/2025/10/20/technology/ai-data-center-backlash-mexico-ireland.html
 - https://www.theguardian.com/technology/2025/oct/25/amazon-datacentres-water-use-disclosure
