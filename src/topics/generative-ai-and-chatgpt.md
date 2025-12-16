@@ -27,6 +27,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://youtu.be/EUrOxh_0leE?si=wxbMi0069wJGHA2v
 - https://anatomyof.ai/
 - https://www.theverge.com/ai-artificial-intelligence/827820/large-language-models-ai-intelligence-neuroscience-problems
+- https://futurism.com/artificial-intelligence/ai-companion-chatbots-kenya
 
 ## AI vs the Artist
 
@@ -104,6 +105,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.adweek.com/media/ai-content-cuts-trust-hurts-ad-performance/
 - https://www.cjr.org/feature-2/how-were-using-ai-tech-gina-chua-nicholas-thompson-emilia-david-zach-seward-millie-tran.php
 - https://www.theatlantic.com/technology/archive/2025/06/generative-ai-pirated-articles-books/683009/
+- https://www.techdirt.com/2025/12/12/politicos-union-journalists-win-key-ruling-in-battle-against-lazy-undercooked-ai/
 
 ## Misinformation
 
@@ -126,6 +128,8 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.theverge.com/2024/12/5/24313222/chatgpt-pardon-biden-bush-esquire
 - https://www.thedrum.com/opinion/2025/10/17/seo-dead-long-live-geo
 - https://reutersinstitute.politics.ox.ac.uk/generative-ai-and-news-report-2025-how-people-think-about-ais-role-journalism-and-society
+- https://futurism.com/artificial-intelligence/librarians-ai-materials
+- https://whatever.scalzi.com/2025/12/13/ai-a-dedicated-fact-failing-machine-or-yet-another-reason-not-to-trust-it-for-anything/
 
 ## AI detecting AI
 
@@ -298,6 +302,10 @@ https://www.404media.co/the-un-made-ai-generated-refugees/
 
 https://e360.yale.edu/features/artificial-intelligence-conservation
 
+https://www.wired.com/story/ai-slop-is-ruining-reddit-for-everyone/
+
+https://simonwillison.net/2025/Dec/14/justhtml/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -373,6 +381,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.theverge.com/news/712513/trump-ai-action-plan
 - https://www.wired.com/story/president-trump-ai-action-plan-speech/
 - https://www.youtube.com/watch?v=A0X4O49cY4o
+- https://restofworld.org/2025/ai-india-election-campaigns/
 
 ## AI Harms
 
@@ -390,6 +399,8 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://padandpixel.com/ai-and-the-death-of-dignity/
 - https://www.404media.co/google-serves-ai-generated-images-of-mushrooms-putting-foragers-at-risk/
 - https://arstechnica.com/tech-policy/2025/02/meta-torrented-over-81-7tb-of-pirated-books-to-train-ai-authors-say/
+- https://simonwillison.net/2025/Nov/2/new-prompt-injection-papers/
+- https://www.nbcnews.com/tech/tech-news/ai-toys-gift-present-safe-kids-robot-child-miko-grok-alilo-miiloo-rcna246956
 
 ### AI and Algorithmic Bias
 
@@ -439,6 +450,8 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.nytimes.com/2025/08/26/technology/chatgpt-openai-suicide.html
 - https://www.techpolicy.press/ai-chatbots-are-emotionally-deceptive-by-design/
 - https://futurism.com/artificial-intelligence/ai-dunning-kruger-effect
+- https://www.aljazeera.com/economy/2025/12/11/openai-sued-for-allegedly-enabling-murder-suicide
+- https://www.theguardian.com/technology/2025/dec/09/teenagers-ai-chatbots-mental-health-support?CMP=share_btn_url&__readwiseLocation=
 
 ## Labor
 
@@ -473,6 +486,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.bloodinthemachine.com/p/hundreds-of-workers-mobilize-to-stop
 - https://xeiaso.net/blog/2025/rolling-ladder-behind-us/
 - https://futurism.com/companies-fixing-ai-replacement-mistakes
+- https://restofworld.org/2025/engineering-graduates-ai-job-losses/
 
 ## Privacy
 
@@ -504,6 +518,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://www.404media.co/googles-ai-is-destroying-search-the-internet-and-your-brain/
 - https://themindfile.substack.com/p/against-ai-literacy-have-we-actually
 - https://www.ft.com/content/071089b8-839a-4f96-af79-394c08a146d1
+- https://www.chronicle.com/article/stop-pretending-you-know-how-to-teach-ai
 
 ## AI and the market
 
@@ -525,11 +540,14 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://futurism.com/the-byte/openai-o3-cost-per-query
 - https://limitesnumeriques.fr/travaux-productions/ai-forcing/en
 - https://futurism.com/future-society/ai-data-centers-finances
+- https://www.theatlantic.com/economy/2025/12/nvidia-ai-financing-deals/685197/
 
 ### AI and Ads
 
 - https://adtechradar.com/2024/12/03/is-openai-set-to-become-an-adtech-company/
 - https://techcrunch.com/2024/12/03/the-abject-weirdness-of-ai-ads/
+- https://www.bbc.com/news/articles/czdgrnvp082o
+- https://www.techpolicy.press/advertising-is-coming-to-ai-its-going-to-be-a-disaster/
 
 ## Big Tech, Corporations and Generative AI
 
@@ -634,6 +652,8 @@ https://arstechnica.com/tech-policy/2024/06/ai-trained-on-photos-from-kids-entir
 https://arstechnica.com/tech-policy/2025/07/its-frighteningly-likely-many-us-courts-will-overlook-ai-errors-expert-says/
 
 https://www.techdirt.com/2025/06/26/judge-alsup-training-ai-on-copyrighted-works-fair-use-building-pirate-libraries-not-so-much/
+
+https://chicago.suntimes.com/the-watchdogs/2025/12/09/goldberg-segalla-law-firm-cha-sanctioned-60-000-ai-chatgpt-lead-paint-court-case
 
 ## AI and Culture
 
