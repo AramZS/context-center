@@ -69,6 +69,7 @@ featuredImageAlt: "AI-generated image of a robot artist"
 - https://www.tomshardware.com/how-to/block-google-ai-overviews
 - https://nikoheikkila.fi/blog/my-ai-agents-are-all-nuts/
 - https://algorithmic-sabotage.github.io/asrg/manifesto-on-algorithmic_sabotage/
+- https://monroelab.com/2024/04/02/manifesto-on-algorithmic-sabotage-a-review/
 - https://ali-alkhatib.com/blog/fuck-up-ai
 
 ## AI and Journalism
