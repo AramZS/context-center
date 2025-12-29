@@ -28,6 +28,7 @@ https://www.vice.com/en/article/m7gg54/florida-transgender-healthcare-minors
 https://www.theguardian.com/commentisfree/2018/oct/22/rapid-onset-gender-dysphoria-is-a-poisonous-lie-used-to-discredit-trans-people
 https://www.cnn.com/2022/04/21/health/gender-affirming-care/index.html
 https://www.npr.org/sections/shots-health-news/2025/01/06/nx-s1-5247724/transgender-teens-gender-affirming-care-hormones-jama
+https://www.washingtonpost.com/nation/2025/12/28/transgender-female-athlete-competition-trump/
 
 ### Videos
 
