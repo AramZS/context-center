@@ -665,6 +665,7 @@ https://blog.zgp.org/how-to-write-less-like-a-bot/
 https://www.bbc.com/news/articles/cgeqe084nn4o
 https://consequence.net/2025/06/the-velvet-sundown-ai-band/
 https://aftermath.site/the-alters-ai-controversy
+https://lapope.com/2025/12/15/spite-house/
 
 ## The Economics of Generative AI
 
