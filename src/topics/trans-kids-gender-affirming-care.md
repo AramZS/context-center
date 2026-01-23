@@ -29,6 +29,7 @@ https://www.theguardian.com/commentisfree/2018/oct/22/rapid-onset-gender-dysphor
 https://www.cnn.com/2022/04/21/health/gender-affirming-care/index.html
 https://www.npr.org/sections/shots-health-news/2025/01/06/nx-s1-5247724/transgender-teens-gender-affirming-care-hormones-jama
 https://www.washingtonpost.com/nation/2025/12/28/transgender-female-athlete-competition-trump/
+https://www.washingtonpost.com/health/2024/12/03/gender-trans-hormones-kids-health/
 
 ### Videos
 
@@ -102,6 +103,8 @@ https://www.medrxiv.org/content/10.1101/2020.12.01.20241653v1.full
 - https://publications.aap.org/pediatrics/article/150/2/e2021056082/186992/Gender-Identity-5-Years-After-Social-Transition
 - https://onlinelibrary.wiley.com/doi/10.1111/chso.12625
 - https://acamh.onlinelibrary.wiley.com/doi/abs/10.1111/camh.12437
+- https://publications.aap.org/aapnews/news/33988/AAP-Proposed-restrictions-to-gender-affirming-care
+- https://www.ama-assn.org/about/leadership/everyone-deserves-quality-medical-care-delivered-without-bias
 
 ### The Cass Review
 
