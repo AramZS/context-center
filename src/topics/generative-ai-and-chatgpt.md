@@ -313,6 +313,10 @@ https://www.wired.com/story/ai-slop-is-ruining-reddit-for-everyone/
 
 https://simonwillison.net/2025/Dec/14/justhtml/
 
+https://substack.com/inbox/post/185649875
+
+https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/
+
 ## How have AI/ML driven product improvements?
 
 https://spectrum.ieee.org/duolingo
@@ -501,6 +505,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://ia.acs.org.au/article/2026/australian-ceos-say-ai-isn-t-creating-revenue-gains.html
 - https://eieio.games/blog/will-ai-pet-my-dog-for-me/
 - https://nathanwrigley.com/2026/01/09/ai-and-work/
+- https://themarkup.org/hello-world/2026/01/24/we-posted-a-job-then-came-the-ai-slop-impersonator-and-recruiter-scam
 
 ## Privacy
 
@@ -538,6 +543,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://www.chronicle.com/article/stop-pretending-you-know-how-to-teach-ai
 - https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education
 - [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
+- https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 
 ## AI and the market
 
@@ -639,7 +645,7 @@ https://aws.amazon.com/blogs/aws/preview-enable-foundation-models-to-complete-ta
  - https://techcrunch.com/2025/07/06/researchers-seek-to-influence-peer-review-with-hidden-ai-prompts/
  - https://cdt.org/insights/hand-in-hand-schools-embrace-of-ai-connected-to-increased-risks-to-students/
  - https://www.publicbooks.org/four-frictions-or-how-to-resist-ai-in-education/
-
+ - https://www.theatlantic.com/science/2026/01/ai-slop-science-publishing/685704/
 
 ## AI vs the Law
 
