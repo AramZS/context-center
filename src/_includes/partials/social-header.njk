@@ -32,7 +32,9 @@
 
 <meta property="og:image" content="{{site.site_url}}/img/{{featuredImage}}" />
 <meta name="twitter:image" content="{{site.site_url}}/img/{{featuredImage}}" />
-
+{% if featuredImageAlt %}
+<meta name="og:image:alt" content="{{featuredImageAlt}}" />
+{% endif %}
 {% elif site.featuredImage %}
 
 <meta property="og:image" content="{{site.site_url}}/img/{{site.featuredImage}}" />
