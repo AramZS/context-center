@@ -542,6 +542,7 @@ https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4884485
 - https://www.ft.com/content/071089b8-839a-4f96-af79-394c08a146d1
 - https://www.chronicle.com/article/stop-pretending-you-know-how-to-teach-ai
 - https://www.npr.org/2026/01/14/nx-s1-5674741/ai-schools-education
+- https://www.youtube.com/watch?v=7pqF90rstZQ
 - [Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task](https://arxiv.org/abs/2506.08872)
 - https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 
