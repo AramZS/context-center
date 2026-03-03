@@ -103,17 +103,6 @@ https://support.google.com/analytics/answer/2763052?hl=en
 
 https://github.com/bslassey/privacy-budget
 
-### Privacy Sandbox
-
-A collection of proposed standards by Google intended to move the web away from third party cookies.
-
-https://privacysandbox.com/timeline/
-https://privacysandbox.com/news/maximize-ad-relevance-after-third-party-cookies/
-https://blog.chromium.org/2019/08/potential-uses-for-privacy-sandbox.html
-https://blog.chromium.org/2021/01/privacy-sandbox-in-2021.html
-https://digiday.com/marketing/wtf-googles-privacy-sandbox/
-https://digiday.com/media/google-plots-further-privacy-sandbox-trials-but-concerns-still-linger/
-
 ### Storage Partitioning
 
 https://github.com/privacycg/storage-partitioning
@@ -275,6 +264,7 @@ https://youtu.be/gmX61zJLjcs?si=QqNsIC6hDaqQdsyu
 ## Manipulation and Cognitive Freedom
 
 https://www.humanetech.com/podcast/protecting-our-freedom-of-thought-with-nita-farahany
+http://locusmag.com/2018/07/cory-doctorow-zucks-empire-of-oily-rags/
 
 ## Pay or Okay
 
