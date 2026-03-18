@@ -164,6 +164,7 @@ featuredImageAlt: "A photographic rendering of a smiling face emoji seen through
 - https://gizmodo.com/why-some-ai-models-spew-50-times-more-greenhouse-gas-to-answer-the-same-question-2000617314
 - https://thetyee.ca/Analysis/2025/06/10/AI-Demands-Be-Fed-All-Servers-Now/
 - https://www.sfexaminer.com/news/technology/why-chatgpt-generative-ai-unlikely-to-solve-climate-change/article_3af9df0f-0cb6-41d0-93bd-417c5ead8c99.html
+- https://www.theguardian.com/australia-news/2026/mar/13/ai-datacentres-environmental-impacts
 
 ### AI and Energy
 

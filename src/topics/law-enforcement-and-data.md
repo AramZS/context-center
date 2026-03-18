@@ -103,6 +103,7 @@ https://www.404media.co/fyi-a-warrant-isnt-needed-secret-service-says-you-agreed
 https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-geolocate-photos-in-seconds/
 https://www.theatlantic.com/technology/archive/2025/04/american-panopticon/682616/
 https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/
+https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/
 
 ### Anti-choice Activists and Bounty Hunters
 
