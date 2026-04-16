@@ -104,6 +104,7 @@ https://www.404media.co/the-powerful-ai-tool-that-cops-or-stalkers-can-use-to-ge
 https://www.theatlantic.com/technology/archive/2025/04/american-panopticon/682616/
 https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/
 https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden/
+https://citizenlab.ca/research/analysis-of-penlinks-ad-based-geolocation-surveillance-tech/
 
 ### Anti-choice Activists and Bounty Hunters
 
