@@ -50,6 +50,7 @@ https://bokonads.com/medical-targeting-should-be-illegal/
 https://www.404media.co/pokemon-go-players-have-unwittingly-trained-ai-to-navigate-the-world/
 https://www.eff.org/deeplinks/2025/01/impact-age-verification-measures-goes-beyond-porn-sites
 https://www.youtube.com/watch?v=uB0gr7Fh6lY
+https://www.pymnts.com/news/mobile-commerce/2016/cvs-beacons-google-nearby/
 
 ### Data Brokers
 
@@ -75,6 +76,7 @@ https://techcrunch.com/2025/01/13/gravy-analytics-data-broker-breach-trove-of-lo
 ### How Law Enforcement Acquires Your Data
 
 https://cdt.org/insights/report-legal-loopholes-and-data-for-dollars-how-law-enforcement-and-intelligence-agencies-are-buying-your-data-from-brokers/
+https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data
 https://www.upturn.org/work/mass-extraction/
 https://www.vice.com/en/article/k7qyv3/customs-border-protection-venntel-location-data-dhs
 https://www.theguardian.com/technology/2022/apr/04/us-law-enforcement-agencies-access-your-data-apple-meta
