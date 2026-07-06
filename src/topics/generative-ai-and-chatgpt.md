@@ -165,6 +165,8 @@ featuredImageAlt: "A photographic rendering of a smiling face emoji seen through
 - https://thetyee.ca/Analysis/2025/06/10/AI-Demands-Be-Fed-All-Servers-Now/
 - https://www.sfexaminer.com/news/technology/why-chatgpt-generative-ai-unlikely-to-solve-climate-change/article_3af9df0f-0cb6-41d0-93bd-417c5ead8c99.html
 - https://www.theguardian.com/australia-news/2026/mar/13/ai-datacentres-environmental-impacts
+- https://gizmodo.com/data-centers-can-make-neighborhoods-up-to-4-degrees-hotter-study-finds-2000761977
+- https://bearlythinking.substack.com/p/andy-masley-doesnt-understand-how
 
 ### AI and Energy
 
@@ -184,6 +186,8 @@ featuredImageAlt: "A photographic rendering of a smiling face emoji seen through
 - https://www.fractracker.org/2025/07/national-data-centers-tracker/
 - https://www.bloomberg.com/graphics/2025-ai-data-centers-electricity-prices/
 - https://www.washingtonpost.com/climate-environment/2026/01/15/power-electricity-cost-data-centers/
+- https://www.technologyreview.com/supertopic/ai-energy-package/
+- https://www.mississippifreepress.org/opinion-electricity-for-data-centers-has-a-cost/
 
 ### AI and Water Use
 
@@ -208,6 +212,11 @@ featuredImageAlt: "A photographic rendering of a smiling face emoji seen through
 - https://www.nytimes.com/2025/10/20/technology/ai-data-center-backlash-mexico-ireland.html
 - https://www.theguardian.com/technology/2025/oct/25/amazon-datacentres-water-use-disclosure
 - https://youtu.be/H_c6MWk7PQc?si=w0v9JmF_gXG_TDp4
+- https://heatmap.news/plus/the-fight/spotlight/ai-data-centers-water-usage
+- https://www.wsj.com/tech/ai/ai-data-centers-water-use-901e2902?st=TJKFLy
+- https://www.technologyreview.com/2025/05/20/1116287/ai-data-centers-nevada-water-reno-computing-environmental-impact/
+- https://www.motherjones.com/politics/2026/06/data-centers-site-location-drought-stricken-areas-water-usage/
+- https://www.politico.com/news/2026/05/08/georgia-data-centers-water-00909988
 
 ## Tools
 
@@ -394,6 +403,27 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 - https://www.wired.com/story/president-trump-ai-action-plan-speech/
 - https://www.youtube.com/watch?v=A0X4O49cY4o
 - https://restofworld.org/2025/ai-india-election-campaigns/
+
+## The Politics of Data Centers
+
+- https://www.click2houston.com/news/texas/2026/06/30/san-marcos-becomes-the-first-texas-city-to-ban-data-centers-testing-its-local-control/
+- https://www.404media.co/we-will-fight-to-our-very-last-breath-township-leaders-vow-to-fight-nuclear-ai-data-center/
+- https://www.wsj.com/us-news/backlash-is-growing-over-kevin-olearys-data-center-he-is-blaming-china-d885f1b4
+- https://www.wired.com/story/the-us-government-is-letting-a-key-data-center-regulation-expire/
+- https://www.washingtonpost.com/business/2026/06/05/voters-monterey-park-california-overwhelmingly-back-data-center-ban/
+- https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-putting-up-tents-across-the-us-to-house-ai-servers-like-a-scene-out-of-the-movie-mad-max-structures-take-three-months-to-build-and-use-jet-engines-for-power
+- https://heatmap.news/politics/americans-oppose-data-centers-poll
+- https://www.theguardian.com/us-news/2026/may/13/utah-approves-datacenter-backlash
+- https://www.motherjones.com/politics/2026/05/chevron-energy-forge-one-texas-tax-break-power-plant-microsoft-data-center/
+- https://www.404media.co/township-leader-resigns-in-tears-over-openai-data-center-death-threats/
+- https://www.404media.co/university-claims-withholding-water-from-nuclear-weapons-data-center-is-unlawfully-discriminatory-to-data-centers/
+- https://www.bloodinthemachine.com/p/the-data-center-rebellion-is-only
+- https://heatmap.news/politics/shapiro-amazon-emails
+- https://www.washingtonpost.com/business/2026/04/15/data-centers-poll-virginia/
+- https://nysfocus.com/2026/04/20/data-center-tax-break-jpmorgan-chase
+- https://www.404media.co/data-center-tech-lobbyists-fearmonger-in-attempt-to-retroactively-roll-back-right-to-repair-law/
+- https://www.politico.com/news/2026/03/11/data-centers-ai-electricity-virginia-00815219
+- https://floodlightnews.org/thermal-drone-footage-musk-ai-plant-epa-rules/
 
 ## AI Harms
 
