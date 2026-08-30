@@ -406,6 +406,7 @@ https://www.axios.com/2024/08/20/washington-post-ai-tool-data
 
 ## The Politics of Data Centers
 
+- https://www.youtube.com/watch?v=bVYmNJGjFnI
 - https://www.click2houston.com/news/texas/2026/06/30/san-marcos-becomes-the-first-texas-city-to-ban-data-centers-testing-its-local-control/
 - https://www.404media.co/we-will-fight-to-our-very-last-breath-township-leaders-vow-to-fight-nuclear-ai-data-center/
 - https://www.wsj.com/us-news/backlash-is-growing-over-kevin-olearys-data-center-he-is-blaming-china-d885f1b4
