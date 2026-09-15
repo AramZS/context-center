@@ -107,6 +107,9 @@ featuredImageCaption: "WordPress Sticker Swag"
 - https://www.404media.co/automattic-buyout-offer-wordpress-matt-mullenweg/
 - https://wordpress.org/news/2024/10/wp-engine-promotions/
 - https://techcrunch.com/2024/10/17/automattic-offered-employees-another-chance-to-quit-this-time-with-nine-months-severance/
+- https://www.404media.co/wordpress-automattic-ceo-matt-mullenweg-put-on-leave-of-absence/
+- https://techcrunch.com/2026/09/11/matt-mullenweg-tells-automattic-staff-in-slack-hes-back-in-control-after-ceo-ouster/
+- https://www.therepository.email/matt-mullenweg-returns-as-automattic-ceo-with-full-support-of-the-board-but-whos-on-it-remains-unclear
 
 ## On Blocking WPEngine
 
